@@ -20,7 +20,7 @@ else:
     assert s.count(m)==1; s=s.replace(m,js+m)
 def rep(a,b):
     global s
-    if b in s: return
+    if b in s or (a=='var LEVELS = [\n' and '{id:"A1", title:"Livello A1"' in s): return
     assert s.count(a)==1,a
     s=s.replace(a,b)
 rep('''var VIEW_IDS = ["preposizioni"''','''/*A1-REG*/\nA1_TOPICS.forEach(function(t){ ACTIVITIES.push({id:t.id, level:"A1", title:t.title, tag:t.tag||"Grammatica", desc:t.desc, status:"live"}); });\nvar VIEW_IDS = ["preposizioni"''')
