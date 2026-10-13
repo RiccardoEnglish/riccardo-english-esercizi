@@ -1,5 +1,5 @@
 A1_TOPICS.push({
-id:"a1-be", title:"Il verbo essere (to be)", tag:"Verbi",
+id:"a1-be", title:"Verbo essere (to be)", tag:"Verbi",
 desc:"Am, is, are: affermativa, negativa e domande, con le forme brevi.",
 lead:"**To be** è il verbo più importante dell'inglese: significa *essere* e, a volte, *stare* o *avere* (l'età). Cambia forma con ogni soggetto, quindi va saputo a memoria.",
 tip:"In inglese il soggetto è sempre obbligatorio: non si dice «Am Marco», ma «I am Marco».",
@@ -37,7 +37,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-have-us", title:"Il verbo avere: American English", tag:"Verbi",
+id:"a1-have-us", title:"Verbo avere: American English", tag:"Verbi",
 desc:"Have e has, con do / does per negativa e domanda, come si usa negli USA.",
 lead:"In **American English** il verbo avere si comporta come un verbo normale: **have** (I, you, we, they) e **has** (he, she, it), con **do / does** per negativa e domanda.",
 tip:"In American English non si dice «have got»: si dice semplicemente have.",
@@ -74,7 +74,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-have-uk", title:"Il verbo avere: British English", tag:"Verbi",
+id:"a1-have-uk", title:"Verbo avere: British English", tag:"Verbi",
 desc:"Have got e has got: la forma più usata in Gran Bretagna.",
 lead:"In **British English** per il possesso si usa spesso **have got** (e **has got**). Il significato è lo stesso di have, ma la grammatica cambia: niente do / does.",
 tip:"«I've got» è molto più comune di «I have» nel parlato britannico. Funziona solo per il possesso, non per le azioni.",

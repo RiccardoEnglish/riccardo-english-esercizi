@@ -27,7 +27,7 @@ rep('''var VIEW_IDS = ["preposizioni"''','''/*A1-REG*/\nA1_TOPICS.forEach(functi
 rep('''progress: viewProgress};''','''progress: viewProgress};\nA1_TOPICS.forEach(function(t){ VIEW_IDS.push(t.id); VIEW_ELS[t.id] = viewA1; });''')
 rep('''var LEVELS = [
 ''','''var LEVELS = [
-  {id:"A1", title:"Livello A1", sub:"Si parte da qui: i verbi base, i pronomi, le preposizioni e le parole che usi ogni giorno.", keepOrder:true,
+  {id:"A1", title:"Livello A1", sub:"Si parte da qui: i verbi base, i pronomi, le preposizioni e le parole che usi ogni giorno.", 
    items:A1_TOPICS.map(function(t){ return [t.id]; })},
 ''')
 rep('''modals: MD_BASE_QS.length + MD_ABIL_QS.length + MD_REQ_QS.length + MD_OBL_QS.length + MD_PROB_QS.length + MD_PAST_QS.length + MD_ALL_QS.length

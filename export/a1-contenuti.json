@@ -2,2262 +2,6 @@
  "level": "A1",
  "topics": [
   {
-   "id": "a1-be",
-   "title": "Il verbo essere (to be)",
-   "tag": "Verbi",
-   "desc": "Am, is, are: affermativa, negativa e domande, con le forme brevi.",
-   "lead": "**To be** è il verbo più importante dell'inglese: significa *essere* e, a volte, *stare* o *avere* (l'età). Cambia forma con ogni soggetto, quindi va saputo a memoria.",
-   "tip": "In inglese il soggetto è sempre obbligatorio: non si dice «Am Marco», ma «I am Marco».",
-   "blocks": [
-    {
-     "h": "Le tre forme",
-     "p": "Nel Present Simple to be ha tre forme: **am**, **is**, **are**.",
-     "table": {
-      "head": [
-       "Soggetto",
-       "Forma",
-       "Forma breve",
-       "Esempio"
-      ],
-      "rows": [
-       [
-        "I",
-        "am",
-        "I'm",
-        "I'm a teacher."
-       ],
-       [
-        "You",
-        "are",
-        "you're",
-        "You're late."
-       ],
-       [
-        "He / She / It",
-        "is",
-        "he's / she's / it's",
-        "She's from Milan."
-       ],
-       [
-        "We",
-        "are",
-        "we're",
-        "We're friends."
-       ],
-       [
-        "They",
-        "are",
-        "they're",
-        "They're at home."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Negativa e domanda",
-     "p": "Per la negativa aggiungi **not** dopo il verbo. Per la domanda inverti soggetto e verbo. **Non si usa mai do / does** con to be.",
-     "table": {
-      "head": [
-       "",
-       "Negativa",
-       "Domanda"
-      ],
-      "rows": [
-       [
-        "I",
-        "I am not (I'm not)",
-        "Am I?"
-       ],
-       [
-        "You / We / They",
-        "are not (aren't)",
-        "Are you?"
-       ],
-       [
-        "He / She / It",
-        "is not (isn't)",
-        "Is she?"
-       ]
-      ]
-     },
-     "ex": [
-      "Is he a doctor? **Yes, he is.** / No, he isn't.",
-      "Are you tired? **Yes, I am.** / No, I'm not.",
-      "Where **are** you from? I'm from Rome."
-     ]
-    },
-    {
-     "h": "Quando serve to be",
-     "p": "In inglese si usa to be anche dove l'italiano usa *avere* o *fare*.",
-     "table": {
-      "head": [
-       "Situazione",
-       "Inglese",
-       "Italiano"
-      ],
-      "rows": [
-       [
-        "Età",
-        "I'm 30.",
-        "Ho 30 anni."
-       ],
-       [
-        "Sensazioni",
-        "I'm hungry / cold.",
-        "Ho fame / freddo."
-       ],
-       [
-        "Tempo",
-        "It's hot today.",
-        "Fa caldo oggi."
-       ],
-       [
-        "Professione",
-        "She's a nurse.",
-        "Fa l'infermiera."
-       ]
-      ]
-     }
-    }
-   ],
-   "traps": [
-    [
-     "I have 30 years.",
-     "I am 30 (years old).",
-     "L'età si dice con to be, non con have."
-    ],
-    [
-     "She have hungry.",
-     "She is hungry.",
-     "Fame e sete si dicono con to be."
-    ],
-    [
-     "Is cold today.",
-     "It is cold today.",
-     "Il soggetto *it* è obbligatorio."
-    ],
-    [
-     "Do you are tired?",
-     "Are you tired?",
-     "Con to be non si usa do."
-    ],
-    [
-     "He no is here.",
-     "He isn't here.",
-     "La negativa si fa con not dopo il verbo."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ a student.",
-     "options": [
-      "am",
-      "is",
-      "are"
-     ],
-     "correct_index": 0,
-     "explanation": "Con I si usa sempre am."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She ___ from Spain.",
-     "options": [
-      "are",
-      "is",
-      "am"
-     ],
-     "correct_index": 1,
-     "explanation": "Con he / she / it si usa is."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "We ___ very happy.",
-     "options": [
-      "is",
-      "am",
-      "are"
-     ],
-     "correct_index": 2,
-     "explanation": "Con we si usa are."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "They ___ at the cinema.",
-     "options": [
-      "is",
-      "are",
-      "am"
-     ],
-     "correct_index": 1,
-     "explanation": "Con they si usa are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My brother ___ a doctor.",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "Con he / she / it e quindi con un singolare: is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "You ___ late again!",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "Con you si usa are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I ___ 25 years old. (ho 25 anni)",
-     "accepted_answers": [
-      "am"
-     ],
-     "explanation": "L'età si dice con to be: I am 25."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "Is she a teacher?",
-      "Does she is a teacher?",
-      "She is a teacher?"
-     ],
-     "correct_index": 0,
-     "explanation": "La domanda con to be si fa invertendo soggetto e verbo."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "It ___ cold today.",
-     "options": [
-      "are",
-      "am",
-      "is"
-     ],
-     "correct_index": 2,
-     "explanation": "Con it si usa is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He ___ not at home. (forma breve: isn't)",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "Forma completa: He is not at home."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "They ___ happy. (negativa, forma breve: aren't)",
-     "accepted_answers": [
-      "aren't",
-      "are not"
-     ],
-     "explanation": "They aren't (are not) happy."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come si dice «Ho fame»?",
-     "options": [
-      "I have hungry.",
-      "I am hungry.",
-      "I have hunger."
-     ],
-     "correct_index": 1,
-     "explanation": "Fame, sete, freddo e caldo si dicono con to be."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ you from Italy? (domanda)",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "Are you from Italy? Con you si usa are."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Rispondi: Are you Marco? Yes, ___.",
-     "options": [
-      "I am",
-      "I'm",
-      "I are"
-     ],
-     "correct_index": 0,
-     "explanation": "Nella risposta breve affermativa non si usa la forma contratta: Yes, I am."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Anna and Luca ___ my friends.",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "Anna and Luca = they, quindi are."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta?",
-     "options": [
-      "I'm not tired.",
-      "I not am tired.",
-      "I amn't tired."
-     ],
-     "correct_index": 0,
-     "explanation": "I'm not è l'unica forma breve possibile con I."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My name ___ Sara.",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "My name = it, quindi is."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Where ___ you from?",
-     "options": [
-      "is",
-      "are",
-      "am"
-     ],
-     "correct_index": 1,
-     "explanation": "Where are you from? Con you si usa are."
-    }
-   ]
-  },
-  {
-   "id": "a1-have-us",
-   "title": "Il verbo avere: American English",
-   "tag": "Verbi",
-   "desc": "Have e has, con do / does per negativa e domanda, come si usa negli USA.",
-   "lead": "In **American English** il verbo avere si comporta come un verbo normale: **have** (I, you, we, they) e **has** (he, she, it), con **do / does** per negativa e domanda.",
-   "tip": "In American English non si dice «have got»: si dice semplicemente have.",
-   "blocks": [
-    {
-     "h": "Have e has",
-     "table": {
-      "head": [
-       "Soggetto",
-       "Forma",
-       "Esempio"
-      ],
-      "rows": [
-       [
-        "I / You / We / They",
-        "have",
-        "We have a dog."
-       ],
-       [
-        "He / She / It",
-        "has",
-        "She has a new job."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Negativa e domanda",
-     "p": "Si usano **do / does** come con tutti i verbi. Dopo does il verbo torna **have** (senza -s).",
-     "table": {
-      "head": [
-       "",
-       "Negativa",
-       "Domanda"
-      ],
-      "rows": [
-       [
-        "I / You / We / They",
-        "don't have",
-        "Do you have a car?"
-       ],
-       [
-        "He / She / It",
-        "doesn't have",
-        "Does she have a car?"
-       ]
-      ]
-     },
-     "ex": [
-      "I **don't have** any brothers.",
-      "**Does** he **have** time today?",
-      "Yes, I **do**. / No, I **don't**."
-     ]
-    },
-    {
-     "h": "Have non è solo possesso",
-     "p": "Have si usa anche in molte espressioni di ogni giorno.",
-     "ex": [
-      "I **have** breakfast at 8.",
-      "We **have** a meeting today.",
-      "She **has** a shower every morning.",
-      "Let's **have** a coffee!"
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "He have a car.",
-     "He has a car.",
-     "Con he / she / it si usa has."
-    ],
-    [
-     "Does she has a dog?",
-     "Does she have a dog?",
-     "Dopo does il verbo è have."
-    ],
-    [
-     "I no have time.",
-     "I don't have time.",
-     "La negativa si fa con don't."
-    ],
-    [
-     "Have you a pen?",
-     "Do you have a pen?",
-     "In American English si usa do."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ two sisters.",
-     "options": [
-      "have",
-      "has",
-      "am"
-     ],
-     "correct_index": 0,
-     "explanation": "Con I si usa have."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She ___ a big house.",
-     "options": [
-      "have",
-      "has",
-      "haves"
-     ],
-     "correct_index": 1,
-     "explanation": "Con she si usa has."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We ___ a new car.",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "Con we si usa have."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My father ___ a small shop.",
-     "accepted_answers": [
-      "has"
-     ],
-     "explanation": "My father = he, quindi has."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ you have a pen?",
-     "options": [
-      "Do",
-      "Does",
-      "Are"
-     ],
-     "correct_index": 0,
-     "explanation": "Con you si usa Do."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ he have a car?",
-     "options": [
-      "Do",
-      "Does",
-      "Is"
-     ],
-     "correct_index": 1,
-     "explanation": "Con he si usa Does."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "They ___ have any children. (negativa, forma breve)",
-     "accepted_answers": [
-      "don't"
-     ],
-     "explanation": "They don't have any children."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "She ___ have a brother. (negativa, forma breve)",
-     "accepted_answers": [
-      "doesn't"
-     ],
-     "explanation": "She doesn't have a brother."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Does she ___ a sister?",
-     "options": [
-      "has",
-      "have",
-      "having"
-     ],
-     "correct_index": 1,
-     "explanation": "Dopo does il verbo resta nella forma base: have."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta in American English?",
-     "options": [
-      "Do you have a pen?",
-      "Have you a pen?",
-      "Do you has a pen?"
-     ],
-     "correct_index": 0,
-     "explanation": "In inglese americano la domanda si fa con do + have."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Do you have a car? No, I ___.",
-     "accepted_answers": [
-      "don't",
-      "do not"
-     ],
-     "explanation": "No, I don't."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Does he have a dog? Yes, he ___.",
-     "accepted_answers": [
-      "does"
-     ],
-     "explanation": "Yes, he does."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come si dice «Faccio colazione alle 8»?",
-     "options": [
-      "I have breakfast at 8.",
-      "I do breakfast at 8.",
-      "I make breakfast at 8."
-     ],
-     "correct_index": 0,
-     "explanation": "Breakfast, lunch e dinner si usano con have."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "The kids ___ a lot of homework today.",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "The kids = they, quindi have."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is wrong?",
-     "options": [
-      "He doesn't has a car.",
-      "He doesn't have a car.",
-      "He has a car."
-     ],
-     "correct_index": 0,
-     "explanation": "Dopo doesn't il verbo è have, non has."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ your sister have a boyfriend? (Do / Does)",
-     "accepted_answers": [
-      "does"
-     ],
-     "explanation": "Your sister = she, quindi Does."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ a headache. (ho mal di testa)",
-     "options": [
-      "have",
-      "am",
-      "do"
-     ],
-     "correct_index": 0,
-     "explanation": "Per i dolori si usa have: I have a headache."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We ___ not have much time. (negativa con do)",
-     "accepted_answers": [
-      "do"
-     ],
-     "explanation": "We do not (don't) have much time."
-    }
-   ]
-  },
-  {
-   "id": "a1-have-uk",
-   "title": "Il verbo avere: British English",
-   "tag": "Verbi",
-   "desc": "Have got e has got: la forma più usata in Gran Bretagna.",
-   "lead": "In **British English** per il possesso si usa spesso **have got** (e **has got**). Il significato è lo stesso di have, ma la grammatica cambia: niente do / does.",
-   "tip": "«I've got» è molto più comune di «I have» nel parlato britannico. Funziona solo per il possesso, non per le azioni.",
-   "blocks": [
-    {
-     "h": "Have got e has got",
-     "table": {
-      "head": [
-       "Soggetto",
-       "Affermativa",
-       "Forma breve"
-      ],
-      "rows": [
-       [
-        "I / You / We / They",
-        "have got",
-        "I've got"
-       ],
-       [
-        "He / She / It",
-        "has got",
-        "she's got"
-       ]
-      ]
-     },
-     "ex": [
-      "I've got a brother.",
-      "She's got blue eyes.",
-      "We've got a big garden."
-     ]
-    },
-    {
-     "h": "Negativa e domanda",
-     "p": "Si fa come con to be: **not** dopo have, oppure si inverte il soggetto. **Niente do / does.**",
-     "table": {
-      "head": [
-       "",
-       "Negativa",
-       "Domanda"
-      ],
-      "rows": [
-       [
-        "I / You / We / They",
-        "haven't got",
-        "Have you got a pen?"
-       ],
-       [
-        "He / She / It",
-        "hasn't got",
-        "Has she got a pen?"
-       ]
-      ]
-     },
-     "ex": [
-      "I **haven't got** any money.",
-      "**Has** he **got** a car? Yes, he **has**. / No, he **hasn't**."
-     ]
-    },
-    {
-     "h": "Quando NON si usa have got",
-     "p": "Per le azioni abituali (colazione, doccia, riunione) si usa solo **have**, anche in British English.",
-     "ex": [
-      "I **have** breakfast at 8. (non: I've got breakfast)",
-      "She **has** a shower every day."
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "Do you have got a pen?",
-     "Have you got a pen?",
-     "Con have got non si usa do."
-    ],
-    [
-     "She have got a cat.",
-     "She has got a cat.",
-     "Con she si usa has got."
-    ],
-    [
-     "I haven't a car.",
-     "I haven't got a car.",
-     "Serve got dopo haven't."
-    ],
-    [
-     "I've got breakfast at 8.",
-     "I have breakfast at 8.",
-     "Per le azioni abituali si usa solo have."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ got a new phone.",
-     "options": [
-      "have",
-      "has",
-      "am"
-     ],
-     "correct_index": 0,
-     "explanation": "Con I si usa have got."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She ___ got a lot of friends.",
-     "options": [
-      "have",
-      "has",
-      "is"
-     ],
-     "correct_index": 1,
-     "explanation": "Con she si usa has got."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We ___ got two cats.",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "Con we si usa have got."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He ___ got brown eyes.",
-     "accepted_answers": [
-      "has"
-     ],
-     "explanation": "Con he si usa has got."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ you got a pen?",
-     "options": [
-      "Have",
-      "Do",
-      "Are"
-     ],
-     "correct_index": 0,
-     "explanation": "La domanda con have got inizia con Have."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ she got a car?",
-     "options": [
-      "Have",
-      "Has",
-      "Does"
-     ],
-     "correct_index": 1,
-     "explanation": "Con she si usa Has."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "They ___ got any children. (negativa, forma breve)",
-     "accepted_answers": [
-      "haven't"
-     ],
-     "explanation": "They haven't got any children."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He ___ got a brother. (negativa, forma breve)",
-     "accepted_answers": [
-      "hasn't"
-     ],
-     "explanation": "He hasn't got a brother."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta in British English?",
-     "options": [
-      "Have you got a car?",
-      "Do you got a car?",
-      "Have you a got car?"
-     ],
-     "correct_index": 0,
-     "explanation": "La domanda si fa invertendo have e il soggetto."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Have you got a pen? Yes, I ___.",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "Yes, I have."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Has she got a car? No, she ___.",
-     "accepted_answers": [
-      "hasn't",
-      "has not"
-     ],
-     "explanation": "No, she hasn't."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which sentence is wrong?",
-     "options": [
-      "I've got breakfast at 8.",
-      "I have breakfast at 8.",
-      "I've got a sister."
-     ],
-     "correct_index": 0,
-     "explanation": "Per le azioni abituali non si usa have got."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Forma breve di «She has got»:",
-     "options": [
-      "She's got",
-      "She have got",
-      "She'd got"
-     ],
-     "correct_index": 0,
-     "explanation": "She has got si contrae in She's got."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My parents ___ got a house in the country.",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "My parents = they, quindi have got."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ your brother got a job? (Have / Has)",
-     "accepted_answers": [
-      "has"
-     ],
-     "explanation": "Your brother = he, quindi Has."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ got any money. (non ne ho)",
-     "options": [
-      "haven't",
-      "don't have",
-      "hasn't"
-     ],
-     "correct_index": 0,
-     "explanation": "Con have got la negativa è haven't got."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We've ___ a big family. (abbiamo)",
-     "accepted_answers": [
-      "got"
-     ],
-     "explanation": "We've got = We have got."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase NON si può dire in British English?",
-     "options": [
-      "Do you got a pen?",
-      "Have you got a pen?",
-      "Do you have a pen?"
-     ],
-     "correct_index": 0,
-     "explanation": "Con got non si usa mai do."
-    }
-   ]
-  },
-  {
-   "id": "a1-ps",
-   "title": "Present Simple",
-   "tag": "Verbi",
-   "desc": "Abitudini e verità: la -s della terza persona, do / does e negativa.",
-   "lead": "Il **Present Simple** serve per le **abitudini** (I get up at 7), le **verità generali** (water boils at 100°) e gli **orari**. È il primo tempo da padroneggiare.",
-   "tip": "Un solo segreto: con he / she / it il verbo prende la **-s**. Con do / does, la -s sparisce.",
-   "blocks": [
-    {
-     "h": "Affermativa",
-     "p": "Il verbo resta nella forma base, tranne con he / she / it.",
-     "table": {
-      "head": [
-       "Soggetto",
-       "Verbo",
-       "Esempio"
-      ],
-      "rows": [
-       [
-        "I / You / We / They",
-        "work",
-        "They work in Milan."
-       ],
-       [
-        "He / She / It",
-        "works",
-        "She works in Milan."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Come cambia il verbo con he / she / it",
-     "table": {
-      "head": [
-       "Regola",
-       "Esempio",
-       "Con la terza persona"
-      ],
-      "rows": [
-       [
-        "Di solito + **-s**",
-        "work, play, live",
-        "works, plays, lives"
-       ],
-       [
-        "Finisce in -s, -sh, -ch, -x, -o: + **-es**",
-        "watch, go, wash, fix",
-        "watches, goes, washes, fixes"
-       ],
-       [
-        "Consonante + y: **-ies**",
-        "study, try, cry",
-        "studies, tries, cries"
-       ],
-       [
-        "Verbo irregolare",
-        "have",
-        "**has**"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Negativa e domanda",
-     "p": "Si usano **do / does**. Con does il verbo torna senza -s.",
-     "table": {
-      "head": [
-       "",
-       "Negativa",
-       "Domanda"
-      ],
-      "rows": [
-       [
-        "I / You / We / They",
-        "don't work",
-        "Do you work?"
-       ],
-       [
-        "He / She / It",
-        "doesn't work",
-        "Does she work?"
-       ]
-      ]
-     },
-     "ex": [
-      "He **doesn't** like coffee.",
-      "**Does** she live here? Yes, she **does**.",
-      "What time **do** you get up?"
-     ]
-    },
-    {
-     "h": "Quando si usa",
-     "ex": [
-      "I **get up** at 7. (abitudine)",
-      "The sun **rises** in the east. (verità)",
-      "The train **leaves** at 9. (orario)"
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "She work in a bank.",
-     "She works in a bank.",
-     "Con she serve la -s."
-    ],
-    [
-     "Does she works here?",
-     "Does she work here?",
-     "Dopo does niente -s."
-    ],
-    [
-     "He don't like pizza.",
-     "He doesn't like pizza.",
-     "Con he si usa doesn't."
-    ],
-    [
-     "I am work every day.",
-     "I work every day.",
-     "Non si usa to be davanti a un verbo."
-    ],
-    [
-     "She studys English.",
-     "She studies English.",
-     "Consonante + y diventa -ies."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "She ___ in a hospital.",
-     "options": [
-      "work",
-      "works",
-      "working"
-     ],
-     "correct_index": 1,
-     "explanation": "Con she il verbo prende la -s."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "They ___ football on Sundays.",
-     "options": [
-      "plays",
-      "play",
-      "playing"
-     ],
-     "correct_index": 1,
-     "explanation": "Con they il verbo resta nella forma base."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He ___ up at 7. (get)",
-     "accepted_answers": [
-      "gets"
-     ],
-     "explanation": "Con he: gets."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My sister ___ English. (study)",
-     "accepted_answers": [
-      "studies"
-     ],
-     "explanation": "Consonante + y diventa -ies: studies."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "She ___ TV every evening. (watch)",
-     "accepted_answers": [
-      "watches"
-     ],
-     "explanation": "I verbi in -ch prendono -es: watches."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ like coffee.",
-     "options": [
-      "doesn't",
-      "don't",
-      "not"
-     ],
-     "correct_index": 1,
-     "explanation": "Con I si usa don't."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "He ___ like coffee.",
-     "options": [
-      "don't",
-      "doesn't",
-      "isn't"
-     ],
-     "correct_index": 1,
-     "explanation": "Con he si usa doesn't."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ you live in Rome?",
-     "options": [
-      "Does",
-      "Do",
-      "Are"
-     ],
-     "correct_index": 1,
-     "explanation": "Con you si usa Do."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ she live in Rome?",
-     "options": [
-      "Do",
-      "Is",
-      "Does"
-     ],
-     "correct_index": 2,
-     "explanation": "Con she si usa Does."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He doesn't ___ meat. (eat)",
-     "accepted_answers": [
-      "eat"
-     ],
-     "explanation": "Dopo doesn't il verbo è nella forma base."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Does Anna ___ near here? (live)",
-     "accepted_answers": [
-      "live"
-     ],
-     "explanation": "Dopo does il verbo non prende la -s."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My dad ___ to work by car. (go)",
-     "accepted_answers": [
-      "goes"
-     ],
-     "explanation": "Go prende -es: goes."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta?",
-     "options": [
-      "She doesn't works.",
-      "She doesn't work.",
-      "She don't work."
-     ],
-     "correct_index": 1,
-     "explanation": "Doesn't + verbo base."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Do you like jazz? No, I ___.",
-     "accepted_answers": [
-      "don't",
-      "do not"
-     ],
-     "explanation": "No, I don't."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Does he play tennis? Yes, he ___.",
-     "accepted_answers": [
-      "does"
-     ],
-     "explanation": "Yes, he does."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "The shop ___ at 9 o'clock.",
-     "options": [
-      "open",
-      "opens",
-      "opening"
-     ],
-     "correct_index": 1,
-     "explanation": "The shop = it, quindi opens."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Il verbo have con she diventa:",
-     "options": [
-      "haves",
-      "has",
-      "have"
-     ],
-     "correct_index": 1,
-     "explanation": "Have è irregolare: she has."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "What time ___ the film start? (do / does)",
-     "accepted_answers": [
-      "does"
-     ],
-     "explanation": "The film = it, quindi does."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We usually ___ lunch at 1. (have)",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "Con we: have."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "He ___ fixes cars.",
-     "options": [
-      "every day",
-      "every days",
-      "everyday"
-     ],
-     "correct_index": 0,
-     "explanation": "Every day si scrive in due parole e day resta singolare."
-    }
-   ]
-  },
-  {
-   "id": "a1-there",
-   "title": "There is / There are",
-   "tag": "Verbi",
-   "desc": "C'è e ci sono: singolare, plurale, negativa e domande.",
-   "lead": "**There is** e **there are** significano *c'è* e *ci sono*. Servono per dire che qualcosa esiste in un posto.",
-   "tip": "Si sceglie in base a quello che viene dopo: una cosa = is, più cose = are.",
-   "blocks": [
-    {
-     "h": "Le forme",
-     "table": {
-      "head": [
-       "",
-       "Singolare",
-       "Plurale"
-      ],
-      "rows": [
-       [
-        "Affermativa",
-        "There is a book.",
-        "There are two books."
-       ],
-       [
-        "Negativa",
-        "There isn't a book.",
-        "There aren't any books."
-       ],
-       [
-        "Domanda",
-        "Is there a book?",
-        "Are there any books?"
-       ],
-       [
-        "Risposta",
-        "Yes, there is. / No, there isn't.",
-        "Yes, there are. / No, there aren't."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Some e any",
-     "p": "**Some** nelle frasi affermative, **any** nelle negative e nelle domande. Con le cose che non si contano (water, milk) si usa is.",
-     "ex": [
-      "There are **some** apples on the table.",
-      "There aren't **any** chairs.",
-      "Is there **any** milk? Yes, there **is**."
-     ]
-    },
-    {
-     "h": "A + singolare, many + plurale",
-     "ex": [
-      "How **many** students are there? There are 20.",
-      "There is **a lot of** traffic today.",
-      "There is **one** window and **two** doors."
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "It's a book on the table.",
-     "There is a book on the table.",
-     "Per «c'è» si usa there is, non it is."
-    ],
-    [
-     "There is two cats.",
-     "There are two cats.",
-     "Con il plurale si usa are."
-    ],
-    [
-     "Are there a bank near here?",
-     "Is there a bank near here?",
-     "Una banca = singolare: is."
-    ],
-    [
-     "There aren't some chairs.",
-     "There aren't any chairs.",
-     "Nella negativa si usa any."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "There ___ a cat in the garden.",
-     "options": [
-      "is",
-      "are",
-      "am"
-     ],
-     "correct_index": 0,
-     "explanation": "Un gatto = singolare: is."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "There ___ three cats in the garden.",
-     "options": [
-      "is",
-      "are",
-      "be"
-     ],
-     "correct_index": 1,
-     "explanation": "Tre gatti = plurale: are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "There ___ a bank near here.",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "Una banca: there is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "There ___ many people in the park.",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "Many people = plurale: are."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ there a supermarket near here?",
-     "options": [
-      "Is",
-      "Are",
-      "Does"
-     ],
-     "correct_index": 0,
-     "explanation": "Singolare: Is there...?"
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ there any shops near here?",
-     "options": [
-      "Is",
-      "Are",
-      "Do"
-     ],
-     "correct_index": 1,
-     "explanation": "Plurale: Are there...?"
-    },
-    {
-     "type": "fill_in",
-     "prompt": "There ___ any milk in the fridge. (negativa, forma breve)",
-     "accepted_answers": [
-      "isn't",
-      "is not"
-     ],
-     "explanation": "Milk non si conta: there isn't any milk."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "There ___ any chairs in the room. (negativa, forma breve)",
-     "accepted_answers": [
-      "aren't",
-      "are not"
-     ],
-     "explanation": "Chairs = plurale: there aren't."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "There are ___ apples on the table.",
-     "options": [
-      "some",
-      "a",
-      "an"
-     ],
-     "correct_index": 0,
-     "explanation": "Nelle affermative al plurale si usa some."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Is there ___ water?",
-     "options": [
-      "some",
-      "any",
-      "a"
-     ],
-     "correct_index": 1,
-     "explanation": "Nelle domande si usa any."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Is there a bar here? Yes, there ___.",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "Yes, there is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Are there any seats? No, there ___.",
-     "accepted_answers": [
-      "aren't",
-      "are not"
-     ],
-     "explanation": "No, there aren't."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come si dice «Ci sono molti turisti»?",
-     "options": [
-      "There are a lot of tourists.",
-      "It is a lot of tourists.",
-      "They are many tourists."
-     ],
-     "correct_index": 0,
-     "explanation": "C'è / ci sono = there is / there are."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "There is two windows.",
-      "There are two windows.",
-      "There be two windows."
-     ],
-     "correct_index": 1,
-     "explanation": "Two windows = plurale: are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "How many rooms ___ there? (is / are)",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "Many + plurale: are."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "There ___ a lot of traffic today.",
-     "options": [
-      "is",
-      "are",
-      "has"
-     ],
-     "correct_index": 0,
-     "explanation": "Traffic non si conta: is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "There ___ a problem with my phone.",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "Un problema: there is."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta?",
-     "options": [
-      "There isn't any sugar.",
-      "There isn't some sugar.",
-      "There no is sugar."
-     ],
-     "correct_index": 0,
-     "explanation": "Negativa + any."
-    }
-   ]
-  },
-  {
-   "id": "a1-imp",
-   "title": "L'imperativo",
-   "tag": "Verbi",
-   "desc": "Ordini, istruzioni e inviti: sit down, don't run, let's go.",
-   "lead": "L'**imperativo** si usa per dare **ordini**, **istruzioni**, **consigli** e **inviti**. In inglese è semplicissimo: è il verbo nella forma base, senza soggetto.",
-   "tip": "Un'unica forma per tutti: «Open the door» vale per tu, voi e Lei.",
-   "blocks": [
-    {
-     "h": "Le forme",
-     "table": {
-      "head": [
-       "",
-       "Forma",
-       "Esempio"
-      ],
-      "rows": [
-       [
-        "Affermativo",
-        "verbo base",
-        "Sit down. Open your book."
-       ],
-       [
-        "Negativo",
-        "don't + verbo base",
-        "Don't run! Don't be late."
-       ],
-       [
-        "Inviti (noi)",
-        "let's + verbo base",
-        "Let's go! Let's have a coffee."
-       ],
-       [
-        "Negativo (noi)",
-        "let's not + verbo base",
-        "Let's not wait."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Con please",
-     "p": "Per essere gentili aggiungi **please**, all'inizio o alla fine.",
-     "ex": [
-      "**Please** sit down.",
-      "Close the window, **please**.",
-      "Don't touch that, **please**."
-     ]
-    },
-    {
-     "h": "Dove si usa",
-     "ex": [
-      "Istruzioni: **Turn left** at the bank.",
-      "Ricette: **Add** two eggs and **mix**.",
-      "Cartelli: **Don't** park here. **Keep** off the grass.",
-      "Consigli: **Take** an umbrella, it's raining."
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "You open the door.",
-     "Open the door.",
-     "L'imperativo non ha soggetto."
-    ],
-    [
-     "Not run!",
-     "Don't run!",
-     "Il negativo si fa con don't."
-    ],
-    [
-     "Don't to be late.",
-     "Don't be late.",
-     "Niente to dopo don't."
-    ],
-    [
-     "Let's to go home.",
-     "Let's go home.",
-     "Dopo let's c'è il verbo base."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "___ the door, please. (apri)",
-     "options": [
-      "Open",
-      "Opens",
-      "Opening"
-     ],
-     "correct_index": 0,
-     "explanation": "L'imperativo è il verbo base."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ run in the corridor!",
-     "options": [
-      "Not",
-      "Don't",
-      "No"
-     ],
-     "correct_index": 1,
-     "explanation": "Il negativo si fa con don't."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ down, please. (sit)",
-     "accepted_answers": [
-      "sit"
-     ],
-     "explanation": "Sit down: verbo base."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ late for class! (non essere in ritardo)",
-     "accepted_answers": [
-      "don't be",
-      "do not be"
-     ],
-     "explanation": "Don't be late: negativo di be."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ go to the cinema! (andiamo)",
-     "options": [
-      "Let's",
-      "Lets",
-      "Let us to"
-     ],
-     "correct_index": 0,
-     "explanation": "Let's + verbo base."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Let's ___ a coffee. (have)",
-     "accepted_answers": [
-      "have"
-     ],
-     "explanation": "Let's + verbo base."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta?",
-     "options": [
-      "Don't to touch it.",
-      "Don't touch it.",
-      "Not touch it."
-     ],
-     "correct_index": 1,
-     "explanation": "Don't + verbo base, senza to."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is an order?",
-     "options": [
-      "Close the window.",
-      "You close the window.",
-      "Closing the window."
-     ],
-     "correct_index": 0,
-     "explanation": "L'imperativo non ha soggetto."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Turn ___ at the bank. (a sinistra)",
-     "accepted_answers": [
-      "left"
-     ],
-     "explanation": "Turn left = gira a sinistra."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Please ___ your phone. (switch off)",
-     "accepted_answers": [
-      "switch off",
-      "turn off"
-     ],
-     "explanation": "Switch off / turn off your phone."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come si dice «Non preoccuparti»?",
-     "options": [
-      "Don't worry.",
-      "Not worry.",
-      "You don't worry."
-     ],
-     "correct_index": 0,
-     "explanation": "Don't worry è un imperativo negativo."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ careful! (sii prudente)",
-     "accepted_answers": [
-      "be"
-     ],
-     "explanation": "Be careful: l'imperativo di to be è be."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come dici «Non andiamo»?",
-     "options": [
-      "Don't let's go.",
-      "Let's not go.",
-      "Let's don't go."
-     ],
-     "correct_index": 1,
-     "explanation": "Let's not + verbo."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Add two eggs and ___ well. (mix)",
-     "accepted_answers": [
-      "mix"
-     ],
-     "explanation": "Nelle ricette si usa l'imperativo."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è più gentile?",
-     "options": [
-      "Help me, please.",
-      "Help me.",
-      "You help me."
-     ],
-     "correct_index": 0,
-     "explanation": "Please rende l'ordine una richiesta."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Listen ___ me, please. (a)",
-     "accepted_answers": [
-      "to"
-     ],
-     "explanation": "Listen to + persona."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "Be quiet, please.",
-      "Are quiet, please.",
-      "You be quiet, please."
-     ],
-     "correct_index": 0,
-     "explanation": "Be è l'imperativo di to be."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ forget your keys! (non dimenticare)",
-     "accepted_answers": [
-      "don't",
-      "do not"
-     ],
-     "explanation": "Don't forget your keys!"
-    }
-   ]
-  },
-  {
-   "id": "a1-pc",
-   "title": "Present Continuous",
-   "tag": "Verbi",
-   "desc": "Quello che succede adesso: am / is / are + verbo in -ing.",
-   "lead": "Il **Present Continuous** descrive ciò che sta succedendo **adesso** (I'm reading) o in questo periodo. In italiano corrisponde a «sto + gerundio».",
-   "tip": "Formula: **am / is / are + verbo-ing**. Se la azione è un'abitudine, non è questo tempo.",
-   "blocks": [
-    {
-     "h": "La forma",
-     "table": {
-      "head": [
-       "Soggetto",
-       "Be",
-       "Esempio"
-      ],
-      "rows": [
-       [
-        "I",
-        "am",
-        "I'm working."
-       ],
-       [
-        "You / We / They",
-        "are",
-        "They're playing."
-       ],
-       [
-        "He / She / It",
-        "is",
-        "She's reading."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Negativa e domanda",
-     "table": {
-      "head": [
-       "",
-       "Negativa",
-       "Domanda"
-      ],
-      "rows": [
-       [
-        "I",
-        "I'm not working",
-        "Am I working?"
-       ],
-       [
-        "You / We / They",
-        "aren't working",
-        "Are you working?"
-       ],
-       [
-        "He / She / It",
-        "isn't working",
-        "Is she working?"
-       ]
-      ]
-     },
-     "ex": [
-      "What **are** you doing? I'm cooking.",
-      "**Is** he sleeping? No, he **isn't**."
-     ]
-    },
-    {
-     "h": "L'ortografia del -ing",
-     "table": {
-      "head": [
-       "Regola",
-       "Base",
-       "-ing"
-      ],
-      "rows": [
-       [
-        "Di solito + ing",
-        "work, play",
-        "working, playing"
-       ],
-       [
-        "Finisce in -e: togli la e",
-        "make, write",
-        "making, writing"
-       ],
-       [
-        "Una vocale + una consonante: raddoppia",
-        "run, sit, swim",
-        "running, sitting, swimming"
-       ],
-       [
-        "-ie diventa -y",
-        "lie, die",
-        "lying, dying"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Parole spia",
-     "p": "Spesso compaiono: **now, at the moment, right now, today, this week, look!, listen!**",
-     "ex": [
-      "Look! It's **raining**.",
-      "I'm studying English **this year**."
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "I working now.",
-     "I am working now.",
-     "Manca il verbo be."
-    ],
-    [
-     "She is play tennis.",
-     "She is playing tennis.",
-     "Dopo be il verbo prende -ing."
-    ],
-    [
-     "I am knowing the answer.",
-     "I know the answer.",
-     "Know non si usa al continuous."
-    ],
-    [
-     "They are runing.",
-     "They are running.",
-     "Si raddoppia la n."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "I ___ reading a book now.",
-     "options": [
-      "am",
-      "is",
-      "are"
-     ],
-     "correct_index": 0,
-     "explanation": "Con I si usa am + -ing."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She ___ cooking dinner.",
-     "options": [
-      "is",
-      "are",
-      "am"
-     ],
-     "correct_index": 0,
-     "explanation": "Con she si usa is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "They ___ playing football. (be)",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "Con they si usa are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He is ___ TV. (watch)",
-     "accepted_answers": [
-      "watching"
-     ],
-     "explanation": "Watch + ing = watching."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We are ___ dinner. (cook)",
-     "accepted_answers": [
-      "cooking"
-     ],
-     "explanation": "Cook + ing = cooking."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "She is ___ a letter. (write)",
-     "accepted_answers": [
-      "writing"
-     ],
-     "explanation": "Write perde la e: writing."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "The dog is ___ in the garden. (run)",
-     "accepted_answers": [
-      "running"
-     ],
-     "explanation": "Si raddoppia la n: running."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "He is swiming.",
-      "He is swimming.",
-      "He is swimmming."
-     ],
-     "correct_index": 1,
-     "explanation": "Swim raddoppia la m: swimming."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ you studying now?",
-     "options": [
-      "Are",
-      "Do",
-      "Is"
-     ],
-     "correct_index": 0,
-     "explanation": "Domanda: Are you studying?"
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ she sleeping?",
-     "options": [
-      "Are",
-      "Is",
-      "Does"
-     ],
-     "correct_index": 1,
-     "explanation": "Domanda: Is she sleeping?"
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I ___ not working today. (forma breve: 'm)",
-     "accepted_answers": [
-      "am"
-     ],
-     "explanation": "I am not (I'm not) working today."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "They ___ not listening. (forma breve: aren't)",
-     "accepted_answers": [
-      "are"
-     ],
-     "explanation": "They are not (aren't) listening."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "What are you doing? I ___.",
-     "options": [
-      "cook",
-      "'m cooking",
-      "am cook"
-     ],
-     "correct_index": 1,
-     "explanation": "Risposta con il Present Continuous: I'm cooking."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase usa bene il Present Continuous?",
-     "options": [
-      "Look! It's raining.",
-      "I'm knowing him.",
-      "She is wanting a coffee."
-     ],
-     "correct_index": 0,
-     "explanation": "Know e want non si usano di solito al continuous."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Listen! Someone is ___. (sing)",
-     "accepted_answers": [
-      "singing"
-     ],
-     "explanation": "Sing + ing = singing."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which word often goes with the Present Continuous?",
-     "options": [
-      "at the moment",
-      "every day",
-      "always"
-     ],
-     "correct_index": 0,
-     "explanation": "At the moment indica un'azione in corso."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Rispondi: Is he working? No, he ___.",
-     "accepted_answers": [
-      "isn't",
-      "is not"
-     ],
-     "explanation": "No, he isn't."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come si dice «Sto studiando»?",
-     "options": [
-      "I study.",
-      "I am studying.",
-      "I studying."
-     ],
-     "correct_index": 1,
-     "explanation": "Sto + gerundio = am + -ing."
-    }
-   ]
-  },
-  {
-   "id": "a1-dem",
-   "title": "This, that, these, those",
-   "tag": "Grammatica",
-   "desc": "Aggettivi e pronomi dimostrativi: vicino o lontano, singolare o plurale.",
-   "lead": "**This, that, these, those** servono per indicare qualcosa. La scelta dipende da due cose: la **distanza** (vicino o lontano) e il **numero** (uno o più).",
-   "tip": "Vicino = th**is** / th**ese** (la i e la e sono «vicine»). Lontano = that / those.",
-   "blocks": [
-    {
-     "h": "Le quattro forme",
-     "table": {
-      "head": [
-       "",
-       "Singolare",
-       "Plurale"
-      ],
-      "rows": [
-       [
-        "Vicino",
-        "this (questo)",
-        "these (questi)"
-       ],
-       [
-        "Lontano",
-        "that (quello)",
-        "those (quelli)"
-       ]
-      ]
-     },
-     "ex": [
-      "**This** is my phone.",
-      "**That** is my school over there.",
-      "**These** are my keys.",
-      "**Those** are my friends."
-     ]
-    },
-    {
-     "h": "Davanti a un nome",
-     "p": "I dimostrativi concordano in numero con il nome.",
-     "ex": [
-      "**this** book / **these** books",
-      "**that** car / **those** cars",
-      "Do you like **this** song?",
-      "I want **those** shoes."
-     ]
-    },
-    {
-     "h": "Frasi utili",
-     "ex": [
-      "Who is **this**? (al telefono: Chi parla?)",
-      "What's **that**?",
-      "How much are **these**?",
-      "**This** is Luca. (presentazioni)"
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "This books are new.",
-     "These books are new.",
-     "Plurale = these."
-    ],
-    [
-     "Those is my friend.",
-     "That is my friend.",
-     "Singolare lontano = that."
-    ],
-    [
-     "I like that shoes.",
-     "I like those shoes.",
-     "Shoes è plurale."
-    ],
-    [
-     "What are this?",
-     "What is this?",
-     "This è singolare."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "___ is my phone. (qui, in mano)",
-     "options": [
-      "This",
-      "These",
-      "Those"
-     ],
-     "correct_index": 0,
-     "explanation": "Singolare e vicino: this."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ are my keys. (qui)",
-     "options": [
-      "This",
-      "These",
-      "That"
-     ],
-     "correct_index": 1,
-     "explanation": "Plurale e vicino: these."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ is my house over there. (lontano)",
-     "accepted_answers": [
-      "that"
-     ],
-     "explanation": "Singolare e lontano: that."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ are my friends over there.",
-     "accepted_answers": [
-      "those"
-     ],
-     "explanation": "Plurale e lontano: those."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "I like ___ shoes. (vicino a me)",
-     "options": [
-      "this",
-      "these",
-      "that"
-     ],
-     "correct_index": 1,
-     "explanation": "Shoes è plurale e vicino: these."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Look at ___ car over there!",
-     "options": [
-      "this",
-      "that",
-      "these"
-     ],
-     "correct_index": 1,
-     "explanation": "Una macchina lontana: that."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "___ book is interesting. (questo libro, in mano)",
-     "accepted_answers": [
-      "this"
-     ],
-     "explanation": "Singolare e vicino: this."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "How much are ___ apples? (queste mele, qui)",
-     "accepted_answers": [
-      "these"
-     ],
-     "explanation": "Plurale e vicino: these."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "These is my bag.",
-      "This is my bag.",
-      "These are my bag."
-     ],
-     "correct_index": 1,
-     "explanation": "Bag è singolare: This is."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "Those boys is my brothers.",
-      "Those boys are my brothers.",
-      "That boys are my brothers."
-     ],
-     "correct_index": 1,
-     "explanation": "Plurale: those + are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Do you like ___ song? (questa canzone, che sta suonando)",
-     "accepted_answers": [
-      "this"
-     ],
-     "explanation": "Singolare e vicino: this."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Al telefono: «___ is Anna.»",
-     "options": [
-      "This",
-      "These",
-      "Those"
-     ],
-     "correct_index": 0,
-     "explanation": "Al telefono ci si presenta con This is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "What's ___ ? (indicando qualcosa di lontano)",
-     "accepted_answers": [
-      "that"
-     ],
-     "explanation": "What's that?"
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Presenti un amico a Luca: «Luca, ___ is Marco.»",
-     "options": [
-      "this",
-      "that",
-      "these"
-     ],
-     "correct_index": 0,
-     "explanation": "Presentazioni: this is."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I don't like ___ trousers. (quei pantaloni lontano)",
-     "accepted_answers": [
-      "those"
-     ],
-     "explanation": "Trousers è plurale: those."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Hai due persone accanto a te: «___ my parents.»",
-     "options": [
-      "These are",
-      "This is",
-      "Those is"
-     ],
-     "correct_index": 0,
-     "explanation": "Plurale e vicino: These are."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Whose bag is ___ ? (quella lontana)",
-     "accepted_answers": [
-      "that"
-     ],
-     "explanation": "Singolare e lontano: that."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale coppia è corretta?",
-     "options": [
-      "this / these",
-      "this / those",
-      "that / these"
-     ],
-     "correct_index": 0,
-     "explanation": "Vicino: this (sing.) / these (pl.)."
-    }
-   ]
-  },
-  {
    "id": "a1-posadj",
    "title": "Aggettivi possessivi",
    "tag": "Grammatica",
@@ -2540,7 +284,7 @@
   },
   {
    "id": "a1-art",
-   "title": "Gli articoli: a, an, the",
+   "title": "Articoli: a, an, the",
    "tag": "Grammatica",
    "desc": "Articolo indeterminativo, determinativo e quando non ci vuole nulla.",
    "lead": "In inglese ci sono solo tre articoli: **a**, **an** e **the**. Non cambiano mai con il genere (maschile o femminile) né con il numero.",
@@ -3725,6 +1469,582 @@
    ]
   },
   {
+   "id": "a1-imp",
+   "title": "Imperativo",
+   "tag": "Verbi",
+   "desc": "Ordini, istruzioni e inviti: sit down, don't run, let's go.",
+   "lead": "L'**imperativo** si usa per dare **ordini**, **istruzioni**, **consigli** e **inviti**. In inglese è semplicissimo: è il verbo nella forma base, senza soggetto.",
+   "tip": "Un'unica forma per tutti: «Open the door» vale per tu, voi e Lei.",
+   "blocks": [
+    {
+     "h": "Le forme",
+     "table": {
+      "head": [
+       "",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativo",
+        "verbo base",
+        "Sit down. Open your book."
+       ],
+       [
+        "Negativo",
+        "don't + verbo base",
+        "Don't run! Don't be late."
+       ],
+       [
+        "Inviti (noi)",
+        "let's + verbo base",
+        "Let's go! Let's have a coffee."
+       ],
+       [
+        "Negativo (noi)",
+        "let's not + verbo base",
+        "Let's not wait."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Con please",
+     "p": "Per essere gentili aggiungi **please**, all'inizio o alla fine.",
+     "ex": [
+      "**Please** sit down.",
+      "Close the window, **please**.",
+      "Don't touch that, **please**."
+     ]
+    },
+    {
+     "h": "Dove si usa",
+     "ex": [
+      "Istruzioni: **Turn left** at the bank.",
+      "Ricette: **Add** two eggs and **mix**.",
+      "Cartelli: **Don't** park here. **Keep** off the grass.",
+      "Consigli: **Take** an umbrella, it's raining."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "You open the door.",
+     "Open the door.",
+     "L'imperativo non ha soggetto."
+    ],
+    [
+     "Not run!",
+     "Don't run!",
+     "Il negativo si fa con don't."
+    ],
+    [
+     "Don't to be late.",
+     "Don't be late.",
+     "Niente to dopo don't."
+    ],
+    [
+     "Let's to go home.",
+     "Let's go home.",
+     "Dopo let's c'è il verbo base."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "___ the door, please. (apri)",
+     "options": [
+      "Open",
+      "Opens",
+      "Opening"
+     ],
+     "correct_index": 0,
+     "explanation": "L'imperativo è il verbo base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ run in the corridor!",
+     "options": [
+      "Not",
+      "Don't",
+      "No"
+     ],
+     "correct_index": 1,
+     "explanation": "Il negativo si fa con don't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ down, please. (sit)",
+     "accepted_answers": [
+      "sit"
+     ],
+     "explanation": "Sit down: verbo base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ late for class! (non essere in ritardo)",
+     "accepted_answers": [
+      "don't be",
+      "do not be"
+     ],
+     "explanation": "Don't be late: negativo di be."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ go to the cinema! (andiamo)",
+     "options": [
+      "Let's",
+      "Lets",
+      "Let us to"
+     ],
+     "correct_index": 0,
+     "explanation": "Let's + verbo base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Let's ___ a coffee. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Let's + verbo base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta?",
+     "options": [
+      "Don't to touch it.",
+      "Don't touch it.",
+      "Not touch it."
+     ],
+     "correct_index": 1,
+     "explanation": "Don't + verbo base, senza to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is an order?",
+     "options": [
+      "Close the window.",
+      "You close the window.",
+      "Closing the window."
+     ],
+     "correct_index": 0,
+     "explanation": "L'imperativo non ha soggetto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Turn ___ at the bank. (a sinistra)",
+     "accepted_answers": [
+      "left"
+     ],
+     "explanation": "Turn left = gira a sinistra."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Please ___ your phone. (switch off)",
+     "accepted_answers": [
+      "switch off",
+      "turn off"
+     ],
+     "explanation": "Switch off / turn off your phone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Non preoccuparti»?",
+     "options": [
+      "Don't worry.",
+      "Not worry.",
+      "You don't worry."
+     ],
+     "correct_index": 0,
+     "explanation": "Don't worry è un imperativo negativo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ careful! (sii prudente)",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation": "Be careful: l'imperativo di to be è be."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come dici «Non andiamo»?",
+     "options": [
+      "Don't let's go.",
+      "Let's not go.",
+      "Let's don't go."
+     ],
+     "correct_index": 1,
+     "explanation": "Let's not + verbo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Add two eggs and ___ well. (mix)",
+     "accepted_answers": [
+      "mix"
+     ],
+     "explanation": "Nelle ricette si usa l'imperativo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è più gentile?",
+     "options": [
+      "Help me, please.",
+      "Help me.",
+      "You help me."
+     ],
+     "correct_index": 0,
+     "explanation": "Please rende l'ordine una richiesta."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Listen ___ me, please. (a)",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation": "Listen to + persona."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Be quiet, please.",
+      "Are quiet, please.",
+      "You be quiet, please."
+     ],
+     "correct_index": 0,
+     "explanation": "Be è l'imperativo di to be."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ forget your keys! (non dimenticare)",
+     "accepted_answers": [
+      "don't",
+      "do not"
+     ],
+     "explanation": "Don't forget your keys!"
+    }
+   ]
+  },
+  {
+   "id": "a1-plural",
+   "title": "Plurale dei nomi",
+   "tag": "Grammatica",
+   "desc": "Plurali regolari e irregolari: -s, -es, -ies, man → men.",
+   "lead": "Per fare il **plurale** in inglese di solito basta aggiungere **-s**. Ci sono poche regole di ortografia e un gruppo di plurali irregolari da imparare.",
+   "tip": "Gli irregolari più importanti: man → men, woman → women, child → children, person → people.",
+   "blocks": [
+    {
+     "h": "Plurali regolari",
+     "table": {
+      "head": [
+       "Regola",
+       "Singolare",
+       "Plurale"
+      ],
+      "rows": [
+       [
+        "Di solito + **-s**",
+        "book, car, dog",
+        "books, cars, dogs"
+       ],
+       [
+        "-s, -ss, -sh, -ch, -x, -z: + **-es**",
+        "bus, class, watch, box",
+        "buses, classes, watches, boxes"
+       ],
+       [
+        "Consonante + y: **-ies**",
+        "city, baby, country",
+        "cities, babies, countries"
+       ],
+       [
+        "Vocale + y: + **-s**",
+        "day, boy, key",
+        "days, boys, keys"
+       ],
+       [
+        "Molti nomi in -o: + **-es**",
+        "tomato, potato, hero",
+        "tomatoes, potatoes, heroes"
+       ],
+       [
+        "-f / -fe: **-ves**",
+        "knife, wife, leaf",
+        "knives, wives, leaves"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Plurali irregolari",
+     "table": {
+      "head": [
+       "Singolare",
+       "Plurale",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "man",
+        "men",
+        "two men"
+       ],
+       [
+        "woman",
+        "women",
+        "three women"
+       ],
+       [
+        "child",
+        "children",
+        "four children"
+       ],
+       [
+        "person",
+        "people",
+        "many people"
+       ],
+       [
+        "foot",
+        "feet",
+        "my feet"
+       ],
+       [
+        "tooth",
+        "teeth",
+        "brush your teeth"
+       ],
+       [
+        "mouse",
+        "mice",
+        "two mice"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Uguale al singolare",
+     "ex": [
+      "one **sheep**, two **sheep**",
+      "one **fish**, two **fish**",
+      "one **deer**, two **deer**"
+     ]
+    },
+    {
+     "h": "Solo plurale",
+     "p": "Alcuni nomi che in italiano sono plurali lo sono anche in inglese: trousers, jeans, glasses, scissors, clothes. Si usano con **are**.",
+     "ex": [
+      "My **jeans are** new.",
+      "Where **are** my **glasses**?"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "two childs",
+     "two children",
+     "Child è irregolare."
+    ],
+    [
+     "three womans",
+     "three women",
+     "Woman → women."
+    ],
+    [
+     "two citys",
+     "two cities",
+     "Consonante + y: -ies."
+    ],
+    [
+     "The people is nice.",
+     "The people are nice.",
+     "People è plurale."
+    ],
+    [
+     "My trousers is new.",
+     "My trousers are new.",
+     "Trousers è plurale."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «book» è:",
+     "options": [
+      "books",
+      "bookes",
+      "bookies"
+     ],
+     "correct_index": 0,
+     "explanation": "Di solito + s."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «bus» è:",
+     "options": [
+      "buss",
+      "buses",
+      "busies"
+     ],
+     "correct_index": 1,
+     "explanation": "Dopo -s: -es."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «city» è ___ .",
+     "accepted_answers": [
+      "cities"
+     ],
+     "explanation": "Consonante + y: -ies."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «day» è ___ .",
+     "accepted_answers": [
+      "days"
+     ],
+     "explanation": "Vocale + y: solo -s."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «watch» è:",
+     "options": [
+      "watchs",
+      "watches",
+      "watchies"
+     ],
+     "correct_index": 1,
+     "explanation": "Dopo -ch: -es."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «knife» è:",
+     "options": [
+      "knifes",
+      "knives",
+      "knifs"
+     ],
+     "correct_index": 1,
+     "explanation": "-fe → -ves."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «child» è ___ .",
+     "accepted_answers": [
+      "children"
+     ],
+     "explanation": "Plurale irregolare."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «woman» è ___ .",
+     "accepted_answers": [
+      "women"
+     ],
+     "explanation": "Woman → women."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «person» (nell'uso comune) è:",
+     "options": [
+      "persons",
+      "people",
+      "peoples"
+     ],
+     "correct_index": 1,
+     "explanation": "Person → people."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «tooth» è ___ .",
+     "accepted_answers": [
+      "teeth"
+     ],
+     "explanation": "Tooth → teeth."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «foot» è ___ .",
+     "accepted_answers": [
+      "feet"
+     ],
+     "explanation": "Foot → feet."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «sheep» è:",
+     "options": [
+      "sheeps",
+      "sheep",
+      "sheepes"
+     ],
+     "correct_index": 1,
+     "explanation": "Sheep resta uguale."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «tomato» è:",
+     "options": [
+      "tomatos",
+      "tomatoes",
+      "tomatoies"
+     ],
+     "correct_index": 1,
+     "explanation": "Molti nomi in -o: -es."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «box» è ___ .",
+     "accepted_answers": [
+      "boxes"
+     ],
+     "explanation": "Dopo -x: -es."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The people are nice.",
+      "The people is nice.",
+      "The peoples are nice."
+     ],
+     "correct_index": 0,
+     "explanation": "People è plurale."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "My jeans are new.",
+      "My jeans is new.",
+      "My jean are new."
+     ],
+     "correct_index": 0,
+     "explanation": "Jeans è plurale."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «baby» è ___ .",
+     "accepted_answers": [
+      "babies"
+     ],
+     "explanation": "Consonante + y: -ies."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il plurale di «mouse» (animale) è:",
+     "options": [
+      "mouses",
+      "mice",
+      "mices"
+     ],
+     "correct_index": 1,
+     "explanation": "Mouse → mice."
+    }
+   ]
+  },
+  {
    "id": "a1-prep-place",
    "title": "Preposizioni di luogo",
    "tag": "Preposizioni",
@@ -4602,282 +2922,627 @@
    ]
   },
   {
-   "id": "a1-subj",
-   "title": "Pronomi soggetto",
-   "tag": "Pronomi",
-   "desc": "I, you, he, she, it, we, they: chi fa l'azione.",
-   "lead": "I **pronomi soggetto** dicono chi fa l'azione. In inglese sono **obbligatori**: non si può togliere il soggetto come in italiano («Vado a casa» = *I* go home).",
-   "tip": "Anche per il tempo e le situazioni serve un soggetto: **it** is raining, **it** is late.",
+   "id": "a1-pc",
+   "title": "Present Continuous",
+   "tag": "Verbi",
+   "desc": "Quello che succede adesso: am / is / are + verbo in -ing.",
+   "lead": "Il **Present Continuous** descrive ciò che sta succedendo **adesso** (I'm reading) o in questo periodo. In italiano corrisponde a «sto + gerundio».",
+   "tip": "Formula: **am / is / are + verbo-ing**. Se la azione è un'abitudine, non è questo tempo.",
    "blocks": [
     {
-     "h": "I sette pronomi",
+     "h": "La forma",
      "table": {
       "head": [
-       "Pronome",
-       "Significato",
+       "Soggetto",
+       "Be",
        "Esempio"
       ],
       "rows": [
        [
         "I",
-        "io",
-        "I am a teacher."
+        "am",
+        "I'm working."
        ],
        [
-        "you",
-        "tu / voi / Lei",
-        "You are late."
+        "You / We / They",
+        "are",
+        "They're playing."
        ],
        [
-        "he",
-        "lui",
-        "He works in Rome."
-       ],
-       [
-        "she",
-        "lei",
-        "She is my sister."
-       ],
-       [
-        "it",
-        "esso (cosa, animale, tempo)",
-        "It is a big city."
-       ],
-       [
-        "we",
-        "noi",
-        "We live here."
-       ],
-       [
-        "they",
-        "loro",
-        "They are friends."
+        "He / She / It",
+        "is",
+        "She's reading."
        ]
       ]
      }
     },
     {
-     "h": "I si scrive sempre maiuscolo",
+     "h": "Negativa e domanda",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I",
+        "I'm not working",
+        "Am I working?"
+       ],
+       [
+        "You / We / They",
+        "aren't working",
+        "Are you working?"
+       ],
+       [
+        "He / She / It",
+        "isn't working",
+        "Is she working?"
+       ]
+      ]
+     },
      "ex": [
-      "Yesterday **I** went to the cinema.",
-      "My sister and **I** are from Milan."
+      "What **are** you doing? I'm cooking.",
+      "**Is** he sleeping? No, he **isn't**."
      ]
     },
     {
-     "h": "It: il soggetto «vuoto»",
-     "p": "In inglese anche le frasi sul tempo, sull'ora e sulla distanza hanno un soggetto: **it**.",
-     "ex": [
-      "**It** is raining.",
-      "**It** is 5 o'clock.",
-      "**It** is far from here.",
-      "**It** is important to sleep."
-     ]
+     "h": "L'ortografia del -ing",
+     "table": {
+      "head": [
+       "Regola",
+       "Base",
+       "-ing"
+      ],
+      "rows": [
+       [
+        "Di solito + ing",
+        "work, play",
+        "working, playing"
+       ],
+       [
+        "Finisce in -e: togli la e",
+        "make, write",
+        "making, writing"
+       ],
+       [
+        "Una vocale + una consonante: raddoppia",
+        "run, sit, swim",
+        "running, sitting, swimming"
+       ],
+       [
+        "-ie diventa -y",
+        "lie, die",
+        "lying, dying"
+       ]
+      ]
+     }
     },
     {
-     "h": "You: tu e voi",
-     "p": "Non esiste una forma separata per «tu» e «voi»: **you** va bene per tutti.",
+     "h": "Parole spia",
+     "p": "Spesso compaiono: **now, at the moment, right now, today, this week, look!, listen!**",
      "ex": [
-      "**You** are my friend. (tu)",
-      "**You** are my friends. (voi)"
+      "Look! It's **raining**.",
+      "I'm studying English **this year**."
      ]
     }
    ],
    "traps": [
     [
-     "Is raining.",
-     "It is raining.",
-     "Il soggetto è obbligatorio."
+     "I working now.",
+     "I am working now.",
+     "Manca il verbo be."
     ],
     [
-     "Am Marco.",
-     "I am Marco.",
-     "Serve il soggetto I."
+     "She is play tennis.",
+     "She is playing tennis.",
+     "Dopo be il verbo prende -ing."
     ],
     [
-     "Anna and me are friends.",
-     "Anna and I are friends.",
-     "Soggetto = I, non me."
+     "I am knowing the answer.",
+     "I know the answer.",
+     "Know non si usa al continuous."
     ],
     [
-     "Is a nice day.",
-     "It is a nice day.",
-     "Serve it."
+     "They are runing.",
+     "They are running.",
+     "Si raddoppia la n."
     ]
    ],
    "questions": [
     {
      "type": "multiple_choice",
-     "prompt": "___ am a student. (io)",
+     "prompt": "I ___ reading a book now.",
      "options": [
-      "I",
-      "He",
-      "They"
+      "am",
+      "is",
+      "are"
      ],
      "correct_index": 0,
-     "explanation": "Io = I."
+     "explanation": "Con I si usa am + -ing."
     },
     {
      "type": "multiple_choice",
-     "prompt": "___ is my brother. (lui)",
+     "prompt": "She ___ cooking dinner.",
      "options": [
-      "He",
-      "She",
-      "It"
+      "is",
+      "are",
+      "am"
      ],
      "correct_index": 0,
-     "explanation": "Lui = he."
+     "explanation": "Con she si usa is."
     },
     {
      "type": "fill_in",
-     "prompt": "___ is my sister. (lei)",
+     "prompt": "They ___ playing football. (be)",
      "accepted_answers": [
-      "she"
+      "are"
      ],
-     "explanation": "Lei = she."
+     "explanation": "Con they si usa are."
     },
     {
      "type": "fill_in",
-     "prompt": "___ are friends. (loro)",
+     "prompt": "He is ___ TV. (watch)",
      "accepted_answers": [
-      "they"
+      "watching"
      ],
-     "explanation": "Loro = they."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ is raining.",
-     "options": [
-      "It",
-      "He",
-      "They"
-     ],
-     "correct_index": 0,
-     "explanation": "Per il tempo si usa it."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "The table is big. ___ is old.",
-     "options": [
-      "He",
-      "It",
-      "They"
-     ],
-     "correct_index": 1,
-     "explanation": "Per le cose singolari si usa it."
+     "explanation": "Watch + ing = watching."
     },
     {
      "type": "fill_in",
-     "prompt": "My parents and I live here. ___ live here. (noi)",
+     "prompt": "We are ___ dinner. (cook)",
      "accepted_answers": [
-      "we"
+      "cooking"
      ],
-     "explanation": "My parents and I = we."
+     "explanation": "Cook + ing = cooking."
     },
     {
      "type": "fill_in",
-     "prompt": "Anna and Luca are teachers. ___ are teachers.",
+     "prompt": "She is ___ a letter. (write)",
      "accepted_answers": [
-      "they"
+      "writing"
      ],
-     "explanation": "Anna and Luca = they."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta?",
-     "options": [
-      "Is late.",
-      "It is late.",
-      "He is late. (è tardi)"
-     ],
-     "correct_index": 1,
-     "explanation": "Per l'ora si usa it."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "___ are my friends. (voi)",
-     "options": [
-      "You",
-      "We",
-      "He"
-     ],
-     "correct_index": 0,
-     "explanation": "You vale anche per voi."
+     "explanation": "Write perde la e: writing."
     },
     {
      "type": "fill_in",
-     "prompt": "Marco is tall. ___ is tall.",
+     "prompt": "The dog is ___ in the garden. (run)",
      "accepted_answers": [
-      "he"
+      "running"
      ],
-     "explanation": "Marco = he."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My mother works at a bank. ___ works at a bank.",
-     "accepted_answers": [
-      "she"
-     ],
-     "explanation": "My mother = she."
+     "explanation": "Si raddoppia la n: running."
     },
     {
      "type": "multiple_choice",
      "prompt": "Which is correct?",
      "options": [
-      "Anna and I are friends.",
-      "Anna and me are friends.",
-      "Me and Anna are friends."
-     ],
-     "correct_index": 0,
-     "explanation": "Come soggetto: I."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale pronome si scrive sempre maiuscolo?",
-     "options": [
-      "I",
-      "he",
-      "she"
-     ],
-     "correct_index": 0,
-     "explanation": "I è sempre maiuscolo."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "The weather is nice. ___ is sunny.",
-     "accepted_answers": [
-      "it"
-     ],
-     "explanation": "Per il tempo: it."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Tom and I are tired. ___ are tired.",
-     "accepted_answers": [
-      "we"
-     ],
-     "explanation": "Tom and I = we."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Posso togliere il soggetto?",
-     "options": [
-      "No, mai in inglese",
-      "Sì, come in italiano",
-      "Solo con you"
-     ],
-     "correct_index": 0,
-     "explanation": "In inglese il soggetto è obbligatorio."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "The book is on the table. ___ is new.",
-     "options": [
-      "He",
-      "It",
-      "They"
+      "He is swiming.",
+      "He is swimming.",
+      "He is swimmming."
      ],
      "correct_index": 1,
-     "explanation": "Cosa singolare: it."
+     "explanation": "Swim raddoppia la m: swimming."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you studying now?",
+     "options": [
+      "Are",
+      "Do",
+      "Is"
+     ],
+     "correct_index": 0,
+     "explanation": "Domanda: Are you studying?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ she sleeping?",
+     "options": [
+      "Are",
+      "Is",
+      "Does"
+     ],
+     "correct_index": 1,
+     "explanation": "Domanda: Is she sleeping?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ not working today. (forma breve: 'm)",
+     "accepted_answers": [
+      "am"
+     ],
+     "explanation": "I am not (I'm not) working today."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ not listening. (forma breve: aren't)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "They are not (aren't) listening."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What are you doing? I ___.",
+     "options": [
+      "cook",
+      "'m cooking",
+      "am cook"
+     ],
+     "correct_index": 1,
+     "explanation": "Risposta con il Present Continuous: I'm cooking."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase usa bene il Present Continuous?",
+     "options": [
+      "Look! It's raining.",
+      "I'm knowing him.",
+      "She is wanting a coffee."
+     ],
+     "correct_index": 0,
+     "explanation": "Know e want non si usano di solito al continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Listen! Someone is ___. (sing)",
+     "accepted_answers": [
+      "singing"
+     ],
+     "explanation": "Sing + ing = singing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which word often goes with the Present Continuous?",
+     "options": [
+      "at the moment",
+      "every day",
+      "always"
+     ],
+     "correct_index": 0,
+     "explanation": "At the moment indica un'azione in corso."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Is he working? No, he ___.",
+     "accepted_answers": [
+      "isn't",
+      "is not"
+     ],
+     "explanation": "No, he isn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Sto studiando»?",
+     "options": [
+      "I study.",
+      "I am studying.",
+      "I studying."
+     ],
+     "correct_index": 1,
+     "explanation": "Sto + gerundio = am + -ing."
+    }
+   ]
+  },
+  {
+   "id": "a1-ps",
+   "title": "Present Simple",
+   "tag": "Verbi",
+   "desc": "Abitudini e verità: la -s della terza persona, do / does e negativa.",
+   "lead": "Il **Present Simple** serve per le **abitudini** (I get up at 7), le **verità generali** (water boils at 100°) e gli **orari**. È il primo tempo da padroneggiare.",
+   "tip": "Un solo segreto: con he / she / it il verbo prende la **-s**. Con do / does, la -s sparisce.",
+   "blocks": [
+    {
+     "h": "Affermativa",
+     "p": "Il verbo resta nella forma base, tranne con he / she / it.",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Verbo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "I / You / We / They",
+        "work",
+        "They work in Milan."
+       ],
+       [
+        "He / She / It",
+        "works",
+        "She works in Milan."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Come cambia il verbo con he / she / it",
+     "table": {
+      "head": [
+       "Regola",
+       "Esempio",
+       "Con la terza persona"
+      ],
+      "rows": [
+       [
+        "Di solito + **-s**",
+        "work, play, live",
+        "works, plays, lives"
+       ],
+       [
+        "Finisce in -s, -sh, -ch, -x, -o: + **-es**",
+        "watch, go, wash, fix",
+        "watches, goes, washes, fixes"
+       ],
+       [
+        "Consonante + y: **-ies**",
+        "study, try, cry",
+        "studies, tries, cries"
+       ],
+       [
+        "Verbo irregolare",
+        "have",
+        "**has**"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Si usano **do / does**. Con does il verbo torna senza -s.",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I / You / We / They",
+        "don't work",
+        "Do you work?"
+       ],
+       [
+        "He / She / It",
+        "doesn't work",
+        "Does she work?"
+       ]
+      ]
+     },
+     "ex": [
+      "He **doesn't** like coffee.",
+      "**Does** she live here? Yes, she **does**.",
+      "What time **do** you get up?"
+     ]
+    },
+    {
+     "h": "Quando si usa",
+     "ex": [
+      "I **get up** at 7. (abitudine)",
+      "The sun **rises** in the east. (verità)",
+      "The train **leaves** at 9. (orario)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "She work in a bank.",
+     "She works in a bank.",
+     "Con she serve la -s."
+    ],
+    [
+     "Does she works here?",
+     "Does she work here?",
+     "Dopo does niente -s."
+    ],
+    [
+     "He don't like pizza.",
+     "He doesn't like pizza.",
+     "Con he si usa doesn't."
+    ],
+    [
+     "I am work every day.",
+     "I work every day.",
+     "Non si usa to be davanti a un verbo."
+    ],
+    [
+     "She studys English.",
+     "She studies English.",
+     "Consonante + y diventa -ies."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ in a hospital.",
+     "options": [
+      "work",
+      "works",
+      "working"
+     ],
+     "correct_index": 1,
+     "explanation": "Con she il verbo prende la -s."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They ___ football on Sundays.",
+     "options": [
+      "plays",
+      "play",
+      "playing"
+     ],
+     "correct_index": 1,
+     "explanation": "Con they il verbo resta nella forma base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ up at 7. (get)",
+     "accepted_answers": [
+      "gets"
+     ],
+     "explanation": "Con he: gets."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My sister ___ English. (study)",
+     "accepted_answers": [
+      "studies"
+     ],
+     "explanation": "Consonante + y diventa -ies: studies."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ TV every evening. (watch)",
+     "accepted_answers": [
+      "watches"
+     ],
+     "explanation": "I verbi in -ch prendono -es: watches."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ like coffee.",
+     "options": [
+      "doesn't",
+      "don't",
+      "not"
+     ],
+     "correct_index": 1,
+     "explanation": "Con I si usa don't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ like coffee.",
+     "options": [
+      "don't",
+      "doesn't",
+      "isn't"
+     ],
+     "correct_index": 1,
+     "explanation": "Con he si usa doesn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you live in Rome?",
+     "options": [
+      "Does",
+      "Do",
+      "Are"
+     ],
+     "correct_index": 1,
+     "explanation": "Con you si usa Do."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ she live in Rome?",
+     "options": [
+      "Do",
+      "Is",
+      "Does"
+     ],
+     "correct_index": 2,
+     "explanation": "Con she si usa Does."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He doesn't ___ meat. (eat)",
+     "accepted_answers": [
+      "eat"
+     ],
+     "explanation": "Dopo doesn't il verbo è nella forma base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Does Anna ___ near here? (live)",
+     "accepted_answers": [
+      "live"
+     ],
+     "explanation": "Dopo does il verbo non prende la -s."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My dad ___ to work by car. (go)",
+     "accepted_answers": [
+      "goes"
+     ],
+     "explanation": "Go prende -es: goes."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta?",
+     "options": [
+      "She doesn't works.",
+      "She doesn't work.",
+      "She don't work."
+     ],
+     "correct_index": 1,
+     "explanation": "Doesn't + verbo base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Do you like jazz? No, I ___.",
+     "accepted_answers": [
+      "don't",
+      "do not"
+     ],
+     "explanation": "No, I don't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Does he play tennis? Yes, he ___.",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation": "Yes, he does."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The shop ___ at 9 o'clock.",
+     "options": [
+      "open",
+      "opens",
+      "opening"
+     ],
+     "correct_index": 1,
+     "explanation": "The shop = it, quindi opens."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il verbo have con she diventa:",
+     "options": [
+      "haves",
+      "has",
+      "have"
+     ],
+     "correct_index": 1,
+     "explanation": "Have è irregolare: she has."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What time ___ the film start? (do / does)",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation": "The film = it, quindi does."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We usually ___ lunch at 1. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Con we: have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ fixes cars.",
+     "options": [
+      "every day",
+      "every days",
+      "everyday"
+     ],
+     "correct_index": 0,
+     "explanation": "Every day si scrive in due parole e day resta singolare."
     }
    ]
   },
@@ -5437,320 +4102,1655 @@
    ]
   },
   {
-   "id": "a1-plural",
-   "title": "Il plurale dei nomi",
-   "tag": "Grammatica",
-   "desc": "Plurali regolari e irregolari: -s, -es, -ies, man → men.",
-   "lead": "Per fare il **plurale** in inglese di solito basta aggiungere **-s**. Ci sono poche regole di ortografia e un gruppo di plurali irregolari da imparare.",
-   "tip": "Gli irregolari più importanti: man → men, woman → women, child → children, person → people.",
+   "id": "a1-subj",
+   "title": "Pronomi soggetto",
+   "tag": "Pronomi",
+   "desc": "I, you, he, she, it, we, they: chi fa l'azione.",
+   "lead": "I **pronomi soggetto** dicono chi fa l'azione. In inglese sono **obbligatori**: non si può togliere il soggetto come in italiano («Vado a casa» = *I* go home).",
+   "tip": "Anche per il tempo e le situazioni serve un soggetto: **it** is raining, **it** is late.",
    "blocks": [
     {
-     "h": "Plurali regolari",
+     "h": "I sette pronomi",
      "table": {
       "head": [
-       "Regola",
-       "Singolare",
-       "Plurale"
-      ],
-      "rows": [
-       [
-        "Di solito + **-s**",
-        "book, car, dog",
-        "books, cars, dogs"
-       ],
-       [
-        "-s, -ss, -sh, -ch, -x, -z: + **-es**",
-        "bus, class, watch, box",
-        "buses, classes, watches, boxes"
-       ],
-       [
-        "Consonante + y: **-ies**",
-        "city, baby, country",
-        "cities, babies, countries"
-       ],
-       [
-        "Vocale + y: + **-s**",
-        "day, boy, key",
-        "days, boys, keys"
-       ],
-       [
-        "Molti nomi in -o: + **-es**",
-        "tomato, potato, hero",
-        "tomatoes, potatoes, heroes"
-       ],
-       [
-        "-f / -fe: **-ves**",
-        "knife, wife, leaf",
-        "knives, wives, leaves"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Plurali irregolari",
-     "table": {
-      "head": [
-       "Singolare",
-       "Plurale",
+       "Pronome",
+       "Significato",
        "Esempio"
       ],
       "rows": [
        [
-        "man",
-        "men",
-        "two men"
+        "I",
+        "io",
+        "I am a teacher."
        ],
        [
-        "woman",
-        "women",
-        "three women"
+        "you",
+        "tu / voi / Lei",
+        "You are late."
        ],
        [
-        "child",
-        "children",
-        "four children"
+        "he",
+        "lui",
+        "He works in Rome."
        ],
        [
-        "person",
-        "people",
-        "many people"
+        "she",
+        "lei",
+        "She is my sister."
        ],
        [
-        "foot",
-        "feet",
-        "my feet"
+        "it",
+        "esso (cosa, animale, tempo)",
+        "It is a big city."
        ],
        [
-        "tooth",
-        "teeth",
-        "brush your teeth"
+        "we",
+        "noi",
+        "We live here."
        ],
        [
-        "mouse",
-        "mice",
-        "two mice"
+        "they",
+        "loro",
+        "They are friends."
        ]
       ]
      }
     },
     {
-     "h": "Uguale al singolare",
+     "h": "I si scrive sempre maiuscolo",
      "ex": [
-      "one **sheep**, two **sheep**",
-      "one **fish**, two **fish**",
-      "one **deer**, two **deer**"
+      "Yesterday **I** went to the cinema.",
+      "My sister and **I** are from Milan."
      ]
     },
     {
-     "h": "Solo plurale",
-     "p": "Alcuni nomi che in italiano sono plurali lo sono anche in inglese: trousers, jeans, glasses, scissors, clothes. Si usano con **are**.",
+     "h": "It: il soggetto «vuoto»",
+     "p": "In inglese anche le frasi sul tempo, sull'ora e sulla distanza hanno un soggetto: **it**.",
      "ex": [
-      "My **jeans are** new.",
-      "Where **are** my **glasses**?"
+      "**It** is raining.",
+      "**It** is 5 o'clock.",
+      "**It** is far from here.",
+      "**It** is important to sleep."
+     ]
+    },
+    {
+     "h": "You: tu e voi",
+     "p": "Non esiste una forma separata per «tu» e «voi»: **you** va bene per tutti.",
+     "ex": [
+      "**You** are my friend. (tu)",
+      "**You** are my friends. (voi)"
      ]
     }
    ],
    "traps": [
     [
-     "two childs",
-     "two children",
-     "Child è irregolare."
+     "Is raining.",
+     "It is raining.",
+     "Il soggetto è obbligatorio."
     ],
     [
-     "three womans",
-     "three women",
-     "Woman → women."
+     "Am Marco.",
+     "I am Marco.",
+     "Serve il soggetto I."
     ],
     [
-     "two citys",
-     "two cities",
-     "Consonante + y: -ies."
+     "Anna and me are friends.",
+     "Anna and I are friends.",
+     "Soggetto = I, non me."
     ],
     [
-     "The people is nice.",
-     "The people are nice.",
-     "People è plurale."
-    ],
-    [
-     "My trousers is new.",
-     "My trousers are new.",
-     "Trousers è plurale."
+     "Is a nice day.",
+     "It is a nice day.",
+     "Serve it."
     ]
    ],
    "questions": [
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «book» è:",
+     "prompt": "___ am a student. (io)",
      "options": [
-      "books",
-      "bookes",
-      "bookies"
+      "I",
+      "He",
+      "They"
      ],
      "correct_index": 0,
-     "explanation": "Di solito + s."
+     "explanation": "Io = I."
     },
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «bus» è:",
+     "prompt": "___ is my brother. (lui)",
      "options": [
-      "buss",
-      "buses",
-      "busies"
+      "He",
+      "She",
+      "It"
      ],
-     "correct_index": 1,
-     "explanation": "Dopo -s: -es."
+     "correct_index": 0,
+     "explanation": "Lui = he."
     },
     {
      "type": "fill_in",
-     "prompt": "Il plurale di «city» è ___ .",
+     "prompt": "___ is my sister. (lei)",
      "accepted_answers": [
-      "cities"
+      "she"
      ],
-     "explanation": "Consonante + y: -ies."
+     "explanation": "Lei = she."
     },
     {
      "type": "fill_in",
-     "prompt": "Il plurale di «day» è ___ .",
+     "prompt": "___ are friends. (loro)",
      "accepted_answers": [
-      "days"
+      "they"
      ],
-     "explanation": "Vocale + y: solo -s."
+     "explanation": "Loro = they."
     },
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «watch» è:",
+     "prompt": "___ is raining.",
      "options": [
-      "watchs",
-      "watches",
-      "watchies"
+      "It",
+      "He",
+      "They"
      ],
-     "correct_index": 1,
-     "explanation": "Dopo -ch: -es."
+     "correct_index": 0,
+     "explanation": "Per il tempo si usa it."
     },
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «knife» è:",
+     "prompt": "The table is big. ___ is old.",
      "options": [
-      "knifes",
-      "knives",
-      "knifs"
+      "He",
+      "It",
+      "They"
      ],
      "correct_index": 1,
-     "explanation": "-fe → -ves."
+     "explanation": "Per le cose singolari si usa it."
     },
     {
      "type": "fill_in",
-     "prompt": "Il plurale di «child» è ___ .",
+     "prompt": "My parents and I live here. ___ live here. (noi)",
      "accepted_answers": [
-      "children"
+      "we"
      ],
-     "explanation": "Plurale irregolare."
+     "explanation": "My parents and I = we."
     },
     {
      "type": "fill_in",
-     "prompt": "Il plurale di «woman» è ___ .",
+     "prompt": "Anna and Luca are teachers. ___ are teachers.",
      "accepted_answers": [
-      "women"
+      "they"
      ],
-     "explanation": "Woman → women."
+     "explanation": "Anna and Luca = they."
     },
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «person» (nell'uso comune) è:",
+     "prompt": "Quale frase è corretta?",
      "options": [
-      "persons",
-      "people",
-      "peoples"
+      "Is late.",
+      "It is late.",
+      "He is late. (è tardi)"
      ],
      "correct_index": 1,
-     "explanation": "Person → people."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Il plurale di «tooth» è ___ .",
-     "accepted_answers": [
-      "teeth"
-     ],
-     "explanation": "Tooth → teeth."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Il plurale di «foot» è ___ .",
-     "accepted_answers": [
-      "feet"
-     ],
-     "explanation": "Foot → feet."
+     "explanation": "Per l'ora si usa it."
     },
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «sheep» è:",
+     "prompt": "___ are my friends. (voi)",
      "options": [
-      "sheeps",
-      "sheep",
-      "sheepes"
+      "You",
+      "We",
+      "He"
      ],
-     "correct_index": 1,
-     "explanation": "Sheep resta uguale."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Il plurale di «tomato» è:",
-     "options": [
-      "tomatos",
-      "tomatoes",
-      "tomatoies"
-     ],
-     "correct_index": 1,
-     "explanation": "Molti nomi in -o: -es."
+     "correct_index": 0,
+     "explanation": "You vale anche per voi."
     },
     {
      "type": "fill_in",
-     "prompt": "Il plurale di «box» è ___ .",
+     "prompt": "Marco is tall. ___ is tall.",
      "accepted_answers": [
-      "boxes"
+      "he"
      ],
-     "explanation": "Dopo -x: -es."
+     "explanation": "Marco = he."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My mother works at a bank. ___ works at a bank.",
+     "accepted_answers": [
+      "she"
+     ],
+     "explanation": "My mother = she."
     },
     {
      "type": "multiple_choice",
      "prompt": "Which is correct?",
      "options": [
-      "The people are nice.",
-      "The people is nice.",
-      "The peoples are nice."
+      "Anna and I are friends.",
+      "Anna and me are friends.",
+      "Me and Anna are friends."
      ],
      "correct_index": 0,
-     "explanation": "People è plurale."
+     "explanation": "Come soggetto: I."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale pronome si scrive sempre maiuscolo?",
+     "options": [
+      "I",
+      "he",
+      "she"
+     ],
+     "correct_index": 0,
+     "explanation": "I è sempre maiuscolo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The weather is nice. ___ is sunny.",
+     "accepted_answers": [
+      "it"
+     ],
+     "explanation": "Per il tempo: it."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Tom and I are tired. ___ are tired.",
+     "accepted_answers": [
+      "we"
+     ],
+     "explanation": "Tom and I = we."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Posso togliere il soggetto?",
+     "options": [
+      "No, mai in inglese",
+      "Sì, come in italiano",
+      "Solo con you"
+     ],
+     "correct_index": 0,
+     "explanation": "In inglese il soggetto è obbligatorio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The book is on the table. ___ is new.",
+     "options": [
+      "He",
+      "It",
+      "They"
+     ],
+     "correct_index": 1,
+     "explanation": "Cosa singolare: it."
+    }
+   ]
+  },
+  {
+   "id": "a1-there",
+   "title": "There is / There are",
+   "tag": "Verbi",
+   "desc": "C'è e ci sono: singolare, plurale, negativa e domande.",
+   "lead": "**There is** e **there are** significano *c'è* e *ci sono*. Servono per dire che qualcosa esiste in un posto.",
+   "tip": "Si sceglie in base a quello che viene dopo: una cosa = is, più cose = are.",
+   "blocks": [
+    {
+     "h": "Le forme",
+     "table": {
+      "head": [
+       "",
+       "Singolare",
+       "Plurale"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "There is a book.",
+        "There are two books."
+       ],
+       [
+        "Negativa",
+        "There isn't a book.",
+        "There aren't any books."
+       ],
+       [
+        "Domanda",
+        "Is there a book?",
+        "Are there any books?"
+       ],
+       [
+        "Risposta",
+        "Yes, there is. / No, there isn't.",
+        "Yes, there are. / No, there aren't."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Some e any",
+     "p": "**Some** nelle frasi affermative, **any** nelle negative e nelle domande. Con le cose che non si contano (water, milk) si usa is.",
+     "ex": [
+      "There are **some** apples on the table.",
+      "There aren't **any** chairs.",
+      "Is there **any** milk? Yes, there **is**."
+     ]
+    },
+    {
+     "h": "A + singolare, many + plurale",
+     "ex": [
+      "How **many** students are there? There are 20.",
+      "There is **a lot of** traffic today.",
+      "There is **one** window and **two** doors."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "It's a book on the table.",
+     "There is a book on the table.",
+     "Per «c'è» si usa there is, non it is."
+    ],
+    [
+     "There is two cats.",
+     "There are two cats.",
+     "Con il plurale si usa are."
+    ],
+    [
+     "Are there a bank near here?",
+     "Is there a bank near here?",
+     "Una banca = singolare: is."
+    ],
+    [
+     "There aren't some chairs.",
+     "There aren't any chairs.",
+     "Nella negativa si usa any."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "There ___ a cat in the garden.",
+     "options": [
+      "is",
+      "are",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Un gatto = singolare: is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "There ___ three cats in the garden.",
+     "options": [
+      "is",
+      "are",
+      "be"
+     ],
+     "correct_index": 1,
+     "explanation": "Tre gatti = plurale: are."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ a bank near here.",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Una banca: there is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ many people in the park.",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "Many people = plurale: are."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ there a supermarket near here?",
+     "options": [
+      "Is",
+      "Are",
+      "Does"
+     ],
+     "correct_index": 0,
+     "explanation": "Singolare: Is there...?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ there any shops near here?",
+     "options": [
+      "Is",
+      "Are",
+      "Do"
+     ],
+     "correct_index": 1,
+     "explanation": "Plurale: Are there...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ any milk in the fridge. (negativa, forma breve)",
+     "accepted_answers": [
+      "isn't",
+      "is not"
+     ],
+     "explanation": "Milk non si conta: there isn't any milk."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ any chairs in the room. (negativa, forma breve)",
+     "accepted_answers": [
+      "aren't",
+      "are not"
+     ],
+     "explanation": "Chairs = plurale: there aren't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "There are ___ apples on the table.",
+     "options": [
+      "some",
+      "a",
+      "an"
+     ],
+     "correct_index": 0,
+     "explanation": "Nelle affermative al plurale si usa some."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Is there ___ water?",
+     "options": [
+      "some",
+      "any",
+      "a"
+     ],
+     "correct_index": 1,
+     "explanation": "Nelle domande si usa any."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Is there a bar here? Yes, there ___.",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Yes, there is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Are there any seats? No, there ___.",
+     "accepted_answers": [
+      "aren't",
+      "are not"
+     ],
+     "explanation": "No, there aren't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Ci sono molti turisti»?",
+     "options": [
+      "There are a lot of tourists.",
+      "It is a lot of tourists.",
+      "They are many tourists."
+     ],
+     "correct_index": 0,
+     "explanation": "C'è / ci sono = there is / there are."
     },
     {
      "type": "multiple_choice",
      "prompt": "Which is correct?",
      "options": [
-      "My jeans are new.",
-      "My jeans is new.",
-      "My jean are new."
+      "There is two windows.",
+      "There are two windows.",
+      "There be two windows."
      ],
-     "correct_index": 0,
-     "explanation": "Jeans è plurale."
+     "correct_index": 1,
+     "explanation": "Two windows = plurale: are."
     },
     {
      "type": "fill_in",
-     "prompt": "Il plurale di «baby» è ___ .",
+     "prompt": "How many rooms ___ there? (is / are)",
      "accepted_answers": [
-      "babies"
+      "are"
      ],
-     "explanation": "Consonante + y: -ies."
+     "explanation": "Many + plurale: are."
     },
     {
      "type": "multiple_choice",
-     "prompt": "Il plurale di «mouse» (animale) è:",
+     "prompt": "There ___ a lot of traffic today.",
      "options": [
-      "mouses",
-      "mice",
-      "mices"
+      "is",
+      "are",
+      "has"
+     ],
+     "correct_index": 0,
+     "explanation": "Traffic non si conta: is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ a problem with my phone.",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Un problema: there is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta?",
+     "options": [
+      "There isn't any sugar.",
+      "There isn't some sugar.",
+      "There no is sugar."
+     ],
+     "correct_index": 0,
+     "explanation": "Negativa + any."
+    }
+   ]
+  },
+  {
+   "id": "a1-dem",
+   "title": "This, that, these, those",
+   "tag": "Grammatica",
+   "desc": "Aggettivi e pronomi dimostrativi: vicino o lontano, singolare o plurale.",
+   "lead": "**This, that, these, those** servono per indicare qualcosa. La scelta dipende da due cose: la **distanza** (vicino o lontano) e il **numero** (uno o più).",
+   "tip": "Vicino = th**is** / th**ese** (la i e la e sono «vicine»). Lontano = that / those.",
+   "blocks": [
+    {
+     "h": "Le quattro forme",
+     "table": {
+      "head": [
+       "",
+       "Singolare",
+       "Plurale"
+      ],
+      "rows": [
+       [
+        "Vicino",
+        "this (questo)",
+        "these (questi)"
+       ],
+       [
+        "Lontano",
+        "that (quello)",
+        "those (quelli)"
+       ]
+      ]
+     },
+     "ex": [
+      "**This** is my phone.",
+      "**That** is my school over there.",
+      "**These** are my keys.",
+      "**Those** are my friends."
+     ]
+    },
+    {
+     "h": "Davanti a un nome",
+     "p": "I dimostrativi concordano in numero con il nome.",
+     "ex": [
+      "**this** book / **these** books",
+      "**that** car / **those** cars",
+      "Do you like **this** song?",
+      "I want **those** shoes."
+     ]
+    },
+    {
+     "h": "Frasi utili",
+     "ex": [
+      "Who is **this**? (al telefono: Chi parla?)",
+      "What's **that**?",
+      "How much are **these**?",
+      "**This** is Luca. (presentazioni)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "This books are new.",
+     "These books are new.",
+     "Plurale = these."
+    ],
+    [
+     "Those is my friend.",
+     "That is my friend.",
+     "Singolare lontano = that."
+    ],
+    [
+     "I like that shoes.",
+     "I like those shoes.",
+     "Shoes è plurale."
+    ],
+    [
+     "What are this?",
+     "What is this?",
+     "This è singolare."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "___ is my phone. (qui, in mano)",
+     "options": [
+      "This",
+      "These",
+      "Those"
+     ],
+     "correct_index": 0,
+     "explanation": "Singolare e vicino: this."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ are my keys. (qui)",
+     "options": [
+      "This",
+      "These",
+      "That"
      ],
      "correct_index": 1,
-     "explanation": "Mouse → mice."
+     "explanation": "Plurale e vicino: these."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ is my house over there. (lontano)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Singolare e lontano: that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ are my friends over there.",
+     "accepted_answers": [
+      "those"
+     ],
+     "explanation": "Plurale e lontano: those."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I like ___ shoes. (vicino a me)",
+     "options": [
+      "this",
+      "these",
+      "that"
+     ],
+     "correct_index": 1,
+     "explanation": "Shoes è plurale e vicino: these."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Look at ___ car over there!",
+     "options": [
+      "this",
+      "that",
+      "these"
+     ],
+     "correct_index": 1,
+     "explanation": "Una macchina lontana: that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ book is interesting. (questo libro, in mano)",
+     "accepted_answers": [
+      "this"
+     ],
+     "explanation": "Singolare e vicino: this."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How much are ___ apples? (queste mele, qui)",
+     "accepted_answers": [
+      "these"
+     ],
+     "explanation": "Plurale e vicino: these."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "These is my bag.",
+      "This is my bag.",
+      "These are my bag."
+     ],
+     "correct_index": 1,
+     "explanation": "Bag è singolare: This is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Those boys is my brothers.",
+      "Those boys are my brothers.",
+      "That boys are my brothers."
+     ],
+     "correct_index": 1,
+     "explanation": "Plurale: those + are."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Do you like ___ song? (questa canzone, che sta suonando)",
+     "accepted_answers": [
+      "this"
+     ],
+     "explanation": "Singolare e vicino: this."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Al telefono: «___ is Anna.»",
+     "options": [
+      "This",
+      "These",
+      "Those"
+     ],
+     "correct_index": 0,
+     "explanation": "Al telefono ci si presenta con This is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What's ___ ? (indicando qualcosa di lontano)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "What's that?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Presenti un amico a Luca: «Luca, ___ is Marco.»",
+     "options": [
+      "this",
+      "that",
+      "these"
+     ],
+     "correct_index": 0,
+     "explanation": "Presentazioni: this is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I don't like ___ trousers. (quei pantaloni lontano)",
+     "accepted_answers": [
+      "those"
+     ],
+     "explanation": "Trousers è plurale: those."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Hai due persone accanto a te: «___ my parents.»",
+     "options": [
+      "These are",
+      "This is",
+      "Those is"
+     ],
+     "correct_index": 0,
+     "explanation": "Plurale e vicino: These are."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Whose bag is ___ ? (quella lontana)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Singolare e lontano: that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale coppia è corretta?",
+     "options": [
+      "this / these",
+      "this / those",
+      "that / these"
+     ],
+     "correct_index": 0,
+     "explanation": "Vicino: this (sing.) / these (pl.)."
+    }
+   ]
+  },
+  {
+   "id": "a1-have-us",
+   "title": "Verbo avere: American English",
+   "tag": "Verbi",
+   "desc": "Have e has, con do / does per negativa e domanda, come si usa negli USA.",
+   "lead": "In **American English** il verbo avere si comporta come un verbo normale: **have** (I, you, we, they) e **has** (he, she, it), con **do / does** per negativa e domanda.",
+   "tip": "In American English non si dice «have got»: si dice semplicemente have.",
+   "blocks": [
+    {
+     "h": "Have e has",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "I / You / We / They",
+        "have",
+        "We have a dog."
+       ],
+       [
+        "He / She / It",
+        "has",
+        "She has a new job."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Si usano **do / does** come con tutti i verbi. Dopo does il verbo torna **have** (senza -s).",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I / You / We / They",
+        "don't have",
+        "Do you have a car?"
+       ],
+       [
+        "He / She / It",
+        "doesn't have",
+        "Does she have a car?"
+       ]
+      ]
+     },
+     "ex": [
+      "I **don't have** any brothers.",
+      "**Does** he **have** time today?",
+      "Yes, I **do**. / No, I **don't**."
+     ]
+    },
+    {
+     "h": "Have non è solo possesso",
+     "p": "Have si usa anche in molte espressioni di ogni giorno.",
+     "ex": [
+      "I **have** breakfast at 8.",
+      "We **have** a meeting today.",
+      "She **has** a shower every morning.",
+      "Let's **have** a coffee!"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "He have a car.",
+     "He has a car.",
+     "Con he / she / it si usa has."
+    ],
+    [
+     "Does she has a dog?",
+     "Does she have a dog?",
+     "Dopo does il verbo è have."
+    ],
+    [
+     "I no have time.",
+     "I don't have time.",
+     "La negativa si fa con don't."
+    ],
+    [
+     "Have you a pen?",
+     "Do you have a pen?",
+     "In American English si usa do."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ two sisters.",
+     "options": [
+      "have",
+      "has",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Con I si usa have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ a big house.",
+     "options": [
+      "have",
+      "has",
+      "haves"
+     ],
+     "correct_index": 1,
+     "explanation": "Con she si usa has."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ a new car.",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Con we si usa have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My father ___ a small shop.",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation": "My father = he, quindi has."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you have a pen?",
+     "options": [
+      "Do",
+      "Does",
+      "Are"
+     ],
+     "correct_index": 0,
+     "explanation": "Con you si usa Do."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ he have a car?",
+     "options": [
+      "Do",
+      "Does",
+      "Is"
+     ],
+     "correct_index": 1,
+     "explanation": "Con he si usa Does."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ have any children. (negativa, forma breve)",
+     "accepted_answers": [
+      "don't"
+     ],
+     "explanation": "They don't have any children."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ have a brother. (negativa, forma breve)",
+     "accepted_answers": [
+      "doesn't"
+     ],
+     "explanation": "She doesn't have a brother."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Does she ___ a sister?",
+     "options": [
+      "has",
+      "have",
+      "having"
+     ],
+     "correct_index": 1,
+     "explanation": "Dopo does il verbo resta nella forma base: have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta in American English?",
+     "options": [
+      "Do you have a pen?",
+      "Have you a pen?",
+      "Do you has a pen?"
+     ],
+     "correct_index": 0,
+     "explanation": "In inglese americano la domanda si fa con do + have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Do you have a car? No, I ___.",
+     "accepted_answers": [
+      "don't",
+      "do not"
+     ],
+     "explanation": "No, I don't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Does he have a dog? Yes, he ___.",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation": "Yes, he does."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Faccio colazione alle 8»?",
+     "options": [
+      "I have breakfast at 8.",
+      "I do breakfast at 8.",
+      "I make breakfast at 8."
+     ],
+     "correct_index": 0,
+     "explanation": "Breakfast, lunch e dinner si usano con have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The kids ___ a lot of homework today.",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "The kids = they, quindi have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is wrong?",
+     "options": [
+      "He doesn't has a car.",
+      "He doesn't have a car.",
+      "He has a car."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo doesn't il verbo è have, non has."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ your sister have a boyfriend? (Do / Does)",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation": "Your sister = she, quindi Does."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ a headache. (ho mal di testa)",
+     "options": [
+      "have",
+      "am",
+      "do"
+     ],
+     "correct_index": 0,
+     "explanation": "Per i dolori si usa have: I have a headache."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ not have much time. (negativa con do)",
+     "accepted_answers": [
+      "do"
+     ],
+     "explanation": "We do not (don't) have much time."
+    }
+   ]
+  },
+  {
+   "id": "a1-have-uk",
+   "title": "Verbo avere: British English",
+   "tag": "Verbi",
+   "desc": "Have got e has got: la forma più usata in Gran Bretagna.",
+   "lead": "In **British English** per il possesso si usa spesso **have got** (e **has got**). Il significato è lo stesso di have, ma la grammatica cambia: niente do / does.",
+   "tip": "«I've got» è molto più comune di «I have» nel parlato britannico. Funziona solo per il possesso, non per le azioni.",
+   "blocks": [
+    {
+     "h": "Have got e has got",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Affermativa",
+       "Forma breve"
+      ],
+      "rows": [
+       [
+        "I / You / We / They",
+        "have got",
+        "I've got"
+       ],
+       [
+        "He / She / It",
+        "has got",
+        "she's got"
+       ]
+      ]
+     },
+     "ex": [
+      "I've got a brother.",
+      "She's got blue eyes.",
+      "We've got a big garden."
+     ]
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Si fa come con to be: **not** dopo have, oppure si inverte il soggetto. **Niente do / does.**",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I / You / We / They",
+        "haven't got",
+        "Have you got a pen?"
+       ],
+       [
+        "He / She / It",
+        "hasn't got",
+        "Has she got a pen?"
+       ]
+      ]
+     },
+     "ex": [
+      "I **haven't got** any money.",
+      "**Has** he **got** a car? Yes, he **has**. / No, he **hasn't**."
+     ]
+    },
+    {
+     "h": "Quando NON si usa have got",
+     "p": "Per le azioni abituali (colazione, doccia, riunione) si usa solo **have**, anche in British English.",
+     "ex": [
+      "I **have** breakfast at 8. (non: I've got breakfast)",
+      "She **has** a shower every day."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "Do you have got a pen?",
+     "Have you got a pen?",
+     "Con have got non si usa do."
+    ],
+    [
+     "She have got a cat.",
+     "She has got a cat.",
+     "Con she si usa has got."
+    ],
+    [
+     "I haven't a car.",
+     "I haven't got a car.",
+     "Serve got dopo haven't."
+    ],
+    [
+     "I've got breakfast at 8.",
+     "I have breakfast at 8.",
+     "Per le azioni abituali si usa solo have."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ got a new phone.",
+     "options": [
+      "have",
+      "has",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Con I si usa have got."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ got a lot of friends.",
+     "options": [
+      "have",
+      "has",
+      "is"
+     ],
+     "correct_index": 1,
+     "explanation": "Con she si usa has got."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ got two cats.",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Con we si usa have got."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ got brown eyes.",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation": "Con he si usa has got."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you got a pen?",
+     "options": [
+      "Have",
+      "Do",
+      "Are"
+     ],
+     "correct_index": 0,
+     "explanation": "La domanda con have got inizia con Have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ she got a car?",
+     "options": [
+      "Have",
+      "Has",
+      "Does"
+     ],
+     "correct_index": 1,
+     "explanation": "Con she si usa Has."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ got any children. (negativa, forma breve)",
+     "accepted_answers": [
+      "haven't"
+     ],
+     "explanation": "They haven't got any children."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ got a brother. (negativa, forma breve)",
+     "accepted_answers": [
+      "hasn't"
+     ],
+     "explanation": "He hasn't got a brother."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta in British English?",
+     "options": [
+      "Have you got a car?",
+      "Do you got a car?",
+      "Have you a got car?"
+     ],
+     "correct_index": 0,
+     "explanation": "La domanda si fa invertendo have e il soggetto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Have you got a pen? Yes, I ___.",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Yes, I have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Has she got a car? No, she ___.",
+     "accepted_answers": [
+      "hasn't",
+      "has not"
+     ],
+     "explanation": "No, she hasn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is wrong?",
+     "options": [
+      "I've got breakfast at 8.",
+      "I have breakfast at 8.",
+      "I've got a sister."
+     ],
+     "correct_index": 0,
+     "explanation": "Per le azioni abituali non si usa have got."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Forma breve di «She has got»:",
+     "options": [
+      "She's got",
+      "She have got",
+      "She'd got"
+     ],
+     "correct_index": 0,
+     "explanation": "She has got si contrae in She's got."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My parents ___ got a house in the country.",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "My parents = they, quindi have got."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ your brother got a job? (Have / Has)",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation": "Your brother = he, quindi Has."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ got any money. (non ne ho)",
+     "options": [
+      "haven't",
+      "don't have",
+      "hasn't"
+     ],
+     "correct_index": 0,
+     "explanation": "Con have got la negativa è haven't got."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We've ___ a big family. (abbiamo)",
+     "accepted_answers": [
+      "got"
+     ],
+     "explanation": "We've got = We have got."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase NON si può dire in British English?",
+     "options": [
+      "Do you got a pen?",
+      "Have you got a pen?",
+      "Do you have a pen?"
+     ],
+     "correct_index": 0,
+     "explanation": "Con got non si usa mai do."
+    }
+   ]
+  },
+  {
+   "id": "a1-be",
+   "title": "Verbo essere (to be)",
+   "tag": "Verbi",
+   "desc": "Am, is, are: affermativa, negativa e domande, con le forme brevi.",
+   "lead": "**To be** è il verbo più importante dell'inglese: significa *essere* e, a volte, *stare* o *avere* (l'età). Cambia forma con ogni soggetto, quindi va saputo a memoria.",
+   "tip": "In inglese il soggetto è sempre obbligatorio: non si dice «Am Marco», ma «I am Marco».",
+   "blocks": [
+    {
+     "h": "Le tre forme",
+     "p": "Nel Present Simple to be ha tre forme: **am**, **is**, **are**.",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Forma",
+       "Forma breve",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "I",
+        "am",
+        "I'm",
+        "I'm a teacher."
+       ],
+       [
+        "You",
+        "are",
+        "you're",
+        "You're late."
+       ],
+       [
+        "He / She / It",
+        "is",
+        "he's / she's / it's",
+        "She's from Milan."
+       ],
+       [
+        "We",
+        "are",
+        "we're",
+        "We're friends."
+       ],
+       [
+        "They",
+        "are",
+        "they're",
+        "They're at home."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Per la negativa aggiungi **not** dopo il verbo. Per la domanda inverti soggetto e verbo. **Non si usa mai do / does** con to be.",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I",
+        "I am not (I'm not)",
+        "Am I?"
+       ],
+       [
+        "You / We / They",
+        "are not (aren't)",
+        "Are you?"
+       ],
+       [
+        "He / She / It",
+        "is not (isn't)",
+        "Is she?"
+       ]
+      ]
+     },
+     "ex": [
+      "Is he a doctor? **Yes, he is.** / No, he isn't.",
+      "Are you tired? **Yes, I am.** / No, I'm not.",
+      "Where **are** you from? I'm from Rome."
+     ]
+    },
+    {
+     "h": "Quando serve to be",
+     "p": "In inglese si usa to be anche dove l'italiano usa *avere* o *fare*.",
+     "table": {
+      "head": [
+       "Situazione",
+       "Inglese",
+       "Italiano"
+      ],
+      "rows": [
+       [
+        "Età",
+        "I'm 30.",
+        "Ho 30 anni."
+       ],
+       [
+        "Sensazioni",
+        "I'm hungry / cold.",
+        "Ho fame / freddo."
+       ],
+       [
+        "Tempo",
+        "It's hot today.",
+        "Fa caldo oggi."
+       ],
+       [
+        "Professione",
+        "She's a nurse.",
+        "Fa l'infermiera."
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "I have 30 years.",
+     "I am 30 (years old).",
+     "L'età si dice con to be, non con have."
+    ],
+    [
+     "She have hungry.",
+     "She is hungry.",
+     "Fame e sete si dicono con to be."
+    ],
+    [
+     "Is cold today.",
+     "It is cold today.",
+     "Il soggetto *it* è obbligatorio."
+    ],
+    [
+     "Do you are tired?",
+     "Are you tired?",
+     "Con to be non si usa do."
+    ],
+    [
+     "He no is here.",
+     "He isn't here.",
+     "La negativa si fa con not dopo il verbo."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ a student.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "Con I si usa sempre am."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ from Spain.",
+     "options": [
+      "are",
+      "is",
+      "am"
+     ],
+     "correct_index": 1,
+     "explanation": "Con he / she / it si usa is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We ___ very happy.",
+     "options": [
+      "is",
+      "am",
+      "are"
+     ],
+     "correct_index": 2,
+     "explanation": "Con we si usa are."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They ___ at the cinema.",
+     "options": [
+      "is",
+      "are",
+      "am"
+     ],
+     "correct_index": 1,
+     "explanation": "Con they si usa are."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My brother ___ a doctor.",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Con he / she / it e quindi con un singolare: is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You ___ late again!",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "Con you si usa are."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ 25 years old. (ho 25 anni)",
+     "accepted_answers": [
+      "am"
+     ],
+     "explanation": "L'età si dice con to be: I am 25."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Is she a teacher?",
+      "Does she is a teacher?",
+      "She is a teacher?"
+     ],
+     "correct_index": 0,
+     "explanation": "La domanda con to be si fa invertendo soggetto e verbo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It ___ cold today.",
+     "options": [
+      "are",
+      "am",
+      "is"
+     ],
+     "correct_index": 2,
+     "explanation": "Con it si usa is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ not at home. (forma breve: isn't)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Forma completa: He is not at home."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ happy. (negativa, forma breve: aren't)",
+     "accepted_answers": [
+      "aren't",
+      "are not"
+     ],
+     "explanation": "They aren't (are not) happy."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Ho fame»?",
+     "options": [
+      "I have hungry.",
+      "I am hungry.",
+      "I have hunger."
+     ],
+     "correct_index": 1,
+     "explanation": "Fame, sete, freddo e caldo si dicono con to be."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ you from Italy? (domanda)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "Are you from Italy? Con you si usa are."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Are you Marco? Yes, ___.",
+     "options": [
+      "I am",
+      "I'm",
+      "I are"
+     ],
+     "correct_index": 0,
+     "explanation": "Nella risposta breve affermativa non si usa la forma contratta: Yes, I am."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Anna and Luca ___ my friends.",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "Anna and Luca = they, quindi are."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta?",
+     "options": [
+      "I'm not tired.",
+      "I not am tired.",
+      "I amn't tired."
+     ],
+     "correct_index": 0,
+     "explanation": "I'm not è l'unica forma breve possibile con I."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My name ___ Sara.",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "My name = it, quindi is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where ___ you from?",
+     "options": [
+      "is",
+      "are",
+      "am"
+     ],
+     "correct_index": 1,
+     "explanation": "Where are you from? Con you si usa are."
     }
    ]
   }

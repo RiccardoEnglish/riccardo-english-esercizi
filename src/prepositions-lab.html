@@ -5356,7 +5356,7 @@ function a1Finish(){
 document.getElementById("a1-quiz-back").addEventListener("click", a1Back);
 
 A1_TOPICS.push({
-id:"a1-be", title:"Il verbo essere (to be)", tag:"Verbi",
+id:"a1-be", title:"Verbo essere (to be)", tag:"Verbi",
 desc:"Am, is, are: affermativa, negativa e domande, con le forme brevi.",
 lead:"**To be** è il verbo più importante dell'inglese: significa *essere* e, a volte, *stare* o *avere* (l'età). Cambia forma con ogni soggetto, quindi va saputo a memoria.",
 tip:"In inglese il soggetto è sempre obbligatorio: non si dice «Am Marco», ma «I am Marco».",
@@ -5394,7 +5394,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-have-us", title:"Il verbo avere: American English", tag:"Verbi",
+id:"a1-have-us", title:"Verbo avere: American English", tag:"Verbi",
 desc:"Have e has, con do / does per negativa e domanda, come si usa negli USA.",
 lead:"In **American English** il verbo avere si comporta come un verbo normale: **have** (I, you, we, they) e **has** (he, she, it), con **do / does** per negativa e domanda.",
 tip:"In American English non si dice «have got»: si dice semplicemente have.",
@@ -5431,7 +5431,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-have-uk", title:"Il verbo avere: British English", tag:"Verbi",
+id:"a1-have-uk", title:"Verbo avere: British English", tag:"Verbi",
 desc:"Have got e has got: la forma più usata in Gran Bretagna.",
 lead:"In **British English** per il possesso si usa spesso **have got** (e **has got**). Il significato è lo stesso di have, ma la grammatica cambia: niente do / does.",
 tip:"«I've got» è molto più comune di «I have» nel parlato britannico. Funziona solo per il possesso, non per le azioni.",
@@ -5546,7 +5546,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-imp", title:"L'imperativo", tag:"Verbi",
+id:"a1-imp", title:"Imperativo", tag:"Verbi",
 desc:"Ordini, istruzioni e inviti: sit down, don't run, let's go.",
 lead:"L'**imperativo** si usa per dare **ordini**, **istruzioni**, **consigli** e **inviti**. In inglese è semplicissimo: è il verbo nella forma base, senza soggetto.",
 tip:"Un'unica forma per tutti: «Open the door» vale per tu, voi e Lei.",
@@ -5696,7 +5696,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-art", title:"Gli articoli: a, an, the", tag:"Grammatica",
+id:"a1-art", title:"Articoli: a, an, the", tag:"Grammatica",
 desc:"Articolo indeterminativo, determinativo e quando non ci vuole nulla.",
 lead:"In inglese ci sono solo tre articoli: **a**, **an** e **the**. Non cambiano mai con il genere (maschile o femminile) né con il numero.",
 tip:"A / an = uno qualsiasi, mai nominato prima. The = quello preciso, già noto.",
@@ -6074,7 +6074,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-plural", title:"Il plurale dei nomi", tag:"Grammatica",
+id:"a1-plural", title:"Plurale dei nomi", tag:"Grammatica",
 desc:"Plurali regolari e irregolari: -s, -es, -ies, man → men.",
 lead:"Per fare il **plurale** in inglese di solito basta aggiungere **-s**. Ci sono poche regole di ortografia e un gruppo di plurali irregolari da imparare.",
 tip:"Gli irregolari più importanti: man → men, woman → women, child → children, person → people.",
@@ -6112,6 +6112,8 @@ qs:[
  ["mc","Il plurale di «mouse» (animale) è:",["mouses","mice","mices"],1,"Mouse → mice."]
 ]});
 
+A1_TOPICS.sort(function(a, b){ return a.title.localeCompare(b.title, "it"); });
+
 /*A1-JS-END*/
 var ACTIVITIES = [
   {id:"preposizioni", level:"B1", title:"Aggettivi + Preposizioni", tag:"Grammatica",
@@ -6146,7 +6148,9 @@ var ACTIVITY_COUNTS = {
 A1_TOPICS.forEach(function(t){ ACTIVITY_COUNTS[t.id] = t.qs.length; });
 
 var LEVELS = [
-  {id:"A1", title:"Livello A1", sub:"Si parte da qui: i verbi base, i pronomi, le preposizioni e le parole che usi ogni giorno.", keepOrder:true,
+  {id:"A1", title:"Livello A1", sub:"Si parte da qui: i verbi base, i pronomi, le preposizioni e le parole che usi ogni giorno.", 
+   items:A1_TOPICS.map(function(t){ return [t.id]; })},
+  {id:"A1", title:"Livello A1", sub:"Si parte da qui: i verbi base, i pronomi, le preposizioni e le parole che usi ogni giorno.",
    items:A1_TOPICS.map(function(t){ return [t.id]; })},
   {id:"A2", title:"Livello A2", sub:"Le basi per cavartela: il passato e i verbi che usi ogni giorno.",
    items:[["pastsimple"],

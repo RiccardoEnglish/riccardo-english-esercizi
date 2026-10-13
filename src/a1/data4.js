@@ -113,7 +113,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-plural", title:"Il plurale dei nomi", tag:"Grammatica",
+id:"a1-plural", title:"Plurale dei nomi", tag:"Grammatica",
 desc:"Plurali regolari e irregolari: -s, -es, -ies, man → men.",
 lead:"Per fare il **plurale** in inglese di solito basta aggiungere **-s**. Ci sono poche regole di ortografia e un gruppo di plurali irregolari da imparare.",
 tip:"Gli irregolari più importanti: man → men, woman → women, child → children, person → people.",

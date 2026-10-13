@@ -1,5 +1,5 @@
 A1_TOPICS.push({
-id:"a1-imp", title:"L'imperativo", tag:"Verbi",
+id:"a1-imp", title:"Imperativo", tag:"Verbi",
 desc:"Ordini, istruzioni e inviti: sit down, don't run, let's go.",
 lead:"L'**imperativo** si usa per dare **ordini**, **istruzioni**, **consigli** e **inviti**. In inglese è semplicissimo: è il verbo nella forma base, senza soggetto.",
 tip:"Un'unica forma per tutti: «Open the door» vale per tu, voi e Lei.",
@@ -149,7 +149,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a1-art", title:"Gli articoli: a, an, the", tag:"Grammatica",
+id:"a1-art", title:"Articoli: a, an, the", tag:"Grammatica",
 desc:"Articolo indeterminativo, determinativo e quando non ci vuole nulla.",
 lead:"In inglese ci sono solo tre articoli: **a**, **an** e **the**. Non cambiano mai con il genere (maschile o femminile) né con il numero.",
 tip:"A / an = uno qualsiasi, mai nominato prima. The = quello preciso, già noto.",
