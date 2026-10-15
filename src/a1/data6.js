@@ -1,5 +1,5 @@
 A1_TOPICS.push({
-id:"a2-ceq", level:"A2", title:"Comparativi di uguaglianza", tag:"Aggettivi",
+id:"a2-ceq", level:"A2", title:"Comparativi di Uguaglianza", tag:"Aggettivi",
 desc:"Alto come, uguale a: as … as e the same as.",
 lead:"Per dire che due cose sono **uguali** si usa **as + aggettivo + as**: *Anna is as tall as Marco*. Per dire che sono **diverse** si usa *not as … as*.",
 tip:"L'aggettivo sta **in mezzo** ai due as e resta nella forma base, senza -er.",
@@ -37,7 +37,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-sup", level:"A2", title:"Superlativi", tag:"Aggettivi",
+id:"a2-sup", level:"A2", title:"Superlativi (1)", tag:"Aggettivi",
 desc:"Il più alto, il migliore: the -est e the most.",
 lead:"Il **superlativo** dice che qualcosa è **il più** di tutti. Con gli aggettivi corti si aggiunge **-est**, con quelli lunghi si usa **the most**. Si mette sempre **the** davanti.",
 tip:"**The + aggettivo-est** (short) oppure **the most + aggettivo** (long). Poi **in** o **of** per il gruppo.",
@@ -74,7 +74,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-supra", level:"A2", title:"Superlativi relativi e assoluti", tag:"Aggettivi",
+id:"a2-supra", level:"A2", title:"Superlativi (2): relativi e assoluti", tag:"Aggettivi",
 desc:"Il più bello del mondo oppure bellissimo: due superlativi, due costruzioni.",
 lead:"In italiano il superlativo è di due tipi. Il **relativo** confronta con altri (*il più alto della classe*). L'**assoluto** dice solo «molto» (*altissimo, bellissimo*). In inglese si costruiscono in modi diversi.",
 tip:"Relativo → **the -est / the most**. Assoluto → **very, really, extremely** + aggettivo (o un aggettivo forte: fantastic, awful).",
@@ -185,7 +185,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-deg", level:"A2", title:"Avverbi di grado", tag:"Avverbi",
+id:"a2-deg", level:"A2", title:"Avverbi di Grado", tag:"Avverbi",
 desc:"Molto, abbastanza, troppo, un po': very, really, quite, too, a bit.",
 lead:"Gli **avverbi di grado** dicono *quanto* è forte un aggettivo o un altro avverbio: **molto** stanco, **abbastanza** buono, **troppo** caro. Stanno quasi sempre **davanti** a ciò che modificano.",
 tip:"Prima dell'aggettivo: very, really, quite, too, so, extremely, a bit. L'eccezione è **enough**, che va dopo.",
@@ -223,7 +223,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-manner", level:"A2", title:"Avverbi di modo", tag:"Avverbi",
+id:"a2-manner", level:"A2", title:"Avverbi di Modo", tag:"Avverbi",
 desc:"Lentamente, bene, velocemente: come si fa un'azione. Aggettivo + -ly e le eccezioni.",
 lead:"Gli **avverbi di modo** dicono *come* si fa qualcosa: *lentamente*, *con attenzione*, *bene*. Si formano di solito aggiungendo **-ly** all'aggettivo, e stanno **dopo il verbo** (o dopo il complemento).",
 tip:"Aggettivo = descrive un nome (a slow car). Avverbio = descrive un verbo (he drives slowly).",

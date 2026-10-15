@@ -113,7 +113,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-cmp1", level:"A2", title:"Comparativi di maggioranza (1): aggettivi corti", tag:"Aggettivi",
+id:"a2-cmp1", level:"A2", title:"Comparativi di Maggioranza (1): aggettivi corti", tag:"Aggettivi",
 desc:"Più alto di, più grande di: la forma in -er per gli aggettivi corti.",
 lead:"Per dire «più … di» con un aggettivo **corto** (di una sillaba) si aggiunge **-er** e poi si usa **than**: *Marco is taller than Luca*.",
 tip:"Aggettivo corto + **-er** + **than**. Dopo than, un pronome complemento: *than me*, non *than I*.",
@@ -151,7 +151,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-cmp2", level:"A2", title:"Comparativi di maggioranza (2): aggettivi lunghi", tag:"Aggettivi",
+id:"a2-cmp2", level:"A2", title:"Comparativi di Maggioranza (2): aggettivi lunghi", tag:"Aggettivi",
 desc:"Più interessante di, più costoso di: more + aggettivo + than.",
 lead:"Con gli aggettivi **lunghi** (due o più sillabe) non si aggiunge -er: si mette **more** davanti all'aggettivo e poi **than**: *This book is more interesting than that one*.",
 tip:"Una sillaba → -er. Tre o più sillabe → more. Due sillabe in -y → -ier (happy → happier).",
@@ -188,7 +188,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-cmp3", level:"A2", title:"Comparativi di maggioranza (3): irregolari e rinforzi", tag:"Aggettivi",
+id:"a2-cmp3", level:"A2", title:"Comparativi di Maggioranza (3): irregolari e rinforzi", tag:"Aggettivi",
 desc:"Better, worse, further: i comparativi irregolari e come rinforzare il confronto.",
 lead:"Alcuni aggettivi hanno un comparativo **irregolare**, da imparare a memoria. In più puoi **rinforzare** il confronto con *much*, *a lot*, *a bit*.",
 tip:"good → better, bad → worse. Mai gooder o more good.",
@@ -225,7 +225,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-cmin", level:"A2", title:"Comparativi di minoranza", tag:"Aggettivi",
+id:"a2-cmin", level:"A2", title:"Comparativi di Minoranza", tag:"Aggettivi",
 desc:"Meno costoso di: less … than e not as … as.",
 lead:"Per dire «meno … di» ci sono due strade: **less + aggettivo + than** oppure **not as + aggettivo + as**. Funzionano con tutti gli aggettivi.",
 tip:"Con gli aggettivi corti si preferisce **not as … as** (not as tall as). Con quelli lunghi vanno bene entrambe.",

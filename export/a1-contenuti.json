@@ -2,6 +2,304 @@
  "level": "A1-A2",
  "topics": [
   {
+   "id": "a2-prepadj",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Aggettivi + Preposizioni",
+   "desc": "Good at, interested in, afraid of: gli aggettivi che vogliono una preposizione.",
+   "lead": "Molti aggettivi inglesi vogliono una **preposizione precisa**, che spesso non corrisponde all'italiano. Vanno imparati in coppia: *good at*, *interested in*, *afraid of*.",
+   "tip": "Dopo la preposizione si usa un nome oppure il verbo in -ing: *I'm good at swimming*.",
+   "blocks": [
+    {
+     "h": "Le coppie più comuni",
+     "table": {
+      "head": [
+       "Aggettivo + preposizione",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "good at / bad at",
+        "bravo / scarso in",
+        "She's good at maths."
+       ],
+       [
+        "interested in",
+        "interessato a",
+        "I'm interested in music."
+       ],
+       [
+        "afraid of",
+        "che ha paura di",
+        "He is afraid of dogs."
+       ],
+       [
+        "worried about",
+        "preoccupato per",
+        "I'm worried about the exam."
+       ],
+       [
+        "excited about",
+        "entusiasta di",
+        "We're excited about the trip."
+       ],
+       [
+        "proud of",
+        "orgoglioso di",
+        "I'm proud of you."
+       ],
+       [
+        "tired of",
+        "stufo di",
+        "I'm tired of waiting."
+       ],
+       [
+        "angry with",
+        "arrabbiato con",
+        "She's angry with me."
+       ],
+       [
+        "different from",
+        "diverso da",
+        "This is different from that."
+       ],
+       [
+        "married to",
+        "sposato con",
+        "He's married to Anna."
+       ],
+       [
+        "ready for",
+        "pronto per",
+        "Are you ready for the test?"
+       ],
+       [
+        "full of",
+        "pieno di",
+        "The box is full of books."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Con il verbo in -ing",
+     "ex": [
+      "I'm good **at cooking**.",
+      "She is afraid **of flying**.",
+      "I'm tired **of waiting**."
+     ]
+    },
+    {
+     "h": "Attenzione",
+     "p": "Alcune corrispondenze sono diverse dall'italiano.",
+     "ex": [
+      "**interested in** (non: interested to)",
+      "**married to** (non: married with)",
+      "**angry with** una persona, **angry about** una cosa"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I'm interested to music.",
+     "I'm interested in music.",
+     "Interested in."
+    ],
+    [
+     "She is married with Marco.",
+     "She is married to Marco.",
+     "Married to."
+    ],
+    [
+     "He is afraid from dogs.",
+     "He is afraid of dogs.",
+     "Afraid of."
+    ],
+    [
+     "I'm good in tennis.",
+     "I'm good at tennis.",
+     "Good at."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "She's good ___ maths.",
+     "options": [
+      "at",
+      "in",
+      "on"
+     ],
+     "correct_index": 0,
+     "explanation": "Good at."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm interested ___ music.",
+     "options": [
+      "in",
+      "to",
+      "about"
+     ],
+     "correct_index": 0,
+     "explanation": "Interested in."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He is afraid ___ dogs.",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Afraid of."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm worried ___ the exam.",
+     "accepted_answers": [
+      "about"
+     ],
+     "explanation": "Worried about."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is married ___ Marco.",
+     "options": [
+      "to",
+      "with",
+      "by"
+     ],
+     "correct_index": 0,
+     "explanation": "Married to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This is different ___ that.",
+     "options": [
+      "from",
+      "with",
+      "by"
+     ],
+     "correct_index": 0,
+     "explanation": "Different from."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm proud ___ you.",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Proud of."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We're excited ___ the trip.",
+     "accepted_answers": [
+      "about"
+     ],
+     "explanation": "Excited about."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm tired ___ waiting.",
+     "options": [
+      "of",
+      "for",
+      "at"
+     ],
+     "correct_index": 0,
+     "explanation": "Tired of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She's angry ___ me.",
+     "options": [
+      "with",
+      "of",
+      "to"
+     ],
+     "correct_index": 0,
+     "explanation": "Angry with + persona."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Are you ready ___ the test?",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation": "Ready for."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The box is full ___ books.",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Full of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I'm good at cooking.",
+      "I'm good in cooking.",
+      "I'm good on cooking."
+     ],
+     "correct_index": 0,
+     "explanation": "Good at + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He's afraid of flying.",
+      "He's afraid to flying.",
+      "He's afraid from flying."
+     ],
+     "correct_index": 0,
+     "explanation": "Afraid of + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm bad ___ maths.",
+     "accepted_answers": [
+      "at"
+     ],
+     "explanation": "Bad at."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "interested to",
+      "interested in",
+      "interested in learning"
+     ],
+     "correct_index": 0,
+     "explanation": "Si dice interested in."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is good ___ languages.",
+     "accepted_answers": [
+      "at"
+     ],
+     "explanation": "Good at."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Sono stufo di aspettare»?",
+     "options": [
+      "I'm tired of waiting.",
+      "I'm tired to wait.",
+      "I'm tired from wait."
+     ],
+     "correct_index": 0,
+     "explanation": "Tired of + -ing."
+    }
+   ]
+  },
+  {
    "id": "a1-posadj",
    "level": "A1",
    "tag": "Aggettivi",
@@ -846,7 +1144,7 @@
    "id": "a2-deg",
    "level": "A2",
    "tag": "Avverbi",
-   "title": "Avverbi di grado",
+   "title": "Avverbi di Grado",
    "desc": "Molto, abbastanza, troppo, un po': very, really, quite, too, a bit.",
    "lead": "Gli **avverbi di grado** dicono *quanto* è forte un aggettivo o un altro avverbio: **molto** stanco, **abbastanza** buono, **troppo** caro. Stanno quasi sempre **davanti** a ciò che modificano.",
    "tip": "Prima dell'aggettivo: very, really, quite, too, so, extremely, a bit. L'eccezione è **enough**, che va dopo.",
@@ -1437,7 +1735,7 @@
    "id": "a2-manner",
    "level": "A2",
    "tag": "Avverbi",
-   "title": "Avverbi di modo",
+   "title": "Avverbi di Modo",
    "desc": "Lentamente, bene, velocemente: come si fa un'azione. Aggettivo + -ly e le eccezioni.",
    "lead": "Gli **avverbi di modo** dicono *come* si fa qualcosa: *lentamente*, *con attenzione*, *bene*. Si formano di solito aggiungendo **-ly** all'aggettivo, e stanno **dopo il verbo** (o dopo il complemento).",
    "tip": "Aggettivo = descrive un nome (a slow car). Avverbio = descrive un verbo (he drives slowly).",
@@ -2046,7 +2344,7 @@
    "id": "a2-cmp1",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Comparativi di maggioranza (1): aggettivi corti",
+   "title": "Comparativi di Maggioranza (1): aggettivi corti",
    "desc": "Più alto di, più grande di: la forma in -er per gli aggettivi corti.",
    "lead": "Per dire «più … di» con un aggettivo **corto** (di una sillaba) si aggiunge **-er** e poi si usa **than**: *Marco is taller than Luca*.",
    "tip": "Aggettivo corto + **-er** + **than**. Dopo than, un pronome complemento: *than me*, non *than I*.",
@@ -2322,7 +2620,7 @@
    "id": "a2-cmp2",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Comparativi di maggioranza (2): aggettivi lunghi",
+   "title": "Comparativi di Maggioranza (2): aggettivi lunghi",
    "desc": "Più interessante di, più costoso di: more + aggettivo + than.",
    "lead": "Con gli aggettivi **lunghi** (due o più sillabe) non si aggiunge -er: si mette **more** davanti all'aggettivo e poi **than**: *This book is more interesting than that one*.",
    "tip": "Una sillaba → -er. Tre o più sillabe → more. Due sillabe in -y → -ier (happy → happier).",
@@ -2609,7 +2907,7 @@
    "id": "a2-cmp3",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Comparativi di maggioranza (3): irregolari e rinforzi",
+   "title": "Comparativi di Maggioranza (3): irregolari e rinforzi",
    "desc": "Better, worse, further: i comparativi irregolari e come rinforzare il confronto.",
    "lead": "Alcuni aggettivi hanno un comparativo **irregolare**, da imparare a memoria. In più puoi **rinforzare** il confronto con *much*, *a lot*, *a bit*.",
    "tip": "good → better, bad → worse. Mai gooder o more good.",
@@ -2874,7 +3172,7 @@
    "id": "a2-cmin",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Comparativi di minoranza",
+   "title": "Comparativi di Minoranza",
    "desc": "Meno costoso di: less … than e not as … as.",
    "lead": "Per dire «meno … di» ci sono due strade: **less + aggettivo + than** oppure **not as + aggettivo + as**. Funzionano con tutti gli aggettivi.",
    "tip": "Con gli aggettivi corti si preferisce **not as … as** (not as tall as). Con quelli lunghi vanno bene entrambe.",
@@ -3138,7 +3436,7 @@
    "id": "a2-ceq",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Comparativi di uguaglianza",
+   "title": "Comparativi di Uguaglianza",
    "desc": "Alto come, uguale a: as … as e the same as.",
    "lead": "Per dire che due cose sono **uguali** si usa **as + aggettivo + as**: *Anna is as tall as Marco*. Per dire che sono **diverse** si usa *not as … as*.",
    "tip": "L'aggettivo sta **in mezzo** ai due as e resta nella forma base, senza -er.",
@@ -3683,10 +3981,321 @@
    ]
   },
   {
+   "id": "a2-count",
+   "level": "A2",
+   "tag": "Nomi",
+   "title": "Countable e Uncountable",
+   "desc": "A book / books, ma water e advice: nomi che si contano e nomi che no.",
+   "lead": "I nomi **numerabili** si possono contare (*one book, two books*). I **non numerabili** no (*water, money, advice*): non hanno il plurale e non vogliono *a / an*.",
+   "tip": "Molti nomi non numerabili inglesi sono numerabili in italiano: **information, advice, news, luggage, furniture, homework**.",
+   "blocks": [
+    {
+     "h": "Numerabili e non numerabili",
+     "table": {
+      "head": [
+       "",
+       "Numerabili",
+       "Non numerabili"
+      ],
+      "rows": [
+       [
+        "a / an",
+        "a book, an apple",
+        "— (mai)"
+       ],
+       [
+        "plurale",
+        "books, apples",
+        "— (mai)"
+       ],
+       [
+        "quanto?",
+        "many books",
+        "much water"
+       ],
+       [
+        "verbo",
+        "The books are here.",
+        "The water is cold."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "I non numerabili da ricordare",
+     "table": {
+      "head": [
+       "Inglese",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "information",
+        "le informazioni"
+       ],
+       [
+        "advice",
+        "i consigli"
+       ],
+       [
+        "news",
+        "le notizie"
+       ],
+       [
+        "luggage",
+        "i bagagli"
+       ],
+       [
+        "furniture",
+        "i mobili"
+       ],
+       [
+        "homework",
+        "i compiti"
+       ],
+       [
+        "money",
+        "i soldi"
+       ],
+       [
+        "bread, water, milk, rice",
+        "pane, acqua, latte, riso"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Come contarli",
+     "p": "Si usano unità di misura: **a piece of**, **a glass of**, **a bottle of**, **a slice of**.",
+     "ex": [
+      "a **piece of** advice",
+      "a **glass of** water",
+      "two **slices of** bread",
+      "some **information**"
+     ]
+    },
+    {
+     "h": "Verbo al singolare",
+     "ex": [
+      "The news **is** good.",
+      "The information **is** useful.",
+      "My luggage **is** heavy."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I need some informations.",
+     "I need some information.",
+     "Information non ha il plurale."
+    ],
+    [
+     "She gave me a good advice.",
+     "She gave me good advice. / a good piece of advice.",
+     "Advice non vuole a."
+    ],
+    [
+     "The news are bad.",
+     "The news is bad.",
+     "News è singolare."
+    ],
+    [
+     "I have two luggages.",
+     "I have two bags / pieces of luggage.",
+     "Luggage non ha il plurale."
+    ],
+    [
+     "How many money?",
+     "How much money?",
+     "Money non è numerabile."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I need some ___.",
+     "options": [
+      "information",
+      "informations",
+      "an information"
+     ],
+     "correct_index": 0,
+     "explanation": "Information è non numerabile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She gave me good ___.",
+     "options": [
+      "advices",
+      "advice",
+      "an advice"
+     ],
+     "correct_index": 1,
+     "explanation": "Advice è non numerabile."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The news ___ good. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "News è singolare."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My luggage ___ heavy. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Luggage è singolare."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How ___ money do you have?",
+     "options": [
+      "much",
+      "many",
+      "a"
+     ],
+     "correct_index": 0,
+     "explanation": "Money: much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How ___ books do you have?",
+     "options": [
+      "much",
+      "many",
+      "a lot"
+     ],
+     "correct_index": 1,
+     "explanation": "Books: many."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'd like a ___ of water. (bicchiere)",
+     "accepted_answers": [
+      "glass"
+     ],
+     "explanation": "A glass of water."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Can I have a ___ of bread? (fetta)",
+     "accepted_answers": [
+      "slice",
+      "piece"
+     ],
+     "explanation": "A slice / piece of bread."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "two pieces of advice",
+      "two advices",
+      "two advice"
+     ],
+     "correct_index": 0,
+     "explanation": "Si conta con piece of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a countable noun?",
+     "options": [
+      "apple",
+      "water",
+      "furniture"
+     ],
+     "correct_index": 0,
+     "explanation": "Apple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is uncountable?",
+     "options": [
+      "homework",
+      "book",
+      "chair"
+     ],
+     "correct_index": 0,
+     "explanation": "Homework."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have a lot of ___ to do. (homework / homeworks)",
+     "accepted_answers": [
+      "homework"
+     ],
+     "explanation": "Homework non ha il plurale."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I have some luggage.",
+      "I have some luggages.",
+      "I have a luggage."
+     ],
+     "correct_index": 0,
+     "explanation": "Luggage."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The furniture is new.",
+      "The furniture are new.",
+      "The furnitures is new."
+     ],
+     "correct_index": 0,
+     "explanation": "Furniture è singolare."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Can you give me some ___ ? (advice / advices)",
+     "accepted_answers": [
+      "advice"
+     ],
+     "explanation": "Advice."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "an information",
+      "a piece of information",
+      "some information"
+     ],
+     "correct_index": 0,
+     "explanation": "Information non vuole an."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I drink a lot of ___ . (water / waters)",
+     "accepted_answers": [
+      "water"
+     ],
+     "explanation": "Water."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta?",
+     "options": [
+      "The weather is nice.",
+      "The weather are nice.",
+      "The weathers is nice."
+     ],
+     "correct_index": 0,
+     "explanation": "Weather è non numerabile."
+    }
+   ]
+  },
+  {
    "id": "a2-gen",
    "level": "A2",
    "tag": "Nomi",
-   "title": "Genitivo sassone",
+   "title": "Genitivo Sassone",
    "desc": "Marco's car, the students' books: il possesso con 's e s'.",
    "lead": "Il **genitivo sassone** serve per dire di chi è qualcosa: **'s** dopo il possessore. Al posto del nostro «di», in inglese il possessore va **prima** della cosa posseduta.",
    "tip": "*La macchina di Marco* → **Marco's car**. Il possessore prima, la cosa dopo, senza articolo davanti.",
@@ -5706,304 +6315,6 @@
    ]
   },
   {
-   "id": "a2-prepadj",
-   "level": "A2",
-   "tag": "Aggettivi",
-   "title": "Preposizioni comuni con gli aggettivi",
-   "desc": "Good at, interested in, afraid of: gli aggettivi che vogliono una preposizione.",
-   "lead": "Molti aggettivi inglesi vogliono una **preposizione precisa**, che spesso non corrisponde all'italiano. Vanno imparati in coppia: *good at*, *interested in*, *afraid of*.",
-   "tip": "Dopo la preposizione si usa un nome oppure il verbo in -ing: *I'm good at swimming*.",
-   "blocks": [
-    {
-     "h": "Le coppie più comuni",
-     "table": {
-      "head": [
-       "Aggettivo + preposizione",
-       "Significato",
-       "Esempio"
-      ],
-      "rows": [
-       [
-        "good at / bad at",
-        "bravo / scarso in",
-        "She's good at maths."
-       ],
-       [
-        "interested in",
-        "interessato a",
-        "I'm interested in music."
-       ],
-       [
-        "afraid of",
-        "che ha paura di",
-        "He is afraid of dogs."
-       ],
-       [
-        "worried about",
-        "preoccupato per",
-        "I'm worried about the exam."
-       ],
-       [
-        "excited about",
-        "entusiasta di",
-        "We're excited about the trip."
-       ],
-       [
-        "proud of",
-        "orgoglioso di",
-        "I'm proud of you."
-       ],
-       [
-        "tired of",
-        "stufo di",
-        "I'm tired of waiting."
-       ],
-       [
-        "angry with",
-        "arrabbiato con",
-        "She's angry with me."
-       ],
-       [
-        "different from",
-        "diverso da",
-        "This is different from that."
-       ],
-       [
-        "married to",
-        "sposato con",
-        "He's married to Anna."
-       ],
-       [
-        "ready for",
-        "pronto per",
-        "Are you ready for the test?"
-       ],
-       [
-        "full of",
-        "pieno di",
-        "The box is full of books."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Con il verbo in -ing",
-     "ex": [
-      "I'm good **at cooking**.",
-      "She is afraid **of flying**.",
-      "I'm tired **of waiting**."
-     ]
-    },
-    {
-     "h": "Attenzione",
-     "p": "Alcune corrispondenze sono diverse dall'italiano.",
-     "ex": [
-      "**interested in** (non: interested to)",
-      "**married to** (non: married with)",
-      "**angry with** una persona, **angry about** una cosa"
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "I'm interested to music.",
-     "I'm interested in music.",
-     "Interested in."
-    ],
-    [
-     "She is married with Marco.",
-     "She is married to Marco.",
-     "Married to."
-    ],
-    [
-     "He is afraid from dogs.",
-     "He is afraid of dogs.",
-     "Afraid of."
-    ],
-    [
-     "I'm good in tennis.",
-     "I'm good at tennis.",
-     "Good at."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "She's good ___ maths.",
-     "options": [
-      "at",
-      "in",
-      "on"
-     ],
-     "correct_index": 0,
-     "explanation": "Good at."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "I'm interested ___ music.",
-     "options": [
-      "in",
-      "to",
-      "about"
-     ],
-     "correct_index": 0,
-     "explanation": "Interested in."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "He is afraid ___ dogs.",
-     "accepted_answers": [
-      "of"
-     ],
-     "explanation": "Afraid of."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I'm worried ___ the exam.",
-     "accepted_answers": [
-      "about"
-     ],
-     "explanation": "Worried about."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She is married ___ Marco.",
-     "options": [
-      "to",
-      "with",
-      "by"
-     ],
-     "correct_index": 0,
-     "explanation": "Married to."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "This is different ___ that.",
-     "options": [
-      "from",
-      "with",
-      "by"
-     ],
-     "correct_index": 0,
-     "explanation": "Different from."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I'm proud ___ you.",
-     "accepted_answers": [
-      "of"
-     ],
-     "explanation": "Proud of."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "We're excited ___ the trip.",
-     "accepted_answers": [
-      "about"
-     ],
-     "explanation": "Excited about."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "I'm tired ___ waiting.",
-     "options": [
-      "of",
-      "for",
-      "at"
-     ],
-     "correct_index": 0,
-     "explanation": "Tired of."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She's angry ___ me.",
-     "options": [
-      "with",
-      "of",
-      "to"
-     ],
-     "correct_index": 0,
-     "explanation": "Angry with + persona."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Are you ready ___ the test?",
-     "accepted_answers": [
-      "for"
-     ],
-     "explanation": "Ready for."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "The box is full ___ books.",
-     "accepted_answers": [
-      "of"
-     ],
-     "explanation": "Full of."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "I'm good at cooking.",
-      "I'm good in cooking.",
-      "I'm good on cooking."
-     ],
-     "correct_index": 0,
-     "explanation": "Good at + -ing."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "He's afraid of flying.",
-      "He's afraid to flying.",
-      "He's afraid from flying."
-     ],
-     "correct_index": 0,
-     "explanation": "Afraid of + -ing."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I'm bad ___ maths.",
-     "accepted_answers": [
-      "at"
-     ],
-     "explanation": "Bad at."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is NOT correct?",
-     "options": [
-      "interested to",
-      "interested in",
-      "interested in learning"
-     ],
-     "correct_index": 0,
-     "explanation": "Si dice interested in."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "She is good ___ languages.",
-     "accepted_answers": [
-      "at"
-     ],
-     "explanation": "Good at."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Come si dice «Sono stufo di aspettare»?",
-     "options": [
-      "I'm tired of waiting.",
-      "I'm tired to wait.",
-      "I'm tired from wait."
-     ],
-     "correct_index": 0,
-     "explanation": "Tired of + -ing."
-    }
-   ]
-  },
-  {
    "id": "a1-prep-place",
    "level": "A1",
    "tag": "Preposizioni",
@@ -7795,7 +8106,7 @@
    "id": "a2-indef",
    "level": "A2",
    "tag": "Pronomi",
-   "title": "Pronomi indefiniti (1)",
+   "title": "Pronomi Indefiniti",
    "desc": "Somebody, anything, nowhere, everyone: qualcuno, niente, da nessuna parte, tutti.",
    "lead": "I **pronomi indefiniti** parlano di persone, cose o luoghi senza dire quali. Si formano con **some / any / no / every** + **-body / -one / -thing / -where**.",
    "tip": "Some- nelle affermative, any- nelle negative e domande, no- con il verbo affermativo, every- per «tutto, tutti». Il verbo resta al singolare.",
@@ -8342,7 +8653,7 @@
    "id": "a2-refl",
    "level": "A2",
    "tag": "Pronomi",
-   "title": "Pronomi riflessivi",
+   "title": "Pronomi Riflessivi",
    "desc": "Myself, yourself, themselves: quando l'azione torna su chi la fa, e dove l'italiano li usa e l'inglese no.",
    "lead": "I **pronomi riflessivi** (-self / -selves) si usano quando soggetto e complemento sono la **stessa persona**: *I cut myself*. Attenzione: molti verbi riflessivi italiani **non** lo sono in inglese.",
    "tip": "Con i verbi di cura personale (wash, shave, get up, feel, relax) l'inglese di solito **non** usa il riflessivo.",
@@ -9454,321 +9765,10 @@
    ]
   },
   {
-   "id": "a2-count",
-   "level": "A2",
-   "tag": "Nomi",
-   "title": "Sostantivi numerabili e non numerabili",
-   "desc": "A book / books, ma water e advice: nomi che si contano e nomi che no.",
-   "lead": "I nomi **numerabili** si possono contare (*one book, two books*). I **non numerabili** no (*water, money, advice*): non hanno il plurale e non vogliono *a / an*.",
-   "tip": "Molti nomi non numerabili inglesi sono numerabili in italiano: **information, advice, news, luggage, furniture, homework**.",
-   "blocks": [
-    {
-     "h": "Numerabili e non numerabili",
-     "table": {
-      "head": [
-       "",
-       "Numerabili",
-       "Non numerabili"
-      ],
-      "rows": [
-       [
-        "a / an",
-        "a book, an apple",
-        "— (mai)"
-       ],
-       [
-        "plurale",
-        "books, apples",
-        "— (mai)"
-       ],
-       [
-        "quanto?",
-        "many books",
-        "much water"
-       ],
-       [
-        "verbo",
-        "The books are here.",
-        "The water is cold."
-       ]
-      ]
-     }
-    },
-    {
-     "h": "I non numerabili da ricordare",
-     "table": {
-      "head": [
-       "Inglese",
-       "Significato"
-      ],
-      "rows": [
-       [
-        "information",
-        "le informazioni"
-       ],
-       [
-        "advice",
-        "i consigli"
-       ],
-       [
-        "news",
-        "le notizie"
-       ],
-       [
-        "luggage",
-        "i bagagli"
-       ],
-       [
-        "furniture",
-        "i mobili"
-       ],
-       [
-        "homework",
-        "i compiti"
-       ],
-       [
-        "money",
-        "i soldi"
-       ],
-       [
-        "bread, water, milk, rice",
-        "pane, acqua, latte, riso"
-       ]
-      ]
-     }
-    },
-    {
-     "h": "Come contarli",
-     "p": "Si usano unità di misura: **a piece of**, **a glass of**, **a bottle of**, **a slice of**.",
-     "ex": [
-      "a **piece of** advice",
-      "a **glass of** water",
-      "two **slices of** bread",
-      "some **information**"
-     ]
-    },
-    {
-     "h": "Verbo al singolare",
-     "ex": [
-      "The news **is** good.",
-      "The information **is** useful.",
-      "My luggage **is** heavy."
-     ]
-    }
-   ],
-   "traps": [
-    [
-     "I need some informations.",
-     "I need some information.",
-     "Information non ha il plurale."
-    ],
-    [
-     "She gave me a good advice.",
-     "She gave me good advice. / a good piece of advice.",
-     "Advice non vuole a."
-    ],
-    [
-     "The news are bad.",
-     "The news is bad.",
-     "News è singolare."
-    ],
-    [
-     "I have two luggages.",
-     "I have two bags / pieces of luggage.",
-     "Luggage non ha il plurale."
-    ],
-    [
-     "How many money?",
-     "How much money?",
-     "Money non è numerabile."
-    ]
-   ],
-   "questions": [
-    {
-     "type": "multiple_choice",
-     "prompt": "I need some ___.",
-     "options": [
-      "information",
-      "informations",
-      "an information"
-     ],
-     "correct_index": 0,
-     "explanation": "Information è non numerabile."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "She gave me good ___.",
-     "options": [
-      "advices",
-      "advice",
-      "an advice"
-     ],
-     "correct_index": 1,
-     "explanation": "Advice è non numerabile."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "The news ___ good. (is / are)",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "News è singolare."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "My luggage ___ heavy. (is / are)",
-     "accepted_answers": [
-      "is"
-     ],
-     "explanation": "Luggage è singolare."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "How ___ money do you have?",
-     "options": [
-      "much",
-      "many",
-      "a"
-     ],
-     "correct_index": 0,
-     "explanation": "Money: much."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "How ___ books do you have?",
-     "options": [
-      "much",
-      "many",
-      "a lot"
-     ],
-     "correct_index": 1,
-     "explanation": "Books: many."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I'd like a ___ of water. (bicchiere)",
-     "accepted_answers": [
-      "glass"
-     ],
-     "explanation": "A glass of water."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Can I have a ___ of bread? (fetta)",
-     "accepted_answers": [
-      "slice",
-      "piece"
-     ],
-     "explanation": "A slice / piece of bread."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "two pieces of advice",
-      "two advices",
-      "two advice"
-     ],
-     "correct_index": 0,
-     "explanation": "Si conta con piece of."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is a countable noun?",
-     "options": [
-      "apple",
-      "water",
-      "furniture"
-     ],
-     "correct_index": 0,
-     "explanation": "Apple."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is uncountable?",
-     "options": [
-      "homework",
-      "book",
-      "chair"
-     ],
-     "correct_index": 0,
-     "explanation": "Homework."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I have a lot of ___ to do. (homework / homeworks)",
-     "accepted_answers": [
-      "homework"
-     ],
-     "explanation": "Homework non ha il plurale."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "I have some luggage.",
-      "I have some luggages.",
-      "I have a luggage."
-     ],
-     "correct_index": 0,
-     "explanation": "Luggage."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is correct?",
-     "options": [
-      "The furniture is new.",
-      "The furniture are new.",
-      "The furnitures is new."
-     ],
-     "correct_index": 0,
-     "explanation": "Furniture è singolare."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "Can you give me some ___ ? (advice / advices)",
-     "accepted_answers": [
-      "advice"
-     ],
-     "explanation": "Advice."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Which is NOT correct?",
-     "options": [
-      "an information",
-      "a piece of information",
-      "some information"
-     ],
-     "correct_index": 0,
-     "explanation": "Information non vuole an."
-    },
-    {
-     "type": "fill_in",
-     "prompt": "I drink a lot of ___ . (water / waters)",
-     "accepted_answers": [
-      "water"
-     ],
-     "explanation": "Water."
-    },
-    {
-     "type": "multiple_choice",
-     "prompt": "Quale frase è corretta?",
-     "options": [
-      "The weather is nice.",
-      "The weather are nice.",
-      "The weathers is nice."
-     ],
-     "correct_index": 0,
-     "explanation": "Weather è non numerabile."
-    }
-   ]
-  },
-  {
    "id": "a2-sup",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Superlativi",
+   "title": "Superlativi (1)",
    "desc": "Il più alto, il migliore: the -est e the most.",
    "lead": "Il **superlativo** dice che qualcosa è **il più** di tutti. Con gli aggettivi corti si aggiunge **-est**, con quelli lunghi si usa **the most**. Si mette sempre **the** davanti.",
    "tip": "**The + aggettivo-est** (short) oppure **the most + aggettivo** (long). Poi **in** o **of** per il gruppo.",
@@ -10031,7 +10031,7 @@
    "id": "a2-supra",
    "level": "A2",
    "tag": "Aggettivi",
-   "title": "Superlativi relativi e assoluti",
+   "title": "Superlativi (2): relativi e assoluti",
    "desc": "Il più bello del mondo oppure bellissimo: due superlativi, due costruzioni.",
    "lead": "In italiano il superlativo è di due tipi. Il **relativo** confronta con altri (*il più alto della classe*). L'**assoluto** dice solo «molto» (*altissimo, bellissimo*). In inglese si costruiscono in modi diversi.",
    "tip": "Relativo → **the -est / the most**. Assoluto → **very, really, extremely** + aggettivo (o un aggettivo forte: fantastic, awful).",

@@ -37,7 +37,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-prepadj", level:"A2", title:"Preposizioni comuni con gli aggettivi", tag:"Aggettivi",
+id:"a2-prepadj", level:"A2", title:"Aggettivi + Preposizioni", tag:"Aggettivi",
 desc:"Good at, interested in, afraid of: gli aggettivi che vogliono una preposizione.",
 lead:"Molti aggettivi inglesi vogliono una **preposizione precisa**, che spesso non corrisponde all'italiano. Vanno imparati in coppia: *good at*, *interested in*, *afraid of*.",
 tip:"Dopo la preposizione si usa un nome oppure il verbo in -ing: *I'm good at swimming*.",
@@ -74,7 +74,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-indef", level:"A2", title:"Pronomi indefiniti (1)", tag:"Pronomi",
+id:"a2-indef", level:"A2", title:"Pronomi Indefiniti", tag:"Pronomi",
 desc:"Somebody, anything, nowhere, everyone: qualcuno, niente, da nessuna parte, tutti.",
 lead:"I **pronomi indefiniti** parlano di persone, cose o luoghi senza dire quali. Si formano con **some / any / no / every** + **-body / -one / -thing / -where**.",
 tip:"Some- nelle affermative, any- nelle negative e domande, no- con il verbo affermativo, every- per «tutto, tutti». Il verbo resta al singolare.",
@@ -112,7 +112,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-refl", level:"A2", title:"Pronomi riflessivi", tag:"Pronomi",
+id:"a2-refl", level:"A2", title:"Pronomi Riflessivi", tag:"Pronomi",
 desc:"Myself, yourself, themselves: quando l'azione torna su chi la fa, e dove l'italiano li usa e l'inglese no.",
 lead:"I **pronomi riflessivi** (-self / -selves) si usano quando soggetto e complemento sono la **stessa persona**: *I cut myself*. Attenzione: molti verbi riflessivi italiani **non** lo sono in inglese.",
 tip:"Con i verbi di cura personale (wash, shave, get up, feel, relax) l'inglese di solito **non** usa il riflessivo.",
@@ -150,7 +150,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-count", level:"A2", title:"Sostantivi numerabili e non numerabili", tag:"Nomi",
+id:"a2-count", level:"A2", title:"Countable e Uncountable", tag:"Nomi",
 desc:"A book / books, ma water e advice: nomi che si contano e nomi che no.",
 lead:"I nomi **numerabili** si possono contare (*one book, two books*). I **non numerabili** no (*water, money, advice*): non hanno il plurale e non vogliono *a / an*.",
 tip:"Molti nomi non numerabili inglesi sono numerabili in italiano: **information, advice, news, luggage, furniture, homework**.",
@@ -189,7 +189,7 @@ qs:[
 ]});
 
 A1_TOPICS.push({
-id:"a2-gen", level:"A2", title:"Genitivo sassone", tag:"Nomi",
+id:"a2-gen", level:"A2", title:"Genitivo Sassone", tag:"Nomi",
 desc:"Marco's car, the students' books: il possesso con 's e s'.",
 lead:"Il **genitivo sassone** serve per dire di chi è qualcosa: **'s** dopo il possessore. Al posto del nostro «di», in inglese il possessore va **prima** della cosa posseduta.",
 tip:"*La macchina di Marco* → **Marco's car**. Il possessore prima, la cosa dopo, senza articolo davanti.",
