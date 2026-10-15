@@ -69,7 +69,7 @@ function a1RenderSetup(t){
 function a1Load(id){
   var t = a1Topic(id); if(!t) return;
   a1Cur = t;
-  document.getElementById("a1-eyebrow").textContent = "Livello A1 · "+(t.tag || "Grammatica");
+  document.getElementById("a1-eyebrow").textContent = "Livello "+(t.level || "A1")+" · "+(t.tag || "Grammatica");
   document.getElementById("a1-h1").innerHTML = '<em>'+esc(t.title)+'</em>';
   document.getElementById("a1-lead").innerHTML = a1Fmt(t.lead);
   a1RenderGuide(t);
@@ -152,7 +152,7 @@ function a1Finish(){
   var rev = a1Mistakes.length ? ('<div class="review">'+a1Mistakes.map(function(m){
     return '<div class="rev-item"><div class="q">'+esc(m.q)+'</div><div class="g">✗ '+(m.given ? esc(m.given) : '(nessuna risposta)')+'</div><div class="a">✓ '+esc(m.a)+'</div></div>';
   }).join("")+'</div>') : '<p style="color:var(--good);font-weight:700;margin-top:18px">Nessun errore. Perfetto.</p>';
-  var idx = A1_TOPICS.indexOf(t), nx = A1_TOPICS[idx+1];
+  var idx = A1_TOPICS.indexOf(t), nx = A1_TOPICS.slice(idx+1).filter(function(x){ return (x.level || "A1") === (t.level || "A1"); })[0];
   a1El.result.innerHTML = '<div class="result"><div class="qkicker">Risultato · '+esc(t.title)+'</div><div class="big">'+a1Score+' / '+a1Order.length+'</div><p>'+msg+'</p>'+rev+
     '<div class="result-actions"><button class="btn" id="a1-retry">Riprova</button>'+
     (nx && pct >= 80 ? '<button class="btn" id="a1-next">Prossimo argomento →</button>' : '')+

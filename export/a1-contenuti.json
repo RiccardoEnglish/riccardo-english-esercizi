@@ -1,10 +1,11 @@
 {
- "level": "A1",
+ "level": "A1-A2",
  "topics": [
   {
    "id": "a1-posadj",
-   "title": "Aggettivi possessivi",
+   "level": "A1",
    "tag": "Aggettivi",
+   "title": "Aggettivi possessivi",
    "desc": "My, your, his, her, its, our, their: di chi è?",
    "lead": "Gli **aggettivi possessivi** stanno davanti a un nome e dicono di chi è. A differenza dell'italiano, **non prendono l'articolo** e dipendono dal possessore, non dalla cosa posseduta.",
    "tip": "Si sceglie in base a **chi possiede**: his = di lui, her = di lei. Il nome non cambia mai.",
@@ -284,8 +285,9 @@
   },
   {
    "id": "a1-art",
-   "title": "Articoli: a, an, the",
+   "level": "A1",
    "tag": "Articoli",
+   "title": "Articoli: a, an, the",
    "desc": "Articolo indeterminativo, determinativo e quando non ci vuole nulla.",
    "lead": "In inglese ci sono solo tre articoli: **a**, **an** e **the**. Non cambiano mai con il genere (maschile o femminile) né con il numero.",
    "tip": "A / an = uno qualsiasi, mai nominato prima. The = quello preciso, già noto.",
@@ -543,8 +545,9 @@
   },
   {
    "id": "a1-freq",
-   "title": "Avverbi di frequenza",
+   "level": "A1",
    "tag": "Avverbi",
+   "title": "Avverbi di frequenza",
    "desc": "Always, usually, often, sometimes, never: quanto spesso e dove metterli.",
    "lead": "Gli **avverbi di frequenza** dicono *quanto spesso* facciamo qualcosa. Sono molto usati con il Present Simple.",
    "tip": "Posizione standard: **prima del verbo**, ma **dopo to be**. I am always late, I always get up early.",
@@ -840,9 +843,286 @@
    ]
   },
   {
-   "id": "a1-place-adv",
-   "title": "Avverbi di luogo",
+   "id": "a2-deg",
+   "level": "A2",
    "tag": "Avverbi",
+   "title": "Avverbi di grado",
+   "desc": "Molto, abbastanza, troppo, un po': very, really, quite, too, a bit.",
+   "lead": "Gli **avverbi di grado** dicono *quanto* è forte un aggettivo o un altro avverbio: **molto** stanco, **abbastanza** buono, **troppo** caro. Stanno quasi sempre **davanti** a ciò che modificano.",
+   "tip": "Prima dell'aggettivo: very, really, quite, too, so, extremely, a bit. L'eccezione è **enough**, che va dopo.",
+   "blocks": [
+    {
+     "h": "Dal poco al tanto",
+     "table": {
+      "head": [
+       "Avverbio",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "a bit / a little",
+        "un po'",
+        "It's a bit cold."
+       ],
+       [
+        "quite / pretty",
+        "abbastanza",
+        "The film is quite good."
+       ],
+       [
+        "very / really",
+        "molto",
+        "She is very kind."
+       ],
+       [
+        "extremely",
+        "estremamente",
+        "He is extremely tired."
+       ],
+       [
+        "too",
+        "troppo (problema)",
+        "It's too expensive."
+       ],
+       [
+        "so",
+        "così, tanto",
+        "I'm so happy!"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Enough",
+     "p": "**Enough** = abbastanza (sufficiente) e va **dopo** l'aggettivo.",
+     "ex": [
+      "She is **old enough** to drive.",
+      "The room isn't **big enough**."
+     ]
+    },
+    {
+     "h": "Very e too",
+     "p": "**Very** è un'intensità. **Too** è un eccesso che crea un problema.",
+     "ex": [
+      "It's **very** hot. (fa molto caldo)",
+      "It's **too** hot to walk. (troppo caldo per camminare)"
+     ]
+    },
+    {
+     "h": "Con altri avverbi",
+     "ex": [
+      "She speaks **very** slowly.",
+      "He drives **too** fast.",
+      "You speak English **really** well."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I'm very much tired.",
+     "I'm very tired.",
+     "Very + aggettivo, senza much."
+    ],
+    [
+     "It's enough big.",
+     "It's big enough.",
+     "Enough dopo l'aggettivo."
+    ],
+    [
+     "It's too much hot.",
+     "It's too hot.",
+     "Too + aggettivo, senza much."
+    ],
+    [
+     "I like very much pizza.",
+     "I like pizza very much.",
+     "Very much dopo il verbo e il nome."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "It's ___ cold today. (molto)",
+     "options": [
+      "very",
+      "enough",
+      "a bit of"
+     ],
+     "correct_index": 0,
+     "explanation": "Very + aggettivo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The film is ___ good. (abbastanza)",
+     "options": [
+      "quite",
+      "too",
+      "enough"
+     ],
+     "correct_index": 0,
+     "explanation": "Quite = abbastanza."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm ___ tired. (estremamente)",
+     "accepted_answers": [
+      "extremely"
+     ],
+     "explanation": "Extremely tired."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's ___ expensive. I can't buy it. (troppo)",
+     "accepted_answers": [
+      "too"
+     ],
+     "explanation": "Too expensive."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is ___ to drive. (abbastanza grande)",
+     "options": [
+      "old enough",
+      "enough old",
+      "too old enough"
+     ],
+     "correct_index": 0,
+     "explanation": "Enough dopo l'aggettivo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I'm very much tired.",
+      "I'm very tired.",
+      "I'm much tired."
+     ],
+     "correct_index": 1,
+     "explanation": "Very + aggettivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's a ___ cold today. (un po')",
+     "accepted_answers": [
+      "bit"
+     ],
+     "explanation": "A bit."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm ___ happy! (così contento)",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation": "So happy."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He speaks English ___ well.",
+     "options": [
+      "really",
+      "too much",
+      "enough very"
+     ],
+     "correct_index": 0,
+     "explanation": "Really + avverbio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He drives ___ fast. It's dangerous.",
+     "options": [
+      "too",
+      "very much",
+      "enough"
+     ],
+     "correct_index": 0,
+     "explanation": "Too = eccesso."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The room isn't big ___ .",
+     "accepted_answers": [
+      "enough"
+     ],
+     "explanation": "Big enough."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence means a problem?",
+     "options": [
+      "It's too hot.",
+      "It's very hot.",
+      "It's quite hot."
+     ],
+     "correct_index": 0,
+     "explanation": "Too = troppo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "It's too much big.",
+      "It's too big.",
+      "It's much big."
+     ],
+     "correct_index": 1,
+     "explanation": "Too + aggettivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I like pizza ___ much. (molto)",
+     "accepted_answers": [
+      "very"
+     ],
+     "explanation": "Very much dopo il nome."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I like very much pizza.",
+      "I like pizza very much.",
+      "I very much like pizza very."
+     ],
+     "correct_index": 1,
+     "explanation": "Pizza very much."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The soup is a ___ salty. (un po')",
+     "accepted_answers": [
+      "bit"
+     ],
+     "explanation": "A bit salty."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The test was ___ difficult. (abbastanza)",
+     "accepted_answers": [
+      "quite",
+      "pretty"
+     ],
+     "explanation": "Quite / pretty difficult."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale avverbio va dopo l'aggettivo?",
+     "options": [
+      "enough",
+      "very",
+      "too"
+     ],
+     "correct_index": 0,
+     "explanation": "Solo enough."
+    }
+   ]
+  },
+  {
+   "id": "a1-place-adv",
+   "level": "A1",
+   "tag": "Avverbi",
+   "title": "Avverbi di luogo",
    "desc": "Here, there, everywhere, inside, outside, up, down e gli altri.",
    "lead": "Gli **avverbi di luogo** dicono *dove*. Non hanno bisogno di un nome dopo di sé: stanno da soli alla fine della frase.",
    "tip": "Un avverbio sta da solo (I live here). Una preposizione ha bisogno di un nome (I live in Rome).",
@@ -1154,9 +1434,303 @@
    ]
   },
   {
-   "id": "a1-time-adv",
-   "title": "Avverbi di tempo",
+   "id": "a2-manner",
+   "level": "A2",
    "tag": "Avverbi",
+   "title": "Avverbi di modo",
+   "desc": "Lentamente, bene, velocemente: come si fa un'azione. Aggettivo + -ly e le eccezioni.",
+   "lead": "Gli **avverbi di modo** dicono *come* si fa qualcosa: *lentamente*, *con attenzione*, *bene*. Si formano di solito aggiungendo **-ly** all'aggettivo, e stanno **dopo il verbo** (o dopo il complemento).",
+   "tip": "Aggettivo = descrive un nome (a slow car). Avverbio = descrive un verbo (he drives slowly).",
+   "blocks": [
+    {
+     "h": "Come si forma",
+     "table": {
+      "head": [
+       "Regola",
+       "Aggettivo",
+       "Avverbio"
+      ],
+      "rows": [
+       [
+        "+ -ly",
+        "slow, quick, careful",
+        "slowly, quickly, carefully"
+       ],
+       [
+        "-y → -ily",
+        "happy, easy, angry",
+        "happily, easily, angrily"
+       ],
+       [
+        "-le → -ly",
+        "terrible, simple",
+        "terribly, simply"
+       ],
+       [
+        "-ic → -ically",
+        "automatic",
+        "automatically"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Gli irregolari",
+     "p": "Alcuni avverbi hanno la stessa forma dell'aggettivo, uno è diverso.",
+     "table": {
+      "head": [
+       "Aggettivo",
+       "Avverbio",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "good",
+        "**well**",
+        "She sings well."
+       ],
+       [
+        "fast",
+        "fast",
+        "He drives fast."
+       ],
+       [
+        "hard",
+        "hard",
+        "She works hard."
+       ],
+       [
+        "late",
+        "late",
+        "He arrived late."
+       ],
+       [
+        "early",
+        "early",
+        "I get up early."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Dove si mette",
+     "p": "Dopo il verbo, o dopo il complemento: *He speaks slowly.* / *She opened the door quietly.*",
+     "ex": [
+      "He **drives carefully**.",
+      "She **speaks English well**.",
+      "They **work hard**."
+     ]
+    },
+    {
+     "h": "Aggettivo dopo be e look / feel",
+     "ex": [
+      "She is **quick**. (aggettivo, dopo be)",
+      "She runs **quickly**. (avverbio, dopo un verbo d'azione)",
+      "You look **tired**. (aggettivo)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "She speaks English good.",
+     "She speaks English well.",
+     "L'avverbio di good è well."
+    ],
+    [
+     "He drives careful.",
+     "He drives carefully.",
+     "Dopo un verbo d'azione serve l'avverbio."
+    ],
+    [
+     "She works hardly.",
+     "She works hard.",
+     "Hardly = quasi non. Hard è anche avverbio."
+    ],
+    [
+     "He speaks very fastly.",
+     "He speaks very fast.",
+     "Fast non prende -ly."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "He drives ___. (con attenzione)",
+     "options": [
+      "careful",
+      "carefully",
+      "carefuly"
+     ],
+     "correct_index": 1,
+     "explanation": "Careful + ly."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She speaks English ___.",
+     "options": [
+      "good",
+      "well",
+      "goodly"
+     ],
+     "correct_index": 1,
+     "explanation": "Good → well."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The baby is sleeping ___. (quiet)",
+     "accepted_answers": [
+      "quietly"
+     ],
+     "explanation": "Quiet + ly."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They won the match ___. (easy)",
+     "accepted_answers": [
+      "easily"
+     ],
+     "explanation": "Easy → easily."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He arrived ___. (late)",
+     "accepted_answers": [
+      "late"
+     ],
+     "explanation": "Late resta late."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She works very ___. (hard)",
+     "accepted_answers": [
+      "hard"
+     ],
+     "explanation": "Hard è anche avverbio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He runs fastly.",
+      "He runs fast.",
+      "He runs fastily."
+     ],
+     "correct_index": 1,
+     "explanation": "Fast non prende -ly."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She is a quick runner.",
+      "She is a quickly runner.",
+      "She runs quick."
+     ],
+     "correct_index": 0,
+     "explanation": "Aggettivo davanti al nome."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You look ___. (stanco)",
+     "options": [
+      "tired",
+      "tiredly",
+      "tiring"
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo look: aggettivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She sings ___. (beautiful)",
+     "accepted_answers": [
+      "beautifully"
+     ],
+     "explanation": "Beautiful → beautifully."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He answered ___. (angry)",
+     "accepted_answers": [
+      "angrily"
+     ],
+     "explanation": "Angry → angrily."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Dove si mette l'avverbio di modo?",
+     "options": [
+      "dopo il verbo",
+      "davanti al soggetto",
+      "dopo l'articolo"
+     ],
+     "correct_index": 0,
+     "explanation": "Di solito dopo il verbo o il complemento."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He spoke slowly.",
+      "He slowly spoke the.",
+      "Slowly he the spoke."
+     ],
+     "correct_index": 0,
+     "explanation": "Soggetto + verbo + avverbio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The teacher explained the lesson ___. (clear)",
+     "accepted_answers": [
+      "clearly"
+     ],
+     "explanation": "Clear + ly."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which word is an adverb?",
+     "options": [
+      "quickly",
+      "quick",
+      "quicker"
+     ],
+     "correct_index": 0,
+     "explanation": "Quickly."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He is a ___ driver.",
+     "options": [
+      "careful",
+      "carefully",
+      "care"
+     ],
+     "correct_index": 0,
+     "explanation": "Davanti a un nome: aggettivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She plays the piano very ___. (good → avverbio)",
+     "accepted_answers": [
+      "well"
+     ],
+     "explanation": "Well."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They play ___ together. (happy)",
+     "accepted_answers": [
+      "happily"
+     ],
+     "explanation": "Happy → happily."
+    }
+   ]
+  },
+  {
+   "id": "a1-time-adv",
+   "level": "A1",
+   "tag": "Avverbi",
+   "title": "Avverbi di tempo",
    "desc": "Now, today, yesterday, tomorrow, soon, already, yet, still.",
    "lead": "Gli **avverbi di tempo** dicono *quando* succede qualcosa. Di solito stanno **alla fine** o **all'inizio** della frase.",
    "tip": "Attenzione ai falsi amici: *actually* non significa «attualmente» (è «in realtà»); «attualmente» è *currently*.",
@@ -1469,9 +2043,1925 @@
    ]
   },
   {
+   "id": "a2-cmp1",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Comparativi di maggioranza (1): aggettivi corti",
+   "desc": "Più alto di, più grande di: la forma in -er per gli aggettivi corti.",
+   "lead": "Per dire «più … di» con un aggettivo **corto** (di una sillaba) si aggiunge **-er** e poi si usa **than**: *Marco is taller than Luca*.",
+   "tip": "Aggettivo corto + **-er** + **than**. Dopo than, un pronome complemento: *than me*, non *than I*.",
+   "blocks": [
+    {
+     "h": "La regola",
+     "table": {
+      "head": [
+       "Aggettivo",
+       "Comparativo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "tall",
+        "taller",
+        "He is taller than me."
+       ],
+       [
+        "old",
+        "older",
+        "My brother is older than me."
+       ],
+       [
+        "cheap",
+        "cheaper",
+        "This bag is cheaper than that one."
+       ],
+       [
+        "fast",
+        "faster",
+        "A car is faster than a bike."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Ortografia",
+     "table": {
+      "head": [
+       "Regola",
+       "Aggettivo",
+       "Comparativo"
+      ],
+      "rows": [
+       [
+        "Finisce in -e: + r",
+        "nice, large",
+        "nicer, larger"
+       ],
+       [
+        "Una vocale + una consonante: raddoppia",
+        "big, hot, thin",
+        "bigger, hotter, thinner"
+       ],
+       [
+        "Consonante + y: -ier",
+        "happy, easy, funny",
+        "happier, easier, funnier"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Than",
+     "p": "Il secondo termine del confronto si introduce con **than** (non «di», non «that»).",
+     "ex": [
+      "Rome is **bigger than** Milan.",
+      "I'm **older than** you.",
+      "Today is **hotter than** yesterday."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "He is more tall than me.",
+     "He is taller than me.",
+     "Con gli aggettivi corti non si usa more."
+    ],
+    [
+     "She is taller that me.",
+     "She is taller than me.",
+     "Il secondo termine vuole than."
+    ],
+    [
+     "It is bigger than I.",
+     "It is bigger than me.",
+     "Dopo than di solito il pronome complemento."
+    ],
+    [
+     "It is more big.",
+     "It is bigger.",
+     "Big raddoppia la g."
+    ],
+    [
+     "He is happyer.",
+     "He is happier.",
+     "Consonante + y diventa -ier."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "My brother is ___ than me.",
+     "options": [
+      "tall",
+      "taller",
+      "more tall"
+     ],
+     "correct_index": 1,
+     "explanation": "Aggettivo corto + -er."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This bag is ___ than that one. (cheap)",
+     "options": [
+      "cheaper",
+      "more cheap",
+      "cheapest"
+     ],
+     "correct_index": 0,
+     "explanation": "Cheap + er."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "A car is ___ than a bike. (fast)",
+     "accepted_answers": [
+      "faster"
+     ],
+     "explanation": "Fast + er."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rome is ___ than Milan. (big)",
+     "accepted_answers": [
+      "bigger"
+     ],
+     "explanation": "Si raddoppia la g."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Today is ___ than yesterday. (hot)",
+     "accepted_answers": [
+      "hotter"
+     ],
+     "explanation": "Si raddoppia la t."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This test is ___ than the last one. (easy)",
+     "accepted_answers": [
+      "easier"
+     ],
+     "explanation": "Consonante + y → -ier."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My house is ___ than yours. (large)",
+     "accepted_answers": [
+      "larger"
+     ],
+     "explanation": "Large finisce in e: + r."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is older ___ me.",
+     "options": [
+      "than",
+      "that",
+      "as"
+     ],
+     "correct_index": 0,
+     "explanation": "Il confronto vuole than."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He is taller than I.",
+      "He is taller than me.",
+      "He is taller of me."
+     ],
+     "correct_index": 1,
+     "explanation": "Dopo than: me."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She is happyer than him.",
+      "She is happier than him.",
+      "She is more happy than him."
+     ],
+     "correct_index": 1,
+     "explanation": "Happy → happier."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This soup is ___ than that one. (hot)",
+     "accepted_answers": [
+      "hotter"
+     ],
+     "explanation": "Hot raddoppia la t."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My sister is ___ than me. (young)",
+     "accepted_answers": [
+      "younger"
+     ],
+     "explanation": "Young + er."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Questa borsa è più economica»?",
+     "options": [
+      "This bag is cheaper.",
+      "This bag is more cheap.",
+      "This bag is cheap than."
+     ],
+     "correct_index": 0,
+     "explanation": "Cheap + er."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The film was ___ than the book. (funny)",
+     "accepted_answers": [
+      "funnier"
+     ],
+     "explanation": "Funny → funnier."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Winter is ___ than summer. (cold)",
+     "accepted_answers": [
+      "colder"
+     ],
+     "explanation": "Cold + er."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "thiner",
+      "thinner",
+      "nicer"
+     ],
+     "correct_index": 0,
+     "explanation": "Thin raddoppia la n: thinner."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My bag is ___ than yours. (small)",
+     "accepted_answers": [
+      "smaller"
+     ],
+     "explanation": "Small + er."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale aggettivo prende -er?",
+     "options": [
+      "slow",
+      "expensive",
+      "beautiful"
+     ],
+     "correct_index": 0,
+     "explanation": "Slow è corto: slower."
+    }
+   ]
+  },
+  {
+   "id": "a2-cmp2",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Comparativi di maggioranza (2): aggettivi lunghi",
+   "desc": "Più interessante di, più costoso di: more + aggettivo + than.",
+   "lead": "Con gli aggettivi **lunghi** (due o più sillabe) non si aggiunge -er: si mette **more** davanti all'aggettivo e poi **than**: *This book is more interesting than that one*.",
+   "tip": "Una sillaba → -er. Tre o più sillabe → more. Due sillabe in -y → -ier (happy → happier).",
+   "blocks": [
+    {
+     "h": "More + aggettivo + than",
+     "table": {
+      "head": [
+       "Aggettivo",
+       "Comparativo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "expensive",
+        "more expensive",
+        "Gold is more expensive than silver."
+       ],
+       [
+        "interesting",
+        "more interesting",
+        "This book is more interesting."
+       ],
+       [
+        "beautiful",
+        "more beautiful",
+        "Rome is more beautiful than Milan."
+       ],
+       [
+        "difficult",
+        "more difficult",
+        "English is more difficult than Italian."
+       ],
+       [
+        "modern",
+        "more modern",
+        "This is a more modern building."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Corto o lungo?",
+     "table": {
+      "head": [
+       "Tipo",
+       "Come si fa",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "1 sillaba",
+        "+ -er",
+        "small → smaller"
+       ],
+       [
+        "2 sillabe in -y",
+        "-y → -ier",
+        "easy → easier"
+       ],
+       [
+        "2 sillabe senza -y",
+        "more",
+        "careful → more careful"
+       ],
+       [
+        "3 o più sillabe",
+        "more",
+        "dangerous → more dangerous"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Non si usano insieme",
+     "p": "Mai **more** e **-er** insieme.",
+     "ex": [
+      "Non: more taller → **taller**",
+      "Non: more easier → **easier**",
+      "Non: more beautifuler → **more beautiful**"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "This is expensiver than that.",
+     "This is more expensive than that.",
+     "Aggettivo lungo: more."
+    ],
+    [
+     "He is more taller.",
+     "He is taller.",
+     "Mai more + -er."
+    ],
+    [
+     "It is more easy.",
+     "It is easier.",
+     "Easy finisce in -y: -ier."
+    ],
+    [
+     "more beautiful that",
+     "more beautiful than",
+     "Il confronto vuole than."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Gold is ___ than silver.",
+     "options": [
+      "expensiver",
+      "more expensive",
+      "most expensive"
+     ],
+     "correct_index": 1,
+     "explanation": "Expensive è lungo: more expensive."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This book is ___ than that one. (interesting)",
+     "options": [
+      "more interesting",
+      "interestinger",
+      "most interesting"
+     ],
+     "correct_index": 0,
+     "explanation": "More + aggettivo lungo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rome is ___ beautiful than Milan.",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More + beautiful."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "English is ___ difficult than Italian.",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More + difficult."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "more taller",
+      "more tall",
+      "taller"
+     ],
+     "correct_index": 2,
+     "explanation": "Aggettivo corto: -er, mai more."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He is more happy.",
+      "He is happier.",
+      "He is happyer."
+     ],
+     "correct_index": 1,
+     "explanation": "Happy → happier."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This exercise is ___ than the first one. (easy)",
+     "accepted_answers": [
+      "easier"
+     ],
+     "explanation": "Easy → easier."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Is a plane ___ dangerous than a car? (più)",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More dangerous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale aggettivo vuole more?",
+     "options": [
+      "tall",
+      "careful",
+      "big"
+     ],
+     "correct_index": 1,
+     "explanation": "Careful è lungo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This phone is ___ than my old one. (modern)",
+     "options": [
+      "more modern",
+      "modern",
+      "moderner"
+     ],
+     "correct_index": 0,
+     "explanation": "Modern: more modern."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My new job is ___ stressful than my old one.",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More stressful."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Today's lesson is ___ boring than yesterday's.",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More boring."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "more popular than",
+      "populer than",
+      "more famous than"
+     ],
+     "correct_index": 1,
+     "explanation": "Popular: more popular."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The test was ___ than I thought.",
+     "options": [
+      "more difficult",
+      "difficulter",
+      "most difficult"
+     ],
+     "correct_index": 0,
+     "explanation": "Aggettivo lungo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This restaurant is ___ expensive than that one.",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More expensive."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «più interessante»?",
+     "options": [
+      "more interesting",
+      "interestinger",
+      "most interesting"
+     ],
+     "correct_index": 0,
+     "explanation": "More interesting."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The bus is ___ comfortable than the train. (più)",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "More comfortable."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "more cheaper",
+      "cheaper",
+      "more cheap"
+     ],
+     "correct_index": 1,
+     "explanation": "Cheap è corto: cheaper."
+    }
+   ]
+  },
+  {
+   "id": "a2-cmp3",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Comparativi di maggioranza (3): irregolari e rinforzi",
+   "desc": "Better, worse, further: i comparativi irregolari e come rinforzare il confronto.",
+   "lead": "Alcuni aggettivi hanno un comparativo **irregolare**, da imparare a memoria. In più puoi **rinforzare** il confronto con *much*, *a lot*, *a bit*.",
+   "tip": "good → better, bad → worse. Mai gooder o more good.",
+   "blocks": [
+    {
+     "h": "I comparativi irregolari",
+     "table": {
+      "head": [
+       "Aggettivo",
+       "Comparativo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "good",
+        "better",
+        "This pizza is better than that one."
+       ],
+       [
+        "bad",
+        "worse",
+        "The weather is worse today."
+       ],
+       [
+        "far",
+        "farther / further",
+        "The station is farther than the bank."
+       ],
+       [
+        "little",
+        "less",
+        "I have less time than you."
+       ],
+       [
+        "much / many",
+        "more",
+        "She has more friends than me."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Rinforzare il confronto",
+     "p": "Davanti al comparativo si possono mettere **much**, **a lot**, **far** (molto) oppure **a bit**, **a little**, **slightly** (un po').",
+     "ex": [
+      "My car is **much** faster than yours.",
+      "She is **a lot** more interesting.",
+      "It's **a bit** colder today."
+     ]
+    },
+    {
+     "h": "Altre costruzioni utili",
+     "ex": [
+      "**The** harder you study, **the** better you speak.",
+      "It's getting **colder and colder**.",
+      "This is **better and better**."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "This is more good.",
+     "This is better.",
+     "Good è irregolare: better."
+    ],
+    [
+     "It is gooder.",
+     "It is better.",
+     "Mai gooder."
+    ],
+    [
+     "My English is worser.",
+     "My English is worse.",
+     "Worse è già un comparativo."
+    ],
+    [
+     "It is very faster.",
+     "It is much faster.",
+     "Con il comparativo si usa much, non very."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "This pizza is ___ than that one. (good)",
+     "options": [
+      "gooder",
+      "better",
+      "more good"
+     ],
+     "correct_index": 1,
+     "explanation": "Good → better."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The weather is ___ today. (bad)",
+     "options": [
+      "worse",
+      "badder",
+      "more bad"
+     ],
+     "correct_index": 0,
+     "explanation": "Bad → worse."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She has ___ friends than me. (many)",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation": "Many → more."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ time than you. (little)",
+     "accepted_answers": [
+      "less"
+     ],
+     "explanation": "Little → less."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "My car is ___ faster than yours. (molto)",
+     "options": [
+      "very",
+      "much",
+      "more"
+     ],
+     "correct_index": 1,
+     "explanation": "Con il comparativo: much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It's ___ colder today. (un po')",
+     "options": [
+      "a bit",
+      "very",
+      "most"
+     ],
+     "correct_index": 0,
+     "explanation": "A bit = un po'."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My English is ___ than before. (good)",
+     "accepted_answers": [
+      "better"
+     ],
+     "explanation": "Better."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The food was ___ than yesterday. (bad)",
+     "accepted_answers": [
+      "worse"
+     ],
+     "explanation": "Worse."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "It's very bigger.",
+      "It's much bigger.",
+      "It's too bigger."
+     ],
+     "correct_index": 1,
+     "explanation": "Much bigger."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "worse",
+      "worser",
+      "more bad"
+     ],
+     "correct_index": 0,
+     "explanation": "Il comparativo di bad è worse."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The harder you work, the ___ you feel. (good)",
+     "accepted_answers": [
+      "better"
+     ],
+     "explanation": "The harder..., the better..."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's getting ___ and colder. (cold)",
+     "accepted_answers": [
+      "colder"
+     ],
+     "explanation": "Colder and colder."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is ___ more interesting than him. (molto)",
+     "options": [
+      "a lot",
+      "very",
+      "most"
+     ],
+     "correct_index": 0,
+     "explanation": "A lot more interesting."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Sto meglio»?",
+     "options": [
+      "I feel better.",
+      "I feel gooder.",
+      "I feel more good."
+     ],
+     "correct_index": 0,
+     "explanation": "Better."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My phone is ___ cheaper than yours. (molto)",
+     "accepted_answers": [
+      "much",
+      "a lot",
+      "far"
+     ],
+     "explanation": "Much / a lot / far."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "much better",
+      "a lot worse",
+      "very better"
+     ],
+     "correct_index": 2,
+     "explanation": "Con i comparativi non si usa very."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He plays tennis ___ than me. (bad)",
+     "accepted_answers": [
+      "worse"
+     ],
+     "explanation": "Bad → worse."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The station is ___ than the bank. (far)",
+     "options": [
+      "farther",
+      "more far",
+      "farer"
+     ],
+     "correct_index": 0,
+     "explanation": "Far → farther / further."
+    }
+   ]
+  },
+  {
+   "id": "a2-cmin",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Comparativi di minoranza",
+   "desc": "Meno costoso di: less … than e not as … as.",
+   "lead": "Per dire «meno … di» ci sono due strade: **less + aggettivo + than** oppure **not as + aggettivo + as**. Funzionano con tutti gli aggettivi.",
+   "tip": "Con gli aggettivi corti si preferisce **not as … as** (not as tall as). Con quelli lunghi vanno bene entrambe.",
+   "blocks": [
+    {
+     "h": "Less … than",
+     "table": {
+      "head": [
+       "Frase",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "This bag is less expensive than that one.",
+        "Questa borsa costa meno."
+       ],
+       [
+        "English is less difficult than Chinese.",
+        "L'inglese è meno difficile."
+       ],
+       [
+        "Today is less crowded than yesterday.",
+        "Oggi c'è meno gente."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Not as … as",
+     "p": "Più naturale con gli aggettivi corti.",
+     "table": {
+      "head": [
+       "Frase",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "I'm not as tall as him.",
+        "Non sono alto come lui."
+       ],
+       [
+        "Milan isn't as big as Rome.",
+        "Milano non è grande come Roma."
+       ],
+       [
+        "This isn't as cheap as I thought.",
+        "Non è economico come pensavo."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Meno + nome",
+     "p": "Davanti a un nome **less** (non numerabile) e **fewer** (numerabile).",
+     "ex": [
+      "I have **less** time.",
+      "There are **fewer** people today."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I'm less tall than him.",
+     "I'm not as tall as him.",
+     "Con gli aggettivi corti si preferisce not as … as."
+    ],
+    [
+     "It is less expensive that that.",
+     "It is less expensive than that.",
+     "Il confronto vuole than."
+    ],
+    [
+     "Not so tall like him.",
+     "Not as tall as him.",
+     "Si usa as … as, non like."
+    ],
+    [
+     "It is not as big than Rome.",
+     "It is not as big as Rome.",
+     "Con not as si chiude con as, non than."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "This bag is ___ expensive than that one.",
+     "options": [
+      "less",
+      "fewer",
+      "not"
+     ],
+     "correct_index": 0,
+     "explanation": "Less + aggettivo + than."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm not ___ tall as him.",
+     "options": [
+      "so",
+      "as",
+      "than"
+     ],
+     "correct_index": 1,
+     "explanation": "Not as ... as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "English is ___ difficult than Chinese. (meno)",
+     "accepted_answers": [
+      "less"
+     ],
+     "explanation": "Less difficult."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Milan isn't as big ___ Rome.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "Not as ... as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "It is not as big than Rome.",
+      "It is not as big as Rome.",
+      "It is not as bigger as Rome."
+     ],
+     "correct_index": 1,
+     "explanation": "As ... as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "It is less expensive than that.",
+      "It is less expensive that that.",
+      "It is less expensive as that."
+     ],
+     "correct_index": 0,
+     "explanation": "Less ... than."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ time than you. (meno, non numerabile)",
+     "accepted_answers": [
+      "less"
+     ],
+     "explanation": "Time è non numerabile: less."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There are ___ people today. (meno, numerabile)",
+     "accepted_answers": [
+      "fewer"
+     ],
+     "explanation": "People è numerabile: fewer."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Non è così caro come pensavo»?",
+     "options": [
+      "It isn't as expensive as I thought.",
+      "It isn't so expensive than I thought.",
+      "It isn't less expensive as I thought."
+     ],
+     "correct_index": 0,
+     "explanation": "Not as ... as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is more natural?",
+     "options": [
+      "I'm not as old as you.",
+      "I'm less old than you.",
+      "I'm less old as you."
+     ],
+     "correct_index": 0,
+     "explanation": "Con old, not as ... as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This lesson is ___ boring than the last one. (meno)",
+     "accepted_answers": [
+      "less"
+     ],
+     "explanation": "Less boring."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My phone isn't as new ___ yours.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "Not as ... as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "fewer money",
+      "less money",
+      "less moneys"
+     ],
+     "correct_index": 1,
+     "explanation": "Money non è numerabile: less."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "fewer friends",
+      "less friends",
+      "fewer friend"
+     ],
+     "correct_index": 0,
+     "explanation": "Friends è numerabile: fewer."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The train isn't ___ fast as the plane.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "Not as fast as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Today is ___ hot than yesterday. (meno)",
+     "accepted_answers": [
+      "less"
+     ],
+     "explanation": "Less hot than."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase ha lo stesso significato di «A is taller than B»?",
+     "options": [
+      "B is not as tall as A.",
+      "B is as tall as A.",
+      "A is not as tall as B."
+     ],
+     "correct_index": 0,
+     "explanation": "Se A è più alto, B non è alto come A."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "not as big as",
+      "less big than",
+      "not as bigger as"
+     ],
+     "correct_index": 2,
+     "explanation": "Dopo not as si usa l'aggettivo base."
+    }
+   ]
+  },
+  {
+   "id": "a2-ceq",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Comparativi di uguaglianza",
+   "desc": "Alto come, uguale a: as … as e the same as.",
+   "lead": "Per dire che due cose sono **uguali** si usa **as + aggettivo + as**: *Anna is as tall as Marco*. Per dire che sono **diverse** si usa *not as … as*.",
+   "tip": "L'aggettivo sta **in mezzo** ai due as e resta nella forma base, senza -er.",
+   "blocks": [
+    {
+     "h": "As … as",
+     "table": {
+      "head": [
+       "Frase",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "She is as tall as him.",
+        "È alta come lui."
+       ],
+       [
+        "This bag is as expensive as that one.",
+        "Costa quanto quella."
+       ],
+       [
+        "I'm as tired as you.",
+        "Sono stanco quanto te."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Not as … as",
+     "ex": [
+      "I'm **not as** tall **as** him.",
+      "Milan **isn't as** big **as** Rome."
+     ]
+    },
+    {
+     "h": "The same as e different from",
+     "p": "Per dire «uguale» e «diverso» si usano espressioni diverse.",
+     "table": {
+      "head": [
+       "Espressione",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "the same as",
+        "My phone is the same as yours."
+       ],
+       [
+        "similar to",
+        "Her dress is similar to mine."
+       ],
+       [
+        "different from",
+        "This is different from that."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "As much / as many as",
+     "p": "Con i nomi: **as much as** (non numerabili), **as many as** (numerabili).",
+     "ex": [
+      "I have **as much** time **as** you.",
+      "She has **as many** friends **as** me."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "She is as taller as him.",
+     "She is as tall as him.",
+     "L'aggettivo resta alla forma base."
+    ],
+    [
+     "It is as big than Rome.",
+     "It is as big as Rome.",
+     "La seconda parola è as, non than."
+    ],
+    [
+     "It is same as mine.",
+     "It is the same as mine.",
+     "Serve the."
+    ],
+    [
+     "It is different than mine.",
+     "It is different from mine.",
+     "Different si costruisce con from."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "She is as ___ as him.",
+     "options": [
+      "tall",
+      "taller",
+      "tallest"
+     ],
+     "correct_index": 0,
+     "explanation": "Aggettivo alla forma base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This bag is as expensive ___ that one.",
+     "options": [
+      "as",
+      "than",
+      "like"
+     ],
+     "correct_index": 0,
+     "explanation": "As ... as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm as tired ___ you.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "As tired as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He is as ___ as his brother. (old)",
+     "accepted_answers": [
+      "old"
+     ],
+     "explanation": "As old as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She is as taller as me.",
+      "She is as tall as me.",
+      "She is as tall than me."
+     ],
+     "correct_index": 1,
+     "explanation": "As + base + as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "My phone is ___ same as yours.",
+     "options": [
+      "the",
+      "a",
+      "some"
+     ],
+     "correct_index": 0,
+     "explanation": "The same as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Her dress is similar ___ mine.",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation": "Similar to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is different ___ that.",
+     "accepted_answers": [
+      "from"
+     ],
+     "explanation": "Different from."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I have as ___ time as you.",
+     "options": [
+      "much",
+      "many",
+      "more"
+     ],
+     "correct_index": 0,
+     "explanation": "Time è non numerabile: as much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has as ___ friends as me.",
+     "options": [
+      "much",
+      "many",
+      "most"
+     ],
+     "correct_index": 1,
+     "explanation": "Friends è numerabile: as many."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Milan isn't ___ big as Rome.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "Not as big as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Sono alto quanto te»?",
+     "options": [
+      "I'm as tall as you.",
+      "I'm tall as you.",
+      "I'm so tall than you."
+     ],
+     "correct_index": 0,
+     "explanation": "As tall as you."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The same than",
+      "The same as",
+      "Same as"
+     ],
+     "correct_index": 1,
+     "explanation": "The same as."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's as cold ___ yesterday.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "As cold as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "as cheap as",
+      "as cheaper as",
+      "not as cheap as"
+     ],
+     "correct_index": 1,
+     "explanation": "Con as ... as non si usa il comparativo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Different ___ mine.",
+     "options": [
+      "from",
+      "than",
+      "as"
+     ],
+     "correct_index": 0,
+     "explanation": "Different from."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This test is as easy ___ the last one.",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation": "As easy as."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence means A = B?",
+     "options": [
+      "A is as old as B.",
+      "A is not as old as B.",
+      "A is older than B."
+     ],
+     "correct_index": 0,
+     "explanation": "As ... as = uguale."
+    }
+   ]
+  },
+  {
+   "id": "a2-conn",
+   "level": "A2",
+   "tag": "Grammatica",
+   "title": "Connectors",
+   "desc": "And, but, or, because, so, then, however: le parole che legano le frasi.",
+   "lead": "I **connectors** (connettori) uniscono parole e frasi e dicono come sono collegate: aggiunta, contrasto, causa, conseguenza, ordine. Con pochi connettori il tuo inglese suona subito più fluido.",
+   "tip": "**Because** dà la causa (perché). **So** dà la conseguenza (quindi). Non si usano insieme nella stessa frase.",
+   "blocks": [
+    {
+     "h": "I connettori base",
+     "table": {
+      "head": [
+       "Funzione",
+       "Connettore",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Aggiungere",
+        "and, also",
+        "I like tea and coffee."
+       ],
+       [
+        "Contrasto",
+        "but, however, although",
+        "I like it, but it's expensive."
+       ],
+       [
+        "Scelta",
+        "or",
+        "Tea or coffee?"
+       ],
+       [
+        "Causa",
+        "because",
+        "I stayed home because I was ill."
+       ],
+       [
+        "Conseguenza",
+        "so",
+        "I was ill, so I stayed home."
+       ],
+       [
+        "Ordine",
+        "first, then, after that, finally",
+        "First I wake up, then I have breakfast."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "But, however, although",
+     "p": "**But** sta in mezzo alla frase. **However** apre una nuova frase (con virgola). **Although** introduce una frase che contrasta con l'altra.",
+     "ex": [
+      "It's cheap, **but** it's good.",
+      "It's cheap. **However**, it isn't good.",
+      "**Although** it's cheap, it's good."
+     ]
+    },
+    {
+     "h": "Because o so?",
+     "ex": [
+      "I'm tired **because** I worked a lot. (causa)",
+      "I worked a lot, **so** I'm tired. (conseguenza)"
+     ]
+    },
+    {
+     "h": "Per fare un esempio",
+     "ex": [
+      "I like fruit, **for example** apples and oranges.",
+      "I like sports, **like** tennis and football."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "Because I was ill, so I stayed home.",
+     "Because I was ill, I stayed home. / I was ill, so I stayed home.",
+     "Non si usano because e so insieme."
+    ],
+    [
+     "Although it's cheap, but it's bad.",
+     "Although it's cheap, it's bad.",
+     "Con although non si mette but."
+    ],
+    [
+     "I like pizza, however I don't like pasta.",
+     "I like pizza, but I don't like pasta.",
+     "However apre una nuova frase."
+    ],
+    [
+     "Tea or coffee and?",
+     "Tea or coffee?",
+     "Or per una scelta."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I like tea ___ coffee.",
+     "options": [
+      "and",
+      "but",
+      "so"
+     ],
+     "correct_index": 0,
+     "explanation": "And = aggiunta."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It's cheap, ___ it's not good.",
+     "options": [
+      "because",
+      "but",
+      "so"
+     ],
+     "correct_index": 1,
+     "explanation": "But = contrasto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Do you want tea ___ coffee?",
+     "accepted_answers": [
+      "or"
+     ],
+     "explanation": "Or = scelta."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I stayed home ___ I was ill. (perché)",
+     "accepted_answers": [
+      "because"
+     ],
+     "explanation": "Because = causa."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I was ill, ___ I stayed home. (quindi)",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation": "So = conseguenza."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "First I wake up, ___ I have breakfast.",
+     "options": [
+      "then",
+      "but",
+      "or"
+     ],
+     "correct_index": 0,
+     "explanation": "Then = poi."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ it was raining, we went out.",
+     "options": [
+      "Although",
+      "Because",
+      "So"
+     ],
+     "correct_index": 0,
+     "explanation": "Although = nonostante."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It's cheap. ___, it isn't good.",
+     "options": [
+      "However",
+      "Because",
+      "So"
+     ],
+     "correct_index": 0,
+     "explanation": "However apre una nuova frase."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I like sports, ___ example tennis. (per)",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation": "For example."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Because I was tired, I went to bed.",
+      "Because I was tired, so I went to bed.",
+      "So I was tired, because I went to bed."
+     ],
+     "correct_index": 0,
+     "explanation": "Because e so non vanno insieme."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Although it was cold, we went out.",
+      "Although it was cold, but we went out.",
+      "Although but it was cold, we went out."
+     ],
+     "correct_index": 0,
+     "explanation": "Con although non si mette but."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is nice ___ funny. (e)",
+     "accepted_answers": [
+      "and"
+     ],
+     "explanation": "And."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm hungry, ___ I'm going to eat. (quindi)",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation": "So."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Perché sei in ritardo?»: Why are you late? Risposta: ___ the bus was late.",
+     "options": [
+      "Because",
+      "So",
+      "But"
+     ],
+     "correct_index": 0,
+     "explanation": "Because."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "First, then, after that, finally servono per:",
+     "options": [
+      "l'ordine",
+      "il contrasto",
+      "la causa"
+     ],
+     "correct_index": 0,
+     "explanation": "Sono connettori di ordine."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He didn't study. ___, he passed. (tuttavia)",
+     "accepted_answers": [
+      "however"
+     ],
+     "explanation": "However."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I like her, ___ I don't know her well.",
+     "options": [
+      "but",
+      "so",
+      "because"
+     ],
+     "correct_index": 0,
+     "explanation": "But."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I forgot my keys, ___ I couldn't open the door. (così)",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation": "So."
+    }
+   ]
+  },
+  {
+   "id": "a2-gen",
+   "level": "A2",
+   "tag": "Nomi",
+   "title": "Genitivo sassone",
+   "desc": "Marco's car, the students' books: il possesso con 's e s'.",
+   "lead": "Il **genitivo sassone** serve per dire di chi è qualcosa: **'s** dopo il possessore. Al posto del nostro «di», in inglese il possessore va **prima** della cosa posseduta.",
+   "tip": "*La macchina di Marco* → **Marco's car**. Il possessore prima, la cosa dopo, senza articolo davanti.",
+   "blocks": [
+    {
+     "h": "Le regole",
+     "table": {
+      "head": [
+       "Possessore",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Singolare",
+        "+ 's",
+        "Marco's car, my sister's room"
+       ],
+       [
+        "Plurale regolare (in -s)",
+        "+ ' soltanto",
+        "the students' books, my parents' house"
+       ],
+       [
+        "Plurale irregolare",
+        "+ 's",
+        "the children's toys, women's clothes"
+       ],
+       [
+        "Nome in -s",
+        "'s o '",
+        "James's book / James' book"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Senza il nome",
+     "p": "Se si capisce di che cosa si parla, il secondo nome si può omettere.",
+     "ex": [
+      "Whose bag is this? It's **Anna's**.",
+      "I'm going to **my sister's**. (a casa di mia sorella)"
+     ]
+    },
+    {
+     "h": "Quando si usa of",
+     "p": "Per le **cose** (non le persone) si usa di solito **of**.",
+     "ex": [
+      "the door **of** the house",
+      "the end **of** the film",
+      "the capital **of** Italy"
+     ]
+    },
+    {
+     "h": "Altri usi",
+     "ex": [
+      "**today's** news",
+      "**yesterday's** meeting",
+      "a friend **of mine** (un mio amico)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "the car of Marco",
+     "Marco's car",
+     "Con le persone: 's."
+    ],
+    [
+     "the Marco's car",
+     "Marco's car",
+     "Niente articolo davanti al possessore."
+    ],
+    [
+     "the students book",
+     "the students' book",
+     "Plurale in -s: apostrofo."
+    ],
+    [
+     "the childrens toys",
+     "the children's toys",
+     "Plurale irregolare: 's."
+    ],
+    [
+     "the leg's of the table",
+     "the leg of the table",
+     "Per le cose: of."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "La macchina di Marco:",
+     "options": [
+      "Marco's car",
+      "the car of Marco",
+      "Marco car's"
+     ],
+     "correct_index": 0,
+     "explanation": "Possessore + 's + cosa."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "La stanza di mia sorella:",
+     "options": [
+      "my sister's room",
+      "my sisters room",
+      "the room of my sister"
+     ],
+     "correct_index": 0,
+     "explanation": "'s."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The ___ books are on the table. (i libri degli studenti)",
+     "accepted_answers": [
+      "students'"
+     ],
+     "explanation": "Plurale in -s: students'."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The ___ toys are in the garden. (i bambini)",
+     "accepted_answers": [
+      "children's"
+     ],
+     "explanation": "Plurale irregolare: children's."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the Marco's car",
+      "Marco's car",
+      "the car Marco's"
+     ],
+     "correct_index": 1,
+     "explanation": "Niente articolo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Whose bag is this? It's ___.",
+     "options": [
+      "Anna's",
+      "Anna",
+      "of Anna"
+     ],
+     "correct_index": 0,
+     "explanation": "Anna's."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm going to my ___ house. (la casa di mia sorella)",
+     "accepted_answers": [
+      "sister's"
+     ],
+     "explanation": "Sister's."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The door ___ the house is blue. (di)",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Cosa: of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the end of the film",
+      "the film's end of",
+      "the film end's"
+     ],
+     "correct_index": 0,
+     "explanation": "Per le cose: of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "my parents' house",
+      "my parent's house",
+      "my parents house"
+     ],
+     "correct_index": 0,
+     "explanation": "Plurale in -s: apostrofo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is ___ book. (il libro di James)",
+     "accepted_answers": [
+      "James's",
+      "James'"
+     ],
+     "explanation": "James's o James'."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "a friend of mine",
+      "a friend of me",
+      "a mine friend"
+     ],
+     "correct_index": 0,
+     "explanation": "A friend of mine."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "women's clothes",
+      "womens' clothes",
+      "womens clothes"
+     ],
+     "correct_index": 0,
+     "explanation": "Plurale irregolare: women's."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Have you seen ___ news? (di oggi)",
+     "accepted_answers": [
+      "today's"
+     ],
+     "explanation": "Today's."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The cat's tail means:",
+     "options": [
+      "la coda del gatto",
+      "le code dei gatti",
+      "il gatto della coda"
+     ],
+     "correct_index": 0,
+     "explanation": "Singolare: cat's."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The cats' tails means:",
+     "options": [
+      "le code dei gatti",
+      "la coda del gatto",
+      "il gatto è la coda"
+     ],
+     "correct_index": 0,
+     "explanation": "Plurale: cats'."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The ___ of the table is broken. (la gamba)",
+     "accepted_answers": [
+      "leg"
+     ],
+     "explanation": "The leg of the table."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "Marco's sister",
+      "the sister's of Marco",
+      "the end of the street"
+     ],
+     "correct_index": 1,
+     "explanation": "Il possessore va prima."
+    }
+   ]
+  },
+  {
    "id": "a1-imp",
-   "title": "Imperativo",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "Imperativo",
    "desc": "Ordini, istruzioni e inviti: sit down, don't run, let's go.",
    "lead": "L'**imperativo** si usa per dare **ordini**, **istruzioni**, **consigli** e **inviti**. In inglese è semplicissimo: è il verbo nella forma base, senza soggetto.",
    "tip": "Un'unica forma per tutti: «Open the door» vale per tu, voi e Lei.",
@@ -1727,9 +4217,1180 @@
    ]
   },
   {
+   "id": "a2-like",
+   "level": "A2",
+   "tag": "Verbi",
+   "title": "Like, love e hate",
+   "desc": "Mi piace, adoro, odio: i verbi di gusto, con il nome e con il verbo in -ing.",
+   "lead": "**Like**, **love** e **hate** dicono quanto ti piace o non ti piace qualcosa. In inglese il soggetto è la persona che prova il sentimento: *I like pizza* (non «la pizza mi piace»).",
+   "tip": "Dopo like / love / hate c'è un nome oppure un verbo in **-ing**: *I love swimming*. Con he / she / it: **likes**, **loves**, **hates**.",
+   "blocks": [
+    {
+     "h": "Dal più al meno",
+     "table": {
+      "head": [
+       "Verbo",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "love",
+        "adorare",
+        "I love pizza."
+       ],
+       [
+        "like",
+        "piacere",
+        "I like tennis."
+       ],
+       [
+        "don't like",
+        "non piacere",
+        "I don't like coffee."
+       ],
+       [
+        "hate",
+        "odiare",
+        "I hate waiting."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Con il verbo in -ing",
+     "ex": [
+      "I **like** swimming.",
+      "She **loves** reading.",
+      "He **hates** getting up early."
+     ]
+    },
+    {
+     "h": "La -s della terza persona",
+     "p": "Con he / she / it e con la negativa e la domanda valgono le regole del Present Simple.",
+     "ex": [
+      "She **likes** jazz.",
+      "He **doesn't like** fish.",
+      "**Do** you **like** cooking?",
+      "Yes, I **do**. / No, I **don't**."
+     ]
+    },
+    {
+     "h": "Like o would like?",
+     "p": "**Like** = mi piace (in generale). **Would like** = vorrei (gentile, adesso).",
+     "table": {
+      "head": [
+       "Frase",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "I like coffee.",
+        "Il caffè mi piace."
+       ],
+       [
+        "I'd like a coffee.",
+        "Vorrei un caffè."
+       ],
+       [
+        "Would you like some tea?",
+        "Vuoi del tè? (offerta)"
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "Pizza likes me.",
+     "I like pizza.",
+     "Il soggetto è chi prova il sentimento."
+    ],
+    [
+     "I like to swimming.",
+     "I like swimming.",
+     "Like + -ing, senza to."
+    ],
+    [
+     "She like jazz.",
+     "She likes jazz.",
+     "Con she serve -s."
+    ],
+    [
+     "He doesn't likes fish.",
+     "He doesn't like fish.",
+     "Dopo doesn't: forma base."
+    ],
+    [
+     "I like a coffee, please.",
+     "I'd like a coffee, please.",
+     "Per chiedere: I'd like."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ pizza. (mi piace)",
+     "options": [
+      "like",
+      "likes",
+      "am like"
+     ],
+     "correct_index": 0,
+     "explanation": "I like."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ jazz.",
+     "options": [
+      "like",
+      "likes",
+      "is like"
+     ],
+     "correct_index": 1,
+     "explanation": "She likes."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ waiting. (odia)",
+     "accepted_answers": [
+      "hates"
+     ],
+     "explanation": "He hates."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ travelling. (adorano)",
+     "accepted_answers": [
+      "love"
+     ],
+     "explanation": "They love."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I like ___.",
+     "options": [
+      "swimming",
+      "swim to",
+      "to swimming"
+     ],
+     "correct_index": 0,
+     "explanation": "Like + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I like to swimming.",
+      "I like swimming.",
+      "I like swim."
+     ],
+     "correct_index": 1,
+     "explanation": "Like + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I don't ___ coffee. (like)",
+     "accepted_answers": [
+      "like"
+     ],
+     "explanation": "Don't + forma base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She doesn't ___ fish. (like)",
+     "accepted_answers": [
+      "like"
+     ],
+     "explanation": "Doesn't + forma base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you like cooking?",
+     "options": [
+      "Do",
+      "Does",
+      "Are"
+     ],
+     "correct_index": 0,
+     "explanation": "Do you like...?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ he like football?",
+     "options": [
+      "Do",
+      "Does",
+      "Is"
+     ],
+     "correct_index": 1,
+     "explanation": "Does he like...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Do you like jazz? Yes, I ___.",
+     "accepted_answers": [
+      "do"
+     ],
+     "explanation": "Yes, I do."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Does she like fish? No, she ___.",
+     "accepted_answers": [
+      "doesn't",
+      "does not"
+     ],
+     "explanation": "No, she doesn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Per chiedere un caffè:",
+     "options": [
+      "I'd like a coffee, please.",
+      "I like a coffee, please.",
+      "I'm liking a coffee."
+     ],
+     "correct_index": 0,
+     "explanation": "Would like = vorrei."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Would you ___ some tea?",
+     "options": [
+      "like",
+      "likes",
+      "liking"
+     ],
+     "correct_index": 0,
+     "explanation": "Would you like...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ getting up early. (odio)",
+     "accepted_answers": [
+      "hate"
+     ],
+     "explanation": "I hate."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ reading before bed. (adorare)",
+     "accepted_answers": [
+      "loves"
+     ],
+     "explanation": "He loves."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He doesn't like fish.",
+      "He doesn't likes fish.",
+      "He not like fish."
+     ],
+     "correct_index": 0,
+     "explanation": "Doesn't + forma base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which word is the OPPOSITE of love?",
+     "options": [
+      "hate",
+      "like",
+      "enjoy"
+     ],
+     "correct_index": 0,
+     "explanation": "Hate."
+    }
+   ]
+  },
+  {
+   "id": "a2-pastc",
+   "level": "A2",
+   "tag": "Verbi",
+   "title": "Past Continuous per principianti",
+   "desc": "Stavo mangiando quando sei arrivato: was / were + -ing, e il contrasto con il Past Simple.",
+   "lead": "Il **Past Continuous** descrive un'azione **in corso** in un momento del passato: *alle 8 stavo cenando*. Spesso fa da sfondo a un'altra azione più breve, al Past Simple.",
+   "tip": "Formula: **was / were + verbo-ing**. L'azione lunga è al continuous, quella breve interrompe al Past Simple.",
+   "blocks": [
+    {
+     "h": "La forma",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Be",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "I / He / She / It",
+        "was",
+        "I was working."
+       ],
+       [
+        "You / We / They",
+        "were",
+        "They were playing."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I / He / She / It",
+        "wasn't working",
+        "Was she working?"
+       ],
+       [
+        "You / We / They",
+        "weren't working",
+        "Were you working?"
+       ]
+      ]
+     },
+     "ex": [
+      "What **were** you **doing** at 8? I **was having** dinner.",
+      "**Was** it **raining**? No, it **wasn't**."
+     ]
+    },
+    {
+     "h": "When e while",
+     "p": "**While** + Past Continuous (azione lunga). **When** + Past Simple (azione breve che interrompe).",
+     "ex": [
+      "I **was walking** home **when** it **started** to rain.",
+      "**While** she **was cooking**, the phone **rang**.",
+      "At 9 o'clock I **was sleeping**. (un momento preciso)"
+     ]
+    },
+    {
+     "h": "Verbi che non si usano al continuous",
+     "p": "Alcuni verbi (know, want, like, love) di solito non si usano nella forma -ing.",
+     "ex": [
+      "I **knew** the answer. (non: I was knowing)",
+      "She **wanted** a coffee. (non: she was wanting)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I working at 8 yesterday.",
+     "I was working at 8 yesterday.",
+     "Serve was / were."
+    ],
+    [
+     "She was play tennis.",
+     "She was playing tennis.",
+     "Dopo was / were: verbo-ing."
+    ],
+    [
+     "I was walking when it was starting to rain.",
+     "I was walking when it started to rain.",
+     "L'azione breve è al Past Simple."
+    ],
+    [
+     "They was sleeping.",
+     "They were sleeping.",
+     "They → were."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "At 8 o'clock I ___ dinner.",
+     "options": [
+      "was having",
+      "had",
+      "am having"
+     ],
+     "correct_index": 0,
+     "explanation": "Azione in corso a un'ora precisa: was having."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They ___ football when it started to rain.",
+     "options": [
+      "were playing",
+      "played",
+      "was playing"
+     ],
+     "correct_index": 0,
+     "explanation": "They → were playing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ watching TV at 9 last night. (was / were)",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "She → was."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We were ___ in the garden. (work)",
+     "accepted_answers": [
+      "working"
+     ],
+     "explanation": "Dopo were: -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He was ___ a letter. (write)",
+     "accepted_answers": [
+      "writing"
+     ],
+     "explanation": "Write perde la e: writing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The children were ___ in the park. (run)",
+     "accepted_answers": [
+      "running"
+     ],
+     "explanation": "Si raddoppia la n: running."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you sleeping at 11?",
+     "options": [
+      "Was",
+      "Were",
+      "Did"
+     ],
+     "correct_index": 1,
+     "explanation": "Domanda con you: Were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ it raining?",
+     "options": [
+      "Were",
+      "Was",
+      "Did"
+     ],
+     "correct_index": 1,
+     "explanation": "It → Was."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ not listening. (forma breve: wasn't)",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "I was not (wasn't) listening."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ not working. (forma breve: weren't)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "They were not (weren't) working."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I was walking home ___ it started to rain.",
+     "options": [
+      "when",
+      "while",
+      "during"
+     ],
+     "correct_index": 0,
+     "explanation": "When + azione breve al Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ I was cooking, the phone rang.",
+     "options": [
+      "When",
+      "While",
+      "Because"
+     ],
+     "correct_index": 1,
+     "explanation": "While + azione lunga al Past Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She was reading when I called.",
+      "She read when I was calling.",
+      "She was reading when I was calling."
+     ],
+     "correct_index": 0,
+     "explanation": "Azione lunga continuous + azione breve Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What were you ___ at 8? (do)",
+     "accepted_answers": [
+      "doing"
+     ],
+     "explanation": "Were you doing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Were you sleeping? No, I ___.",
+     "accepted_answers": [
+      "wasn't",
+      "was not"
+     ],
+     "explanation": "No, I wasn't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Was he working? Yes, he ___.",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "Yes, he was."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ the answer. (non: was knowing)",
+     "options": [
+      "knew",
+      "was knowing",
+      "know"
+     ],
+     "correct_index": 0,
+     "explanation": "Know non si usa al continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase descrive una scena (sfondo) nel passato?",
+     "options": [
+      "The sun was shining and birds were singing.",
+      "The sun shone and birds sang at 9.",
+      "The sun is shining."
+     ],
+     "correct_index": 0,
+     "explanation": "Il continuous descrive la scena."
+    }
+   ]
+  },
+  {
+   "id": "a2-psb",
+   "level": "A2",
+   "tag": "Verbi",
+   "title": "Past Simple per principianti",
+   "desc": "Ieri ho lavorato: verbi regolari e irregolari, did / didn't e le domande.",
+   "lead": "Il **Past Simple** racconta azioni **finite nel passato**: *ieri ho lavorato*, *l'anno scorso sono andato a Roma*. Si forma con la forma del passato del verbo, oppure con **did** nelle frasi negative e nelle domande.",
+   "tip": "Con did / didn't il verbo torna alla forma base: *I didn't go*, non *I didn't went*.",
+   "blocks": [
+    {
+     "h": "Affermativa: la forma del passato",
+     "p": "Un'unica forma per tutti i soggetti, senza -s per he / she / it.",
+     "table": {
+      "head": [
+       "Tipo",
+       "Regola",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Regolari",
+        "+ **-ed**",
+        "work → worked"
+       ],
+       [
+        "In -e",
+        "+ **-d**",
+        "live → lived"
+       ],
+       [
+        "Consonante + y",
+        "y → **-ied**",
+        "study → studied"
+       ],
+       [
+        "Una vocale + una consonante",
+        "raddoppia la consonante + -ed",
+        "stop → stopped"
+       ],
+       [
+        "Irregolari",
+        "forma da imparare",
+        "go → went, have → had, see → saw"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Si usa **did** per tutti i soggetti. Dopo did il verbo è sempre alla forma base.",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "Tutti i soggetti",
+        "didn't + verbo base",
+        "Did + soggetto + verbo base?"
+       ]
+      ]
+     },
+     "ex": [
+      "I **didn't** watch TV last night.",
+      "**Did** you **go** out yesterday? Yes, I **did**. / No, I **didn't**.",
+      "What **did** she **buy**?"
+     ]
+    },
+    {
+     "h": "Irregolari da sapere subito",
+     "table": {
+      "head": [
+       "Base",
+       "Passato",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "go",
+        "went",
+        "andare"
+       ],
+       [
+        "have",
+        "had",
+        "avere"
+       ],
+       [
+        "see",
+        "saw",
+        "vedere"
+       ],
+       [
+        "do",
+        "did",
+        "fare"
+       ],
+       [
+        "make",
+        "made",
+        "fare, creare"
+       ],
+       [
+        "take",
+        "took",
+        "prendere"
+       ],
+       [
+        "get",
+        "got",
+        "ottenere, diventare"
+       ],
+       [
+        "come",
+        "came",
+        "venire"
+       ],
+       [
+        "buy",
+        "bought",
+        "comprare"
+       ],
+       [
+        "eat",
+        "ate",
+        "mangiare"
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "I didn't went to school.",
+     "I didn't go to school.",
+     "Dopo didn't il verbo è alla forma base."
+    ],
+    [
+     "Did you saw him?",
+     "Did you see him?",
+     "Dopo did il verbo è alla forma base."
+    ],
+    [
+     "She studyed all night.",
+     "She studied all night.",
+     "Consonante + y diventa -ied."
+    ],
+    [
+     "We stoped at a café.",
+     "We stopped at a café.",
+     "Si raddoppia la p."
+    ],
+    [
+     "I goed to Rome.",
+     "I went to Rome.",
+     "Go è irregolare: went."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ to the cinema yesterday.",
+     "options": [
+      "go",
+      "went",
+      "goed"
+     ],
+     "correct_index": 1,
+     "explanation": "Passato irregolare di go: went."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ in Milan for five years.",
+     "options": [
+      "lived",
+      "live",
+      "lives"
+     ],
+     "correct_index": 0,
+     "explanation": "Live + d = lived."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ a great film last night. (see)",
+     "accepted_answers": [
+      "saw"
+     ],
+     "explanation": "See → saw."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ English at university. (study)",
+     "accepted_answers": [
+      "studied"
+     ],
+     "explanation": "Consonante + y → studied."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ football on Sunday. (play)",
+     "accepted_answers": [
+      "played"
+     ],
+     "explanation": "Vocale + y: play → played."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ watch TV last night.",
+     "options": [
+      "didn't",
+      "don't",
+      "wasn't"
+     ],
+     "correct_index": 0,
+     "explanation": "Negativa passata: didn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you go out last night?",
+     "options": [
+      "Do",
+      "Did",
+      "Were"
+     ],
+     "correct_index": 1,
+     "explanation": "Domanda passata: Did."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She didn't ___ the answer. (know)",
+     "accepted_answers": [
+      "know"
+     ],
+     "explanation": "Dopo didn't: forma base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Did he ___ breakfast? (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Dopo did: forma base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I didn't went out.",
+      "I didn't go out.",
+      "I not went out."
+     ],
+     "correct_index": 1,
+     "explanation": "Didn't + forma base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She bought a new bag.",
+      "She buyed a new bag.",
+      "She buys a new bag yesterday."
+     ],
+     "correct_index": 0,
+     "explanation": "Buy → bought (irregolare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ up at 7 yesterday. (get)",
+     "accepted_answers": [
+      "got"
+     ],
+     "explanation": "Get → got."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The bus ___ at the corner. (stop)",
+     "accepted_answers": [
+      "stopped"
+     ],
+     "explanation": "Si raddoppia la p: stopped."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Did you eat pizza? No, I ___.",
+     "accepted_answers": [
+      "didn't",
+      "did not"
+     ],
+     "explanation": "No, I didn't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Did she call you? Yes, she ___.",
+     "accepted_answers": [
+      "did"
+     ],
+     "explanation": "Yes, she did."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What time ___ you arrive?",
+     "options": [
+      "do",
+      "did",
+      "were"
+     ],
+     "correct_index": 1,
+     "explanation": "What time did you arrive?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ a lot of money last year.",
+     "options": [
+      "made",
+      "maked",
+      "make"
+     ],
+     "correct_index": 0,
+     "explanation": "Make → made."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase usa bene il Past Simple?",
+     "options": [
+      "I took a taxi to the airport.",
+      "I did took a taxi to the airport.",
+      "I taked a taxi to the airport."
+     ],
+     "correct_index": 0,
+     "explanation": "Take → took."
+    }
+   ]
+  },
+  {
+   "id": "a2-pse",
+   "level": "A2",
+   "tag": "Verbi",
+   "title": "Past Simple: il verbo essere",
+   "desc": "Was e were: com'eri, dov'eri, cos'era. Forma affermativa, negativa e domande.",
+   "lead": "Nel passato il verbo **to be** ha solo due forme: **was** e **were**. Serve per dire com'era qualcuno o qualcosa, dov'era, quando è nato.",
+   "tip": "Was con I / he / she / it. Were con you / we / they. Niente did, mai.",
+   "blocks": [
+    {
+     "h": "Le due forme",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "I / He / She / It",
+        "was",
+        "She was at home."
+       ],
+       [
+        "You / We / They",
+        "were",
+        "We were tired."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Come nel presente: **not** dopo il verbo, oppure si inverte il soggetto. **Non si usa did / didn't.**",
+     "table": {
+      "head": [
+       "",
+       "Negativa",
+       "Domanda"
+      ],
+      "rows": [
+       [
+        "I / He / She / It",
+        "wasn't (was not)",
+        "Was he late?"
+       ],
+       [
+        "You / We / They",
+        "weren't (were not)",
+        "Were you at school?"
+       ]
+      ]
+     },
+     "ex": [
+      "I **wasn't** hungry.",
+      "**Were** they happy? Yes, they **were**. / No, they **weren't**.",
+      "Where **was** he yesterday?"
+     ]
+    },
+    {
+     "h": "Parole del passato",
+     "ex": [
+      "**yesterday**, **last night**, **last week**",
+      "**two days ago**, **a week ago**",
+      "**in 2019**, **in July**",
+      "I **was born** in 1990. (sono nato)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I were at home yesterday.",
+     "I was at home yesterday.",
+     "Con I si usa was."
+    ],
+    [
+     "We was in Rome.",
+     "We were in Rome.",
+     "Con we si usa were."
+    ],
+    [
+     "Did you were tired?",
+     "Were you tired?",
+     "Con to be non si usa did."
+    ],
+    [
+     "She didn't was there.",
+     "She wasn't there.",
+     "La negativa è wasn't."
+    ],
+    [
+     "I am born in 1990.",
+     "I was born in 1990.",
+     "Nato = was born, sempre al passato."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ at home yesterday.",
+     "options": [
+      "was",
+      "were",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Con I si usa was."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They ___ very tired last night.",
+     "options": [
+      "was",
+      "were",
+      "are"
+     ],
+     "correct_index": 1,
+     "explanation": "Con they si usa were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ my teacher in 2019.",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "She → was."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ at the cinema on Friday.",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "We → were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you at school yesterday?",
+     "options": [
+      "Was",
+      "Were",
+      "Did"
+     ],
+     "correct_index": 1,
+     "explanation": "Con you si usa Were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ he late for work?",
+     "options": [
+      "Were",
+      "Did",
+      "Was"
+     ],
+     "correct_index": 2,
+     "explanation": "Con he si usa Was."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ not hungry. (forma breve: wasn't)",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "I was not (wasn't) hungry."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ not at home. (forma breve: weren't)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "They were not (weren't) at home."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She wasn't happy.",
+      "She didn't was happy.",
+      "She not was happy."
+     ],
+     "correct_index": 0,
+     "explanation": "La negativa di was è wasn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Sono nato nel 1990»?",
+     "options": [
+      "I was born in 1990.",
+      "I am born in 1990.",
+      "I born in 1990."
+     ],
+     "correct_index": 0,
+     "explanation": "Was born, sempre al passato."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Were you ill? No, I ___.",
+     "accepted_answers": [
+      "wasn't",
+      "was not"
+     ],
+     "explanation": "No, I wasn't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Rispondi: Was it cold? Yes, it ___.",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "Yes, it was."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where ___ you last night?",
+     "options": [
+      "was",
+      "were",
+      "did"
+     ],
+     "correct_index": 1,
+     "explanation": "Where were you...?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The film ___ very boring.",
+     "options": [
+      "were",
+      "was",
+      "did"
+     ],
+     "correct_index": 1,
+     "explanation": "The film = it → was."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ a lot of people at the party. (c'erano)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "People è plurale: there were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There ___ a problem with the car. (c'era)",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "Un problema: there was."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Were they late?",
+      "Did they were late?",
+      "Was they late?"
+     ],
+     "correct_index": 0,
+     "explanation": "They → Were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ in Spain two weeks ago.",
+     "options": [
+      "was",
+      "am",
+      "were"
+     ],
+     "correct_index": 0,
+     "explanation": "Two weeks ago è passato; con I: was."
+    }
+   ]
+  },
+  {
    "id": "a1-plural",
-   "title": "Plurale dei nomi",
+   "level": "A1",
    "tag": "Grammatica",
+   "title": "Plurale dei nomi",
    "desc": "Plurali regolari e irregolari: -s, -es, -ies, man → men.",
    "lead": "Per fare il **plurale** in inglese di solito basta aggiungere **-s**. Ci sono poche regole di ortografia e un gruppo di plurali irregolari da imparare.",
    "tip": "Gli irregolari più importanti: man → men, woman → women, child → children, person → people.",
@@ -2045,9 +5706,308 @@
    ]
   },
   {
+   "id": "a2-prepadj",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Preposizioni comuni con gli aggettivi",
+   "desc": "Good at, interested in, afraid of: gli aggettivi che vogliono una preposizione.",
+   "lead": "Molti aggettivi inglesi vogliono una **preposizione precisa**, che spesso non corrisponde all'italiano. Vanno imparati in coppia: *good at*, *interested in*, *afraid of*.",
+   "tip": "Dopo la preposizione si usa un nome oppure il verbo in -ing: *I'm good at swimming*.",
+   "blocks": [
+    {
+     "h": "Le coppie più comuni",
+     "table": {
+      "head": [
+       "Aggettivo + preposizione",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "good at / bad at",
+        "bravo / scarso in",
+        "She's good at maths."
+       ],
+       [
+        "interested in",
+        "interessato a",
+        "I'm interested in music."
+       ],
+       [
+        "afraid of",
+        "che ha paura di",
+        "He is afraid of dogs."
+       ],
+       [
+        "worried about",
+        "preoccupato per",
+        "I'm worried about the exam."
+       ],
+       [
+        "excited about",
+        "entusiasta di",
+        "We're excited about the trip."
+       ],
+       [
+        "proud of",
+        "orgoglioso di",
+        "I'm proud of you."
+       ],
+       [
+        "tired of",
+        "stufo di",
+        "I'm tired of waiting."
+       ],
+       [
+        "angry with",
+        "arrabbiato con",
+        "She's angry with me."
+       ],
+       [
+        "different from",
+        "diverso da",
+        "This is different from that."
+       ],
+       [
+        "married to",
+        "sposato con",
+        "He's married to Anna."
+       ],
+       [
+        "ready for",
+        "pronto per",
+        "Are you ready for the test?"
+       ],
+       [
+        "full of",
+        "pieno di",
+        "The box is full of books."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Con il verbo in -ing",
+     "ex": [
+      "I'm good **at cooking**.",
+      "She is afraid **of flying**.",
+      "I'm tired **of waiting**."
+     ]
+    },
+    {
+     "h": "Attenzione",
+     "p": "Alcune corrispondenze sono diverse dall'italiano.",
+     "ex": [
+      "**interested in** (non: interested to)",
+      "**married to** (non: married with)",
+      "**angry with** una persona, **angry about** una cosa"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I'm interested to music.",
+     "I'm interested in music.",
+     "Interested in."
+    ],
+    [
+     "She is married with Marco.",
+     "She is married to Marco.",
+     "Married to."
+    ],
+    [
+     "He is afraid from dogs.",
+     "He is afraid of dogs.",
+     "Afraid of."
+    ],
+    [
+     "I'm good in tennis.",
+     "I'm good at tennis.",
+     "Good at."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "She's good ___ maths.",
+     "options": [
+      "at",
+      "in",
+      "on"
+     ],
+     "correct_index": 0,
+     "explanation": "Good at."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm interested ___ music.",
+     "options": [
+      "in",
+      "to",
+      "about"
+     ],
+     "correct_index": 0,
+     "explanation": "Interested in."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He is afraid ___ dogs.",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Afraid of."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm worried ___ the exam.",
+     "accepted_answers": [
+      "about"
+     ],
+     "explanation": "Worried about."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is married ___ Marco.",
+     "options": [
+      "to",
+      "with",
+      "by"
+     ],
+     "correct_index": 0,
+     "explanation": "Married to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This is different ___ that.",
+     "options": [
+      "from",
+      "with",
+      "by"
+     ],
+     "correct_index": 0,
+     "explanation": "Different from."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm proud ___ you.",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Proud of."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We're excited ___ the trip.",
+     "accepted_answers": [
+      "about"
+     ],
+     "explanation": "Excited about."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm tired ___ waiting.",
+     "options": [
+      "of",
+      "for",
+      "at"
+     ],
+     "correct_index": 0,
+     "explanation": "Tired of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She's angry ___ me.",
+     "options": [
+      "with",
+      "of",
+      "to"
+     ],
+     "correct_index": 0,
+     "explanation": "Angry with + persona."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Are you ready ___ the test?",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation": "Ready for."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The box is full ___ books.",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation": "Full of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I'm good at cooking.",
+      "I'm good in cooking.",
+      "I'm good on cooking."
+     ],
+     "correct_index": 0,
+     "explanation": "Good at + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He's afraid of flying.",
+      "He's afraid to flying.",
+      "He's afraid from flying."
+     ],
+     "correct_index": 0,
+     "explanation": "Afraid of + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm bad ___ maths.",
+     "accepted_answers": [
+      "at"
+     ],
+     "explanation": "Bad at."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "interested to",
+      "interested in",
+      "interested in learning"
+     ],
+     "correct_index": 0,
+     "explanation": "Si dice interested in."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is good ___ languages.",
+     "accepted_answers": [
+      "at"
+     ],
+     "explanation": "Good at."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Sono stufo di aspettare»?",
+     "options": [
+      "I'm tired of waiting.",
+      "I'm tired to wait.",
+      "I'm tired from wait."
+     ],
+     "correct_index": 0,
+     "explanation": "Tired of + -ing."
+    }
+   ]
+  },
+  {
    "id": "a1-prep-place",
-   "title": "Preposizioni di luogo",
+   "level": "A1",
    "tag": "Preposizioni",
+   "title": "Preposizioni di luogo",
    "desc": "In, on, at, under, next to, between: dove si trova qualcosa.",
    "lead": "Le **preposizioni di luogo** dicono *dove* si trova qualcosa. Le tre fondamentali sono **in, on, at**.",
    "tip": "In = dentro uno spazio. On = sopra una superficie. At = un punto preciso.",
@@ -2343,8 +6303,9 @@
   },
   {
    "id": "a1-prep-move",
-   "title": "Preposizioni di moto",
+   "level": "A1",
    "tag": "Preposizioni",
+   "title": "Preposizioni di moto",
    "desc": "To, from, into, out of, through, across, up, down.",
    "lead": "Le **preposizioni di moto** dicono *verso dove* ci si muove. Indicano una direzione, non una posizione.",
    "tip": "Con i verbi di movimento: **to** = verso la destinazione. Con **home** non serve to (go home).",
@@ -2633,8 +6594,9 @@
   },
   {
    "id": "a1-prep-time",
-   "title": "Preposizioni di tempo",
+   "level": "A1",
    "tag": "Preposizioni",
+   "title": "Preposizioni di tempo",
    "desc": "At, on, in per ore, giorni, mesi, anni; for, since, from … to.",
    "lead": "Le **preposizioni di tempo** dicono *quando*. Le tre principali sono **at, on, in**, e si scelgono in base al tipo di momento.",
    "tip": "At = ore e momenti precisi. On = giorni e date. In = periodi lunghi (mesi, anni, stagioni).",
@@ -2923,8 +6885,9 @@
   },
   {
    "id": "a1-pc",
-   "title": "Present Continuous",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "Present Continuous",
    "desc": "Quello che succede adesso: am / is / are + verbo in -ing.",
    "lead": "Il **Present Continuous** descrive ciò che sta succedendo **adesso** (I'm reading) o in questo periodo. In italiano corrisponde a «sto + gerundio».",
    "tip": "Formula: **am / is / are + verbo-ing**. Se la azione è un'abitudine, non è questo tempo.",
@@ -3227,8 +7190,9 @@
   },
   {
    "id": "a1-ps",
-   "title": "Present Simple",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "Present Simple",
    "desc": "Abitudini e verità: la -s della terza persona, do / does e negativa.",
    "lead": "Il **Present Simple** serve per le **abitudini** (I get up at 7), le **verità generali** (water boils at 100°) e gli **orari**. È il primo tempo da padroneggiare.",
    "tip": "Un solo segreto: con he / she / it il verbo prende la **-s**. Con do / does, la -s sparisce.",
@@ -3548,8 +7512,9 @@
   },
   {
    "id": "a1-obj",
-   "title": "Pronomi complemento",
+   "level": "A1",
    "tag": "Pronomi",
+   "title": "Pronomi complemento",
    "desc": "Me, you, him, her, it, us, them: chi riceve l'azione.",
    "lead": "I **pronomi complemento** si usano **dopo il verbo** o **dopo una preposizione**, al posto del soggetto. Rispondono a «chi?» o «che cosa?».",
    "tip": "Cambia la forma: I → me, he → him, she → her, we → us, they → them.",
@@ -3827,9 +7792,281 @@
    ]
   },
   {
-   "id": "a1-pospron",
-   "title": "Pronomi possessivi",
+   "id": "a2-indef",
+   "level": "A2",
    "tag": "Pronomi",
+   "title": "Pronomi indefiniti (1)",
+   "desc": "Somebody, anything, nowhere, everyone: qualcuno, niente, da nessuna parte, tutti.",
+   "lead": "I **pronomi indefiniti** parlano di persone, cose o luoghi senza dire quali. Si formano con **some / any / no / every** + **-body / -one / -thing / -where**.",
+   "tip": "Some- nelle affermative, any- nelle negative e domande, no- con il verbo affermativo, every- per «tutto, tutti». Il verbo resta al singolare.",
+   "blocks": [
+    {
+     "h": "La tabella",
+     "table": {
+      "head": [
+       "",
+       "Persone",
+       "Cose",
+       "Luoghi"
+      ],
+      "rows": [
+       [
+        "some-",
+        "somebody / someone",
+        "something",
+        "somewhere"
+       ],
+       [
+        "any-",
+        "anybody / anyone",
+        "anything",
+        "anywhere"
+       ],
+       [
+        "no-",
+        "nobody / no one",
+        "nothing",
+        "nowhere"
+       ],
+       [
+        "every-",
+        "everybody / everyone",
+        "everything",
+        "everywhere"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Some o any?",
+     "ex": [
+      "There is **someone** at the door. (affermativa)",
+      "I don't know **anyone** here. (negativa)",
+      "Is there **anything** to eat? (domanda)"
+     ]
+    },
+    {
+     "h": "No- con il verbo affermativo",
+     "p": "In inglese una sola negazione per frase: o *not … any-* oppure *no-*.",
+     "ex": [
+      "I don't see **anything**. = I see **nothing**.",
+      "**Nobody** came. (non *Nobody didn't come*)"
+     ]
+    },
+    {
+     "h": "Il verbo al singolare",
+     "ex": [
+      "**Everybody is** here.",
+      "**Nobody knows** the answer.",
+      "**Everything is** ready."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I don't see nothing.",
+     "I don't see anything. / I see nothing.",
+     "Una sola negazione."
+    ],
+    [
+     "Everybody are here.",
+     "Everybody is here.",
+     "Verbo al singolare."
+    ],
+    [
+     "I have anything to say.",
+     "I have something to say.",
+     "Affermativa: some-."
+    ],
+    [
+     "Somebody didn't come.",
+     "Nobody came.",
+     "Con un soggetto negativo si usa no-."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "There is ___ at the door.",
+     "options": [
+      "someone",
+      "anyone",
+      "no one"
+     ],
+     "correct_index": 0,
+     "explanation": "Affermativa: someone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I don't know ___ here.",
+     "options": [
+      "someone",
+      "anyone",
+      "everyone"
+     ],
+     "correct_index": 1,
+     "explanation": "Negativa: anyone."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Is there ___ to eat?",
+     "accepted_answers": [
+      "anything"
+     ],
+     "explanation": "Domanda: anything."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'd like ___ to drink. (qualcosa)",
+     "accepted_answers": [
+      "something"
+     ],
+     "explanation": "Something."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I don't see nothing.",
+      "I don't see anything.",
+      "I don't see something nothing."
+     ],
+     "correct_index": 1,
+     "explanation": "Una sola negazione."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ is here. (tutti)",
+     "options": [
+      "Everybody",
+      "Anybody",
+      "Nobody"
+     ],
+     "correct_index": 0,
+     "explanation": "Everybody."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ came to the party. (nessuno)",
+     "accepted_answers": [
+      "nobody",
+      "no one"
+     ],
+     "explanation": "Nobody / no one."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I looked for my keys ___ . (dappertutto)",
+     "accepted_answers": [
+      "everywhere"
+     ],
+     "explanation": "Everywhere."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I can't find my phone ___ .",
+     "options": [
+      "anywhere",
+      "somewhere",
+      "nowhere"
+     ],
+     "correct_index": 0,
+     "explanation": "Negativa: anywhere."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Let's go ___ nice.",
+     "options": [
+      "somewhere",
+      "anywhere",
+      "nowhere"
+     ],
+     "correct_index": 0,
+     "explanation": "Affermativa: somewhere."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Everybody ___ here. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Verbo al singolare."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Nobody ___ the answer. (know / knows)",
+     "accepted_answers": [
+      "knows"
+     ],
+     "explanation": "Singolare: knows."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I have ___ to tell you.",
+     "options": [
+      "something",
+      "anything",
+      "nothing"
+     ],
+     "correct_index": 0,
+     "explanation": "Something."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Nobody came.",
+      "Nobody didn't come.",
+      "Anybody came not."
+     ],
+     "correct_index": 0,
+     "explanation": "Nobody + verbo affermativo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Did you buy ___ ? (qualcosa)",
+     "accepted_answers": [
+      "anything"
+     ],
+     "explanation": "Domanda: anything."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which verb form goes with everyone?",
+     "options": [
+      "is",
+      "are",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Everyone is."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There's ___ in the fridge. It's empty. (niente)",
+     "accepted_answers": [
+      "nothing"
+     ],
+     "explanation": "Nothing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "There isn't anyone here.",
+      "There isn't no one here.",
+      "There isn't someone here."
+     ],
+     "correct_index": 0,
+     "explanation": "Negativa: anyone."
+    }
+   ]
+  },
+  {
+   "id": "a1-pospron",
+   "level": "A1",
+   "tag": "Pronomi",
+   "title": "Pronomi possessivi",
    "desc": "Mine, yours, his, hers, ours, theirs: di chi è?",
    "lead": "I **pronomi possessivi** sostituiscono «aggettivo possessivo + nome». Stanno da soli, senza un nome dopo di sé.",
    "tip": "My book → **mine**. Non si mette mai un nome dopo mine, yours, ours...",
@@ -4102,9 +8339,316 @@
    ]
   },
   {
-   "id": "a1-subj",
-   "title": "Pronomi soggetto",
+   "id": "a2-refl",
+   "level": "A2",
    "tag": "Pronomi",
+   "title": "Pronomi riflessivi",
+   "desc": "Myself, yourself, themselves: quando l'azione torna su chi la fa, e dove l'italiano li usa e l'inglese no.",
+   "lead": "I **pronomi riflessivi** (-self / -selves) si usano quando soggetto e complemento sono la **stessa persona**: *I cut myself*. Attenzione: molti verbi riflessivi italiani **non** lo sono in inglese.",
+   "tip": "Con i verbi di cura personale (wash, shave, get up, feel, relax) l'inglese di solito **non** usa il riflessivo.",
+   "blocks": [
+    {
+     "h": "Le forme",
+     "table": {
+      "head": [
+       "Soggetto",
+       "Riflessivo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "I",
+        "myself",
+        "I cut myself."
+       ],
+       [
+        "you",
+        "yourself / yourselves",
+        "Be careful, you'll hurt yourself."
+       ],
+       [
+        "he",
+        "himself",
+        "He taught himself English."
+       ],
+       [
+        "she",
+        "herself",
+        "She looked at herself."
+       ],
+       [
+        "it",
+        "itself",
+        "The cat washed itself."
+       ],
+       [
+        "we",
+        "ourselves",
+        "We enjoyed ourselves."
+       ],
+       [
+        "they",
+        "themselves",
+        "They introduced themselves."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usano",
+     "ex": [
+      "**Enjoy yourself!** (divertiti)",
+      "**Help yourself.** (serviti pure)",
+      "I did it **by myself**. (da solo)",
+      "She talks to **herself**."
+     ]
+    },
+    {
+     "h": "Quando NON si usano",
+     "p": "Con questi verbi in italiano c'è «mi, ti, si», in inglese no.",
+     "table": {
+      "head": [
+       "Italiano",
+       "Inglese"
+      ],
+      "rows": [
+       [
+        "mi lavo",
+        "I wash"
+       ],
+       [
+        "mi alzo",
+        "I get up"
+       ],
+       [
+        "mi sento stanco",
+        "I feel tired"
+       ],
+       [
+        "mi rilasso",
+        "I relax"
+       ],
+       [
+        "mi siedo",
+        "I sit down"
+       ],
+       [
+        "mi sposo",
+        "I get married"
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "I feel myself tired.",
+     "I feel tired.",
+     "Feel non vuole il riflessivo."
+    ],
+    [
+     "I get up myself at 7.",
+     "I get up at 7.",
+     "Get up non è riflessivo."
+    ],
+    [
+     "I cut me with the knife.",
+     "I cut myself with the knife.",
+     "L'azione torna sul soggetto: myself."
+    ],
+    [
+     "Enjoy you!",
+     "Enjoy yourself!",
+     "Enjoy vuole il riflessivo."
+    ],
+    [
+     "They did it by theirselves.",
+     "They did it by themselves.",
+     "La forma è themselves."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I cut ___ with a knife.",
+     "options": [
+      "me",
+      "myself",
+      "I"
+     ],
+     "correct_index": 1,
+     "explanation": "Soggetto e complemento coincidono: myself."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Be careful, you'll hurt ___.",
+     "options": [
+      "you",
+      "yourself",
+      "your"
+     ],
+     "correct_index": 1,
+     "explanation": "You → yourself."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He taught ___ English. (da solo)",
+     "accepted_answers": [
+      "himself"
+     ],
+     "explanation": "Himself."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She looked at ___ in the mirror.",
+     "accepted_answers": [
+      "herself"
+     ],
+     "explanation": "Herself."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We enjoyed ___ at the party.",
+     "options": [
+      "ourselves",
+      "us",
+      "ours"
+     ],
+     "correct_index": 0,
+     "explanation": "Ourselves."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They introduced ___ to the teacher.",
+     "options": [
+      "themselves",
+      "theirselves",
+      "them"
+     ],
+     "correct_index": 0,
+     "explanation": "Themselves."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Help ___ to some cake! (serviti)",
+     "accepted_answers": [
+      "yourself"
+     ],
+     "explanation": "Help yourself."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I did it by ___ . (da solo)",
+     "accepted_answers": [
+      "myself"
+     ],
+     "explanation": "By myself."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I feel tired.",
+      "I feel myself tired.",
+      "I feel me tired."
+     ],
+     "correct_index": 0,
+     "explanation": "Feel non vuole il riflessivo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I get up at 7.",
+      "I get myself up at 7.",
+      "I get me up at 7."
+     ],
+     "correct_index": 0,
+     "explanation": "Get up senza riflessivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wash ___ face every morning.",
+     "accepted_answers": [
+      "my"
+     ],
+     "explanation": "I wash my face: possessivo, non riflessivo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She relaxed on the sofa.",
+      "She relaxed herself on the sofa.",
+      "She relaxed her on the sofa."
+     ],
+     "correct_index": 0,
+     "explanation": "Relax senza riflessivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The cat washed ___ . ",
+     "accepted_answers": [
+      "itself"
+     ],
+     "explanation": "Itself."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "themselves",
+      "theirselves",
+      "ourselves"
+     ],
+     "correct_index": 1,
+     "explanation": "Theirselves non esiste."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Enjoy ___ ! (divertiti)",
+     "accepted_answers": [
+      "yourself"
+     ],
+     "explanation": "Enjoy yourself."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She talks to ___ .",
+     "options": [
+      "herself",
+      "her",
+      "she"
+     ],
+     "correct_index": 0,
+     "explanation": "Herself."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The children dressed ___ . ",
+     "accepted_answers": [
+      "themselves"
+     ],
+     "explanation": "Themselves."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "We enjoyed ourselves.",
+      "We enjoyed us.",
+      "We enjoyed ours."
+     ],
+     "correct_index": 0,
+     "explanation": "Ourselves."
+    }
+   ]
+  },
+  {
+   "id": "a1-subj",
+   "level": "A1",
+   "tag": "Pronomi",
+   "title": "Pronomi soggetto",
    "desc": "I, you, he, she, it, we, they: chi fa l'azione.",
    "lead": "I **pronomi soggetto** dicono chi fa l'azione. In inglese sono **obbligatori**: non si può togliere il soggetto come in italiano («Vado a casa» = *I* go home).",
    "tip": "Anche per il tempo e le situazioni serve un soggetto: **it** is raining, **it** is late.",
@@ -4382,9 +8926,1394 @@
    ]
   },
   {
+   "id": "a2-q1",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Quantifiers (1): some, any, much, many",
+   "desc": "Some, any, much, many, a lot of: quanto e quanti, con nomi numerabili e non.",
+   "lead": "I **quantifiers** dicono *quanto* o *quanti*. La scelta dipende da due cose: il nome è **numerabile** (a book, two books) o **non numerabile** (water, money)? E la frase è affermativa, negativa o una domanda?",
+   "tip": "Numerabile → many. Non numerabile → much. **A lot of** va bene con tutti e due.",
+   "blocks": [
+    {
+     "h": "Some e any",
+     "table": {
+      "head": [
+       "",
+       "Uso",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "some",
+        "frasi affermative, offerte, richieste",
+        "I have some friends. Would you like some tea?"
+       ],
+       [
+        "any",
+        "negative e domande",
+        "I don't have any money. Do you have any questions?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Much e many",
+     "table": {
+      "head": [
+       "",
+       "Con",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "much",
+        "non numerabili (negative e domande)",
+        "I don't have much time. How much water?"
+       ],
+       [
+        "many",
+        "numerabili",
+        "She has many friends. How many people?"
+       ],
+       [
+        "a lot of / lots of",
+        "tutti, soprattutto affermative",
+        "I have a lot of work."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Attenzione",
+     "p": "Nelle frasi **affermative** *much* suona strano: si preferisce **a lot of**.",
+     "ex": [
+      "I have **a lot of** money. (non: I have much money)",
+      "I don't have **much** money. (negativa: ok)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I have any friends.",
+     "I have some friends.",
+     "Nelle affermative si usa some."
+    ],
+    [
+     "I don't have some money.",
+     "I don't have any money.",
+     "Nelle negative si usa any."
+    ],
+    [
+     "How many water?",
+     "How much water?",
+     "Water non è numerabile."
+    ],
+    [
+     "I have much work.",
+     "I have a lot of work.",
+     "Nelle affermative: a lot of."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I have ___ friends in London.",
+     "options": [
+      "some",
+      "any",
+      "much"
+     ],
+     "correct_index": 0,
+     "explanation": "Affermativa: some."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I don't have ___ money.",
+     "options": [
+      "some",
+      "any",
+      "many"
+     ],
+     "correct_index": 1,
+     "explanation": "Negativa: any."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Do you have ___ questions?",
+     "accepted_answers": [
+      "any"
+     ],
+     "explanation": "Domanda: any."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Would you like ___ tea? (offerta)",
+     "accepted_answers": [
+      "some"
+     ],
+     "explanation": "Nelle offerte: some."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How ___ water do you drink?",
+     "options": [
+      "much",
+      "many",
+      "some"
+     ],
+     "correct_index": 0,
+     "explanation": "Water non è numerabile: much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How ___ people are there?",
+     "options": [
+      "much",
+      "many",
+      "any"
+     ],
+     "correct_index": 1,
+     "explanation": "People è numerabile: many."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I don't have ___ time. (non numerabile)",
+     "accepted_answers": [
+      "much"
+     ],
+     "explanation": "Negativa + non numerabile: much."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She doesn't have ___ friends. (numerabile)",
+     "accepted_answers": [
+      "many"
+     ],
+     "explanation": "Negativa + numerabile: many."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I have ___ work today. (molto)",
+     "options": [
+      "a lot of",
+      "much",
+      "many"
+     ],
+     "correct_index": 0,
+     "explanation": "Affermativa: a lot of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I have much money.",
+      "I have a lot of money.",
+      "I have many money."
+     ],
+     "correct_index": 1,
+     "explanation": "Affermativa: a lot of."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There aren't ___ chairs in the room.",
+     "accepted_answers": [
+      "any"
+     ],
+     "explanation": "Negativa: any."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Is there ___ milk in the fridge?",
+     "accepted_answers": [
+      "any"
+     ],
+     "explanation": "Domanda: any."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which word goes with 'advice'?",
+     "options": [
+      "much",
+      "many",
+      "a many"
+     ],
+     "correct_index": 0,
+     "explanation": "Advice è non numerabile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which word goes with 'books'?",
+     "options": [
+      "many",
+      "much",
+      "a little"
+     ],
+     "correct_index": 0,
+     "explanation": "Books è numerabile."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Can I have ___ water, please? (richiesta)",
+     "accepted_answers": [
+      "some"
+     ],
+     "explanation": "Nelle richieste: some."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How ___ money do you need? (non numerabile)",
+     "accepted_answers": [
+      "much"
+     ],
+     "explanation": "Money: much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "How much people?",
+      "How many people?",
+      "How many water?"
+     ],
+     "correct_index": 1,
+     "explanation": "People: many."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Non ho molti amici»?",
+     "options": [
+      "I don't have many friends.",
+      "I don't have much friends.",
+      "I have not some friends."
+     ],
+     "correct_index": 0,
+     "explanation": "Negativa + numerabile: many."
+    }
+   ]
+  },
+  {
+   "id": "a2-q2",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Quantifiers (2): few, little, enough, too",
+   "desc": "Pochi, poco, abbastanza, troppo: few, a few, little, a little, enough, too much, too many.",
+   "lead": "Dopo some, any, much e many ci sono i quantifiers per **poco**, **abbastanza** e **troppo**. Anche qui conta se il nome è numerabile o no.",
+   "tip": "**A few / a little** = qualcuno, un po' (positivo). **Few / little** = quasi nessuno, quasi niente (negativo).",
+   "blocks": [
+    {
+     "h": "Pochi e poco",
+     "table": {
+      "head": [
+       "",
+       "Con",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "a few",
+        "numerabili (sì, qualcuno)",
+        "I have a few friends here."
+       ],
+       [
+        "few",
+        "numerabili (quasi nessuno)",
+        "Few people came."
+       ],
+       [
+        "a little",
+        "non numerabili (sì, un po')",
+        "I have a little money."
+       ],
+       [
+        "little",
+        "non numerabili (quasi niente)",
+        "There is little time."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Enough",
+     "p": "**Enough** = abbastanza. Sta **prima del nome** e **dopo l'aggettivo**.",
+     "ex": [
+      "I have **enough money**.",
+      "She isn't **tall enough**.",
+      "Is there **enough food**?"
+     ]
+    },
+    {
+     "h": "Too, too much, too many",
+     "p": "**Too** = troppo (e di solito è un problema). **Too + aggettivo**, **too much + non numerabile**, **too many + numerabile**.",
+     "ex": [
+      "It's **too** hot.",
+      "I have **too much** work.",
+      "There are **too many** people."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I have a little friends.",
+     "I have a few friends.",
+     "Friends è numerabile: a few."
+    ],
+    [
+     "There is few time.",
+     "There is little time.",
+     "Time è non numerabile: little."
+    ],
+    [
+     "She is enough tall.",
+     "She is tall enough.",
+     "Enough sta dopo l'aggettivo."
+    ],
+    [
+     "too much people",
+     "too many people",
+     "People è numerabile."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I have ___ friends in Milan. (qualcuno)",
+     "options": [
+      "a few",
+      "a little",
+      "much"
+     ],
+     "correct_index": 0,
+     "explanation": "Numerabile: a few."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I have ___ money. (un po')",
+     "options": [
+      "a few",
+      "a little",
+      "many"
+     ],
+     "correct_index": 1,
+     "explanation": "Non numerabile: a little."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Few ___ came to the party. (persone)",
+     "accepted_answers": [
+      "people"
+     ],
+     "explanation": "Few + numerabile: people."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There is ___ time left. (quasi niente)",
+     "accepted_answers": [
+      "little"
+     ],
+     "explanation": "Little + non numerabile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She isn't ___ to drive.",
+     "options": [
+      "old enough",
+      "enough old",
+      "too old"
+     ],
+     "correct_index": 0,
+     "explanation": "Enough dopo l'aggettivo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Do we have ___ food?",
+     "options": [
+      "enough",
+      "enoughs",
+      "too"
+     ],
+     "correct_index": 0,
+     "explanation": "Enough prima del nome."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's ___ hot to go out. (troppo)",
+     "accepted_answers": [
+      "too"
+     ],
+     "explanation": "Too + aggettivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ much work. (troppo)",
+     "accepted_answers": [
+      "too"
+     ],
+     "explanation": "Too much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "There are ___ many cars.",
+     "options": [
+      "too",
+      "very much",
+      "enough"
+     ],
+     "correct_index": 0,
+     "explanation": "Too many."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "too much people",
+      "too many people",
+      "too many water"
+     ],
+     "correct_index": 1,
+     "explanation": "People: too many."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "a few advice",
+      "a little advice",
+      "a little advices"
+     ],
+     "correct_index": 1,
+     "explanation": "Advice non è numerabile: a little."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm not tall ___ to reach it.",
+     "accepted_answers": [
+      "enough"
+     ],
+     "explanation": "Tall enough."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Can I have a ___ more sugar? (un po')",
+     "accepted_answers": [
+      "little"
+     ],
+     "explanation": "Sugar non è numerabile: a little."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "There ___ few people at the cinema. (quasi nessuno)",
+     "options": [
+      "were",
+      "was",
+      "is"
+     ],
+     "correct_index": 0,
+     "explanation": "Few people → plurale: were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which has a NEGATIVE meaning?",
+     "options": [
+      "few",
+      "a few",
+      "some"
+     ],
+     "correct_index": 0,
+     "explanation": "Few = quasi nessuno."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ eggs. We need to buy more. (pochissime, numerabile)",
+     "accepted_answers": [
+      "few"
+     ],
+     "explanation": "Few eggs = quasi nessun uovo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Too ___ information.",
+     "options": [
+      "much",
+      "many",
+      "few"
+     ],
+     "correct_index": 0,
+     "explanation": "Information non è numerabile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «Abbastanza caldo»?",
+     "options": [
+      "warm enough",
+      "enough warm",
+      "too warm"
+     ],
+     "correct_index": 0,
+     "explanation": "Aggettivo + enough."
+    }
+   ]
+  },
+  {
+   "id": "a2-count",
+   "level": "A2",
+   "tag": "Nomi",
+   "title": "Sostantivi numerabili e non numerabili",
+   "desc": "A book / books, ma water e advice: nomi che si contano e nomi che no.",
+   "lead": "I nomi **numerabili** si possono contare (*one book, two books*). I **non numerabili** no (*water, money, advice*): non hanno il plurale e non vogliono *a / an*.",
+   "tip": "Molti nomi non numerabili inglesi sono numerabili in italiano: **information, advice, news, luggage, furniture, homework**.",
+   "blocks": [
+    {
+     "h": "Numerabili e non numerabili",
+     "table": {
+      "head": [
+       "",
+       "Numerabili",
+       "Non numerabili"
+      ],
+      "rows": [
+       [
+        "a / an",
+        "a book, an apple",
+        "— (mai)"
+       ],
+       [
+        "plurale",
+        "books, apples",
+        "— (mai)"
+       ],
+       [
+        "quanto?",
+        "many books",
+        "much water"
+       ],
+       [
+        "verbo",
+        "The books are here.",
+        "The water is cold."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "I non numerabili da ricordare",
+     "table": {
+      "head": [
+       "Inglese",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "information",
+        "le informazioni"
+       ],
+       [
+        "advice",
+        "i consigli"
+       ],
+       [
+        "news",
+        "le notizie"
+       ],
+       [
+        "luggage",
+        "i bagagli"
+       ],
+       [
+        "furniture",
+        "i mobili"
+       ],
+       [
+        "homework",
+        "i compiti"
+       ],
+       [
+        "money",
+        "i soldi"
+       ],
+       [
+        "bread, water, milk, rice",
+        "pane, acqua, latte, riso"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Come contarli",
+     "p": "Si usano unità di misura: **a piece of**, **a glass of**, **a bottle of**, **a slice of**.",
+     "ex": [
+      "a **piece of** advice",
+      "a **glass of** water",
+      "two **slices of** bread",
+      "some **information**"
+     ]
+    },
+    {
+     "h": "Verbo al singolare",
+     "ex": [
+      "The news **is** good.",
+      "The information **is** useful.",
+      "My luggage **is** heavy."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I need some informations.",
+     "I need some information.",
+     "Information non ha il plurale."
+    ],
+    [
+     "She gave me a good advice.",
+     "She gave me good advice. / a good piece of advice.",
+     "Advice non vuole a."
+    ],
+    [
+     "The news are bad.",
+     "The news is bad.",
+     "News è singolare."
+    ],
+    [
+     "I have two luggages.",
+     "I have two bags / pieces of luggage.",
+     "Luggage non ha il plurale."
+    ],
+    [
+     "How many money?",
+     "How much money?",
+     "Money non è numerabile."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I need some ___.",
+     "options": [
+      "information",
+      "informations",
+      "an information"
+     ],
+     "correct_index": 0,
+     "explanation": "Information è non numerabile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She gave me good ___.",
+     "options": [
+      "advices",
+      "advice",
+      "an advice"
+     ],
+     "correct_index": 1,
+     "explanation": "Advice è non numerabile."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The news ___ good. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "News è singolare."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My luggage ___ heavy. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Luggage è singolare."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How ___ money do you have?",
+     "options": [
+      "much",
+      "many",
+      "a"
+     ],
+     "correct_index": 0,
+     "explanation": "Money: much."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How ___ books do you have?",
+     "options": [
+      "much",
+      "many",
+      "a lot"
+     ],
+     "correct_index": 1,
+     "explanation": "Books: many."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'd like a ___ of water. (bicchiere)",
+     "accepted_answers": [
+      "glass"
+     ],
+     "explanation": "A glass of water."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Can I have a ___ of bread? (fetta)",
+     "accepted_answers": [
+      "slice",
+      "piece"
+     ],
+     "explanation": "A slice / piece of bread."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "two pieces of advice",
+      "two advices",
+      "two advice"
+     ],
+     "correct_index": 0,
+     "explanation": "Si conta con piece of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a countable noun?",
+     "options": [
+      "apple",
+      "water",
+      "furniture"
+     ],
+     "correct_index": 0,
+     "explanation": "Apple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is uncountable?",
+     "options": [
+      "homework",
+      "book",
+      "chair"
+     ],
+     "correct_index": 0,
+     "explanation": "Homework."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have a lot of ___ to do. (homework / homeworks)",
+     "accepted_answers": [
+      "homework"
+     ],
+     "explanation": "Homework non ha il plurale."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I have some luggage.",
+      "I have some luggages.",
+      "I have a luggage."
+     ],
+     "correct_index": 0,
+     "explanation": "Luggage."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The furniture is new.",
+      "The furniture are new.",
+      "The furnitures is new."
+     ],
+     "correct_index": 0,
+     "explanation": "Furniture è singolare."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Can you give me some ___ ? (advice / advices)",
+     "accepted_answers": [
+      "advice"
+     ],
+     "explanation": "Advice."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "an information",
+      "a piece of information",
+      "some information"
+     ],
+     "correct_index": 0,
+     "explanation": "Information non vuole an."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I drink a lot of ___ . (water / waters)",
+     "accepted_answers": [
+      "water"
+     ],
+     "explanation": "Water."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Quale frase è corretta?",
+     "options": [
+      "The weather is nice.",
+      "The weather are nice.",
+      "The weathers is nice."
+     ],
+     "correct_index": 0,
+     "explanation": "Weather è non numerabile."
+    }
+   ]
+  },
+  {
+   "id": "a2-sup",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Superlativi",
+   "desc": "Il più alto, il migliore: the -est e the most.",
+   "lead": "Il **superlativo** dice che qualcosa è **il più** di tutti. Con gli aggettivi corti si aggiunge **-est**, con quelli lunghi si usa **the most**. Si mette sempre **the** davanti.",
+   "tip": "**The + aggettivo-est** (short) oppure **the most + aggettivo** (long). Poi **in** o **of** per il gruppo.",
+   "blocks": [
+    {
+     "h": "Le forme",
+     "table": {
+      "head": [
+       "Tipo",
+       "Superlativo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Corto",
+        "the + -est",
+        "the tallest, the oldest, the cheapest"
+       ],
+       [
+        "In -y",
+        "the + -iest",
+        "the happiest, the easiest"
+       ],
+       [
+        "Una vocale + consonante",
+        "raddoppia",
+        "the biggest, the hottest"
+       ],
+       [
+        "Lungo",
+        "the most + agg.",
+        "the most expensive, the most beautiful"
+       ],
+       [
+        "good / bad",
+        "irregolare",
+        "the best, the worst"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "In o of?",
+     "p": "**In** + luogo o gruppo (in the class, in the world). **Of** + plurale (of all, of the three).",
+     "ex": [
+      "He is **the tallest in** the class.",
+      "This is **the best of** all.",
+      "It's **the most beautiful city in** Italy."
+     ]
+    },
+    {
+     "h": "Con ever",
+     "p": "Si usa spesso con **ever** e il Present Perfect.",
+     "ex": [
+      "It's **the best** film I've **ever** seen.",
+      "She's **the nicest** person I know."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "He is the most tall.",
+     "He is the tallest.",
+     "Con gli aggettivi corti: -est."
+    ],
+    [
+     "This is the more expensive.",
+     "This is the most expensive.",
+     "Superlativo: the most."
+    ],
+    [
+     "She is tallest in the class.",
+     "She is the tallest in the class.",
+     "Il superlativo vuole the."
+    ],
+    [
+     "the best of the world",
+     "the best in the world",
+     "Con i luoghi si usa in."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "He is ___ in the class. (tall)",
+     "options": [
+      "the tallest",
+      "taller",
+      "the most tall"
+     ],
+     "correct_index": 0,
+     "explanation": "The + -est."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It's ___ city in Italy. (beautiful)",
+     "options": [
+      "the most beautiful",
+      "the beautifulest",
+      "more beautiful"
+     ],
+     "correct_index": 0,
+     "explanation": "Aggettivo lungo: the most."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is ___ best film I've ever seen.",
+     "accepted_answers": [
+      "the"
+     ],
+     "explanation": "The best."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is the ___ person I know. (nice)",
+     "accepted_answers": [
+      "nicest"
+     ],
+     "explanation": "Nice + st."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's the ___ day of the year. (hot)",
+     "accepted_answers": [
+      "hottest"
+     ],
+     "explanation": "Si raddoppia la t."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is the ___ exercise. (easy)",
+     "accepted_answers": [
+      "easiest"
+     ],
+     "explanation": "Easy → easiest."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the best",
+      "the goodest",
+      "the most good"
+     ],
+     "correct_index": 0,
+     "explanation": "Good → best."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the worst",
+      "the baddest",
+      "the most bad"
+     ],
+     "correct_index": 0,
+     "explanation": "Bad → worst."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He is the tallest ___ the class.",
+     "options": [
+      "in",
+      "of",
+      "at"
+     ],
+     "correct_index": 0,
+     "explanation": "Con un gruppo si usa in."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is the best ___ all.",
+     "options": [
+      "in",
+      "of",
+      "from"
+     ],
+     "correct_index": 1,
+     "explanation": "Of + plurale: of all."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's the most expensive hotel ___ the city.",
+     "accepted_answers": [
+      "in"
+     ],
+     "explanation": "In + luogo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My brother is the ___ of the three. (young)",
+     "accepted_answers": [
+      "youngest"
+     ],
+     "explanation": "Young + est."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "the biggest",
+      "the bigest",
+      "the most beautiful"
+     ],
+     "correct_index": 1,
+     "explanation": "Big raddoppia la g."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is the ___ interesting book I've read.",
+     "accepted_answers": [
+      "most"
+     ],
+     "explanation": "The most interesting."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «il più economico»?",
+     "options": [
+      "the cheapest",
+      "the most cheap",
+      "more cheap"
+     ],
+     "correct_index": 0,
+     "explanation": "Cheap + est."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It's the ___ pizza I've ever eaten.",
+     "options": [
+      "best",
+      "better",
+      "most good"
+     ],
+     "correct_index": 0,
+     "explanation": "The best."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Mount Everest is the ___ mountain in the world. (high)",
+     "accepted_answers": [
+      "highest"
+     ],
+     "explanation": "High + est."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the most easy",
+      "the easiest",
+      "the more easy"
+     ],
+     "correct_index": 1,
+     "explanation": "Easy → easiest."
+    }
+   ]
+  },
+  {
+   "id": "a2-supra",
+   "level": "A2",
+   "tag": "Aggettivi",
+   "title": "Superlativi relativi e assoluti",
+   "desc": "Il più bello del mondo oppure bellissimo: due superlativi, due costruzioni.",
+   "lead": "In italiano il superlativo è di due tipi. Il **relativo** confronta con altri (*il più alto della classe*). L'**assoluto** dice solo «molto» (*altissimo, bellissimo*). In inglese si costruiscono in modi diversi.",
+   "tip": "Relativo → **the -est / the most**. Assoluto → **very, really, extremely** + aggettivo (o un aggettivo forte: fantastic, awful).",
+   "blocks": [
+    {
+     "h": "Superlativo relativo",
+     "p": "Confronta con un gruppo. Vuole **the** e **in / of**.",
+     "table": {
+      "head": [
+       "Italiano",
+       "Inglese"
+      ],
+      "rows": [
+       [
+        "il più alto della classe",
+        "the tallest in the class"
+       ],
+       [
+        "il più interessante di tutti",
+        "the most interesting of all"
+       ],
+       [
+        "il migliore del mondo",
+        "the best in the world"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Superlativo assoluto",
+     "p": "Non c'è confronto: si rinforza l'aggettivo con un avverbio.",
+     "table": {
+      "head": [
+       "Italiano",
+       "Inglese"
+      ],
+      "rows": [
+       [
+        "bellissimo",
+        "very beautiful / really beautiful"
+       ],
+       [
+        "stanchissimo",
+        "extremely tired"
+       ],
+       [
+        "buonissimo",
+        "really good / delicious"
+       ],
+       [
+        "bruttissimo",
+        "really bad / awful"
+       ],
+       [
+        "grandissimo",
+        "very big / huge"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Aggettivi forti",
+     "p": "Alcuni aggettivi sono già «molto»: **huge, awful, fantastic, terrible, delicious**. Con questi si usa **absolutely** o **really**, non very.",
+     "ex": [
+      "The pizza was **absolutely delicious**.",
+      "The film was **really terrible**.",
+      "He is **very tall**. / He is **extremely tall**."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "It's the most beautifulest.",
+     "It's the most beautiful.",
+     "Mai most + -est."
+    ],
+    [
+     "It is bellissimo.",
+     "It is really beautiful.",
+     "L'assoluto si fa con very / really."
+    ],
+    [
+     "The pizza was very delicious.",
+     "The pizza was absolutely delicious.",
+     "Con gli aggettivi forti: absolutely / really."
+    ],
+    [
+     "She is the most tall of the class.",
+     "She is the tallest in the class.",
+     "Relativo: the -est."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Il più alto della classe:",
+     "options": [
+      "the tallest in the class",
+      "very tall",
+      "tallest class"
+     ],
+     "correct_index": 0,
+     "explanation": "Relativo: the + -est."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Bellissimo (assoluto):",
+     "options": [
+      "very beautiful",
+      "the most beautiful",
+      "more beautiful"
+     ],
+     "correct_index": 0,
+     "explanation": "Assoluto: very + aggettivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The film was ___ good. (assoluto: molto)",
+     "accepted_answers": [
+      "very",
+      "really",
+      "extremely"
+     ],
+     "explanation": "Very / really / extremely."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He is ___ tired. (stanchissimo)",
+     "accepted_answers": [
+      "extremely",
+      "very",
+      "really"
+     ],
+     "explanation": "Extremely tired."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The pizza was ___ delicious. (forte)",
+     "options": [
+      "absolutely",
+      "very",
+      "most"
+     ],
+     "correct_index": 0,
+     "explanation": "Con delicious: absolutely."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the most delicious",
+      "the deliciousest",
+      "more delicious than the"
+     ],
+     "correct_index": 0,
+     "explanation": "Relativo lungo: the most."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is ___ best restaurant in town.",
+     "accepted_answers": [
+      "the"
+     ],
+     "explanation": "The best."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's the ___ day of my life. (happy)",
+     "accepted_answers": [
+      "happiest"
+     ],
+     "explanation": "Happy → happiest."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «È bruttissimo»?",
+     "options": [
+      "It's really ugly.",
+      "It's the uglyest.",
+      "It's most ugly."
+     ],
+     "correct_index": 0,
+     "explanation": "Assoluto: really ugly."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a relative superlative?",
+     "options": [
+      "the cheapest in the shop",
+      "very cheap",
+      "really cheap"
+     ],
+     "correct_index": 0,
+     "explanation": "Relativo: confronta con un gruppo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is an absolute superlative?",
+     "options": [
+      "extremely tall",
+      "the tallest",
+      "taller than me"
+     ],
+     "correct_index": 0,
+     "explanation": "Assoluto: extremely tall."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The weather was ___ terrible.",
+     "accepted_answers": [
+      "absolutely",
+      "really"
+     ],
+     "explanation": "Absolutely / really terrible."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "very huge",
+      "really big",
+      "extremely tired"
+     ],
+     "correct_index": 0,
+     "explanation": "Huge è un aggettivo forte: absolutely huge."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Il migliore del mondo:",
+     "options": [
+      "the best in the world",
+      "very good in the world",
+      "the best of the world"
+     ],
+     "correct_index": 0,
+     "explanation": "The best in the world."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is the ___ of the three sisters. (old)",
+     "accepted_answers": [
+      "oldest"
+     ],
+     "explanation": "Old + est."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is the ___ expensive hotel in Rome.",
+     "accepted_answers": [
+      "most"
+     ],
+     "explanation": "The most expensive."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Come si dice «buonissimo»?",
+     "options": [
+      "really good",
+      "the most good",
+      "goodest"
+     ],
+     "correct_index": 0,
+     "explanation": "Assoluto: really good / delicious."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "the best of all",
+      "the best in all",
+      "the best from all"
+     ],
+     "correct_index": 0,
+     "explanation": "Of + all."
+    }
+   ]
+  },
+  {
    "id": "a1-there",
-   "title": "There is / There are",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "There is / There are",
    "desc": "C'è e ci sono: singolare, plurale, negativa e domande.",
    "lead": "**There is** e **there are** significano *c'è* e *ci sono*. Servono per dire che qualcosa esiste in un posto.",
    "tip": "Si sceglie in base a quello che viene dopo: una cosa = is, più cose = are.",
@@ -4643,8 +10572,9 @@
   },
   {
    "id": "a1-dem",
-   "title": "This, that, these, those",
+   "level": "A1",
    "tag": "Aggettivi",
+   "title": "This, that, these, those",
    "desc": "Aggettivi e pronomi dimostrativi: vicino o lontano, singolare o plurale.",
    "lead": "**This, that, these, those** servono per indicare qualcosa. La scelta dipende da due cose: la **distanza** (vicino o lontano) e il **numero** (uno o più).",
    "tip": "Vicino = th**is** / th**ese** (la i e la e sono «vicine»). Lontano = that / those.",
@@ -4898,8 +10828,9 @@
   },
   {
    "id": "a1-have-us",
-   "title": "Verbo avere: American English",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "Verbo avere: American English",
    "desc": "Have e has, con do / does per negativa e domanda, come si usa negli USA.",
    "lead": "In **American English** il verbo avere si comporta come un verbo normale: **have** (I, you, we, they) e **has** (he, she, it), con **do / does** per negativa e domanda.",
    "tip": "In American English non si dice «have got»: si dice semplicemente have.",
@@ -5164,8 +11095,9 @@
   },
   {
    "id": "a1-have-uk",
-   "title": "Verbo avere: British English",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "Verbo avere: British English",
    "desc": "Have got e has got: la forma più usata in Gran Bretagna.",
    "lead": "In **British English** per il possesso si usa spesso **have got** (e **has got**). Il significato è lo stesso di have, ma la grammatica cambia: niente do / does.",
    "tip": "«I've got» è molto più comune di «I have» nel parlato britannico. Funziona solo per il possesso, non per le azioni.",
@@ -5432,8 +11364,9 @@
   },
   {
    "id": "a1-be",
-   "title": "Verbo essere (to be)",
+   "level": "A1",
    "tag": "Verbi",
+   "title": "Verbo essere (to be)",
    "desc": "Am, is, are: affermativa, negativa e domande, con le forme brevi.",
    "lead": "**To be** è il verbo più importante dell'inglese: significa *essere* e, a volte, *stare* o *avere* (l'età). Cambia forma con ogni soggetto, quindi va saputo a memoria.",
    "tip": "In inglese il soggetto è sempre obbligatorio: non si dice «Am Marco», ma «I am Marco».",

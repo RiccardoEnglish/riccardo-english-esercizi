@@ -5260,7 +5260,7 @@ function a1RenderSetup(t){
 function a1Load(id){
   var t = a1Topic(id); if(!t) return;
   a1Cur = t;
-  document.getElementById("a1-eyebrow").textContent = "Livello A1 · "+(t.tag || "Grammatica");
+  document.getElementById("a1-eyebrow").textContent = "Livello "+(t.level || "A1")+" · "+(t.tag || "Grammatica");
   document.getElementById("a1-h1").innerHTML = '<em>'+esc(t.title)+'</em>';
   document.getElementById("a1-lead").innerHTML = a1Fmt(t.lead);
   a1RenderGuide(t);
@@ -5343,7 +5343,7 @@ function a1Finish(){
   var rev = a1Mistakes.length ? ('<div class="review">'+a1Mistakes.map(function(m){
     return '<div class="rev-item"><div class="q">'+esc(m.q)+'</div><div class="g">✗ '+(m.given ? esc(m.given) : '(nessuna risposta)')+'</div><div class="a">✓ '+esc(m.a)+'</div></div>';
   }).join("")+'</div>') : '<p style="color:var(--good);font-weight:700;margin-top:18px">Nessun errore. Perfetto.</p>';
-  var idx = A1_TOPICS.indexOf(t), nx = A1_TOPICS[idx+1];
+  var idx = A1_TOPICS.indexOf(t), nx = A1_TOPICS.slice(idx+1).filter(function(x){ return (x.level || "A1") === (t.level || "A1"); })[0];
   a1El.result.innerHTML = '<div class="result"><div class="qkicker">Risultato · '+esc(t.title)+'</div><div class="big">'+a1Score+' / '+a1Order.length+'</div><p>'+msg+'</p>'+rev+
     '<div class="result-actions"><button class="btn" id="a1-retry">Riprova</button>'+
     (nx && pct >= 80 ? '<button class="btn" id="a1-next">Prossimo argomento →</button>' : '')+
@@ -6112,6 +6112,799 @@ qs:[
  ["mc","Il plurale di «mouse» (animale) è:",["mouses","mice","mices"],1,"Mouse → mice."]
 ]});
 
+A1_TOPICS.push({
+id:"a2-pse", level:"A2", title:"Past Simple: il verbo essere", tag:"Verbi",
+desc:"Was e were: com'eri, dov'eri, cos'era. Forma affermativa, negativa e domande.",
+lead:"Nel passato il verbo **to be** ha solo due forme: **was** e **were**. Serve per dire com'era qualcuno o qualcosa, dov'era, quando è nato.",
+tip:"Was con I / he / she / it. Were con you / we / they. Niente did, mai.",
+blocks:[
+ {h:"Le due forme", table:{head:["Soggetto","Forma","Esempio"], rows:[["I / He / She / It","was","She was at home."],["You / We / They","were","We were tired."]]}},
+ {h:"Negativa e domanda", p:"Come nel presente: **not** dopo il verbo, oppure si inverte il soggetto. **Non si usa did / didn't.**", table:{head:["","Negativa","Domanda"], rows:[["I / He / She / It","wasn't (was not)","Was he late?"],["You / We / They","weren't (were not)","Were you at school?"]]}, ex:["I **wasn't** hungry.","**Were** they happy? Yes, they **were**. / No, they **weren't**.","Where **was** he yesterday?"]},
+ {h:"Parole del passato", ex:["**yesterday**, **last night**, **last week**","**two days ago**, **a week ago**","**in 2019**, **in July**","I **was born** in 1990. (sono nato)"]}
+],
+traps:[
+ ["I were at home yesterday.","I was at home yesterday.","Con I si usa was."],
+ ["We was in Rome.","We were in Rome.","Con we si usa were."],
+ ["Did you were tired?","Were you tired?","Con to be non si usa did."],
+ ["She didn't was there.","She wasn't there.","La negativa è wasn't."],
+ ["I am born in 1990.","I was born in 1990.","Nato = was born, sempre al passato."]
+],
+qs:[
+ ["mc","I ___ at home yesterday.",["was","were","am"],0,"Con I si usa was."],
+ ["mc","They ___ very tired last night.",["was","were","are"],1,"Con they si usa were."],
+ ["t","She ___ my teacher in 2019.",["was"],"She → was."],
+ ["t","We ___ at the cinema on Friday.",["were"],"We → were."],
+ ["mc","___ you at school yesterday?",["Was","Were","Did"],1,"Con you si usa Were."],
+ ["mc","___ he late for work?",["Were","Did","Was"],2,"Con he si usa Was."],
+ ["t","I ___ not hungry. (forma breve: wasn't)",["was"],"I was not (wasn't) hungry."],
+ ["t","They ___ not at home. (forma breve: weren't)",["were"],"They were not (weren't) at home."],
+ ["mc","Which is correct?",["She wasn't happy.","She didn't was happy.","She not was happy."],0,"La negativa di was è wasn't."],
+ ["mc","Come si dice «Sono nato nel 1990»?",["I was born in 1990.","I am born in 1990.","I born in 1990."],0,"Was born, sempre al passato."],
+ ["t","Rispondi: Were you ill? No, I ___.",["wasn't","was not"],"No, I wasn't."],
+ ["t","Rispondi: Was it cold? Yes, it ___.",["was"],"Yes, it was."],
+ ["mc","Where ___ you last night?",["was","were","did"],1,"Where were you...?"],
+ ["mc","The film ___ very boring.",["were","was","did"],1,"The film = it → was."],
+ ["t","There ___ a lot of people at the party. (c'erano)",["were"],"People è plurale: there were."],
+ ["t","There ___ a problem with the car. (c'era)",["was"],"Un problema: there was."],
+ ["mc","Which is correct?",["Were they late?","Did they were late?","Was they late?"],0,"They → Were."],
+ ["mc","I ___ in Spain two weeks ago.",["was","am","were"],0,"Two weeks ago è passato; con I: was."]
+]});
+
+A1_TOPICS.push({
+id:"a2-psb", level:"A2", title:"Past Simple per principianti", tag:"Verbi",
+desc:"Ieri ho lavorato: verbi regolari e irregolari, did / didn't e le domande.",
+lead:"Il **Past Simple** racconta azioni **finite nel passato**: *ieri ho lavorato*, *l'anno scorso sono andato a Roma*. Si forma con la forma del passato del verbo, oppure con **did** nelle frasi negative e nelle domande.",
+tip:"Con did / didn't il verbo torna alla forma base: *I didn't go*, non *I didn't went*.",
+blocks:[
+ {h:"Affermativa: la forma del passato", p:"Un'unica forma per tutti i soggetti, senza -s per he / she / it.", table:{head:["Tipo","Regola","Esempio"], rows:[["Regolari","+ **-ed**","work → worked"],["In -e","+ **-d**","live → lived"],["Consonante + y","y → **-ied**","study → studied"],["Una vocale + una consonante","raddoppia la consonante + -ed","stop → stopped"],["Irregolari","forma da imparare","go → went, have → had, see → saw"]]}},
+ {h:"Negativa e domanda", p:"Si usa **did** per tutti i soggetti. Dopo did il verbo è sempre alla forma base.", table:{head:["","Negativa","Domanda"], rows:[["Tutti i soggetti","didn't + verbo base","Did + soggetto + verbo base?"]]}, ex:["I **didn't** watch TV last night.","**Did** you **go** out yesterday? Yes, I **did**. / No, I **didn't**.","What **did** she **buy**?"]},
+ {h:"Irregolari da sapere subito", table:{head:["Base","Passato","Significato"], rows:[["go","went","andare"],["have","had","avere"],["see","saw","vedere"],["do","did","fare"],["make","made","fare, creare"],["take","took","prendere"],["get","got","ottenere, diventare"],["come","came","venire"],["buy","bought","comprare"],["eat","ate","mangiare"]]}}
+],
+traps:[
+ ["I didn't went to school.","I didn't go to school.","Dopo didn't il verbo è alla forma base."],
+ ["Did you saw him?","Did you see him?","Dopo did il verbo è alla forma base."],
+ ["She studyed all night.","She studied all night.","Consonante + y diventa -ied."],
+ ["We stoped at a café.","We stopped at a café.","Si raddoppia la p."],
+ ["I goed to Rome.","I went to Rome.","Go è irregolare: went."]
+],
+qs:[
+ ["mc","I ___ to the cinema yesterday.",["go","went","goed"],1,"Passato irregolare di go: went."],
+ ["mc","She ___ in Milan for five years.",["lived","live","lives"],0,"Live + d = lived."],
+ ["t","We ___ a great film last night. (see)",["saw"],"See → saw."],
+ ["t","He ___ English at university. (study)",["studied"],"Consonante + y → studied."],
+ ["t","They ___ football on Sunday. (play)",["played"],"Vocale + y: play → played."],
+ ["mc","I ___ watch TV last night.",["didn't","don't","wasn't"],0,"Negativa passata: didn't."],
+ ["mc","___ you go out last night?",["Do","Did","Were"],1,"Domanda passata: Did."],
+ ["t","She didn't ___ the answer. (know)",["know"],"Dopo didn't: forma base."],
+ ["t","Did he ___ breakfast? (have)",["have"],"Dopo did: forma base."],
+ ["mc","Which is correct?",["I didn't went out.","I didn't go out.","I not went out."],1,"Didn't + forma base."],
+ ["mc","Which is correct?",["She bought a new bag.","She buyed a new bag.","She buys a new bag yesterday."],0,"Buy → bought (irregolare)."],
+ ["t","We ___ up at 7 yesterday. (get)",["got"],"Get → got."],
+ ["t","The bus ___ at the corner. (stop)",["stopped"],"Si raddoppia la p: stopped."],
+ ["t","Rispondi: Did you eat pizza? No, I ___.",["didn't","did not"],"No, I didn't."],
+ ["t","Rispondi: Did she call you? Yes, she ___.",["did"],"Yes, she did."],
+ ["mc","What time ___ you arrive?",["do","did","were"],1,"What time did you arrive?"],
+ ["mc","He ___ a lot of money last year.",["made","maked","make"],0,"Make → made."],
+ ["mc","Quale frase usa bene il Past Simple?",["I took a taxi to the airport.","I did took a taxi to the airport.","I taked a taxi to the airport."],0,"Take → took."]
+]});
+
+A1_TOPICS.push({
+id:"a2-pastc", level:"A2", title:"Past Continuous per principianti", tag:"Verbi",
+desc:"Stavo mangiando quando sei arrivato: was / were + -ing, e il contrasto con il Past Simple.",
+lead:"Il **Past Continuous** descrive un'azione **in corso** in un momento del passato: *alle 8 stavo cenando*. Spesso fa da sfondo a un'altra azione più breve, al Past Simple.",
+tip:"Formula: **was / were + verbo-ing**. L'azione lunga è al continuous, quella breve interrompe al Past Simple.",
+blocks:[
+ {h:"La forma", table:{head:["Soggetto","Be","Esempio"], rows:[["I / He / She / It","was","I was working."],["You / We / They","were","They were playing."]]}},
+ {h:"Negativa e domanda", table:{head:["","Negativa","Domanda"], rows:[["I / He / She / It","wasn't working","Was she working?"],["You / We / They","weren't working","Were you working?"]]}, ex:["What **were** you **doing** at 8? I **was having** dinner.","**Was** it **raining**? No, it **wasn't**."]},
+ {h:"When e while", p:"**While** + Past Continuous (azione lunga). **When** + Past Simple (azione breve che interrompe).", ex:["I **was walking** home **when** it **started** to rain.","**While** she **was cooking**, the phone **rang**.","At 9 o'clock I **was sleeping**. (un momento preciso)"]},
+ {h:"Verbi che non si usano al continuous", p:"Alcuni verbi (know, want, like, love) di solito non si usano nella forma -ing.", ex:["I **knew** the answer. (non: I was knowing)","She **wanted** a coffee. (non: she was wanting)"]}
+],
+traps:[
+ ["I working at 8 yesterday.","I was working at 8 yesterday.","Serve was / were."],
+ ["She was play tennis.","She was playing tennis.","Dopo was / were: verbo-ing."],
+ ["I was walking when it was starting to rain.","I was walking when it started to rain.","L'azione breve è al Past Simple."],
+ ["They was sleeping.","They were sleeping.","They → were."]
+],
+qs:[
+ ["mc","At 8 o'clock I ___ dinner.",["was having","had","am having"],0,"Azione in corso a un'ora precisa: was having."],
+ ["mc","They ___ football when it started to rain.",["were playing","played","was playing"],0,"They → were playing."],
+ ["t","She ___ watching TV at 9 last night. (was / were)",["was"],"She → was."],
+ ["t","We were ___ in the garden. (work)",["working"],"Dopo were: -ing."],
+ ["t","He was ___ a letter. (write)",["writing"],"Write perde la e: writing."],
+ ["t","The children were ___ in the park. (run)",["running"],"Si raddoppia la n: running."],
+ ["mc","___ you sleeping at 11?",["Was","Were","Did"],1,"Domanda con you: Were."],
+ ["mc","___ it raining?",["Were","Was","Did"],1,"It → Was."],
+ ["t","I ___ not listening. (forma breve: wasn't)",["was"],"I was not (wasn't) listening."],
+ ["t","They ___ not working. (forma breve: weren't)",["were"],"They were not (weren't) working."],
+ ["mc","I was walking home ___ it started to rain.",["when","while","during"],0,"When + azione breve al Past Simple."],
+ ["mc","___ I was cooking, the phone rang.",["When","While","Because"],1,"While + azione lunga al Past Continuous."],
+ ["mc","Which is correct?",["She was reading when I called.","She read when I was calling.","She was reading when I was calling."],0,"Azione lunga continuous + azione breve Past Simple."],
+ ["t","What were you ___ at 8? (do)",["doing"],"Were you doing."],
+ ["t","Rispondi: Were you sleeping? No, I ___.",["wasn't","was not"],"No, I wasn't."],
+ ["t","Rispondi: Was he working? Yes, he ___.",["was"],"Yes, he was."],
+ ["mc","I ___ the answer. (non: was knowing)",["knew","was knowing","know"],0,"Know non si usa al continuous."],
+ ["mc","Quale frase descrive una scena (sfondo) nel passato?",["The sun was shining and birds were singing.","The sun shone and birds sang at 9.","The sun is shining."],0,"Il continuous descrive la scena."]
+]});
+
+A1_TOPICS.push({
+id:"a2-cmp1", level:"A2", title:"Comparativi di maggioranza (1): aggettivi corti", tag:"Aggettivi",
+desc:"Più alto di, più grande di: la forma in -er per gli aggettivi corti.",
+lead:"Per dire «più … di» con un aggettivo **corto** (di una sillaba) si aggiunge **-er** e poi si usa **than**: *Marco is taller than Luca*.",
+tip:"Aggettivo corto + **-er** + **than**. Dopo than, un pronome complemento: *than me*, non *than I*.",
+blocks:[
+ {h:"La regola", table:{head:["Aggettivo","Comparativo","Esempio"], rows:[["tall","taller","He is taller than me."],["old","older","My brother is older than me."],["cheap","cheaper","This bag is cheaper than that one."],["fast","faster","A car is faster than a bike."]]}},
+ {h:"Ortografia", table:{head:["Regola","Aggettivo","Comparativo"], rows:[["Finisce in -e: + r","nice, large","nicer, larger"],["Una vocale + una consonante: raddoppia","big, hot, thin","bigger, hotter, thinner"],["Consonante + y: -ier","happy, easy, funny","happier, easier, funnier"]]}},
+ {h:"Than", p:"Il secondo termine del confronto si introduce con **than** (non «di», non «that»).", ex:["Rome is **bigger than** Milan.","I'm **older than** you.","Today is **hotter than** yesterday."]}
+],
+traps:[
+ ["He is more tall than me.","He is taller than me.","Con gli aggettivi corti non si usa more."],
+ ["She is taller that me.","She is taller than me.","Il secondo termine vuole than."],
+ ["It is bigger than I.","It is bigger than me.","Dopo than di solito il pronome complemento."],
+ ["It is more big.","It is bigger.","Big raddoppia la g."],
+ ["He is happyer.","He is happier.","Consonante + y diventa -ier."]
+],
+qs:[
+ ["mc","My brother is ___ than me.",["tall","taller","more tall"],1,"Aggettivo corto + -er."],
+ ["mc","This bag is ___ than that one. (cheap)",["cheaper","more cheap","cheapest"],0,"Cheap + er."],
+ ["t","A car is ___ than a bike. (fast)",["faster"],"Fast + er."],
+ ["t","Rome is ___ than Milan. (big)",["bigger"],"Si raddoppia la g."],
+ ["t","Today is ___ than yesterday. (hot)",["hotter"],"Si raddoppia la t."],
+ ["t","This test is ___ than the last one. (easy)",["easier"],"Consonante + y → -ier."],
+ ["t","My house is ___ than yours. (large)",["larger"],"Large finisce in e: + r."],
+ ["mc","She is older ___ me.",["than","that","as"],0,"Il confronto vuole than."],
+ ["mc","Which is correct?",["He is taller than I.","He is taller than me.","He is taller of me."],1,"Dopo than: me."],
+ ["mc","Which is correct?",["She is happyer than him.","She is happier than him.","She is more happy than him."],1,"Happy → happier."],
+ ["t","This soup is ___ than that one. (hot)",["hotter"],"Hot raddoppia la t."],
+ ["t","My sister is ___ than me. (young)",["younger"],"Young + er."],
+ ["mc","Come si dice «Questa borsa è più economica»?",["This bag is cheaper.","This bag is more cheap.","This bag is cheap than."],0,"Cheap + er."],
+ ["t","The film was ___ than the book. (funny)",["funnier"],"Funny → funnier."],
+ ["t","Winter is ___ than summer. (cold)",["colder"],"Cold + er."],
+ ["mc","Which is NOT correct?",["thiner","thinner","nicer"],0,"Thin raddoppia la n: thinner."],
+ ["t","My bag is ___ than yours. (small)",["smaller"],"Small + er."],
+ ["mc","Quale aggettivo prende -er?",["slow","expensive","beautiful"],0,"Slow è corto: slower."]
+]});
+
+A1_TOPICS.push({
+id:"a2-cmp2", level:"A2", title:"Comparativi di maggioranza (2): aggettivi lunghi", tag:"Aggettivi",
+desc:"Più interessante di, più costoso di: more + aggettivo + than.",
+lead:"Con gli aggettivi **lunghi** (due o più sillabe) non si aggiunge -er: si mette **more** davanti all'aggettivo e poi **than**: *This book is more interesting than that one*.",
+tip:"Una sillaba → -er. Tre o più sillabe → more. Due sillabe in -y → -ier (happy → happier).",
+blocks:[
+ {h:"More + aggettivo + than", table:{head:["Aggettivo","Comparativo","Esempio"], rows:[["expensive","more expensive","Gold is more expensive than silver."],["interesting","more interesting","This book is more interesting."],["beautiful","more beautiful","Rome is more beautiful than Milan."],["difficult","more difficult","English is more difficult than Italian."],["modern","more modern","This is a more modern building."]]}},
+ {h:"Corto o lungo?", table:{head:["Tipo","Come si fa","Esempio"], rows:[["1 sillaba","+ -er","small → smaller"],["2 sillabe in -y","-y → -ier","easy → easier"],["2 sillabe senza -y","more","careful → more careful"],["3 o più sillabe","more","dangerous → more dangerous"]]}},
+ {h:"Non si usano insieme", p:"Mai **more** e **-er** insieme.", ex:["Non: more taller → **taller**","Non: more easier → **easier**","Non: more beautifuler → **more beautiful**"]}
+],
+traps:[
+ ["This is expensiver than that.","This is more expensive than that.","Aggettivo lungo: more."],
+ ["He is more taller.","He is taller.","Mai more + -er."],
+ ["It is more easy.","It is easier.","Easy finisce in -y: -ier."],
+ ["more beautiful that","more beautiful than","Il confronto vuole than."]
+],
+qs:[
+ ["mc","Gold is ___ than silver.",["expensiver","more expensive","most expensive"],1,"Expensive è lungo: more expensive."],
+ ["mc","This book is ___ than that one. (interesting)",["more interesting","interestinger","most interesting"],0,"More + aggettivo lungo."],
+ ["t","Rome is ___ beautiful than Milan.",["more"],"More + beautiful."],
+ ["t","English is ___ difficult than Italian.",["more"],"More + difficult."],
+ ["mc","Which is correct?",["more taller","more tall","taller"],2,"Aggettivo corto: -er, mai more."],
+ ["mc","Which is correct?",["He is more happy.","He is happier.","He is happyer."],1,"Happy → happier."],
+ ["t","This exercise is ___ than the first one. (easy)",["easier"],"Easy → easier."],
+ ["t","Is a plane ___ dangerous than a car? (più)",["more"],"More dangerous."],
+ ["mc","Quale aggettivo vuole more?",["tall","careful","big"],1,"Careful è lungo."],
+ ["mc","This phone is ___ than my old one. (modern)",["more modern","modern","moderner"],0,"Modern: more modern."],
+ ["t","My new job is ___ stressful than my old one.",["more"],"More stressful."],
+ ["t","Today's lesson is ___ boring than yesterday's.",["more"],"More boring."],
+ ["mc","Which is NOT correct?",["more popular than","populer than","more famous than"],1,"Popular: more popular."],
+ ["mc","The test was ___ than I thought.",["more difficult","difficulter","most difficult"],0,"Aggettivo lungo."],
+ ["t","This restaurant is ___ expensive than that one.",["more"],"More expensive."],
+ ["mc","Come si dice «più interessante»?",["more interesting","interestinger","most interesting"],0,"More interesting."],
+ ["t","The bus is ___ comfortable than the train. (più)",["more"],"More comfortable."],
+ ["mc","Which is correct?",["more cheaper","cheaper","more cheap"],1,"Cheap è corto: cheaper."]
+]});
+
+A1_TOPICS.push({
+id:"a2-cmp3", level:"A2", title:"Comparativi di maggioranza (3): irregolari e rinforzi", tag:"Aggettivi",
+desc:"Better, worse, further: i comparativi irregolari e come rinforzare il confronto.",
+lead:"Alcuni aggettivi hanno un comparativo **irregolare**, da imparare a memoria. In più puoi **rinforzare** il confronto con *much*, *a lot*, *a bit*.",
+tip:"good → better, bad → worse. Mai gooder o more good.",
+blocks:[
+ {h:"I comparativi irregolari", table:{head:["Aggettivo","Comparativo","Esempio"], rows:[["good","better","This pizza is better than that one."],["bad","worse","The weather is worse today."],["far","farther / further","The station is farther than the bank."],["little","less","I have less time than you."],["much / many","more","She has more friends than me."]]}},
+ {h:"Rinforzare il confronto", p:"Davanti al comparativo si possono mettere **much**, **a lot**, **far** (molto) oppure **a bit**, **a little**, **slightly** (un po').", ex:["My car is **much** faster than yours.","She is **a lot** more interesting.","It's **a bit** colder today."]},
+ {h:"Altre costruzioni utili", ex:["**The** harder you study, **the** better you speak.","It's getting **colder and colder**.","This is **better and better**."]}
+],
+traps:[
+ ["This is more good.","This is better.","Good è irregolare: better."],
+ ["It is gooder.","It is better.","Mai gooder."],
+ ["My English is worser.","My English is worse.","Worse è già un comparativo."],
+ ["It is very faster.","It is much faster.","Con il comparativo si usa much, non very."]
+],
+qs:[
+ ["mc","This pizza is ___ than that one. (good)",["gooder","better","more good"],1,"Good → better."],
+ ["mc","The weather is ___ today. (bad)",["worse","badder","more bad"],0,"Bad → worse."],
+ ["t","She has ___ friends than me. (many)",["more"],"Many → more."],
+ ["t","I have ___ time than you. (little)",["less"],"Little → less."],
+ ["mc","My car is ___ faster than yours. (molto)",["very","much","more"],1,"Con il comparativo: much."],
+ ["mc","It's ___ colder today. (un po')",["a bit","very","most"],0,"A bit = un po'."],
+ ["t","My English is ___ than before. (good)",["better"],"Better."],
+ ["t","The food was ___ than yesterday. (bad)",["worse"],"Worse."],
+ ["mc","Which is correct?",["It's very bigger.","It's much bigger.","It's too bigger."],1,"Much bigger."],
+ ["mc","Which is correct?",["worse","worser","more bad"],0,"Il comparativo di bad è worse."],
+ ["t","The harder you work, the ___ you feel. (good)",["better"],"The harder..., the better..."],
+ ["t","It's getting ___ and colder. (cold)",["colder"],"Colder and colder."],
+ ["mc","She is ___ more interesting than him. (molto)",["a lot","very","most"],0,"A lot more interesting."],
+ ["mc","Come si dice «Sto meglio»?",["I feel better.","I feel gooder.","I feel more good."],0,"Better."],
+ ["t","My phone is ___ cheaper than yours. (molto)",["much","a lot","far"],"Much / a lot / far."],
+ ["mc","Which is NOT correct?",["much better","a lot worse","very better"],2,"Con i comparativi non si usa very."],
+ ["t","He plays tennis ___ than me. (bad)",["worse"],"Bad → worse."],
+ ["mc","The station is ___ than the bank. (far)",["farther","more far","farer"],0,"Far → farther / further."]
+]});
+
+A1_TOPICS.push({
+id:"a2-cmin", level:"A2", title:"Comparativi di minoranza", tag:"Aggettivi",
+desc:"Meno costoso di: less … than e not as … as.",
+lead:"Per dire «meno … di» ci sono due strade: **less + aggettivo + than** oppure **not as + aggettivo + as**. Funzionano con tutti gli aggettivi.",
+tip:"Con gli aggettivi corti si preferisce **not as … as** (not as tall as). Con quelli lunghi vanno bene entrambe.",
+blocks:[
+ {h:"Less … than", table:{head:["Frase","Significato"], rows:[["This bag is less expensive than that one.","Questa borsa costa meno."],["English is less difficult than Chinese.","L'inglese è meno difficile."],["Today is less crowded than yesterday.","Oggi c'è meno gente."]]}},
+ {h:"Not as … as", p:"Più naturale con gli aggettivi corti.", table:{head:["Frase","Significato"], rows:[["I'm not as tall as him.","Non sono alto come lui."],["Milan isn't as big as Rome.","Milano non è grande come Roma."],["This isn't as cheap as I thought.","Non è economico come pensavo."]]}},
+ {h:"Meno + nome", p:"Davanti a un nome **less** (non numerabile) e **fewer** (numerabile).", ex:["I have **less** time.","There are **fewer** people today."]}
+],
+traps:[
+ ["I'm less tall than him.","I'm not as tall as him.","Con gli aggettivi corti si preferisce not as … as."],
+ ["It is less expensive that that.","It is less expensive than that.","Il confronto vuole than."],
+ ["Not so tall like him.","Not as tall as him.","Si usa as … as, non like."],
+ ["It is not as big than Rome.","It is not as big as Rome.","Con not as si chiude con as, non than."]
+],
+qs:[
+ ["mc","This bag is ___ expensive than that one.",["less","fewer","not"],0,"Less + aggettivo + than."],
+ ["mc","I'm not ___ tall as him.",["so","as","than"],1,"Not as ... as."],
+ ["t","English is ___ difficult than Chinese. (meno)",["less"],"Less difficult."],
+ ["t","Milan isn't as big ___ Rome.",["as"],"Not as ... as."],
+ ["mc","Which is correct?",["It is not as big than Rome.","It is not as big as Rome.","It is not as bigger as Rome."],1,"As ... as."],
+ ["mc","Which is correct?",["It is less expensive than that.","It is less expensive that that.","It is less expensive as that."],0,"Less ... than."],
+ ["t","I have ___ time than you. (meno, non numerabile)",["less"],"Time è non numerabile: less."],
+ ["t","There are ___ people today. (meno, numerabile)",["fewer"],"People è numerabile: fewer."],
+ ["mc","Come si dice «Non è così caro come pensavo»?",["It isn't as expensive as I thought.","It isn't so expensive than I thought.","It isn't less expensive as I thought."],0,"Not as ... as."],
+ ["mc","Which sentence is more natural?",["I'm not as old as you.","I'm less old than you.","I'm less old as you."],0,"Con old, not as ... as."],
+ ["t","This lesson is ___ boring than the last one. (meno)",["less"],"Less boring."],
+ ["t","My phone isn't as new ___ yours.",["as"],"Not as ... as."],
+ ["mc","Which is correct?",["fewer money","less money","less moneys"],1,"Money non è numerabile: less."],
+ ["mc","Which is correct?",["fewer friends","less friends","fewer friend"],0,"Friends è numerabile: fewer."],
+ ["t","The train isn't ___ fast as the plane.",["as"],"Not as fast as."],
+ ["t","Today is ___ hot than yesterday. (meno)",["less"],"Less hot than."],
+ ["mc","Quale frase ha lo stesso significato di «A is taller than B»?",["B is not as tall as A.","B is as tall as A.","A is not as tall as B."],0,"Se A è più alto, B non è alto come A."],
+ ["mc","Which is NOT correct?",["not as big as","less big than","not as bigger as"],2,"Dopo not as si usa l'aggettivo base."]
+]});
+
+A1_TOPICS.push({
+id:"a2-ceq", level:"A2", title:"Comparativi di uguaglianza", tag:"Aggettivi",
+desc:"Alto come, uguale a: as … as e the same as.",
+lead:"Per dire che due cose sono **uguali** si usa **as + aggettivo + as**: *Anna is as tall as Marco*. Per dire che sono **diverse** si usa *not as … as*.",
+tip:"L'aggettivo sta **in mezzo** ai due as e resta nella forma base, senza -er.",
+blocks:[
+ {h:"As … as", table:{head:["Frase","Significato"], rows:[["She is as tall as him.","È alta come lui."],["This bag is as expensive as that one.","Costa quanto quella."],["I'm as tired as you.","Sono stanco quanto te."]]}},
+ {h:"Not as … as", ex:["I'm **not as** tall **as** him.","Milan **isn't as** big **as** Rome."]},
+ {h:"The same as e different from", p:"Per dire «uguale» e «diverso» si usano espressioni diverse.", table:{head:["Espressione","Esempio"], rows:[["the same as","My phone is the same as yours."],["similar to","Her dress is similar to mine."],["different from","This is different from that."]]}},
+ {h:"As much / as many as", p:"Con i nomi: **as much as** (non numerabili), **as many as** (numerabili).", ex:["I have **as much** time **as** you.","She has **as many** friends **as** me."]}
+],
+traps:[
+ ["She is as taller as him.","She is as tall as him.","L'aggettivo resta alla forma base."],
+ ["It is as big than Rome.","It is as big as Rome.","La seconda parola è as, non than."],
+ ["It is same as mine.","It is the same as mine.","Serve the."],
+ ["It is different than mine.","It is different from mine.","Different si costruisce con from."]
+],
+qs:[
+ ["mc","She is as ___ as him.",["tall","taller","tallest"],0,"Aggettivo alla forma base."],
+ ["mc","This bag is as expensive ___ that one.",["as","than","like"],0,"As ... as."],
+ ["t","I'm as tired ___ you.",["as"],"As tired as."],
+ ["t","He is as ___ as his brother. (old)",["old"],"As old as."],
+ ["mc","Which is correct?",["She is as taller as me.","She is as tall as me.","She is as tall than me."],1,"As + base + as."],
+ ["mc","My phone is ___ same as yours.",["the","a","some"],0,"The same as."],
+ ["t","Her dress is similar ___ mine.",["to"],"Similar to."],
+ ["t","This is different ___ that.",["from"],"Different from."],
+ ["mc","I have as ___ time as you.",["much","many","more"],0,"Time è non numerabile: as much."],
+ ["mc","She has as ___ friends as me.",["much","many","most"],1,"Friends è numerabile: as many."],
+ ["t","Milan isn't ___ big as Rome.",["as"],"Not as big as."],
+ ["mc","Come si dice «Sono alto quanto te»?",["I'm as tall as you.","I'm tall as you.","I'm so tall than you."],0,"As tall as you."],
+ ["mc","Which is correct?",["The same than","The same as","Same as"],1,"The same as."],
+ ["t","It's as cold ___ yesterday.",["as"],"As cold as."],
+ ["mc","Which is NOT correct?",["as cheap as","as cheaper as","not as cheap as"],1,"Con as ... as non si usa il comparativo."],
+ ["mc","Different ___ mine.",["from","than","as"],0,"Different from."],
+ ["t","This test is as easy ___ the last one.",["as"],"As easy as."],
+ ["mc","Which sentence means A = B?",["A is as old as B.","A is not as old as B.","A is older than B."],0,"As ... as = uguale."]
+]});
+
+A1_TOPICS.push({
+id:"a2-sup", level:"A2", title:"Superlativi", tag:"Aggettivi",
+desc:"Il più alto, il migliore: the -est e the most.",
+lead:"Il **superlativo** dice che qualcosa è **il più** di tutti. Con gli aggettivi corti si aggiunge **-est**, con quelli lunghi si usa **the most**. Si mette sempre **the** davanti.",
+tip:"**The + aggettivo-est** (short) oppure **the most + aggettivo** (long). Poi **in** o **of** per il gruppo.",
+blocks:[
+ {h:"Le forme", table:{head:["Tipo","Superlativo","Esempio"], rows:[["Corto","the + -est","the tallest, the oldest, the cheapest"],["In -y","the + -iest","the happiest, the easiest"],["Una vocale + consonante","raddoppia","the biggest, the hottest"],["Lungo","the most + agg.","the most expensive, the most beautiful"],["good / bad","irregolare","the best, the worst"]]}},
+ {h:"In o of?", p:"**In** + luogo o gruppo (in the class, in the world). **Of** + plurale (of all, of the three).", ex:["He is **the tallest in** the class.","This is **the best of** all.","It's **the most beautiful city in** Italy."]},
+ {h:"Con ever", p:"Si usa spesso con **ever** e il Present Perfect.", ex:["It's **the best** film I've **ever** seen.","She's **the nicest** person I know."]}
+],
+traps:[
+ ["He is the most tall.","He is the tallest.","Con gli aggettivi corti: -est."],
+ ["This is the more expensive.","This is the most expensive.","Superlativo: the most."],
+ ["She is tallest in the class.","She is the tallest in the class.","Il superlativo vuole the."],
+ ["the best of the world","the best in the world","Con i luoghi si usa in."]
+],
+qs:[
+ ["mc","He is ___ in the class. (tall)",["the tallest","taller","the most tall"],0,"The + -est."],
+ ["mc","It's ___ city in Italy. (beautiful)",["the most beautiful","the beautifulest","more beautiful"],0,"Aggettivo lungo: the most."],
+ ["t","This is ___ best film I've ever seen.",["the"],"The best."],
+ ["t","She is the ___ person I know. (nice)",["nicest"],"Nice + st."],
+ ["t","It's the ___ day of the year. (hot)",["hottest"],"Si raddoppia la t."],
+ ["t","This is the ___ exercise. (easy)",["easiest"],"Easy → easiest."],
+ ["mc","Which is correct?",["the best","the goodest","the most good"],0,"Good → best."],
+ ["mc","Which is correct?",["the worst","the baddest","the most bad"],0,"Bad → worst."],
+ ["mc","He is the tallest ___ the class.",["in","of","at"],0,"Con un gruppo si usa in."],
+ ["mc","She is the best ___ all.",["in","of","from"],1,"Of + plurale: of all."],
+ ["t","It's the most expensive hotel ___ the city.",["in"],"In + luogo."],
+ ["t","My brother is the ___ of the three. (young)",["youngest"],"Young + est."],
+ ["mc","Which is NOT correct?",["the biggest","the bigest","the most beautiful"],1,"Big raddoppia la g."],
+ ["t","This is the ___ interesting book I've read.",["most"],"The most interesting."],
+ ["mc","Come si dice «il più economico»?",["the cheapest","the most cheap","more cheap"],0,"Cheap + est."],
+ ["mc","It's the ___ pizza I've ever eaten.",["best","better","most good"],0,"The best."],
+ ["t","Mount Everest is the ___ mountain in the world. (high)",["highest"],"High + est."],
+ ["mc","Which is correct?",["the most easy","the easiest","the more easy"],1,"Easy → easiest."]
+]});
+
+A1_TOPICS.push({
+id:"a2-supra", level:"A2", title:"Superlativi relativi e assoluti", tag:"Aggettivi",
+desc:"Il più bello del mondo oppure bellissimo: due superlativi, due costruzioni.",
+lead:"In italiano il superlativo è di due tipi. Il **relativo** confronta con altri (*il più alto della classe*). L'**assoluto** dice solo «molto» (*altissimo, bellissimo*). In inglese si costruiscono in modi diversi.",
+tip:"Relativo → **the -est / the most**. Assoluto → **very, really, extremely** + aggettivo (o un aggettivo forte: fantastic, awful).",
+blocks:[
+ {h:"Superlativo relativo", p:"Confronta con un gruppo. Vuole **the** e **in / of**.", table:{head:["Italiano","Inglese"], rows:[["il più alto della classe","the tallest in the class"],["il più interessante di tutti","the most interesting of all"],["il migliore del mondo","the best in the world"]]}},
+ {h:"Superlativo assoluto", p:"Non c'è confronto: si rinforza l'aggettivo con un avverbio.", table:{head:["Italiano","Inglese"], rows:[["bellissimo","very beautiful / really beautiful"],["stanchissimo","extremely tired"],["buonissimo","really good / delicious"],["bruttissimo","really bad / awful"],["grandissimo","very big / huge"]]}},
+ {h:"Aggettivi forti", p:"Alcuni aggettivi sono già «molto»: **huge, awful, fantastic, terrible, delicious**. Con questi si usa **absolutely** o **really**, non very.", ex:["The pizza was **absolutely delicious**.","The film was **really terrible**.","He is **very tall**. / He is **extremely tall**."]}
+],
+traps:[
+ ["It's the most beautifulest.","It's the most beautiful.","Mai most + -est."],
+ ["It is bellissimo.","It is really beautiful.","L'assoluto si fa con very / really."],
+ ["The pizza was very delicious.","The pizza was absolutely delicious.","Con gli aggettivi forti: absolutely / really."],
+ ["She is the most tall of the class.","She is the tallest in the class.","Relativo: the -est."]
+],
+qs:[
+ ["mc","Il più alto della classe:",["the tallest in the class","very tall","tallest class"],0,"Relativo: the + -est."],
+ ["mc","Bellissimo (assoluto):",["very beautiful","the most beautiful","more beautiful"],0,"Assoluto: very + aggettivo."],
+ ["t","The film was ___ good. (assoluto: molto)",["very","really","extremely"],"Very / really / extremely."],
+ ["t","He is ___ tired. (stanchissimo)",["extremely","very","really"],"Extremely tired."],
+ ["mc","The pizza was ___ delicious. (forte)",["absolutely","very","most"],0,"Con delicious: absolutely."],
+ ["mc","Which is correct?",["the most delicious","the deliciousest","more delicious than the"],0,"Relativo lungo: the most."],
+ ["t","This is ___ best restaurant in town.",["the"],"The best."],
+ ["t","It's the ___ day of my life. (happy)",["happiest"],"Happy → happiest."],
+ ["mc","Come si dice «È bruttissimo»?",["It's really ugly.","It's the uglyest.","It's most ugly."],0,"Assoluto: really ugly."],
+ ["mc","Which is a relative superlative?",["the cheapest in the shop","very cheap","really cheap"],0,"Relativo: confronta con un gruppo."],
+ ["mc","Which is an absolute superlative?",["extremely tall","the tallest","taller than me"],0,"Assoluto: extremely tall."],
+ ["t","The weather was ___ terrible.",["absolutely","really"],"Absolutely / really terrible."],
+ ["mc","Which is NOT correct?",["very huge","really big","extremely tired"],0,"Huge è un aggettivo forte: absolutely huge."],
+ ["mc","Il migliore del mondo:",["the best in the world","very good in the world","the best of the world"],0,"The best in the world."],
+ ["t","She is the ___ of the three sisters. (old)",["oldest"],"Old + est."],
+ ["t","This is the ___ expensive hotel in Rome.",["most"],"The most expensive."],
+ ["mc","Come si dice «buonissimo»?",["really good","the most good","goodest"],0,"Assoluto: really good / delicious."],
+ ["mc","Which is correct?",["the best of all","the best in all","the best from all"],0,"Of + all."]
+]});
+
+A1_TOPICS.push({
+id:"a2-q1", level:"A2", title:"Quantifiers (1): some, any, much, many", tag:"Aggettivi",
+desc:"Some, any, much, many, a lot of: quanto e quanti, con nomi numerabili e non.",
+lead:"I **quantifiers** dicono *quanto* o *quanti*. La scelta dipende da due cose: il nome è **numerabile** (a book, two books) o **non numerabile** (water, money)? E la frase è affermativa, negativa o una domanda?",
+tip:"Numerabile → many. Non numerabile → much. **A lot of** va bene con tutti e due.",
+blocks:[
+ {h:"Some e any", table:{head:["","Uso","Esempio"], rows:[["some","frasi affermative, offerte, richieste","I have some friends. Would you like some tea?"],["any","negative e domande","I don't have any money. Do you have any questions?"]]}},
+ {h:"Much e many", table:{head:["","Con","Esempio"], rows:[["much","non numerabili (negative e domande)","I don't have much time. How much water?"],["many","numerabili","She has many friends. How many people?"],["a lot of / lots of","tutti, soprattutto affermative","I have a lot of work."]]}},
+ {h:"Attenzione", p:"Nelle frasi **affermative** *much* suona strano: si preferisce **a lot of**.", ex:["I have **a lot of** money. (non: I have much money)","I don't have **much** money. (negativa: ok)"]}
+],
+traps:[
+ ["I have any friends.","I have some friends.","Nelle affermative si usa some."],
+ ["I don't have some money.","I don't have any money.","Nelle negative si usa any."],
+ ["How many water?","How much water?","Water non è numerabile."],
+ ["I have much work.","I have a lot of work.","Nelle affermative: a lot of."]
+],
+qs:[
+ ["mc","I have ___ friends in London.",["some","any","much"],0,"Affermativa: some."],
+ ["mc","I don't have ___ money.",["some","any","many"],1,"Negativa: any."],
+ ["t","Do you have ___ questions?",["any"],"Domanda: any."],
+ ["t","Would you like ___ tea? (offerta)",["some"],"Nelle offerte: some."],
+ ["mc","How ___ water do you drink?",["much","many","some"],0,"Water non è numerabile: much."],
+ ["mc","How ___ people are there?",["much","many","any"],1,"People è numerabile: many."],
+ ["t","I don't have ___ time. (non numerabile)",["much"],"Negativa + non numerabile: much."],
+ ["t","She doesn't have ___ friends. (numerabile)",["many"],"Negativa + numerabile: many."],
+ ["mc","I have ___ work today. (molto)",["a lot of","much","many"],0,"Affermativa: a lot of."],
+ ["mc","Which is correct?",["I have much money.","I have a lot of money.","I have many money."],1,"Affermativa: a lot of."],
+ ["t","There aren't ___ chairs in the room.",["any"],"Negativa: any."],
+ ["t","Is there ___ milk in the fridge?",["any"],"Domanda: any."],
+ ["mc","Which word goes with 'advice'?",["much","many","a many"],0,"Advice è non numerabile."],
+ ["mc","Which word goes with 'books'?",["many","much","a little"],0,"Books è numerabile."],
+ ["t","Can I have ___ water, please? (richiesta)",["some"],"Nelle richieste: some."],
+ ["t","How ___ money do you need? (non numerabile)",["much"],"Money: much."],
+ ["mc","Which is correct?",["How much people?","How many people?","How many water?"],1,"People: many."],
+ ["mc","Come si dice «Non ho molti amici»?",["I don't have many friends.","I don't have much friends.","I have not some friends."],0,"Negativa + numerabile: many."]
+]});
+
+A1_TOPICS.push({
+id:"a2-q2", level:"A2", title:"Quantifiers (2): few, little, enough, too", tag:"Aggettivi",
+desc:"Pochi, poco, abbastanza, troppo: few, a few, little, a little, enough, too much, too many.",
+lead:"Dopo some, any, much e many ci sono i quantifiers per **poco**, **abbastanza** e **troppo**. Anche qui conta se il nome è numerabile o no.",
+tip:"**A few / a little** = qualcuno, un po' (positivo). **Few / little** = quasi nessuno, quasi niente (negativo).",
+blocks:[
+ {h:"Pochi e poco", table:{head:["","Con","Esempio"], rows:[["a few","numerabili (sì, qualcuno)","I have a few friends here."],["few","numerabili (quasi nessuno)","Few people came."],["a little","non numerabili (sì, un po')","I have a little money."],["little","non numerabili (quasi niente)","There is little time."]]}},
+ {h:"Enough", p:"**Enough** = abbastanza. Sta **prima del nome** e **dopo l'aggettivo**.", ex:["I have **enough money**.","She isn't **tall enough**.","Is there **enough food**?"]},
+ {h:"Too, too much, too many", p:"**Too** = troppo (e di solito è un problema). **Too + aggettivo**, **too much + non numerabile**, **too many + numerabile**.", ex:["It's **too** hot.","I have **too much** work.","There are **too many** people."]}
+],
+traps:[
+ ["I have a little friends.","I have a few friends.","Friends è numerabile: a few."],
+ ["There is few time.","There is little time.","Time è non numerabile: little."],
+ ["She is enough tall.","She is tall enough.","Enough sta dopo l'aggettivo."],
+ ["too much people","too many people","People è numerabile."]
+],
+qs:[
+ ["mc","I have ___ friends in Milan. (qualcuno)",["a few","a little","much"],0,"Numerabile: a few."],
+ ["mc","I have ___ money. (un po')",["a few","a little","many"],1,"Non numerabile: a little."],
+ ["t","Few ___ came to the party. (persone)",["people"],"Few + numerabile: people."],
+ ["t","There is ___ time left. (quasi niente)",["little"],"Little + non numerabile."],
+ ["mc","She isn't ___ to drive.",["old enough","enough old","too old"],0,"Enough dopo l'aggettivo."],
+ ["mc","Do we have ___ food?",["enough","enoughs","too"],0,"Enough prima del nome."],
+ ["t","It's ___ hot to go out. (troppo)",["too"],"Too + aggettivo."],
+ ["t","I have ___ much work. (troppo)",["too"],"Too much."],
+ ["mc","There are ___ many cars.",["too","very much","enough"],0,"Too many."],
+ ["mc","Which is correct?",["too much people","too many people","too many water"],1,"People: too many."],
+ ["mc","Which is correct?",["a few advice","a little advice","a little advices"],1,"Advice non è numerabile: a little."],
+ ["t","I'm not tall ___ to reach it.",["enough"],"Tall enough."],
+ ["t","Can I have a ___ more sugar? (un po')",["little"],"Sugar non è numerabile: a little."],
+ ["mc","There ___ few people at the cinema. (quasi nessuno)",["were","was","is"],0,"Few people → plurale: were."],
+ ["mc","Which has a NEGATIVE meaning?",["few","a few","some"],0,"Few = quasi nessuno."],
+ ["t","We have ___ eggs. We need to buy more. (pochissime, numerabile)",["few"],"Few eggs = quasi nessun uovo."],
+ ["mc","Too ___ information.",["much","many","few"],0,"Information non è numerabile."],
+ ["mc","Come si dice «Abbastanza caldo»?",["warm enough","enough warm","too warm"],0,"Aggettivo + enough."]
+]});
+
+A1_TOPICS.push({
+id:"a2-deg", level:"A2", title:"Avverbi di grado", tag:"Avverbi",
+desc:"Molto, abbastanza, troppo, un po': very, really, quite, too, a bit.",
+lead:"Gli **avverbi di grado** dicono *quanto* è forte un aggettivo o un altro avverbio: **molto** stanco, **abbastanza** buono, **troppo** caro. Stanno quasi sempre **davanti** a ciò che modificano.",
+tip:"Prima dell'aggettivo: very, really, quite, too, so, extremely, a bit. L'eccezione è **enough**, che va dopo.",
+blocks:[
+ {h:"Dal poco al tanto", table:{head:["Avverbio","Significato","Esempio"], rows:[["a bit / a little","un po'","It's a bit cold."],["quite / pretty","abbastanza","The film is quite good."],["very / really","molto","She is very kind."],["extremely","estremamente","He is extremely tired."],["too","troppo (problema)","It's too expensive."],["so","così, tanto","I'm so happy!"]]}},
+ {h:"Enough", p:"**Enough** = abbastanza (sufficiente) e va **dopo** l'aggettivo.", ex:["She is **old enough** to drive.","The room isn't **big enough**."]},
+ {h:"Very e too", p:"**Very** è un'intensità. **Too** è un eccesso che crea un problema.", ex:["It's **very** hot. (fa molto caldo)","It's **too** hot to walk. (troppo caldo per camminare)"]},
+ {h:"Con altri avverbi", ex:["She speaks **very** slowly.","He drives **too** fast.","You speak English **really** well."]}
+],
+traps:[
+ ["I'm very much tired.","I'm very tired.","Very + aggettivo, senza much."],
+ ["It's enough big.","It's big enough.","Enough dopo l'aggettivo."],
+ ["It's too much hot.","It's too hot.","Too + aggettivo, senza much."],
+ ["I like very much pizza.","I like pizza very much.","Very much dopo il verbo e il nome."]
+],
+qs:[
+ ["mc","It's ___ cold today. (molto)",["very","enough","a bit of"],0,"Very + aggettivo."],
+ ["mc","The film is ___ good. (abbastanza)",["quite","too","enough"],0,"Quite = abbastanza."],
+ ["t","I'm ___ tired. (estremamente)",["extremely"],"Extremely tired."],
+ ["t","It's ___ expensive. I can't buy it. (troppo)",["too"],"Too expensive."],
+ ["mc","She is ___ to drive. (abbastanza grande)",["old enough","enough old","too old enough"],0,"Enough dopo l'aggettivo."],
+ ["mc","Which is correct?",["I'm very much tired.","I'm very tired.","I'm much tired."],1,"Very + aggettivo."],
+ ["t","It's a ___ cold today. (un po')",["bit"],"A bit."],
+ ["t","I'm ___ happy! (così contento)",["so"],"So happy."],
+ ["mc","He speaks English ___ well.",["really","too much","enough very"],0,"Really + avverbio."],
+ ["mc","He drives ___ fast. It's dangerous.",["too","very much","enough"],0,"Too = eccesso."],
+ ["t","The room isn't big ___ .",["enough"],"Big enough."],
+ ["mc","Which sentence means a problem?",["It's too hot.","It's very hot.","It's quite hot."],0,"Too = troppo."],
+ ["mc","Which is correct?",["It's too much big.","It's too big.","It's much big."],1,"Too + aggettivo."],
+ ["t","I like pizza ___ much. (molto)",["very"],"Very much dopo il nome."],
+ ["mc","Which is correct?",["I like very much pizza.","I like pizza very much.","I very much like pizza very."],1,"Pizza very much."],
+ ["t","The soup is a ___ salty. (un po')",["bit"],"A bit salty."],
+ ["t","The test was ___ difficult. (abbastanza)",["quite","pretty"],"Quite / pretty difficult."],
+ ["mc","Quale avverbio va dopo l'aggettivo?",["enough","very","too"],0,"Solo enough."]
+]});
+
+A1_TOPICS.push({
+id:"a2-manner", level:"A2", title:"Avverbi di modo", tag:"Avverbi",
+desc:"Lentamente, bene, velocemente: come si fa un'azione. Aggettivo + -ly e le eccezioni.",
+lead:"Gli **avverbi di modo** dicono *come* si fa qualcosa: *lentamente*, *con attenzione*, *bene*. Si formano di solito aggiungendo **-ly** all'aggettivo, e stanno **dopo il verbo** (o dopo il complemento).",
+tip:"Aggettivo = descrive un nome (a slow car). Avverbio = descrive un verbo (he drives slowly).",
+blocks:[
+ {h:"Come si forma", table:{head:["Regola","Aggettivo","Avverbio"], rows:[["+ -ly","slow, quick, careful","slowly, quickly, carefully"],["-y → -ily","happy, easy, angry","happily, easily, angrily"],["-le → -ly","terrible, simple","terribly, simply"],["-ic → -ically","automatic","automatically"]]}},
+ {h:"Gli irregolari", p:"Alcuni avverbi hanno la stessa forma dell'aggettivo, uno è diverso.", table:{head:["Aggettivo","Avverbio","Esempio"], rows:[["good","**well**","She sings well."],["fast","fast","He drives fast."],["hard","hard","She works hard."],["late","late","He arrived late."],["early","early","I get up early."]]}},
+ {h:"Dove si mette", p:"Dopo il verbo, o dopo il complemento: *He speaks slowly.* / *She opened the door quietly.*", ex:["He **drives carefully**.","She **speaks English well**.","They **work hard**."]},
+ {h:"Aggettivo dopo be e look / feel", ex:["She is **quick**. (aggettivo, dopo be)","She runs **quickly**. (avverbio, dopo un verbo d'azione)","You look **tired**. (aggettivo)"]}
+],
+traps:[
+ ["She speaks English good.","She speaks English well.","L'avverbio di good è well."],
+ ["He drives careful.","He drives carefully.","Dopo un verbo d'azione serve l'avverbio."],
+ ["She works hardly.","She works hard.","Hardly = quasi non. Hard è anche avverbio."],
+ ["He speaks very fastly.","He speaks very fast.","Fast non prende -ly."]
+],
+qs:[
+ ["mc","He drives ___. (con attenzione)",["careful","carefully","carefuly"],1,"Careful + ly."],
+ ["mc","She speaks English ___.",["good","well","goodly"],1,"Good → well."],
+ ["t","The baby is sleeping ___. (quiet)",["quietly"],"Quiet + ly."],
+ ["t","They won the match ___. (easy)",["easily"],"Easy → easily."],
+ ["t","He arrived ___. (late)",["late"],"Late resta late."],
+ ["t","She works very ___. (hard)",["hard"],"Hard è anche avverbio."],
+ ["mc","Which is correct?",["He runs fastly.","He runs fast.","He runs fastily."],1,"Fast non prende -ly."],
+ ["mc","Which is correct?",["She is a quick runner.","She is a quickly runner.","She runs quick."],0,"Aggettivo davanti al nome."],
+ ["mc","You look ___. (stanco)",["tired","tiredly","tiring"],0,"Dopo look: aggettivo."],
+ ["t","She sings ___. (beautiful)",["beautifully"],"Beautiful → beautifully."],
+ ["t","He answered ___. (angry)",["angrily"],"Angry → angrily."],
+ ["mc","Dove si mette l'avverbio di modo?",["dopo il verbo","davanti al soggetto","dopo l'articolo"],0,"Di solito dopo il verbo o il complemento."],
+ ["mc","Which is correct?",["He spoke slowly.","He slowly spoke the.","Slowly he the spoke."],0,"Soggetto + verbo + avverbio."],
+ ["t","The teacher explained the lesson ___. (clear)",["clearly"],"Clear + ly."],
+ ["mc","Which word is an adverb?",["quickly","quick","quicker"],0,"Quickly."],
+ ["mc","He is a ___ driver.",["careful","carefully","care"],0,"Davanti a un nome: aggettivo."],
+ ["t","She plays the piano very ___. (good → avverbio)",["well"],"Well."],
+ ["t","They play ___ together. (happy)",["happily"],"Happy → happily."]
+]});
+
+A1_TOPICS.push({
+id:"a2-conn", level:"A2", title:"Connectors", tag:"Grammatica",
+desc:"And, but, or, because, so, then, however: le parole che legano le frasi.",
+lead:"I **connectors** (connettori) uniscono parole e frasi e dicono come sono collegate: aggiunta, contrasto, causa, conseguenza, ordine. Con pochi connettori il tuo inglese suona subito più fluido.",
+tip:"**Because** dà la causa (perché). **So** dà la conseguenza (quindi). Non si usano insieme nella stessa frase.",
+blocks:[
+ {h:"I connettori base", table:{head:["Funzione","Connettore","Esempio"], rows:[["Aggiungere","and, also","I like tea and coffee."],["Contrasto","but, however, although","I like it, but it's expensive."],["Scelta","or","Tea or coffee?"],["Causa","because","I stayed home because I was ill."],["Conseguenza","so","I was ill, so I stayed home."],["Ordine","first, then, after that, finally","First I wake up, then I have breakfast."]]}},
+ {h:"But, however, although", p:"**But** sta in mezzo alla frase. **However** apre una nuova frase (con virgola). **Although** introduce una frase che contrasta con l'altra.", ex:["It's cheap, **but** it's good.","It's cheap. **However**, it isn't good.","**Although** it's cheap, it's good."]},
+ {h:"Because o so?", ex:["I'm tired **because** I worked a lot. (causa)","I worked a lot, **so** I'm tired. (conseguenza)"]},
+ {h:"Per fare un esempio", ex:["I like fruit, **for example** apples and oranges.","I like sports, **like** tennis and football."]}
+],
+traps:[
+ ["Because I was ill, so I stayed home.","Because I was ill, I stayed home. / I was ill, so I stayed home.","Non si usano because e so insieme."],
+ ["Although it's cheap, but it's bad.","Although it's cheap, it's bad.","Con although non si mette but."],
+ ["I like pizza, however I don't like pasta.","I like pizza, but I don't like pasta.","However apre una nuova frase."],
+ ["Tea or coffee and?","Tea or coffee?","Or per una scelta."]
+],
+qs:[
+ ["mc","I like tea ___ coffee.",["and","but","so"],0,"And = aggiunta."],
+ ["mc","It's cheap, ___ it's not good.",["because","but","so"],1,"But = contrasto."],
+ ["t","Do you want tea ___ coffee?",["or"],"Or = scelta."],
+ ["t","I stayed home ___ I was ill. (perché)",["because"],"Because = causa."],
+ ["t","I was ill, ___ I stayed home. (quindi)",["so"],"So = conseguenza."],
+ ["mc","First I wake up, ___ I have breakfast.",["then","but","or"],0,"Then = poi."],
+ ["mc","___ it was raining, we went out.",["Although","Because","So"],0,"Although = nonostante."],
+ ["mc","It's cheap. ___, it isn't good.",["However","Because","So"],0,"However apre una nuova frase."],
+ ["t","I like sports, ___ example tennis. (per)",["for"],"For example."],
+ ["mc","Which is correct?",["Because I was tired, I went to bed.","Because I was tired, so I went to bed.","So I was tired, because I went to bed."],0,"Because e so non vanno insieme."],
+ ["mc","Which is correct?",["Although it was cold, we went out.","Although it was cold, but we went out.","Although but it was cold, we went out."],0,"Con although non si mette but."],
+ ["t","She is nice ___ funny. (e)",["and"],"And."],
+ ["t","I'm hungry, ___ I'm going to eat. (quindi)",["so"],"So."],
+ ["mc","Come si dice «Perché sei in ritardo?»: Why are you late? Risposta: ___ the bus was late.",["Because","So","But"],0,"Because."],
+ ["mc","First, then, after that, finally servono per:",["l'ordine","il contrasto","la causa"],0,"Sono connettori di ordine."],
+ ["t","He didn't study. ___, he passed. (tuttavia)",["however"],"However."],
+ ["mc","I like her, ___ I don't know her well.",["but","so","because"],0,"But."],
+ ["t","I forgot my keys, ___ I couldn't open the door. (così)",["so"],"So."]
+]});
+
+A1_TOPICS.push({
+id:"a2-prepadj", level:"A2", title:"Preposizioni comuni con gli aggettivi", tag:"Aggettivi",
+desc:"Good at, interested in, afraid of: gli aggettivi che vogliono una preposizione.",
+lead:"Molti aggettivi inglesi vogliono una **preposizione precisa**, che spesso non corrisponde all'italiano. Vanno imparati in coppia: *good at*, *interested in*, *afraid of*.",
+tip:"Dopo la preposizione si usa un nome oppure il verbo in -ing: *I'm good at swimming*.",
+blocks:[
+ {h:"Le coppie più comuni", table:{head:["Aggettivo + preposizione","Significato","Esempio"], rows:[["good at / bad at","bravo / scarso in","She's good at maths."],["interested in","interessato a","I'm interested in music."],["afraid of","che ha paura di","He is afraid of dogs."],["worried about","preoccupato per","I'm worried about the exam."],["excited about","entusiasta di","We're excited about the trip."],["proud of","orgoglioso di","I'm proud of you."],["tired of","stufo di","I'm tired of waiting."],["angry with","arrabbiato con","She's angry with me."],["different from","diverso da","This is different from that."],["married to","sposato con","He's married to Anna."],["ready for","pronto per","Are you ready for the test?"],["full of","pieno di","The box is full of books."]]}},
+ {h:"Con il verbo in -ing", ex:["I'm good **at cooking**.","She is afraid **of flying**.","I'm tired **of waiting**."]},
+ {h:"Attenzione", p:"Alcune corrispondenze sono diverse dall'italiano.", ex:["**interested in** (non: interested to)","**married to** (non: married with)","**angry with** una persona, **angry about** una cosa"]}
+],
+traps:[
+ ["I'm interested to music.","I'm interested in music.","Interested in."],
+ ["She is married with Marco.","She is married to Marco.","Married to."],
+ ["He is afraid from dogs.","He is afraid of dogs.","Afraid of."],
+ ["I'm good in tennis.","I'm good at tennis.","Good at."]
+],
+qs:[
+ ["mc","She's good ___ maths.",["at","in","on"],0,"Good at."],
+ ["mc","I'm interested ___ music.",["in","to","about"],0,"Interested in."],
+ ["t","He is afraid ___ dogs.",["of"],"Afraid of."],
+ ["t","I'm worried ___ the exam.",["about"],"Worried about."],
+ ["mc","She is married ___ Marco.",["to","with","by"],0,"Married to."],
+ ["mc","This is different ___ that.",["from","with","by"],0,"Different from."],
+ ["t","I'm proud ___ you.",["of"],"Proud of."],
+ ["t","We're excited ___ the trip.",["about"],"Excited about."],
+ ["mc","I'm tired ___ waiting.",["of","for","at"],0,"Tired of."],
+ ["mc","She's angry ___ me.",["with","of","to"],0,"Angry with + persona."],
+ ["t","Are you ready ___ the test?",["for"],"Ready for."],
+ ["t","The box is full ___ books.",["of"],"Full of."],
+ ["mc","Which is correct?",["I'm good at cooking.","I'm good in cooking.","I'm good on cooking."],0,"Good at + -ing."],
+ ["mc","Which is correct?",["He's afraid of flying.","He's afraid to flying.","He's afraid from flying."],0,"Afraid of + -ing."],
+ ["t","I'm bad ___ maths.",["at"],"Bad at."],
+ ["mc","Which is NOT correct?",["interested to","interested in","interested in learning"],0,"Si dice interested in."],
+ ["t","She is good ___ languages.",["at"],"Good at."],
+ ["mc","Come si dice «Sono stufo di aspettare»?",["I'm tired of waiting.","I'm tired to wait.","I'm tired from wait."],0,"Tired of + -ing."]
+]});
+
+A1_TOPICS.push({
+id:"a2-indef", level:"A2", title:"Pronomi indefiniti (1)", tag:"Pronomi",
+desc:"Somebody, anything, nowhere, everyone: qualcuno, niente, da nessuna parte, tutti.",
+lead:"I **pronomi indefiniti** parlano di persone, cose o luoghi senza dire quali. Si formano con **some / any / no / every** + **-body / -one / -thing / -where**.",
+tip:"Some- nelle affermative, any- nelle negative e domande, no- con il verbo affermativo, every- per «tutto, tutti». Il verbo resta al singolare.",
+blocks:[
+ {h:"La tabella", table:{head:["","Persone","Cose","Luoghi"], rows:[["some-","somebody / someone","something","somewhere"],["any-","anybody / anyone","anything","anywhere"],["no-","nobody / no one","nothing","nowhere"],["every-","everybody / everyone","everything","everywhere"]]}},
+ {h:"Some o any?", ex:["There is **someone** at the door. (affermativa)","I don't know **anyone** here. (negativa)","Is there **anything** to eat? (domanda)"]},
+ {h:"No- con il verbo affermativo", p:"In inglese una sola negazione per frase: o *not … any-* oppure *no-*.", ex:["I don't see **anything**. = I see **nothing**.","**Nobody** came. (non *Nobody didn't come*)"]},
+ {h:"Il verbo al singolare", ex:["**Everybody is** here.","**Nobody knows** the answer.","**Everything is** ready."]}
+],
+traps:[
+ ["I don't see nothing.","I don't see anything. / I see nothing.","Una sola negazione."],
+ ["Everybody are here.","Everybody is here.","Verbo al singolare."],
+ ["I have anything to say.","I have something to say.","Affermativa: some-."],
+ ["Somebody didn't come.","Nobody came.","Con un soggetto negativo si usa no-."]
+],
+qs:[
+ ["mc","There is ___ at the door.",["someone","anyone","no one"],0,"Affermativa: someone."],
+ ["mc","I don't know ___ here.",["someone","anyone","everyone"],1,"Negativa: anyone."],
+ ["t","Is there ___ to eat?",["anything"],"Domanda: anything."],
+ ["t","I'd like ___ to drink. (qualcosa)",["something"],"Something."],
+ ["mc","Which is correct?",["I don't see nothing.","I don't see anything.","I don't see something nothing."],1,"Una sola negazione."],
+ ["mc","___ is here. (tutti)",["Everybody","Anybody","Nobody"],0,"Everybody."],
+ ["t","___ came to the party. (nessuno)",["nobody","no one"],"Nobody / no one."],
+ ["t","I looked for my keys ___ . (dappertutto)",["everywhere"],"Everywhere."],
+ ["mc","I can't find my phone ___ .",["anywhere","somewhere","nowhere"],0,"Negativa: anywhere."],
+ ["mc","Let's go ___ nice.",["somewhere","anywhere","nowhere"],0,"Affermativa: somewhere."],
+ ["t","Everybody ___ here. (is / are)",["is"],"Verbo al singolare."],
+ ["t","Nobody ___ the answer. (know / knows)",["knows"],"Singolare: knows."],
+ ["mc","I have ___ to tell you.",["something","anything","nothing"],0,"Something."],
+ ["mc","Which is correct?",["Nobody came.","Nobody didn't come.","Anybody came not."],0,"Nobody + verbo affermativo."],
+ ["t","Did you buy ___ ? (qualcosa)",["anything"],"Domanda: anything."],
+ ["mc","Which verb form goes with everyone?",["is","are","am"],0,"Everyone is."],
+ ["t","There's ___ in the fridge. It's empty. (niente)",["nothing"],"Nothing."],
+ ["mc","Which is correct?",["There isn't anyone here.","There isn't no one here.","There isn't someone here."],0,"Negativa: anyone."]
+]});
+
+A1_TOPICS.push({
+id:"a2-refl", level:"A2", title:"Pronomi riflessivi", tag:"Pronomi",
+desc:"Myself, yourself, themselves: quando l'azione torna su chi la fa, e dove l'italiano li usa e l'inglese no.",
+lead:"I **pronomi riflessivi** (-self / -selves) si usano quando soggetto e complemento sono la **stessa persona**: *I cut myself*. Attenzione: molti verbi riflessivi italiani **non** lo sono in inglese.",
+tip:"Con i verbi di cura personale (wash, shave, get up, feel, relax) l'inglese di solito **non** usa il riflessivo.",
+blocks:[
+ {h:"Le forme", table:{head:["Soggetto","Riflessivo","Esempio"], rows:[["I","myself","I cut myself."],["you","yourself / yourselves","Be careful, you'll hurt yourself."],["he","himself","He taught himself English."],["she","herself","She looked at herself."],["it","itself","The cat washed itself."],["we","ourselves","We enjoyed ourselves."],["they","themselves","They introduced themselves."]]}},
+ {h:"Quando si usano", ex:["**Enjoy yourself!** (divertiti)","**Help yourself.** (serviti pure)","I did it **by myself**. (da solo)","She talks to **herself**."]},
+ {h:"Quando NON si usano", p:"Con questi verbi in italiano c'è «mi, ti, si», in inglese no.", table:{head:["Italiano","Inglese"], rows:[["mi lavo","I wash"],["mi alzo","I get up"],["mi sento stanco","I feel tired"],["mi rilasso","I relax"],["mi siedo","I sit down"],["mi sposo","I get married"]]}}
+],
+traps:[
+ ["I feel myself tired.","I feel tired.","Feel non vuole il riflessivo."],
+ ["I get up myself at 7.","I get up at 7.","Get up non è riflessivo."],
+ ["I cut me with the knife.","I cut myself with the knife.","L'azione torna sul soggetto: myself."],
+ ["Enjoy you!","Enjoy yourself!","Enjoy vuole il riflessivo."],
+ ["They did it by theirselves.","They did it by themselves.","La forma è themselves."]
+],
+qs:[
+ ["mc","I cut ___ with a knife.",["me","myself","I"],1,"Soggetto e complemento coincidono: myself."],
+ ["mc","Be careful, you'll hurt ___.",["you","yourself","your"],1,"You → yourself."],
+ ["t","He taught ___ English. (da solo)",["himself"],"Himself."],
+ ["t","She looked at ___ in the mirror.",["herself"],"Herself."],
+ ["mc","We enjoyed ___ at the party.",["ourselves","us","ours"],0,"Ourselves."],
+ ["mc","They introduced ___ to the teacher.",["themselves","theirselves","them"],0,"Themselves."],
+ ["t","Help ___ to some cake! (serviti)",["yourself"],"Help yourself."],
+ ["t","I did it by ___ . (da solo)",["myself"],"By myself."],
+ ["mc","Which is correct?",["I feel tired.","I feel myself tired.","I feel me tired."],0,"Feel non vuole il riflessivo."],
+ ["mc","Which is correct?",["I get up at 7.","I get myself up at 7.","I get me up at 7."],0,"Get up senza riflessivo."],
+ ["t","I wash ___ face every morning.",["my"],"I wash my face: possessivo, non riflessivo."],
+ ["mc","Which is correct?",["She relaxed on the sofa.","She relaxed herself on the sofa.","She relaxed her on the sofa."],0,"Relax senza riflessivo."],
+ ["t","The cat washed ___ . ",["itself"],"Itself."],
+ ["mc","Which is NOT correct?",["themselves","theirselves","ourselves"],1,"Theirselves non esiste."],
+ ["t","Enjoy ___ ! (divertiti)",["yourself"],"Enjoy yourself."],
+ ["mc","She talks to ___ .",["herself","her","she"],0,"Herself."],
+ ["t","The children dressed ___ . ",["themselves"],"Themselves."],
+ ["mc","Which is correct?",["We enjoyed ourselves.","We enjoyed us.","We enjoyed ours."],0,"Ourselves."]
+]});
+
+A1_TOPICS.push({
+id:"a2-count", level:"A2", title:"Sostantivi numerabili e non numerabili", tag:"Nomi",
+desc:"A book / books, ma water e advice: nomi che si contano e nomi che no.",
+lead:"I nomi **numerabili** si possono contare (*one book, two books*). I **non numerabili** no (*water, money, advice*): non hanno il plurale e non vogliono *a / an*.",
+tip:"Molti nomi non numerabili inglesi sono numerabili in italiano: **information, advice, news, luggage, furniture, homework**.",
+blocks:[
+ {h:"Numerabili e non numerabili", table:{head:["","Numerabili","Non numerabili"], rows:[["a / an","a book, an apple","— (mai)"],["plurale","books, apples","— (mai)"],["quanto?","many books","much water"],["verbo","The books are here.","The water is cold."]]}},
+ {h:"I non numerabili da ricordare", table:{head:["Inglese","Significato"], rows:[["information","le informazioni"],["advice","i consigli"],["news","le notizie"],["luggage","i bagagli"],["furniture","i mobili"],["homework","i compiti"],["money","i soldi"],["bread, water, milk, rice","pane, acqua, latte, riso"]]}},
+ {h:"Come contarli", p:"Si usano unità di misura: **a piece of**, **a glass of**, **a bottle of**, **a slice of**.", ex:["a **piece of** advice","a **glass of** water","two **slices of** bread","some **information**"]},
+ {h:"Verbo al singolare", ex:["The news **is** good.","The information **is** useful.","My luggage **is** heavy."]}
+],
+traps:[
+ ["I need some informations.","I need some information.","Information non ha il plurale."],
+ ["She gave me a good advice.","She gave me good advice. / a good piece of advice.","Advice non vuole a."],
+ ["The news are bad.","The news is bad.","News è singolare."],
+ ["I have two luggages.","I have two bags / pieces of luggage.","Luggage non ha il plurale."],
+ ["How many money?","How much money?","Money non è numerabile."]
+],
+qs:[
+ ["mc","I need some ___.",["information","informations","an information"],0,"Information è non numerabile."],
+ ["mc","She gave me good ___.",["advices","advice","an advice"],1,"Advice è non numerabile."],
+ ["t","The news ___ good. (is / are)",["is"],"News è singolare."],
+ ["t","My luggage ___ heavy. (is / are)",["is"],"Luggage è singolare."],
+ ["mc","How ___ money do you have?",["much","many","a"],0,"Money: much."],
+ ["mc","How ___ books do you have?",["much","many","a lot"],1,"Books: many."],
+ ["t","I'd like a ___ of water. (bicchiere)",["glass"],"A glass of water."],
+ ["t","Can I have a ___ of bread? (fetta)",["slice","piece"],"A slice / piece of bread."],
+ ["mc","Which is correct?",["two pieces of advice","two advices","two advice"],0,"Si conta con piece of."],
+ ["mc","Which is a countable noun?",["apple","water","furniture"],0,"Apple."],
+ ["mc","Which is uncountable?",["homework","book","chair"],0,"Homework."],
+ ["t","I have a lot of ___ to do. (homework / homeworks)",["homework"],"Homework non ha il plurale."],
+ ["mc","Which is correct?",["I have some luggage.","I have some luggages.","I have a luggage."],0,"Luggage."],
+ ["mc","Which is correct?",["The furniture is new.","The furniture are new.","The furnitures is new."],0,"Furniture è singolare."],
+ ["t","Can you give me some ___ ? (advice / advices)",["advice"],"Advice."],
+ ["mc","Which is NOT correct?",["an information","a piece of information","some information"],0,"Information non vuole an."],
+ ["t","I drink a lot of ___ . (water / waters)",["water"],"Water."],
+ ["mc","Quale frase è corretta?",["The weather is nice.","The weather are nice.","The weathers is nice."],0,"Weather è non numerabile."]
+]});
+
+A1_TOPICS.push({
+id:"a2-gen", level:"A2", title:"Genitivo sassone", tag:"Nomi",
+desc:"Marco's car, the students' books: il possesso con 's e s'.",
+lead:"Il **genitivo sassone** serve per dire di chi è qualcosa: **'s** dopo il possessore. Al posto del nostro «di», in inglese il possessore va **prima** della cosa posseduta.",
+tip:"*La macchina di Marco* → **Marco's car**. Il possessore prima, la cosa dopo, senza articolo davanti.",
+blocks:[
+ {h:"Le regole", table:{head:["Possessore","Forma","Esempio"], rows:[["Singolare","+ 's","Marco's car, my sister's room"],["Plurale regolare (in -s)","+ ' soltanto","the students' books, my parents' house"],["Plurale irregolare","+ 's","the children's toys, women's clothes"],["Nome in -s","'s o '","James's book / James' book"]]}},
+ {h:"Senza il nome", p:"Se si capisce di che cosa si parla, il secondo nome si può omettere.", ex:["Whose bag is this? It's **Anna's**.","I'm going to **my sister's**. (a casa di mia sorella)"]},
+ {h:"Quando si usa of", p:"Per le **cose** (non le persone) si usa di solito **of**.", ex:["the door **of** the house","the end **of** the film","the capital **of** Italy"]},
+ {h:"Altri usi", ex:["**today's** news","**yesterday's** meeting","a friend **of mine** (un mio amico)"]}
+],
+traps:[
+ ["the car of Marco","Marco's car","Con le persone: 's."],
+ ["the Marco's car","Marco's car","Niente articolo davanti al possessore."],
+ ["the students book","the students' book","Plurale in -s: apostrofo."],
+ ["the childrens toys","the children's toys","Plurale irregolare: 's."],
+ ["the leg's of the table","the leg of the table","Per le cose: of."]
+],
+qs:[
+ ["mc","La macchina di Marco:",["Marco's car","the car of Marco","Marco car's"],0,"Possessore + 's + cosa."],
+ ["mc","La stanza di mia sorella:",["my sister's room","my sisters room","the room of my sister"],0,"'s."],
+ ["t","The ___ books are on the table. (i libri degli studenti)",["students'"],"Plurale in -s: students'."],
+ ["t","The ___ toys are in the garden. (i bambini)",["children's"],"Plurale irregolare: children's."],
+ ["mc","Which is correct?",["the Marco's car","Marco's car","the car Marco's"],1,"Niente articolo."],
+ ["mc","Whose bag is this? It's ___.",["Anna's","Anna","of Anna"],0,"Anna's."],
+ ["t","I'm going to my ___ house. (la casa di mia sorella)",["sister's"],"Sister's."],
+ ["t","The door ___ the house is blue. (di)",["of"],"Cosa: of."],
+ ["mc","Which is correct?",["the end of the film","the film's end of","the film end's"],0,"Per le cose: of."],
+ ["mc","Which is correct?",["my parents' house","my parent's house","my parents house"],0,"Plurale in -s: apostrofo."],
+ ["t","This is ___ book. (il libro di James)",["James's","James'"],"James's o James'."],
+ ["mc","Which is correct?",["a friend of mine","a friend of me","a mine friend"],0,"A friend of mine."],
+ ["mc","Which is correct?",["women's clothes","womens' clothes","womens clothes"],0,"Plurale irregolare: women's."],
+ ["t","Have you seen ___ news? (di oggi)",["today's"],"Today's."],
+ ["mc","The cat's tail means:",["la coda del gatto","le code dei gatti","il gatto della coda"],0,"Singolare: cat's."],
+ ["mc","The cats' tails means:",["le code dei gatti","la coda del gatto","il gatto è la coda"],0,"Plurale: cats'."],
+ ["t","The ___ of the table is broken. (la gamba)",["leg"],"The leg of the table."],
+ ["mc","Which is NOT correct?",["Marco's sister","the sister's of Marco","the end of the street"],1,"Il possessore va prima."]
+]});
+
+A1_TOPICS.push({
+id:"a2-like", level:"A2", title:"Like, love e hate", tag:"Verbi",
+desc:"Mi piace, adoro, odio: i verbi di gusto, con il nome e con il verbo in -ing.",
+lead:"**Like**, **love** e **hate** dicono quanto ti piace o non ti piace qualcosa. In inglese il soggetto è la persona che prova il sentimento: *I like pizza* (non «la pizza mi piace»).",
+tip:"Dopo like / love / hate c'è un nome oppure un verbo in **-ing**: *I love swimming*. Con he / she / it: **likes**, **loves**, **hates**.",
+blocks:[
+ {h:"Dal più al meno", table:{head:["Verbo","Significato","Esempio"], rows:[["love","adorare","I love pizza."],["like","piacere","I like tennis."],["don't like","non piacere","I don't like coffee."],["hate","odiare","I hate waiting."]]}},
+ {h:"Con il verbo in -ing", ex:["I **like** swimming.","She **loves** reading.","He **hates** getting up early."]},
+ {h:"La -s della terza persona", p:"Con he / she / it e con la negativa e la domanda valgono le regole del Present Simple.", ex:["She **likes** jazz.","He **doesn't like** fish.","**Do** you **like** cooking?","Yes, I **do**. / No, I **don't**."]},
+ {h:"Like o would like?", p:"**Like** = mi piace (in generale). **Would like** = vorrei (gentile, adesso).", table:{head:["Frase","Significato"], rows:[["I like coffee.","Il caffè mi piace."],["I'd like a coffee.","Vorrei un caffè."],["Would you like some tea?","Vuoi del tè? (offerta)"]]}}
+],
+traps:[
+ ["Pizza likes me.","I like pizza.","Il soggetto è chi prova il sentimento."],
+ ["I like to swimming.","I like swimming.","Like + -ing, senza to."],
+ ["She like jazz.","She likes jazz.","Con she serve -s."],
+ ["He doesn't likes fish.","He doesn't like fish.","Dopo doesn't: forma base."],
+ ["I like a coffee, please.","I'd like a coffee, please.","Per chiedere: I'd like."]
+],
+qs:[
+ ["mc","I ___ pizza. (mi piace)",["like","likes","am like"],0,"I like."],
+ ["mc","She ___ jazz.",["like","likes","is like"],1,"She likes."],
+ ["t","He ___ waiting. (odia)",["hates"],"He hates."],
+ ["t","They ___ travelling. (adorano)",["love"],"They love."],
+ ["mc","I like ___.",["swimming","swim to","to swimming"],0,"Like + -ing."],
+ ["mc","Which is correct?",["I like to swimming.","I like swimming.","I like swim."],1,"Like + -ing."],
+ ["t","I don't ___ coffee. (like)",["like"],"Don't + forma base."],
+ ["t","She doesn't ___ fish. (like)",["like"],"Doesn't + forma base."],
+ ["mc","___ you like cooking?",["Do","Does","Are"],0,"Do you like...?"],
+ ["mc","___ he like football?",["Do","Does","Is"],1,"Does he like...?"],
+ ["t","Rispondi: Do you like jazz? Yes, I ___.",["do"],"Yes, I do."],
+ ["t","Rispondi: Does she like fish? No, she ___.",["doesn't","does not"],"No, she doesn't."],
+ ["mc","Per chiedere un caffè:",["I'd like a coffee, please.","I like a coffee, please.","I'm liking a coffee."],0,"Would like = vorrei."],
+ ["mc","Would you ___ some tea?",["like","likes","liking"],0,"Would you like...?"],
+ ["t","I ___ getting up early. (odio)",["hate"],"I hate."],
+ ["t","He ___ reading before bed. (adorare)",["loves"],"He loves."],
+ ["mc","Which is correct?",["He doesn't like fish.","He doesn't likes fish.","He not like fish."],0,"Doesn't + forma base."],
+ ["mc","Which word is the OPPOSITE of love?",["hate","like","enjoy"],0,"Hate."]
+]});
+
 A1_TOPICS.sort(function(a, b){ return a.title.localeCompare(b.title, "it"); });
 
 /*A1-JS-END*/
@@ -6132,7 +6925,7 @@ var ACTIVITIES = [
    desc:"Can, could, must, should, might: capacità, permessi, obbligo, consigli, probabilità e passato in sette tappe, con esercizi interattivi.", status:"live"}
 ];
 /*A1-REG*/
-A1_TOPICS.forEach(function(t){ ACTIVITIES.push({id:t.id, level:"A1", title:t.title, tag:t.tag||"Grammatica", desc:t.desc, status:"live"}); });
+A1_TOPICS.forEach(function(t){ ACTIVITIES.push({id:t.id, level:(t.level||"A1"), title:t.title, tag:t.tag||"Grammatica", desc:t.desc, status:"live"}); });
 var VIEW_IDS = ["preposizioni","phrasal","get","pastsimple","tenses","irregular","modals","progress"]; /* activities with a real view, so far */
 var VIEW_ELS = {preposizioni: viewPreposizioni, phrasal: viewPhrasal, get: viewGet, pastsimple: viewPastSimple, tenses: viewTenses, irregular: viewIrregular, modals: viewModals, progress: viewProgress};
 A1_TOPICS.forEach(function(t){ VIEW_IDS.push(t.id); VIEW_ELS[t.id] = viewA1; });
@@ -6149,8 +6942,8 @@ A1_TOPICS.forEach(function(t){ ACTIVITY_COUNTS[t.id] = t.qs.length; });
 
 var LEVELS = [
   {id:"A1", title:"Livello A1", sub:"Si parte da qui: i verbi base, i pronomi, le preposizioni e le parole che usi ogni giorno.", 
-   items:A1_TOPICS.map(function(t){ return [t.id]; })},
-  {id:"A2", title:"Livello A2", sub:"Le basi per cavartela: il passato e i verbi che usi ogni giorno.",
+   items:A1_TOPICS.filter(function(t){ return (t.level||"A1") === "A1"; }).map(function(t){ return [t.id]; })},
+  {id:"A2", title:"Livello A2", sub:"Il passato, i confronti e le parole che ti servono per cavartela.",
    items:[["pastsimple"],
      ["irregular",{title:"Verbi irregolari: il Past Simple", level:"A2", desc:"Went, saw, bought: gli 80 irregolari che tutti devono sapere, con il passato. Parti da qui."},{labels:["Il passato","Dal passato alla base","Correggi la frase","Tutto insieme"]}]]},
   {id:"B1", title:"Livello B1", sub:"Intermedio: modali, tempi del passato e preposizioni.",
@@ -6159,6 +6952,7 @@ var LEVELS = [
   {id:"EX", badge:"+", title:"Extra", sub:"Argomenti misti, utili a ogni livello.",
    items:[["phrasal"],["get"]]}
 ];
+A1_TOPICS.forEach(function(t){ if(t.level === "A2") LEVELS.filter(function(l){ return l.id === "A2"; })[0].items.push([t.id]); });
 function activityCardHtml(a, over){
   if(over) a = Object.assign({}, a, over);
   var live = a.status === "live";
@@ -6224,7 +7018,7 @@ function showView(id){
   viewHome.classList.toggle("active", isHome);
   var tgtEl = VIEW_ELS[id];
   VIEW_IDS.forEach(function(vid){ VIEW_ELS[vid].classList.toggle("active", VIEW_ELS[vid] === tgtEl); });
-  var isA1 = id.indexOf("a1-") === 0;
+  var isA1 = !!a1Topic(id);
   if(isA1) a1Load(id);
   homeBtn.hidden = isHome;
   activityTabs.hidden = isHome;
