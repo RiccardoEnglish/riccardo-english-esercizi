@@ -5248,13 +5248,36 @@ function a1RenderGuide(t){
 function a1Back(){
   a1El.live.style.display = "none"; a1El.result.style.display = "none"; a1El.setup.style.display = "block";
 }
+function a1Pools(t){
+  var all = a1Expand(t);
+  var fill = all.filter(function(q){ return q.type === "text"; });
+  var mc = all.filter(function(q){ return q.type === "mc"; });
+  var fix = (t.traps || []).map(function(x){
+    var opts = [x[0], x[1]];
+    return {type:"mc", kick:"Correggi la frase", prompt:"Quale frase è corretta?", options:opts, correct:1, explain:x[2], rv:"Correggi: "+x[0]};
+  });
+  var fixMc = mc.filter(function(q){ return /^Which (sentence |one |question )?(is|are) (NOT )?correct/i.test(q.prompt) && q.prompt.indexOf("___") < 0; }).map(function(q){
+    return {type:"mc", kick:"Correggi la frase", prompt:q.prompt, options:q.options, correct:q.correct, explain:q.explain};
+  });
+  return {fill:fill, mc:mc, fix:fix.concat(fixMc), all:all.concat(fix)};
+}
+var A1_MODES = [
+  {id:"fill", title:"Completa la frase", desc:"Scrivi tu la parola o la forma giusta."},
+  {id:"mc", title:"Scelta multipla", desc:"Scegli la risposta giusta tra le opzioni."},
+  {id:"fix", title:"Correggi la frase", desc:"Riconosci la frase giusta, tra gli errori tipici da italiano."},
+  {id:"all", title:"Tutto insieme", desc:"Tutte le domande dell'argomento, mescolate."}
+];
 function a1RenderSetup(t){
   document.getElementById("a1-setup-h").textContent = t.title;
-  document.getElementById("a1-setup-p").textContent = "Un round con tutte le domande dell'argomento, in ordine casuale. Per completare la tappa serve almeno l'80% di risposte giuste, in due giorni diversi.";
-  var n = t.qs.length;
-  document.getElementById("a1-type-grid").innerHTML =
-    '<button type="button" class="type-opt" id="a1-start"><div class="t-head"><span class="t-title">Inizia l\'esercizio</span><span class="t-count">'+n+'</span></div><span class="t-desc">Scelta multipla e completamento, con la spiegazione dopo ogni risposta.</span></button>';
-  document.getElementById("a1-start").addEventListener("click", function(){ a1Start(); });
+  document.getElementById("a1-setup-p").textContent = "Scegli come esercitarti. Per completare l'argomento serve almeno l'80% di risposte giuste, in due giorni diversi.";
+  var pools = a1Pools(t);
+  document.getElementById("a1-type-grid").innerHTML = A1_MODES.filter(function(m){ return pools[m.id].length > 0; }).map(function(m){
+    var n = Math.min(ROUND_LEN, pools[m.id].length);
+    return '<button type="button" class="type-opt" data-a1mode="'+m.id+'"'+(m.id === "all" ? ' id="a1-start"' : '')+'><div class="t-head"><span class="t-title">'+m.title+'</span><span class="t-count">'+n+'</span></div><span class="t-desc">'+m.desc+'</span></button>';
+  }).join("");
+  document.querySelectorAll("#a1-type-grid [data-a1mode]").forEach(function(btn){
+    btn.addEventListener("click", function(){ a1Start(btn.getAttribute("data-a1mode")); });
+  });
   a1Back();
 }
 function a1Load(id){
@@ -5266,12 +5289,15 @@ function a1Load(id){
   a1RenderGuide(t);
   a1RenderSetup(t);
 }
-function a1Start(){
-  var pool = a1Expand(a1Cur).map(function(q){
+var a1Mode = "all";
+function a1Start(mode){
+  if(typeof mode !== "string") mode = a1Mode || "all";
+  a1Mode = mode;
+  var pool = (a1Pools(a1Cur)[mode] || a1Pools(a1Cur).all).map(function(q){
     if(q.type === "mc"){
       var right = q.options[q.correct];
       var opts = shuffle(q.options);
-      return {type:"mc", prompt:q.prompt, options:opts, correct:opts.indexOf(right), explain:q.explain};
+      return {type:"mc", kick:q.kick, rv:q.rv, prompt:q.prompt, options:opts, correct:opts.indexOf(right), explain:q.explain};
     }
     return q;
   });
@@ -5288,7 +5314,7 @@ function a1Top(){
 function a1Question(){
   a1Answered = false;
   var q = a1Order[a1I]; a1Top();
-  var kicker = q.type === "mc" ? "Scelta multipla" : "Completa la frase";
+  var kicker = q.kick || (q.type === "mc" ? "Scelta multipla" : "Completa la frase");
   var body = '<div class="qkicker">'+kicker+'</div><div class="qprompt">'+esc(q.prompt).replace("___", '<span class="blank">?</span>')+'</div>';
   if(q.type === "text"){
     body += '<form class="qform" id="a1-qform" autocomplete="off"><div class="text-row"><input id="a1-qinput" type="text" placeholder="scrivi la risposta" aria-label="Risposta" autocapitalize="off" autocorrect="off" spellcheck="false"><button type="submit" class="btn" id="a1-qsubmit">Controlla</button></div></form>';
@@ -5306,7 +5332,7 @@ function a1Question(){
     fb.querySelector(".exp").textContent = q.explain;
     nextBtn.disabled = false;
     if(ok) cheer(fb, nextBtn);
-    if(ok) a1Score++; else a1Mistakes.push({q:q.prompt.replace("___", correctText), a:correctText, given:given});
+    if(ok) a1Score++; else a1Mistakes.push({q:(q.rv || q.prompt.replace("___", correctText)), a:correctText, given:given});
     a1El.pill.textContent = a1Score+" corrette";
   }
   if(q.type === "text"){
@@ -5348,7 +5374,7 @@ function a1Finish(){
     '<div class="result-actions"><button class="btn" id="a1-retry">Riprova</button>'+
     (nx && pct >= 80 ? '<button class="btn" id="a1-next">Prossimo argomento →</button>' : '')+
     '<button class="btn ghost" id="a1-guide-btn">Torna alla guida</button><button class="btn ghost" id="a1-home-btn">Tutti gli argomenti</button></div></div>';
-  document.getElementById("a1-retry").addEventListener("click", a1Start);
+  document.getElementById("a1-retry").addEventListener("click", function(){ a1Start(a1Mode); });
   document.getElementById("a1-guide-btn").addEventListener("click", function(){ showTab("guide"); });
   document.getElementById("a1-home-btn").addEventListener("click", function(){ showView("home"); });
   if(nx && pct >= 80) document.getElementById("a1-next").addEventListener("click", function(){ showView(nx.id); });
