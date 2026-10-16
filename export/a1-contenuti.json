@@ -6705,6 +6705,1876 @@
    ]
   },
   {
+   "id": "b2-mps",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: dovere al condizionale (should have done)",
+   "desc": "Should have e shouldn't have per i rimpianti, i rimproveri e le aspettative non rispettate.",
+   "lead": "**Should have + participio** si usa per dire che **era la cosa giusta da fare** ma non è stata fatta: un rimpianto o un rimprovero. **Shouldn't have** dice che una cosa è stata fatta ma **non andava fatta**.",
+   "tip": "**Should have done** = avresti dovuto farlo (e non l'hai fatto). **Shouldn't have done** = non avresti dovuto farlo (e l'hai fatto).",
+   "blocks": [
+    {
+     "h": "Rimpianto e rimprovero",
+     "ex": [
+      "I **should have studied** more. (non ho studiato abbastanza)",
+      "You **should have called** me. (non l'hai fatto)",
+      "We **shouldn't have left** so late. (siamo partiti tardi)"
+     ]
+    },
+    {
+     "h": "Ought to have",
+     "p": "**Ought to have** ha lo stesso significato di should have.",
+     "ex": [
+      "You **ought to have told** her."
+     ]
+    },
+    {
+     "h": "Aspettativa",
+     "ex": [
+      "The train **should have arrived** at 5. (era previsto)",
+      "She **should have received** the letter by now."
+     ]
+    },
+    {
+     "h": "Domande e negazione",
+     "ex": [
+      "**Should** I **have called** him? (era meglio chiamarlo?)",
+      "You **shouldn't have bought** me a present! (frase di cortesia: non dovevi)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I should studied more.",
+     "I should have studied more.",
+     "Should have + participio."
+    ],
+    [
+     "You should of called me.",
+     "You should have called me.",
+     "Si scrive have."
+    ],
+    [
+     "She should to have come.",
+     "She should have come.",
+     "Niente to."
+    ],
+    [
+     "I shouldn't to have said that.",
+     "I shouldn't have said that.",
+     "Shouldn't have + participio."
+    ],
+    [
+     "He should has gone.",
+     "He should have gone.",
+     "Dopo should: have."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I failed the exam. I ___ studied more.",
+     "options": [
+      "should have",
+      "should has",
+      "should of"
+     ],
+     "correct_index": 0,
+     "explanation": "Rimpianto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You shouldn't have ___ that. (say)",
+     "accepted_answers": [
+      "said"
+     ],
+     "explanation": "Say → said."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You ___ called me. I was worried.",
+     "options": [
+      "should have",
+      "should",
+      "must have"
+     ],
+     "correct_index": 0,
+     "explanation": "Rimprovero."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ have left earlier. We missed the train. (should / do)",
+     "accepted_answers": [
+      "should"
+     ],
+     "explanation": "Should have left."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She should have come.",
+      "She should to have come.",
+      "She should came."
+     ],
+     "correct_index": 0,
+     "explanation": "Should have come."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The train ___ arrived at 5, but it's still not here.",
+     "options": [
+      "should have",
+      "must have",
+      "would"
+     ],
+     "correct_index": 0,
+     "explanation": "Era previsto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He shouldn't ___ driven so fast. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Shouldn't have driven."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I should have ___ you the truth. (tell)",
+     "accepted_answers": [
+      "told"
+     ],
+     "explanation": "Tell → told."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which means «non dovevi comprarlo»?",
+     "options": [
+      "You shouldn't have bought it.",
+      "You should have bought it.",
+      "You mustn't buy it."
+     ],
+     "correct_index": 0,
+     "explanation": "Shouldn't have bought."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is NOT correct?",
+     "options": [
+      "I should of known.",
+      "I should have known.",
+      "I should've known."
+     ],
+     "correct_index": 0,
+     "explanation": "Si scrive have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ought to ___ told us. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Ought to have told."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She should have ___ the letter by now. (receive)",
+     "accepted_answers": [
+      "received"
+     ],
+     "explanation": "Should have received."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ate too much. I ___ so much cake.",
+     "options": [
+      "shouldn't have eaten",
+      "should have eaten",
+      "couldn't eaten"
+     ],
+     "correct_index": 0,
+     "explanation": "Rimpianto: shouldn't have eaten."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a question about the past?",
+     "options": [
+      "Should I have called him?",
+      "Should I call him?",
+      "Do I should call him?"
+     ],
+     "correct_index": 0,
+     "explanation": "Should I have called?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You shouldn't have ___ so late. (arrive)",
+     "accepted_answers": [
+      "arrived"
+     ],
+     "explanation": "Shouldn't have arrived."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We should have ___ the map. (take)",
+     "accepted_answers": [
+      "taken"
+     ],
+     "explanation": "Take → taken."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ come earlier, but he didn't.",
+     "options": [
+      "should have",
+      "should has",
+      "should be"
+     ],
+     "correct_index": 0,
+     "explanation": "Should have come."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "You should have asked.",
+      "You should have ask.",
+      "You should had asked."
+     ],
+     "correct_index": 0,
+     "explanation": "Should have asked."
+    }
+   ]
+  },
+  {
+   "id": "b2-mpm",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: dovere all'indicativo (must have done)",
+   "desc": "Must have + participio per le deduzioni sicure sul passato, e can't have per l'opposto; had to per l'obbligo passato.",
+   "lead": "**Must have + participio** si usa quando sei **quasi sicuro** di qualcosa nel passato, in base a ciò che vedi: *The ground is wet. It must have rained.* Per l'obbligo nel passato non si usa must have, ma **had to**.",
+   "tip": "**Must have done** = deduzione positiva. **Can't / couldn't have done** = deduzione negativa. **Had to do** = obbligo nel passato.",
+   "blocks": [
+    {
+     "h": "Deduzione sicura",
+     "ex": [
+      "The lights are off. They **must have gone** to bed.",
+      "You **must have been** very tired.",
+      "She **must have studied** a lot."
+     ]
+    },
+    {
+     "h": "Il contrario: can't have",
+     "p": "La negativa di must have **non** è *mustn't have*. Si usa **can't have** o **couldn't have**.",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "deduzione positiva",
+        "He **must have** left. (sono sicuro che è partito)"
+       ],
+       [
+        "deduzione negativa",
+        "He **can't have** left. (sono sicuro che NON è partito)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Obbligo nel passato: had to",
+     "p": "**Must** per un obbligo non ha passato. Si usa **had to**.",
+     "ex": [
+      "Yesterday I **had to** work late. (non *I must have worked*)",
+      "**Did** you **have to** pay? (non *Must you have paid*)"
+     ]
+    },
+    {
+     "h": "Must have + been + -ing",
+     "ex": [
+      "He **must have been sleeping** when we called."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "She must has left.",
+     "She must have left.",
+     "Dopo must: have."
+    ],
+    [
+     "He mustn't have seen it.",
+     "He can't have seen it.",
+     "La deduzione negativa è can't have."
+    ],
+    [
+     "I must have worked late yesterday. (obbligo)",
+     "I had to work late yesterday.",
+     "Obbligo passato: had to."
+    ],
+    [
+     "They must of gone home.",
+     "They must have gone home.",
+     "Si scrive have."
+    ],
+    [
+     "She must to have studied.",
+     "She must have studied.",
+     "Niente to."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "The ground is wet. It ___ rained.",
+     "options": [
+      "must have",
+      "must has",
+      "must of"
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione sicura."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They must ___ gone to bed. The lights are off. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Must have gone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She got a very high score. She ___ studied a lot.",
+     "options": [
+      "must have",
+      "can't have",
+      "mustn't have"
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione positiva."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He isn't answering. He must have ___ asleep. (fall)",
+     "accepted_answers": [
+      "fallen"
+     ],
+     "explanation": "Fall → fallen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm sure he didn't take it. He ___ taken it.",
+     "options": [
+      "can't have",
+      "mustn't have",
+      "must have"
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione negativa: can't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Yesterday I ___ work late. (obbligo)",
+     "options": [
+      "had to",
+      "must have",
+      "musted"
+     ],
+     "correct_index": 0,
+     "explanation": "Obbligo nel passato: had to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They must have ___ very tired. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Must have been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ have seen me. I was hiding. (can't / mustn't)",
+     "accepted_answers": [
+      "can't"
+     ],
+     "explanation": "Can't have seen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "You must have been very happy.",
+      "You must be been very happy.",
+      "You must have be very happy."
+     ],
+     "correct_index": 0,
+     "explanation": "Must have been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Why is she crying? Her dog ___.",
+     "options": [
+      "must have died",
+      "must died",
+      "must has died"
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have a big house. They must ___ very rich. (be / have been)",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation": "Presente: must be."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The windows are broken. Somebody must ___ in. (break)",
+     "accepted_answers": [
+      "have broken"
+     ],
+     "explanation": "Must have broken."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is NOT correct?",
+     "options": [
+      "He mustn't have done it.",
+      "He can't have done it.",
+      "He must have done it."
+     ],
+     "correct_index": 0,
+     "explanation": "La negativa è can't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Did you ___ pay for the parking?",
+     "options": [
+      "have to",
+      "must have",
+      "must to"
+     ],
+     "correct_index": 0,
+     "explanation": "Domanda: have to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ get up early yesterday. (have to)",
+     "accepted_answers": [
+      "had to"
+     ],
+     "explanation": "Had to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She must have ___ studying all night. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Must have been studying."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a deduction about the past?",
+     "options": [
+      "It must have been a mistake.",
+      "It must be a mistake.",
+      "It has to be fixed."
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione sul passato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "They must have left already.",
+      "They must left already.",
+      "They must have leave already."
+     ],
+     "correct_index": 0,
+     "explanation": "Must have left."
+    }
+   ]
+  },
+  {
+   "id": "b2-mpc",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: forme contratte",
+   "desc": "Should've, could've, would've, must've: come si scrivono e come si pronunciano. E perché non è mai «of».",
+   "lead": "Nell'inglese parlato i modali al passato si **contraggono**: *should've, could've, would've, must've, might've*. In inglese scritto si scrive sempre **have** (o 've), **mai of**.",
+   "tip": "**should've = should have.** Si pronuncia /ˈʃʊdəv/, ma **non si scrive mai *should of***.",
+   "blocks": [
+    {
+     "h": "Le forme brevi",
+     "table": {
+      "head": [
+       "Forma piena",
+       "Forma breve"
+      ],
+      "rows": [
+       [
+        "should have",
+        "should've"
+       ],
+       [
+        "could have",
+        "could've"
+       ],
+       [
+        "would have",
+        "would've"
+       ],
+       [
+        "must have",
+        "must've"
+       ],
+       [
+        "might have",
+        "might've"
+       ],
+       [
+        "shouldn't have",
+        "shouldn't've (solo parlato)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Perché nasce l'errore",
+     "p": "**Have** contratto suona come **of**, quindi molti scrivono *should of*. È un errore: **of** non può seguire un modale.",
+     "ex": [
+      "I **should've** called. (✓)",
+      "I **should of** called. (✗)"
+     ]
+    },
+    {
+     "h": "Le negative",
+     "table": {
+      "head": [
+       "Forma piena",
+       "Forma breve"
+      ],
+      "rows": [
+       [
+        "could not have",
+        "couldn't have"
+       ],
+       [
+        "would not have",
+        "wouldn't have"
+       ],
+       [
+        "should not have",
+        "shouldn't have"
+       ],
+       [
+        "must not have",
+        "non si usa: can't have"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Nelle domande",
+     "ex": [
+      "**Should** you **have** called her?",
+      "**Could** she **have** known? (nelle domande si scrive have per esteso)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I should of called.",
+     "I should've called.",
+     "Si scrive have, non of."
+    ],
+    [
+     "She could of helped.",
+     "She could've helped.",
+     "Could've = could have."
+    ],
+    [
+     "They would of come.",
+     "They would've come.",
+     "Would've."
+    ],
+    [
+     "He musn't have done it.",
+     "He can't have done it.",
+     "Must not have non si usa."
+    ],
+    [
+     "I should have'nt said that.",
+     "I shouldn't have said that.",
+     "La forma breve è shouldn't."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the short form of «should have»?",
+     "options": [
+      "should've",
+      "should of",
+      "shouldv"
+     ],
+     "correct_index": 0,
+     "explanation": "Should've."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I should have called → I ___ called.",
+     "options": [
+      "should've",
+      "should of",
+      "shouldv"
+     ],
+     "correct_index": 0,
+     "explanation": "Should've."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She could've helped.",
+      "She could of helped.",
+      "She could has helped."
+     ],
+     "correct_index": 0,
+     "explanation": "Could've."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "They would of come.",
+      "They would've come.",
+      "They would have come."
+     ],
+     "correct_index": 0,
+     "explanation": "Si scrive have o 've."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the short form of «he must have left»?",
+     "options": [
+      "He must've left.",
+      "He must of left.",
+      "He mustn't have left."
+     ],
+     "correct_index": 0,
+     "explanation": "Must've."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The short form of «would not have» is:",
+     "options": [
+      "wouldn't have",
+      "wouldn't of",
+      "wouldn'tve"
+     ],
+     "correct_index": 0,
+     "explanation": "Wouldn't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I could have helped you → I ___ helped you.",
+     "options": [
+      "could've",
+      "could of",
+      "couldv"
+     ],
+     "correct_index": 0,
+     "explanation": "Could've."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I shouldn't ___ said that. (have / of)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Shouldn't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "You shouldn't have worried.",
+      "You shouldn't of worried.",
+      "You should'nt have worried."
+     ],
+     "correct_index": 0,
+     "explanation": "Shouldn't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Why do people write «should of»?",
+     "options": [
+      "Because have contracted sounds like of",
+      "Because of is correct",
+      "Because have is wrong"
+     ],
+     "correct_index": 0,
+     "explanation": "Il suono di 've e of è simile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "They might've forgotten.",
+      "They might of forgotten.",
+      "They mightv forgotten."
+     ],
+     "correct_index": 0,
+     "explanation": "Might've."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She wouldn't ___ come without telling us. (have / of)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Wouldn't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the negative of «must have»?",
+     "options": [
+      "can't have",
+      "mustn't have",
+      "must not of"
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione negativa: can't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct in writing?",
+     "options": [
+      "I would've gone.",
+      "I would of gone.",
+      "I wouldof gone."
+     ],
+     "correct_index": 0,
+     "explanation": "Would've."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ have known. It was a secret. (couldn't / of)",
+     "accepted_answers": [
+      "couldn't",
+      "can't"
+     ],
+     "explanation": "Couldn't have known."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You ought to ___ said sorry. (have / of)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Ought to have said."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He must've been tired.",
+      "He must of been tired.",
+      "He musts've been tired."
+     ],
+     "correct_index": 0,
+     "explanation": "Must've."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "In a question we write:",
+     "options": [
+      "Could she have known?",
+      "Could've she known?",
+      "Could she of known?"
+     ],
+     "correct_index": 0,
+     "explanation": "Forma completa."
+    }
+   ]
+  },
+  {
+   "id": "b2-mpi",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: introduzione",
+   "desc": "Modale + have + participio: come si parla di deduzioni, possibilità, critiche e rimpianti nel passato.",
+   "lead": "Con **modale + have + participio** si fanno dei **giudizi sul passato**: cosa era certo, possibile o impossibile, cosa si doveva fare, cosa sarebbe successo. È il modo per dire «forse è andato», «deve essere andato», «avrebbe dovuto andare».",
+   "tip": "**Modale + have + participio passato.** Il modale non cambia, **have** non diventa mai *has* né *of*.",
+   "blocks": [
+    {
+     "h": "La struttura",
+     "table": {
+      "head": [
+       "Modale",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "must have",
+        "certezza (deduzione)",
+        "He **must have** left."
+       ],
+       [
+        "can't / couldn't have",
+        "impossibile",
+        "She **can't have** known."
+       ],
+       [
+        "may / might / could have",
+        "forse",
+        "He **might have** missed the bus."
+       ],
+       [
+        "should have",
+        "avresti dovuto",
+        "You **should have** called."
+       ],
+       [
+        "would have",
+        "avrebbe fatto",
+        "I **would have** helped."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "I quattro usi",
+     "ex": [
+      "**Deduzione:** The lights are off. They **must have gone** to bed.",
+      "**Possibilità:** She **may have forgotten**.",
+      "**Critica / rimpianto:** I **should have studied** more.",
+      "**Ipotesi:** If I had known, I **would have come**."
+     ]
+    },
+    {
+     "h": "Negativa e domanda",
+     "ex": [
+      "He **can't have seen** it. (è impossibile)",
+      "He **needn't have come**. (non c'era bisogno)",
+      "**Could** he **have forgotten**?"
+     ]
+    },
+    {
+     "h": "Attenzione alla pronuncia",
+     "p": "Si scrive **have** (o 've), mai *of*. *should've*, non *should of*."
+    }
+   ],
+   "traps": [
+    [
+     "I should of called.",
+     "I should have called.",
+     "Si scrive have, non of."
+    ],
+    [
+     "She must has left.",
+     "She must have left.",
+     "Dopo il modale: have."
+    ],
+    [
+     "He might forgot.",
+     "He might have forgotten.",
+     "Might + have + participio."
+    ],
+    [
+     "You should to have called.",
+     "You should have called.",
+     "Niente to."
+    ],
+    [
+     "He musted leave.",
+     "He must have left.",
+     "Must non ha il passato."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "The lights are off. They ___ gone to bed.",
+     "options": [
+      "must have",
+      "must has",
+      "must of"
+     ],
+     "correct_index": 0,
+     "explanation": "Deduzione sicura: must have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I should have ___ more. (study)",
+     "accepted_answers": [
+      "studied"
+     ],
+     "explanation": "Should have + participio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She might have forgotten.",
+      "She might forgot.",
+      "She might has forgotten."
+     ],
+     "correct_index": 0,
+     "explanation": "Might have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He can't ___ seen it. He was away. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Can't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which one is NOT correct?",
+     "options": [
+      "I should of called.",
+      "I should have called.",
+      "I should've called."
+     ],
+     "correct_index": 0,
+     "explanation": "Si scrive have, non of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which means «avresti dovuto»?",
+     "options": [
+      "should have",
+      "must have",
+      "might have"
+     ],
+     "correct_index": 0,
+     "explanation": "Should have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They may have ___ already. (leave)",
+     "accepted_answers": [
+      "left"
+     ],
+     "explanation": "Leave → left."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If I had known, I would have ___. (come)",
+     "accepted_answers": [
+      "come"
+     ],
+     "explanation": "Would have + participio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which expresses a deduction?",
+     "options": [
+      "He must have missed the train.",
+      "He should have missed the train.",
+      "He would have missed the train."
+     ],
+     "correct_index": 0,
+     "explanation": "Must have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She isn't answering. She ___ asleep.",
+     "options": [
+      "might have fallen",
+      "might fall had",
+      "might to fall"
+     ],
+     "correct_index": 0,
+     "explanation": "Possibilità: might have fallen."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You shouldn't have ___ so much. (eat)",
+     "accepted_answers": [
+      "eaten"
+     ],
+     "explanation": "Eat → eaten."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ have known the answer. (can't / don't)",
+     "accepted_answers": [
+      "can't"
+     ],
+     "explanation": "Can't have known."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which means «impossibile che...»?",
+     "options": [
+      "can't have",
+      "may have",
+      "would have"
+     ],
+     "correct_index": 0,
+     "explanation": "Can't have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He needn't ___ come. We were not busy.",
+     "options": [
+      "have",
+      "has",
+      "to"
+     ],
+     "correct_index": 0,
+     "explanation": "Needn't have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The thief must have ___ through the window. (get)",
+     "accepted_answers": [
+      "got",
+      "gotten"
+     ],
+     "explanation": "Get → got (GB) / gotten (US)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You could have ___ me! (help)",
+     "accepted_answers": [
+      "helped"
+     ],
+     "explanation": "Could have helped."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "It must have been a mistake.",
+      "It must be been a mistake.",
+      "It must has been a mistake."
+     ],
+     "correct_index": 0,
+     "explanation": "Must have been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ gone if I had known about it.",
+     "options": [
+      "would have",
+      "would has",
+      "will have"
+     ],
+     "correct_index": 0,
+     "explanation": "Would have gone."
+    }
+   ]
+  },
+  {
+   "id": "b2-mpcd",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: potere al condizionale (could, may, might have done)",
+   "desc": "Could, may e might have + participio: le possibilità sul passato e i rimproveri garbati.",
+   "lead": "**Could have**, **may have** e **might have** dicono che qualcosa **forse è successo** nel passato, ma non siamo sicuri. **Could have** e **might have** servono anche per un **rimprovero**: avresti potuto, ma non l'hai fatto.",
+   "tip": "**May / might / could have + participio** = forse è successo. Per l'impossibile si usa **can't / couldn't have**.",
+   "blocks": [
+    {
+     "h": "Possibilità sul passato",
+     "ex": [
+      "He isn't here. He **may have missed** the bus.",
+      "She **might have forgotten** the meeting.",
+      "It **could have been** a mistake."
+     ]
+    },
+    {
+     "h": "La negativa",
+     "p": "**May not have** e **might not have** = forse non l'ha fatto. **Couldn't have** = è impossibile che l'abbia fatto.",
+     "table": {
+      "head": [
+       "Frase",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "He might not have seen it.",
+        "Forse non l'ha visto."
+       ],
+       [
+        "He couldn't have seen it.",
+        "È impossibile che l'abbia visto."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Might have e could have come rimprovero",
+     "ex": [
+      "You **could have told** me. (potevi dirmelo)",
+      "You **might have warned** us! (almeno potevi avvisarci)"
+     ]
+    },
+    {
+     "h": "Una piccola differenza",
+     "p": "**Could have** si usa anche per ciò che era possibile ma non è successo; **may have** e **might have** parlano di ciò che forse è davvero successo.",
+     "ex": [
+      "He **could have died**. (per fortuna no)",
+      "He **may have died**. (forse è morto)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "He may has missed the bus.",
+     "He may have missed the bus.",
+     "Dopo il modale: have."
+    ],
+    [
+     "She might forgot the meeting.",
+     "She might have forgotten the meeting.",
+     "Might + have + participio."
+    ],
+    [
+     "He couldn't of seen it.",
+     "He couldn't have seen it.",
+     "Si scrive have."
+    ],
+    [
+     "It could be been a mistake.",
+     "It could have been a mistake.",
+     "Could have been."
+    ],
+    [
+     "They might not to have arrived.",
+     "They might not have arrived.",
+     "Niente to."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "He isn't here. He ___ missed the bus.",
+     "options": [
+      "may have",
+      "may has",
+      "may of"
+     ],
+     "correct_index": 0,
+     "explanation": "May have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She might ___ forgotten the meeting. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Might have forgotten."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It ___ been a mistake. We aren't sure.",
+     "options": [
+      "could have",
+      "could has",
+      "could of"
+     ],
+     "correct_index": 0,
+     "explanation": "Could have been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He might not have ___ the message. (see)",
+     "accepted_answers": [
+      "seen"
+     ],
+     "explanation": "See → seen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which one means «è impossibile che l'abbia visto»?",
+     "options": [
+      "He couldn't have seen it.",
+      "He might not have seen it.",
+      "He may have seen it."
+     ],
+     "correct_index": 0,
+     "explanation": "Couldn't have: impossibile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You ___ told me! I was so worried.",
+     "options": [
+      "could have",
+      "can have",
+      "could"
+     ],
+     "correct_index": 0,
+     "explanation": "Rimprovero: could have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They may ___ arrived already. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "May have arrived."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The keys might have ___ stolen. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Might have been stolen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She might have lost her phone.",
+      "She might lost her phone.",
+      "She might has lost her phone."
+     ],
+     "correct_index": 0,
+     "explanation": "Might have lost."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He was lucky! He ___ died in the accident.",
+     "options": [
+      "could have",
+      "could",
+      "could to"
+     ],
+     "correct_index": 0,
+     "explanation": "Ma non è morto: could have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm not sure, but he may have ___ his keys at home. (leave)",
+     "accepted_answers": [
+      "left"
+     ],
+     "explanation": "Leave → left."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She could have ___ the exam if she had studied. (pass)",
+     "accepted_answers": [
+      "passed"
+     ],
+     "explanation": "Could have passed."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "He might of called.",
+      "He might have called.",
+      "He may have called."
+     ],
+     "correct_index": 0,
+     "explanation": "Si scrive have, non of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The street is wet. It ___ rained.",
+     "options": [
+      "may have",
+      "may",
+      "might of"
+     ],
+     "correct_index": 0,
+     "explanation": "May have rained."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You might ___ warned us! (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Might have warned."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They could have ___ us the truth. (tell)",
+     "accepted_answers": [
+      "told"
+     ],
+     "explanation": "Tell → told."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "He might not have understood.",
+      "He might have not understood to.",
+      "He might not understood."
+     ],
+     "correct_index": 0,
+     "explanation": "Might not have understood."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which means «forse non c'era»?",
+     "options": [
+      "He might not have been there.",
+      "He couldn't have been there.",
+      "He must have been there."
+     ],
+     "correct_index": 0,
+     "explanation": "Forse non c'era: might not have."
+    }
+   ]
+  },
+  {
+   "id": "b2-mpcan",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: potere all'indicativo (can have done)",
+   "desc": "Couldn't have e can't have per dire che era impossibile; could have per un'occasione non sfruttata.",
+   "lead": "Il passato di **can** si costruisce in due modi: **couldn't have / can't have + participio** per dire che qualcosa era **impossibile**, e **could have + participio** per dire che **c'era la possibilità**, ma non è successo.",
+   "tip": "**Can't have done** = è impossibile che l'abbia fatto. **Could have done** = avrebbe potuto farlo (e non l'ha fatto).",
+   "blocks": [
+    {
+     "h": "Impossibile: can't have / couldn't have",
+     "ex": [
+      "He **can't have** stolen it. He was in Paris. (non è possibile)",
+      "She **couldn't have** known. Nobody told her."
+     ]
+    },
+    {
+     "h": "Occasione non sfruttata: could have",
+     "ex": [
+      "I **could have** gone to the party, but I was tired. (potevo andare, non sono andato)",
+      "You **could have** called me! (potevi chiamare)"
+     ]
+    },
+    {
+     "h": "Capacità nel passato",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "capacità generale",
+        "I **could** swim when I was five."
+       ],
+       [
+        "occasione non sfruttata",
+        "I **could have** swum across the lake. (e non l'ho fatto)"
+       ],
+       [
+        "una volta riuscito",
+        "I **was able to** swim across the lake."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Couldn't have e could have a confronto",
+     "table": {
+      "head": [
+       "Frase",
+       "Significato"
+      ],
+      "rows": [
+       [
+        "She couldn't have known.",
+        "È impossibile che sapesse."
+       ],
+       [
+        "She could have known.",
+        "Forse sapeva."
+       ],
+       [
+        "She could have known if she'd asked.",
+        "Avrebbe potuto saperlo, ma non ha chiesto."
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "He can't stolen it.",
+     "He can't have stolen it.",
+     "Can't + have + participio."
+    ],
+    [
+     "I could went to the party.",
+     "I could have gone to the party.",
+     "Could have + participio."
+    ],
+    [
+     "She couldn't have to know.",
+     "She couldn't have known.",
+     "Niente to."
+    ],
+    [
+     "He couldn't of seen it.",
+     "He couldn't have seen it.",
+     "Si scrive have."
+    ],
+    [
+     "You could called me!",
+     "You could have called me!",
+     "Could have + participio."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ stolen it. He was in Paris at the time.",
+     "options": [
+      "can't have",
+      "can't",
+      "couldn't has"
+     ],
+     "correct_index": 0,
+     "explanation": "Impossibile: can't have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I could ___ gone to the party, but I was tired. (have / had)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Could have gone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You ___ called me! I was worried.",
+     "options": [
+      "could have",
+      "could",
+      "can have"
+     ],
+     "correct_index": 0,
+     "explanation": "Rimprovero: could have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She couldn't have ___ the answer. Nobody told her. (know)",
+     "accepted_answers": [
+      "known"
+     ],
+     "explanation": "Know → known."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He couldn't have seen it.",
+      "He couldn't have see it.",
+      "He couldn't has seen it."
+     ],
+     "correct_index": 0,
+     "explanation": "Participio: seen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which one means he had the chance but didn't take it?",
+     "options": [
+      "He could have won.",
+      "He can't have won.",
+      "He couldn't have won."
+     ],
+     "correct_index": 0,
+     "explanation": "Could have = avrebbe potuto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ have forgotten! I told them twice. (can't / don't)",
+     "accepted_answers": [
+      "can't",
+      "couldn't"
+     ],
+     "explanation": "Impossibile che abbiano dimenticato."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We could have ___ the train, but we were late. (catch)",
+     "accepted_answers": [
+      "caught"
+     ],
+     "explanation": "Catch → caught."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I could have helped you.",
+      "I could helped you.",
+      "I could have help you."
+     ],
+     "correct_index": 0,
+     "explanation": "Could have helped."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "When I was young, I ___ run very fast.",
+     "options": [
+      "could",
+      "could have",
+      "can have"
+     ],
+     "correct_index": 0,
+     "explanation": "Capacità generale passata: could."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You could have ___ me the truth! (tell)",
+     "accepted_answers": [
+      "told"
+     ],
+     "explanation": "Tell → told."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She can't have ___ the money. She was away. (take)",
+     "accepted_answers": [
+      "taken"
+     ],
+     "explanation": "Take → taken."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "He could of seen it.",
+      "He could have seen it.",
+      "He couldn't have seen it."
+     ],
+     "correct_index": 0,
+     "explanation": "Si scrive have, non of."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The test was so easy. Everyone ___ passed it.",
+     "options": [
+      "could have",
+      "can",
+      "could to have"
+     ],
+     "correct_index": 0,
+     "explanation": "Could have passed."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ have done it. He doesn't even have the keys. (couldn't / doesn't)",
+     "accepted_answers": [
+      "couldn't",
+      "can't"
+     ],
+     "explanation": "Couldn't have done it."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ have gone there, but I decided not to. (could / can)",
+     "accepted_answers": [
+      "could"
+     ],
+     "explanation": "Could have gone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She couldn't have known about the plan.",
+      "She couldn't know about the plan have.",
+      "She can't had known about the plan."
+     ],
+     "correct_index": 0,
+     "explanation": "Couldn't have known."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They ___ arrived yet. It's only 3 pm.",
+     "options": [
+      "can't have",
+      "couldn't",
+      "haven't can"
+     ],
+     "correct_index": 0,
+     "explanation": "Impossibile: can't have arrived."
+    }
+   ]
+  },
+  {
+   "id": "b2-mpw",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Modali al passato: would have done",
+   "desc": "Would have + participio: cosa sarebbe successo se le cose fossero andate diversamente (Third Conditional).",
+   "lead": "**Would have + participio** dice cosa **sarebbe successo** (o cosa avresti fatto) in una situazione passata che **non è successa**. È la conseguenza del **Third Conditional**: *If I had known, I would have come.*",
+   "tip": "**If + Past Perfect, would have + participio.** Parla del passato irreale: non si può più cambiare.",
+   "blocks": [
+    {
+     "h": "Third Conditional",
+     "table": {
+      "head": [
+       "Parte",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "If clause",
+        "had + participio",
+        "If I **had known**,"
+       ],
+       [
+        "Main clause",
+        "would have + participio",
+        "I **would have come**."
+       ]
+      ]
+     },
+     "ex": [
+      "If she **had studied**, she **would have passed**.",
+      "We **wouldn't have missed** the train if we **had left** earlier."
+     ]
+    },
+    {
+     "h": "Anche senza if",
+     "ex": [
+      "I **would have helped** you. (ma non me l'hai chiesto)",
+      "Anna **wouldn't have said** that. (conosco Anna, non l'avrebbe detto)"
+     ]
+    },
+    {
+     "h": "Could have e might have",
+     "ex": [
+      "If I had had time, I **could have helped**. (avrei potuto)",
+      "If he had left earlier, he **might have caught** the train. (forse)"
+     ]
+    },
+    {
+     "h": "Dopo if niente would",
+     "p": "Non si usa **would** dopo **if** nel Third Conditional.",
+     "ex": [
+      "If I **had known**, I would have come. (non *If I would have known*)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "If I would have known, I would have come.",
+     "If I had known, I would have come.",
+     "Dopo if: had + participio."
+    ],
+    [
+     "I would of come.",
+     "I would have come.",
+     "Si scrive have."
+    ],
+    [
+     "She would passed the exam.",
+     "She would have passed the exam.",
+     "Would have + participio."
+    ],
+    [
+     "If she studied, she would have passed.",
+     "If she had studied, she would have passed.",
+     "Third: if + had + participio."
+    ],
+    [
+     "I wouldn't have to said that.",
+     "I wouldn't have said that.",
+     "Niente to."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "If I had known, I ___ come.",
+     "options": [
+      "would have",
+      "would",
+      "will have"
+     ],
+     "correct_index": 0,
+     "explanation": "Would have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If she had studied, she would have ___ the exam. (pass)",
+     "accepted_answers": [
+      "passed"
+     ],
+     "explanation": "Would have passed."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If we ___ earlier, we wouldn't have missed the train.",
+     "options": [
+      "had left",
+      "would have left",
+      "left"
+     ],
+     "correct_index": 0,
+     "explanation": "If + had + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I would ___ helped you, but you didn't ask. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Would have helped."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "If I had seen her, I would have said hello.",
+      "If I would have seen her, I would have said hello.",
+      "If I saw her, I would have said hello."
+     ],
+     "correct_index": 0,
+     "explanation": "Third Conditional."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I would of come.",
+      "I would have come.",
+      "I'd have come."
+     ],
+     "correct_index": 0,
+     "explanation": "Si scrive have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If it hadn't rained, we would have ___ to the beach. (go)",
+     "accepted_answers": [
+      "gone"
+     ],
+     "explanation": "Go → gone."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She wouldn't have ___ so angry if you had apologised. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Wouldn't have been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If I had had time, I ___ helped you.",
+     "options": [
+      "could have",
+      "could",
+      "can have"
+     ],
+     "correct_index": 0,
+     "explanation": "Could have helped."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If he had left earlier, he ___ caught the train.",
+     "options": [
+      "might have",
+      "might",
+      "may has"
+     ],
+     "correct_index": 0,
+     "explanation": "Might have caught."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If you had told me, I ___ have helped. (would / did)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "Would have helped."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ not have gone if we had known. (would / did)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "We would not have gone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence talks about an unreal past?",
+     "options": [
+      "If I had won, I would have bought a car.",
+      "If I win, I will buy a car.",
+      "If I won, I would buy a car."
+     ],
+     "correct_index": 0,
+     "explanation": "Third Conditional."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If they ___ the map, they wouldn't have got lost.",
+     "options": [
+      "had taken",
+      "would have taken",
+      "took"
+     ],
+     "correct_index": 0,
+     "explanation": "If + had taken."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Anna wouldn't have ___ that. She is very polite. (say)",
+     "accepted_answers": [
+      "said"
+     ],
+     "explanation": "Say → said."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If I had known about the party, I would have ___. (come)",
+     "accepted_answers": [
+      "come"
+     ],
+     "explanation": "Would have come."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I would have ___ you, but I didn't have your number.",
+     "options": [
+      "called",
+      "call",
+      "calling"
+     ],
+     "correct_index": 0,
+     "explanation": "Would have called."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She would have been happy.",
+      "She would be been happy.",
+      "She would has been happy."
+     ],
+     "correct_index": 0,
+     "explanation": "Would have been."
+    }
+   ]
+  },
+  {
    "id": "b1-mds",
    "level": "B1",
    "tag": "Verbi",
@@ -8078,6 +9948,298 @@
      ],
      "correct_index": 0,
      "explanation": "Present Perfect: been able to."
+    }
+   ]
+  },
+  {
+   "id": "b2-pass",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Passivo: le forme passive più diffuse",
+   "desc": "Il passivo nei tempi più usati: presente, passato, present perfect, futuro, modali e continuous, con l'agente by.",
+   "lead": "Nel **passivo** il soggetto **subisce** l'azione: *The car was repaired.* Si usa quando chi fa l'azione non è importante, non si sa, o si vuole mettere in evidenza ciò che succede all'oggetto.",
+   "tip": "**be (al tempo giusto) + participio passato.** L'agente si può aggiungere con **by**: *The book was written by Orwell.*",
+   "blocks": [
+    {
+     "h": "Le forme",
+     "table": {
+      "head": [
+       "Tempo",
+       "Passivo"
+      ],
+      "rows": [
+       [
+        "Present Simple",
+        "English **is spoken** here."
+       ],
+       [
+        "Past Simple",
+        "The car **was stolen** yesterday."
+       ],
+       [
+        "Present Perfect",
+        "The work **has been finished**."
+       ],
+       [
+        "Future (will)",
+        "The report **will be sent** tomorrow."
+       ],
+       [
+        "Modali",
+        "It **can be done**. / It **must be signed**."
+       ],
+       [
+        "Present Continuous",
+        "The road **is being repaired**."
+       ],
+       [
+        "Past Continuous",
+        "The room **was being cleaned**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Dall'attivo al passivo",
+     "p": "L'oggetto dell'attivo diventa il soggetto del passivo; il soggetto diventa l'agente (con by) oppure sparisce.",
+     "table": {
+      "head": [
+       "Attivo",
+       "Passivo"
+      ],
+      "rows": [
+       [
+        "They built this bridge in 1990.",
+        "This bridge **was built** in 1990."
+       ],
+       [
+        "Someone has stolen my bike.",
+        "My bike **has been stolen**."
+       ],
+       [
+        "The teacher will check the tests.",
+        "The tests **will be checked**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usa by",
+     "p": "**By** si usa solo se l'agente è importante o inatteso. Altrimenti si omette.",
+     "ex": [
+      "*Hamlet* was written **by Shakespeare**. (importante)",
+      "My car was stolen. (non si sa da chi: niente by)"
+     ]
+    },
+    {
+     "h": "Due oggetti",
+     "p": "Verbi come give, send, tell hanno due oggetti: il passivo può partire da entrambi.",
+     "ex": [
+      "**I was given** a gift. / **A gift was given** to me."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "The car stolen yesterday.",
+     "The car was stolen yesterday.",
+     "Manca il verbo be."
+    ],
+    [
+     "The work has finished.",
+     "The work has been finished.",
+     "Present Perfect passivo: has been + participio."
+    ],
+    [
+     "English speaks here.",
+     "English is spoken here.",
+     "Il soggetto subisce l'azione: is spoken."
+    ],
+    [
+     "The report will sent tomorrow.",
+     "The report will be sent tomorrow.",
+     "Will + be + participio."
+    ],
+    [
+     "The book was wrote by Orwell.",
+     "The book was written by Orwell.",
+     "Il participio di write è written."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "English ___ in many countries.",
+     "options": [
+      "is spoken",
+      "speaks",
+      "is speaking"
+     ],
+     "correct_index": 0,
+     "explanation": "Present Simple passivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The car was ___ yesterday. (steal)",
+     "accepted_answers": [
+      "stolen"
+     ],
+     "explanation": "Steal → stolen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "My phone ___ last night.",
+     "options": [
+      "was stolen",
+      "has stolen",
+      "is stolen"
+     ],
+     "correct_index": 0,
+     "explanation": "Past Simple passivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The report will be ___ tomorrow. (send)",
+     "accepted_answers": [
+      "sent"
+     ],
+     "explanation": "Sent."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The work ___ yet.",
+     "options": [
+      "hasn't been finished",
+      "isn't finishing",
+      "hasn't finished"
+     ],
+     "correct_index": 0,
+     "explanation": "Present Perfect passivo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is passive?",
+     "options": [
+      "The bridge was built in 1990.",
+      "They built the bridge in 1990.",
+      "The bridge builds in 1990."
+     ],
+     "correct_index": 0,
+     "explanation": "Was built."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This book was ___ by Orwell. (write)",
+     "accepted_answers": [
+      "written"
+     ],
+     "explanation": "Write → written."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The road is being ___ at the moment. (repair)",
+     "accepted_answers": [
+      "repaired"
+     ],
+     "explanation": "Is being repaired."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The documents must be signed.",
+      "The documents must signed.",
+      "The documents must be sign."
+     ],
+     "correct_index": 0,
+     "explanation": "Must be + participio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They gave me a present. → I ___ a present.",
+     "options": [
+      "was given",
+      "gave",
+      "am give"
+     ],
+     "correct_index": 0,
+     "explanation": "Passivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The thieves were ___ by the police. (catch)",
+     "accepted_answers": [
+      "caught"
+     ],
+     "explanation": "Catch → caught."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The room ___ cleaned every day. (is / does)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Is cleaned."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "The car stolen last week.",
+      "The car was stolen last week.",
+      "The car has been stolen."
+     ],
+     "correct_index": 0,
+     "explanation": "Manca was."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The new library ___ next year.",
+     "options": [
+      "will be opened",
+      "will open by",
+      "opens by"
+     ],
+     "correct_index": 0,
+     "explanation": "Futuro passivo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The homework has ___ done. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Has been done."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "These shirts are ___ in Italy. (make)",
+     "accepted_answers": [
+      "made"
+     ],
+     "explanation": "Made."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct for the active «Someone has broken the window»?",
+     "options": [
+      "The window has been broken.",
+      "The window has broken.",
+      "The window is been broken."
+     ],
+     "correct_index": 0,
+     "explanation": "Has been broken."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "When was the telephone ___?",
+     "options": [
+      "invented",
+      "invent",
+      "inventing"
+     ],
+     "correct_index": 0,
+     "explanation": "Was invented."
     }
    ]
   },
@@ -11023,6 +13185,543 @@
      ],
      "correct_index": 1,
      "explanation": "Sto + gerundio = am + -ing."
+    }
+   ]
+  },
+  {
+   "id": "b2-ppc",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Present Perfect Continuous",
+   "desc": "Have / has been + -ing: le azioni cominciate nel passato che continuano o che sono appena finite, con how long, for e since.",
+   "lead": "Il **Present Perfect Continuous** si usa per un'azione **iniziata nel passato** che **continua adesso**, oppure che è **appena finita** e ha lasciato un segno visibile. Mette l'accento sull'**attività** e sulla sua **durata**.",
+   "tip": "**have / has been + verbo-ing.** Con how long, for, since: *I've been waiting for an hour.* I verbi di stato (know, like, want) non si usano in forma continua.",
+   "blocks": [
+    {
+     "h": "La forma",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "I **have been working**. / She **has been working**."
+       ],
+       [
+        "Negativa",
+        "I **haven't been sleeping** well."
+       ],
+       [
+        "Domanda",
+        "**Have** you **been waiting** long? / **How long has** he **been studying**?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usa",
+     "ex": [
+      "Azione che continua: **I've been learning English for three years.** (e lo studio ancora)",
+      "Azione appena finita con un risultato visibile: **You look tired. Have you been running?**",
+      "Attività ripetuta fino a oggi: **She's been going to the gym a lot lately.**"
+     ]
+    },
+    {
+     "h": "For, since e how long",
+     "ex": [
+      "**How long** have you **been living** here?",
+      "I've been living here **for** five years / **since** 2020."
+     ]
+    },
+    {
+     "h": "I verbi di stato",
+     "p": "Verbi come know, like, love, want, believe, have (possedere) non si usano in forma continua: si usa il **Present Perfect Simple**.",
+     "ex": [
+      "I **have known** him for years. (non *I've been knowing*)",
+      "She **has had** this car since 2019."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I'm waiting here since two hours.",
+     "I've been waiting here for two hours.",
+     "Durata che continua: Present Perfect Continuous con for."
+    ],
+    [
+     "I have been knowing him for years.",
+     "I have known him for years.",
+     "Know è un verbo di stato: niente -ing."
+    ],
+    [
+     "She has been work all day.",
+     "She has been working all day.",
+     "Dopo been il verbo vuole -ing."
+    ],
+    [
+     "How long do you learn English?",
+     "How long have you been learning English?",
+     "How long + Present Perfect Continuous."
+    ],
+    [
+     "He have been running.",
+     "He has been running.",
+     "Con he si usa has."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ for you for an hour!",
+     "options": [
+      "have been waiting",
+      "am waiting",
+      "waited"
+     ],
+     "correct_index": 0,
+     "explanation": "Azione che continua: have been waiting."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She has been ___ English since 2019. (study)",
+     "accepted_answers": [
+      "studying"
+     ],
+     "explanation": "Has been + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How long ___ you been living here?",
+     "options": [
+      "have",
+      "did",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "How long have you been..."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ been playing tennis all morning. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "They have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Your hands are dirty. What ___?",
+     "options": [
+      "have you been doing",
+      "do you do",
+      "did you been doing"
+     ],
+     "correct_index": 0,
+     "explanation": "Risultato visibile di un'attività."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I've known her for years.",
+      "I've been knowing her for years.",
+      "I know her for years."
+     ],
+     "correct_index": 0,
+     "explanation": "Know non vuole la forma continua."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ been working here since January. (has / have)",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation": "He has."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I haven't ___ well lately. (sleep)",
+     "accepted_answers": [
+      "been sleeping",
+      "slept"
+     ],
+     "explanation": "Haven't been sleeping / haven't slept."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We ___ the house all day, and we are exhausted.",
+     "options": [
+      "have been cleaning",
+      "are cleaning",
+      "cleaned"
+     ],
+     "correct_index": 0,
+     "explanation": "Attività lunga fino a ora."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which question is correct?",
+     "options": [
+      "How long has she been working there?",
+      "How long does she been working there?",
+      "How long she has been working there?"
+     ],
+     "correct_index": 0,
+     "explanation": "How long has she been working?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It has been ___ all day, so the ground is wet. (rain)",
+     "accepted_answers": [
+      "raining"
+     ],
+     "explanation": "Has been raining."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've been ___ you all morning! (call)",
+     "accepted_answers": [
+      "calling"
+     ],
+     "explanation": "Have been calling."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which verb is NOT normally used in the continuous?",
+     "options": [
+      "know",
+      "wait",
+      "study"
+     ],
+     "correct_index": 0,
+     "explanation": "Know è un verbo di stato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is out of breath. She ___.",
+     "options": [
+      "has been running",
+      "is run",
+      "has ran"
+     ],
+     "correct_index": 0,
+     "explanation": "Attività appena finita."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How long have you ___ for the bus? (wait)",
+     "accepted_answers": [
+      "been waiting",
+      "waited"
+     ],
+     "explanation": "Have been waiting."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ been arguing for an hour. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "They have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "He has been learning to drive since March.",
+      "He has learning to drive since March.",
+      "He is been learning to drive since March."
+     ],
+     "correct_index": 0,
+     "explanation": "Has been + learning."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ this book for two weeks, and I still haven't finished it.",
+     "options": [
+      "have been reading",
+      "am reading",
+      "read"
+     ],
+     "correct_index": 0,
+     "explanation": "Attività che continua."
+    }
+   ]
+  },
+  {
+   "id": "b2-ppsc",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Present Perfect Simple vs Continuous",
+   "desc": "Risultato o attività? Quando scegliere il Simple (cosa hai fatto) e quando il Continuous (come hai passato il tempo).",
+   "lead": "Con il **Present Perfect** la scelta dipende da **cosa vuoi mettere in luce**: il **risultato** (Simple) oppure l'**attività e la sua durata** (Continuous).",
+   "tip": "**Simple** = risultato, quantità, azione completata (how many, how much). **Continuous** = attività, durata, azione ancora in corso (how long).",
+   "blocks": [
+    {
+     "h": "Il confronto",
+     "table": {
+      "head": [
+       "",
+       "Simple",
+       "Continuous"
+      ],
+      "rows": [
+       [
+        "Accento",
+        "sul risultato",
+        "sull'attività"
+       ],
+       [
+        "Domanda",
+        "How many / how much?",
+        "How long?"
+       ],
+       [
+        "Esempio",
+        "I've **read** three chapters.",
+        "I've **been reading** all afternoon."
+       ],
+       [
+        "Azione",
+        "finita o completata",
+        "in corso, o appena finita"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quantità o durata",
+     "ex": [
+      "She **has written** five emails. (quanti)",
+      "She **has been writing** emails all morning. (per quanto tempo)"
+     ]
+    },
+    {
+     "h": "Azione finita o in corso",
+     "ex": [
+      "I **have painted** the kitchen. (è finito)",
+      "I **have been painting** the kitchen. (non ho ancora finito, o sono sporco di vernice)"
+     ]
+    },
+    {
+     "h": "Quando c'è solo un modo",
+     "ex": [
+      "I **have lost** my keys. (azione singola: solo Simple)",
+      "I **have known** him for years. (stato: solo Simple)",
+      "She **has been crying**. (azione che dura: Continuous)"
+     ]
+    },
+    {
+     "h": "Live e work",
+     "p": "Con live e work, e altri verbi di durata, i due tempi hanno quasi lo stesso significato.",
+     "ex": [
+      "I **have lived** here for ten years. = I **have been living** here for ten years."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I've been reading three books this week.",
+     "I've read three books this week.",
+     "Quantità: Present Perfect Simple."
+    ],
+    [
+     "I've been losing my keys.",
+     "I've lost my keys.",
+     "Azione singola: Simple."
+    ],
+    [
+     "How many emails have you been writing?",
+     "How many emails have you written?",
+     "How many chiede il risultato: Simple."
+    ],
+    [
+     "She has been knowing him for years.",
+     "She has known him for years.",
+     "Verbo di stato: Simple."
+    ],
+    [
+     "How long have you finished?",
+     "How long have you been working?",
+     "How long vuole l'azione continua."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ three books this month.",
+     "options": [
+      "have read",
+      "have been reading",
+      "am reading"
+     ],
+     "correct_index": 0,
+     "explanation": "Quantità: Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is tired because she ___ all day.",
+     "options": [
+      "has been working",
+      "has worked",
+      "works"
+     ],
+     "correct_index": 0,
+     "explanation": "Attività e durata: Continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How many emails have you ___? (write)",
+     "accepted_answers": [
+      "written"
+     ],
+     "explanation": "How many: Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How long have you ___ English? (study)",
+     "accepted_answers": [
+      "been studying"
+     ],
+     "explanation": "How long: Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my keys. I can't find them.",
+     "options": [
+      "have lost",
+      "have been losing",
+      "am losing"
+     ],
+     "correct_index": 0,
+     "explanation": "Azione singola: Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He has known her for years.",
+      "He has been knowing her for years.",
+      "He knows her for years."
+     ],
+     "correct_index": 0,
+     "explanation": "Stato: Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've ___ the kitchen. It looks great now! (paint)",
+     "accepted_answers": [
+      "painted"
+     ],
+     "explanation": "Lavoro finito: Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've been ___ the kitchen all day. (paint)",
+     "accepted_answers": [
+      "painting"
+     ],
+     "explanation": "Attività in corso: Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've ___ three cups of coffee today.",
+     "options": [
+      "drunk",
+      "been drinking",
+      "drink"
+     ],
+     "correct_index": 0,
+     "explanation": "Quantità: Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is about the activity?",
+     "options": [
+      "She has been running.",
+      "She has run five miles.",
+      "She has run."
+     ],
+     "correct_index": 0,
+     "explanation": "Been running: attività."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He's ___ two cups of coffee this morning. (drink)",
+     "accepted_answers": [
+      "drunk"
+     ],
+     "explanation": "Quantità: Simple (drunk)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They've ___ playing since breakfast. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Have been playing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I've been losing my wallet.",
+      "I've lost my wallet.",
+      "I've been looking for my wallet."
+     ],
+     "correct_index": 0,
+     "explanation": "Lose è un'azione singola."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've been ___ for two hours, and I still haven't finished.",
+     "options": [
+      "writing",
+      "written",
+      "wrote"
+     ],
+     "correct_index": 0,
+     "explanation": "Been + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've ___ my homework. It's done! (finish)",
+     "accepted_answers": [
+      "finished"
+     ],
+     "explanation": "Risultato: Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've ___ a lot of mistakes in this test. (make)",
+     "accepted_answers": [
+      "made"
+     ],
+     "explanation": "Quantità: Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is out of breath. She ___.",
+     "options": [
+      "has been running",
+      "has run five miles",
+      "runs"
+     ],
+     "correct_index": 0,
+     "explanation": "Attività appena finita."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which question is about the result?",
+     "options": [
+      "How many pages have you written?",
+      "How long have you been writing?",
+      "What have you been writing?"
+     ],
+     "correct_index": 0,
+     "explanation": "How many: risultato."
     }
    ]
   },
@@ -14908,6 +17607,1359 @@
    ]
   },
   {
+   "id": "b2-reli",
+   "level": "B2",
+   "tag": "Pronomi",
+   "title": "Relative Pronouns: introduzione",
+   "desc": "Che cosa sono i pronomi relativi (who, which, that, whose, where), le frasi definenti e non definenti.",
+   "lead": "I **pronomi relativi** collegano due frasi: *The man who lives next door is a doctor.* Evitano di ripetere il nome e danno informazioni sulla persona o sulla cosa di cui si parla.",
+   "tip": "**Who** = persone. **Which** = cose. **That** = persone e cose (solo nelle frasi definenti). **Whose** = di cui. **Where** = luoghi.",
+   "blocks": [
+    {
+     "h": "I pronomi relativi",
+     "table": {
+      "head": [
+       "Pronome",
+       "Si usa per",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "who",
+        "persone",
+        "The woman **who** called is my aunt."
+       ],
+       [
+        "which",
+        "cose e animali",
+        "The book **which** I read was good."
+       ],
+       [
+        "that",
+        "persone e cose",
+        "The film **that** we saw was great."
+       ],
+       [
+        "whose",
+        "possesso",
+        "The man **whose** car was stolen."
+       ],
+       [
+        "where",
+        "luoghi",
+        "The city **where** I was born."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Definenti e non definenti",
+     "p": "La frase **definente** dice *quale* persona o cosa: è essenziale, senza virgole. La **non definente** aggiunge informazioni extra: ha le virgole.",
+     "table": {
+      "head": [
+       "Tipo",
+       "Esempio",
+       "That?"
+      ],
+      "rows": [
+       [
+        "definente",
+        "The man **who** lives here is a doctor.",
+        "sì, possibile"
+       ],
+       [
+        "non definente",
+        "My brother, **who** lives in Rome, is a doctor.",
+        "mai that"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Si può omettere il pronome?",
+     "p": "Quando il pronome è il **complemento oggetto** della frase relativa, può essere omesso (solo nelle definenti).",
+     "ex": [
+      "The book **(that)** I read was good. (che io ho letto)",
+      "The man **who** lives here... (soggetto: non si può omettere)"
+     ]
+    },
+    {
+     "h": "Parole importanti",
+     "ex": [
+      "Non si dice *The man who he lives here*. Il pronome sostituisce già il soggetto.",
+      "Non si dice *The book which I read it*. Il pronome sostituisce già l'oggetto."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "The man which lives here is a doctor.",
+     "The man who lives here is a doctor.",
+     "Persone: who."
+    ],
+    [
+     "The book who I read was good.",
+     "The book which I read was good.",
+     "Cose: which (o that)."
+    ],
+    [
+     "The man who he lives here.",
+     "The man who lives here.",
+     "Il pronome sostituisce il soggetto."
+    ],
+    [
+     "The book that I read it was good.",
+     "The book that I read was good.",
+     "Il pronome sostituisce l'oggetto."
+    ],
+    [
+     "My brother, that lives in Rome, is a doctor.",
+     "My brother, who lives in Rome, is a doctor.",
+     "Dopo la virgola: mai that."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "The woman ___ called is my aunt.",
+     "options": [
+      "who",
+      "which",
+      "where"
+     ],
+     "correct_index": 0,
+     "explanation": "Persona: who."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The book ___ I read was fantastic. (which / who)",
+     "accepted_answers": [
+      "which",
+      "that"
+     ],
+     "explanation": "Cosa: which o that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This is the city ___ I was born.",
+     "options": [
+      "where",
+      "who",
+      "whose"
+     ],
+     "correct_index": 0,
+     "explanation": "Luogo: where."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The man ___ car was stolen called the police. (who / whose)",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation": "Possesso: whose."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The man who lives here is a doctor.",
+      "The man which lives here is a doctor.",
+      "The man who he lives here is a doctor."
+     ],
+     "correct_index": 0,
+     "explanation": "Persona: who; niente he."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "In which sentence can you NOT use that?",
+     "options": [
+      "My brother, who lives in Rome, is a doctor.",
+      "The man who lives here is a doctor.",
+      "The film that we saw was good."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo la virgola: no that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The film ___ we saw yesterday was great. (that / who)",
+     "accepted_answers": [
+      "that",
+      "which"
+     ],
+     "explanation": "Cosa: that / which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is the person ___ helped me. (who / which)",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation": "Persona: who / that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The book (that) I read was good. Can we omit that?",
+     "options": [
+      "Yes, because that is the object",
+      "No, never",
+      "Yes, because it is the subject"
+     ],
+     "correct_index": 0,
+     "explanation": "Oggetto: si può omettere."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "The book which I read it was good.",
+      "The book which I read was good.",
+      "The book I read was good."
+     ],
+     "correct_index": 0,
+     "explanation": "Non si ripete l'oggetto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is the house ___ I grew up. (where / who)",
+     "accepted_answers": [
+      "where"
+     ],
+     "explanation": "Luogo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The girl ___ mother is a nurse is my friend. (who / whose)",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation": "Whose = di cui."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence has a non-defining clause?",
+     "options": [
+      "My sister, who lives in Milan, is a teacher.",
+      "The man who lives here is a doctor.",
+      "The book that I read was good."
+     ],
+     "correct_index": 0,
+     "explanation": "Con le virgole."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which pronoun is for animals and things?",
+     "options": [
+      "which",
+      "who",
+      "whose"
+     ],
+     "correct_index": 0,
+     "explanation": "Which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "That's the man ___ I met yesterday. (who / whose)",
+     "accepted_answers": [
+      "who",
+      "whom",
+      "that"
+     ],
+     "explanation": "Persona: who / that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The car ___ is parked outside is mine. (which / who)",
+     "accepted_answers": [
+      "which",
+      "that"
+     ],
+     "explanation": "Cosa: which / that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The people who work here are friendly.",
+      "The people which work here are friendly.",
+      "The people who they work here are friendly."
+     ],
+     "correct_index": 0,
+     "explanation": "Persone: who."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The pronoun cannot be omitted when it is:",
+     "options": [
+      "the subject",
+      "the object",
+      "a place"
+     ],
+     "correct_index": 0,
+     "explanation": "Soggetto: non si omette."
+    }
+   ]
+  },
+  {
+   "id": "b2-relt",
+   "level": "B2",
+   "tag": "Pronomi",
+   "title": "Relative Pronouns: That",
+   "desc": "That come pronome relativo: quando si usa, quando è preferito e quando non si può usare.",
+   "lead": "**That** è il pronome relativo più versatile: vale per **persone e cose**. Ma si usa **solo nelle frasi definenti** (senza virgole) e non dopo una preposizione.",
+   "tip": "**That** = who o which, solo nelle frasi definenti. Dopo **all, everything, nothing, only** e il **superlativo** si preferisce that.",
+   "blocks": [
+    {
+     "h": "That al posto di who e which",
+     "ex": [
+      "The man **that** lives here is a doctor. (= who)",
+      "The book **that** I read was good. (= which)"
+     ]
+    },
+    {
+     "h": "Quando that è preferito",
+     "p": "Dopo **all, everything, something, nothing, only**, e dopo un **superlativo**.",
+     "ex": [
+      "**Everything that** he said was true.",
+      "It's **the best film that** I've ever seen.",
+      "**All that** I want is peace."
+     ]
+    },
+    {
+     "h": "Quando that NON si usa",
+     "table": {
+      "head": [
+       "Situazione",
+       "Sbagliato",
+       "Giusto"
+      ],
+      "rows": [
+       [
+        "dopo la virgola",
+        "My sister, that lives in Rome...",
+        "My sister, **who** lives in Rome..."
+       ],
+       [
+        "dopo una preposizione",
+        "The house in that I live",
+        "The house in **which** I live"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Omettere that",
+     "p": "Quando that è **complemento oggetto** si può togliere. Quando è **soggetto** no.",
+     "ex": [
+      "The book **(that)** I read was good. (oggetto: si può omettere)",
+      "The man **that** lives here... (soggetto: no)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "My brother, that lives in Rome, is a doctor.",
+     "My brother, who lives in Rome, is a doctor.",
+     "Dopo la virgola: mai that."
+    ],
+    [
+     "The house in that I live is old.",
+     "The house in which I live is old.",
+     "Dopo la preposizione: which."
+    ],
+    [
+     "Everything what he said was true.",
+     "Everything that he said was true.",
+     "Dopo everything: that."
+    ],
+    [
+     "The man that he lives here is a doctor.",
+     "The man that lives here is a doctor.",
+     "Non si ripete il soggetto."
+    ],
+    [
+     "It's the best film which I've seen.",
+     "It's the best film that I've seen.",
+     "Dopo un superlativo: that."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "The book ___ I read was fantastic.",
+     "options": [
+      "that",
+      "who",
+      "whose"
+     ],
+     "correct_index": 0,
+     "explanation": "Cosa: that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Everything ___ he said was true. (that / what)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Dopo everything: that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The man that lives next door is a doctor.",
+      "The man, that lives next door, is a doctor.",
+      "The man whose lives next door is a doctor."
+     ],
+     "correct_index": 0,
+     "explanation": "Definente: senza virgole."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's the best film ___ I've ever seen. (that / which)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Dopo un superlativo: that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is NOT correct?",
+     "options": [
+      "My sister, that lives in Rome, is a doctor.",
+      "The film that we saw was good.",
+      "The girl that called is my friend."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo la virgola: who."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The house in ___ I live is old.",
+     "options": [
+      "which",
+      "that",
+      "who"
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo la preposizione: which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "All ___ I want is peace. (that / what)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Dopo all: that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "There is nothing ___ I can do. (that / what)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Dopo nothing: that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Can we omit «that» in: The book that I read was good?",
+     "options": [
+      "Yes",
+      "No",
+      "Only in writing"
+     ],
+     "correct_index": 0,
+     "explanation": "That è oggetto: si può omettere."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Can we omit «that» in: The man that lives here is a doctor?",
+     "options": [
+      "No",
+      "Yes",
+      "Only in speaking"
+     ],
+     "correct_index": 0,
+     "explanation": "That è soggetto: non si omette."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The only person ___ understood me was Anna. (that / what)",
+     "accepted_answers": [
+      "that",
+      "who"
+     ],
+     "explanation": "Dopo only: that."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She's the nicest person ___ I know. (that / which)",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation": "Dopo un superlativo: that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Everything that he said was true.",
+      "Everything what he said was true.",
+      "Everything which he said it was true."
+     ],
+     "correct_index": 0,
+     "explanation": "Everything that."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "The car that it is parked outside is mine.",
+      "The car that is parked outside is mine.",
+      "The car parked outside is mine."
+     ],
+     "correct_index": 0,
+     "explanation": "Non si ripete il soggetto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The people ___ work here are friendly. (that / whose)",
+     "accepted_answers": [
+      "that",
+      "who"
+     ],
+     "explanation": "Persone: that / who."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is the song ___ I love. (that / who)",
+     "accepted_answers": [
+      "that",
+      "which"
+     ],
+     "explanation": "Cosa."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "The film that I saw yesterday was great.",
+      "The film, that I saw yesterday, was great.",
+      "The film in that I was interested was great."
+     ],
+     "correct_index": 0,
+     "explanation": "Definente senza virgole."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "In which sentence is that preferred?",
+     "options": [
+      "It's the best book that I've read.",
+      "My brother, who is tall, lives in Rome.",
+      "The house in which I live is old."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo un superlativo: that."
+    }
+   ]
+  },
+  {
+   "id": "b2-relw",
+   "level": "B2",
+   "tag": "Pronomi",
+   "title": "Relative Pronouns: Which",
+   "desc": "Which per le cose e gli animali, nelle frasi definenti e non definenti, e which come commento a una frase intera.",
+   "lead": "**Which** si usa per **cose e animali**. Si può usare nelle frasi **definenti** e **non definenti**; è obbligatorio dopo una **preposizione** e quando commenta **un'intera frase**.",
+   "tip": "**Which** = cose. Dopo la virgola (non definente) e dopo la preposizione si usa **which**, non that.",
+   "blocks": [
+    {
+     "h": "Which per le cose",
+     "ex": [
+      "The car **which** I bought is blue.",
+      "The film **which** we saw was great.",
+      "The dog **which** bit me was big."
+     ]
+    },
+    {
+     "h": "Frasi non definenti",
+     "p": "Le informazioni extra stanno tra virgole: qui **that non si può usare**.",
+     "ex": [
+      "My car, **which** is ten years old, still works well.",
+      "Rome, **which** is the capital of Italy, is beautiful."
+     ]
+    },
+    {
+     "h": "Dopo una preposizione",
+     "p": "Nel registro formale la preposizione va davanti a which. Nel parlato si mette in fondo.",
+     "table": {
+      "head": [
+       "Formale",
+       "Informale"
+      ],
+      "rows": [
+       [
+        "The house **in which** I live",
+        "The house (that / which) I live **in**"
+       ],
+       [
+        "The film **about which** we talked",
+        "The film (that) we talked **about**"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Which commenta una frase intera",
+     "ex": [
+      "He passed the exam, **which** surprised everyone.",
+      "She didn't call me, **which** was strange."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "My car, that is old, still works.",
+     "My car, which is old, still works.",
+     "Dopo la virgola: which."
+    ],
+    [
+     "The house in that I live is old.",
+     "The house in which I live is old.",
+     "Preposizione + which."
+    ],
+    [
+     "He passed the exam, what surprised everyone.",
+     "He passed the exam, which surprised everyone.",
+     "Per una frase intera: which."
+    ],
+    [
+     "The car which I bought it is blue.",
+     "The car which I bought is blue.",
+     "Non si ripete l'oggetto."
+    ],
+    [
+     "The man which called is my friend.",
+     "The man who called is my friend.",
+     "Persone: who."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "The car ___ I bought is blue.",
+     "options": [
+      "which",
+      "who",
+      "whose"
+     ],
+     "correct_index": 0,
+     "explanation": "Cosa: which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My car, ___ is ten years old, still works. (which / that)",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation": "Dopo la virgola: which."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The house in ___ I live is old.",
+     "options": [
+      "which",
+      "that",
+      "who"
+     ],
+     "correct_index": 0,
+     "explanation": "Preposizione + which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He passed the exam, ___ surprised everyone. (which / what)",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation": "Commento a una frase: which."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Rome, which is the capital, is beautiful.",
+      "Rome, that is the capital, is beautiful.",
+      "Rome, who is the capital, is beautiful."
+     ],
+     "correct_index": 0,
+     "explanation": "Non definente: which."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The film ___ we talked about was great.",
+     "options": [
+      "which",
+      "who",
+      "where"
+     ],
+     "correct_index": 0,
+     "explanation": "Cosa: which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The dog ___ bit me was very big. (which / who)",
+     "accepted_answers": [
+      "which",
+      "that"
+     ],
+     "explanation": "Animale: which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The film about ___ we talked was great. (which / that)",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation": "Preposizione + which."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is NOT correct?",
+     "options": [
+      "The car which I bought it is blue.",
+      "The car which I bought is blue.",
+      "The car I bought is blue."
+     ],
+     "correct_index": 0,
+     "explanation": "Non si ripete l'oggetto."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She didn't call me, ___ was strange.",
+     "options": [
+      "which",
+      "what",
+      "that"
+     ],
+     "correct_index": 0,
+     "explanation": "Commento a una frase: which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The book ___ I read last week was great. (which / who)",
+     "accepted_answers": [
+      "which",
+      "that"
+     ],
+     "explanation": "Cosa."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "This is the city in ___ I was born. (which / that)",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation": "Preposizione + which."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The man who called is my friend.",
+      "The man which called is my friend.",
+      "The man whose called is my friend."
+     ],
+     "correct_index": 0,
+     "explanation": "Persone: who."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which pronoun CANNOT be used in non-defining clauses?",
+     "options": [
+      "that",
+      "which",
+      "who"
+     ],
+     "correct_index": 0,
+     "explanation": "That non si usa dopo la virgola."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The table, ___ was very old, was in the attic. (which / that)",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation": "Non definente: which."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The bag ___ I lost was expensive. (which / who)",
+     "accepted_answers": [
+      "which",
+      "that"
+     ],
+     "explanation": "Cosa."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct in formal writing?",
+     "options": [
+      "The company for which I work is big.",
+      "The company which I work for it is big.",
+      "The company for that I work is big."
+     ],
+     "correct_index": 0,
+     "explanation": "Formale: preposizione + which."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence has a comment on the whole sentence?",
+     "options": [
+      "He lost his job, which was a shame.",
+      "The job which he lost was good.",
+      "The job that he lost was good."
+     ],
+     "correct_index": 0,
+     "explanation": "Which riferito alla frase intera."
+    }
+   ]
+  },
+  {
+   "id": "b2-relwho",
+   "level": "B2",
+   "tag": "Pronomi",
+   "title": "Relative Pronouns: Who",
+   "desc": "Who, whom e whose per le persone: frasi definenti, non definenti e possesso.",
+   "lead": "**Who** si usa per le **persone**, nelle frasi definenti e non definenti. **Whom** è la forma formale del complemento oggetto. **Whose** esprime il possesso (*di cui, il cui*).",
+   "tip": "**Who** = soggetto o oggetto. **Whom** = oggetto, formale. **Whose** = possesso (persone, ma anche cose). Dopo who non si ripete mai il soggetto.",
+   "blocks": [
+    {
+     "h": "Who come soggetto",
+     "ex": [
+      "The woman **who** called is my aunt.",
+      "People **who** exercise are healthier.",
+      "My brother, **who** lives in London, is a doctor."
+     ]
+    },
+    {
+     "h": "Who e whom come oggetto",
+     "p": "Nel parlato si usa **who** (o si omette). Nello scritto formale **whom**.",
+     "ex": [
+      "The man **who** I met was kind. (informale)",
+      "The man **whom** I met was kind. (formale)",
+      "The man I met was kind. (si omette)"
+     ]
+    },
+    {
+     "h": "Whose = di cui",
+     "ex": [
+      "The girl **whose** mother is a nurse is my friend.",
+      "I know a man **whose** car was stolen.",
+      "The house **whose** roof is red is mine. (anche per le cose)"
+     ]
+    },
+    {
+     "h": "Dopo una preposizione",
+     "p": "Nel formale la preposizione va davanti a whom.",
+     "ex": [
+      "The woman **to whom** I spoke was kind. (formale)",
+      "The woman (who) I spoke **to** was kind. (informale)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "The man who he called is my friend.",
+     "The man who called is my friend.",
+     "Non si ripete il soggetto."
+    ],
+    [
+     "The man which called is my friend.",
+     "The man who called is my friend.",
+     "Persone: who."
+    ],
+    [
+     "The girl who mother is a nurse...",
+     "The girl whose mother is a nurse...",
+     "Possesso: whose."
+    ],
+    [
+     "The woman to who I spoke.",
+     "The woman to whom I spoke.",
+     "Dopo la preposizione: whom."
+    ],
+    [
+     "My brother, that lives in London...",
+     "My brother, who lives in London...",
+     "Non definente: who."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "The woman ___ called is my aunt.",
+     "options": [
+      "who",
+      "which",
+      "whose"
+     ],
+     "correct_index": 0,
+     "explanation": "Persona: who."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The girl ___ mother is a nurse is my friend. (who / whose)",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation": "Possesso: whose."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The man who called is my friend.",
+      "The man who he called is my friend.",
+      "The man which called is my friend."
+     ],
+     "correct_index": 0,
+     "explanation": "Who + verbo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The woman to ___ I spoke was kind. (who / whom)",
+     "accepted_answers": [
+      "whom"
+     ],
+     "explanation": "Preposizione + whom."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "My brother, ___ lives in London, is a doctor.",
+     "options": [
+      "who",
+      "that",
+      "which"
+     ],
+     "correct_index": 0,
+     "explanation": "Non definente: who."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the formal form for the object?",
+     "options": [
+      "whom",
+      "whose",
+      "which"
+     ],
+     "correct_index": 0,
+     "explanation": "Whom."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "People ___ exercise are healthier. (who / which)",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation": "Persone: who."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I know a man ___ car was stolen. (who / whose)",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation": "Whose."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The girl whose mother is a nurse is my friend.",
+      "The girl who mother is a nurse is my friend.",
+      "The girl which mother is a nurse is my friend."
+     ],
+     "correct_index": 0,
+     "explanation": "Possesso: whose."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct and informal?",
+     "options": [
+      "The man I met was kind.",
+      "The man whom I met he was kind.",
+      "The man who he met was kind."
+     ],
+     "correct_index": 0,
+     "explanation": "Pronome omesso."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The doctor ___ treated me was great. (who / whose)",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation": "Persona: who."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The people ___ live next door are noisy. (who / whose)",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation": "Persone: who."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "The woman I spoke to was kind.",
+      "The woman I spoke to she was kind.",
+      "The woman I spoke was kind to."
+     ],
+     "correct_index": 0,
+     "explanation": "Informale: preposizione in fondo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Can we use «whose» for things?",
+     "options": [
+      "Yes",
+      "No",
+      "Only for animals"
+     ],
+     "correct_index": 0,
+     "explanation": "Whose vale anche per le cose."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I met a woman ___ son is a famous actor. (who / whose)",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation": "Whose."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The student ___ passed the test is happy. (who / whom)",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation": "Soggetto: who."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence has a non-defining clause?",
+     "options": [
+      "Anna, who is my sister, lives in Rome.",
+      "The woman who called is my aunt.",
+      "People who exercise are healthier."
+     ],
+     "correct_index": 0,
+     "explanation": "Tra virgole."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The woman to ___ I spoke was kind. (formale)",
+     "options": [
+      "whom",
+      "who",
+      "whose"
+     ],
+     "correct_index": 0,
+     "explanation": "Whom."
+    }
+   ]
+  },
+  {
+   "id": "b2-sc",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Second Conditional",
+   "desc": "If + Past Simple, would + base: le ipotesi irreali o improbabili nel presente e nel futuro.",
+   "lead": "Il **Second Conditional** parla di situazioni **immaginarie o poco probabili**: *If I won the lottery, I would buy a house.* Il tempo è passato, ma il significato è presente o futuro.",
+   "tip": "**If + Past Simple, would + verbo base.** Con il verbo be si usa **were** per tutte le persone: *If I were you...*",
+   "blocks": [
+    {
+     "h": "La struttura",
+     "table": {
+      "head": [
+       "Parte",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "If clause",
+        "Past Simple",
+        "If I **had** more money,"
+       ],
+       [
+        "Main clause",
+        "would + base",
+        "I **would travel** more."
+       ]
+      ]
+     },
+     "ex": [
+      "If she **studied** harder, she **would pass**.",
+      "I **would help** you if I **could**."
+     ]
+    },
+    {
+     "h": "Were per tutte le persone",
+     "p": "Nel Second Conditional si dice **were** anche con I, he, she, it (in inglese informale si sente anche *was*).",
+     "ex": [
+      "If I **were** you, I **would** apologise.",
+      "If he **were** here, he **would** know."
+     ]
+    },
+    {
+     "h": "First o Second?",
+     "table": {
+      "head": [
+       "",
+       "Probabilità",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "First",
+        "possibile",
+        "If it **rains**, we **will** stay home."
+       ],
+       [
+        "Second",
+        "improbabile o irreale",
+        "If it **rained** in July, we **would** be surprised."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Could e might",
+     "ex": [
+      "If I had time, I **could** learn Chinese. (potrei)",
+      "If he left now, he **might** catch the train. (forse)"
+     ]
+    },
+    {
+     "h": "Domande",
+     "ex": [
+      "**What would you do** if you won the lottery?",
+      "**Would you tell** him if you knew?"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "If I would have money, I would travel.",
+     "If I had money, I would travel.",
+     "Dopo if: Past Simple, non would."
+    ],
+    [
+     "If I was a bird, I would fly.",
+     "If I were a bird, I would fly.",
+     "Nell'inglese formale: were."
+    ],
+    [
+     "If I will win, I would buy a house.",
+     "If I won, I would buy a house.",
+     "If + Past Simple."
+    ],
+    [
+     "If I knew, I will tell you.",
+     "If I knew, I would tell you.",
+     "Il Second Conditional vuole would."
+    ],
+    [
+     "I would to help you.",
+     "I would help you.",
+     "Would + base."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "If I ___ rich, I would travel the world.",
+     "options": [
+      "were",
+      "would be",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "If + Past Simple: were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If she studied harder, she ___ pass. (will / would)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "Would + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What ___ you do if you won the lottery?",
+     "options": [
+      "would",
+      "will",
+      "did"
+     ],
+     "correct_index": 0,
+     "explanation": "What would you do...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If I ___ you, I would apologise. (be)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "If I were you."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "If I had more time, I would learn Chinese.",
+      "If I would have more time, I would learn Chinese.",
+      "If I have more time, I would learn Chinese."
+     ],
+     "correct_index": 0,
+     "explanation": "If + Past Simple, would + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If it rained in July, we ___ surprised.",
+     "options": [
+      "would be",
+      "will be",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "Ipotesi improbabile."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I would help you if I ___. (can / could)",
+     "accepted_answers": [
+      "could"
+     ],
+     "explanation": "If + Past Simple: could."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If he lived closer, he ___ visit us every week. (would / will)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "Would."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is a Second Conditional?",
+     "options": [
+      "If I won, I would buy a house.",
+      "If I win, I will buy a house.",
+      "If I had won, I would have bought a house."
+     ],
+     "correct_index": 0,
+     "explanation": "If + Past, would + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If I ___ in your position, I wouldn't do it.",
+     "options": [
+      "were",
+      "would be",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What would you do if you ___ a million euros? (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "If + had."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ not tell anyone if I were you. (would / will)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "I would not."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "If I would know, I would tell you.",
+      "If I knew, I would tell you.",
+      "If I knew, I could tell you."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo if mai would."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If he left now, he ___ catch the train.",
+     "options": [
+      "might",
+      "would to",
+      "did"
+     ],
+     "correct_index": 0,
+     "explanation": "Might = forse."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If she ___ more careful, she wouldn't make so many mistakes. (be)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "If she were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Would you go to the party if they ___ you? (invite)",
+     "accepted_answers": [
+      "invited"
+     ],
+     "explanation": "If + Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which question is correct?",
+     "options": [
+      "What would happen if the internet stopped working?",
+      "What will happen if the internet would stop working?",
+      "What would happen if the internet stops working?"
+     ],
+     "correct_index": 0,
+     "explanation": "What would happen if + Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If I ___ a car, I would drive to work.",
+     "options": [
+      "had",
+      "would have",
+      "have"
+     ],
+     "correct_index": 0,
+     "explanation": "If + had."
+    }
+   ]
+  },
+  {
    "id": "a2-sup",
    "level": "A2",
    "tag": "Aggettivi",
@@ -15970,6 +20022,615 @@
    ]
   },
   {
+   "id": "b2-ing",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Verbi seguiti da -ing",
+   "desc": "Enjoy, avoid, finish, keep, suggest, mind… i verbi che vogliono un altro verbo in forma -ing.",
+   "lead": "Alcuni verbi vogliono **sempre** un altro verbo in forma **-ing** (gerundio): *I enjoy swimming. She avoided answering.* Vanno imparati come gruppo.",
+   "tip": "Dopo **enjoy, avoid, finish, keep, suggest, mind, practise, consider, imagine, miss, give up** il verbo seguente va in **-ing**.",
+   "blocks": [
+    {
+     "h": "I verbi più comuni",
+     "table": {
+      "head": [
+       "Verbo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "enjoy",
+        "I **enjoy reading**."
+       ],
+       [
+        "avoid",
+        "He **avoids driving** at night."
+       ],
+       [
+        "finish",
+        "She **finished working**."
+       ],
+       [
+        "keep",
+        "**Keep trying**!"
+       ],
+       [
+        "suggest",
+        "I **suggest leaving** early."
+       ],
+       [
+        "mind",
+        "Do you **mind waiting**?"
+       ],
+       [
+        "practise",
+        "We **practise speaking**."
+       ],
+       [
+        "consider",
+        "I'm **considering moving**."
+       ],
+       [
+        "imagine",
+        "Can you **imagine living** there?"
+       ],
+       [
+        "miss",
+        "I **miss seeing** you."
+       ],
+       [
+        "give up",
+        "He **gave up smoking**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Preposizione + -ing",
+     "p": "Dopo una **preposizione** il verbo va sempre in -ing, anche quando to è una preposizione.",
+     "ex": [
+      "I'm **interested in learning** French.",
+      "I'm **looking forward to seeing** you. (to è una preposizione)",
+      "She is **used to getting up** early."
+     ]
+    },
+    {
+     "h": "Can't help, it's no use, it's worth",
+     "ex": [
+      "I **can't help laughing**.",
+      "It's **no use crying**.",
+      "It's **worth visiting**."
+     ]
+    },
+    {
+     "h": "La negativa",
+     "ex": [
+      "I **enjoy not working** on Sundays."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I enjoy to read.",
+     "I enjoy reading.",
+     "Enjoy + -ing."
+    ],
+    [
+     "She avoided to answer.",
+     "She avoided answering.",
+     "Avoid + -ing."
+    ],
+    [
+     "I'm looking forward to see you.",
+     "I'm looking forward to seeing you.",
+     "To è una preposizione: -ing."
+    ],
+    [
+     "He gave up to smoke.",
+     "He gave up smoking.",
+     "Give up + -ing."
+    ],
+    [
+     "Do you mind to wait?",
+     "Do you mind waiting?",
+     "Mind + -ing."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I enjoy ___ to music.",
+     "options": [
+      "listening",
+      "to listen",
+      "listen"
+     ],
+     "correct_index": 0,
+     "explanation": "Enjoy + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She avoided ___ the question. (answer)",
+     "accepted_answers": [
+      "answering"
+     ],
+     "explanation": "Avoid + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Have you finished ___ your homework?",
+     "options": [
+      "doing",
+      "to do",
+      "do"
+     ],
+     "correct_index": 0,
+     "explanation": "Finish + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He gave up ___ last year. (smoke)",
+     "accepted_answers": [
+      "smoking"
+     ],
+     "explanation": "Give up + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm looking forward to ___ you.",
+     "options": [
+      "seeing",
+      "see",
+      "to see"
+     ],
+     "correct_index": 0,
+     "explanation": "To è una preposizione: -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I enjoy to swim.",
+      "I enjoy swimming.",
+      "I enjoy not working."
+     ],
+     "correct_index": 0,
+     "explanation": "Enjoy + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Do you mind ___ the window? (open)",
+     "accepted_answers": [
+      "opening"
+     ],
+     "explanation": "Mind + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I suggest ___ early. (leave)",
+     "accepted_answers": [
+      "leaving"
+     ],
+     "explanation": "Suggest + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She keeps ___ me the same question.",
+     "options": [
+      "asking",
+      "to ask",
+      "ask"
+     ],
+     "correct_index": 0,
+     "explanation": "Keep + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He is interested in learning Chinese.",
+      "He is interested in to learn Chinese.",
+      "He is interested to learn Chinese."
+     ],
+     "correct_index": 0,
+     "explanation": "Preposizione + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I can't help ___ when I see him. (laugh)",
+     "accepted_answers": [
+      "laughing"
+     ],
+     "explanation": "Can't help + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We practise ___ English every day. (speak)",
+     "accepted_answers": [
+      "speaking"
+     ],
+     "explanation": "Practise + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm considering ___ to Milan.",
+     "options": [
+      "moving",
+      "to move",
+      "move"
+     ],
+     "correct_index": 0,
+     "explanation": "Consider + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "It's no use ___ about it.",
+     "options": [
+      "worrying",
+      "to worry",
+      "worry"
+     ],
+     "correct_index": 0,
+     "explanation": "No use + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is used to ___ up early. (get)",
+     "accepted_answers": [
+      "getting"
+     ],
+     "explanation": "Be used to + -ing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I miss ___ my family. (see)",
+     "accepted_answers": [
+      "seeing"
+     ],
+     "explanation": "Miss + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Can you imagine ___ in Japan?",
+     "options": [
+      "living",
+      "to live",
+      "live"
+     ],
+     "correct_index": 0,
+     "explanation": "Imagine + -ing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "He avoids driving at night.",
+      "He avoids to drive at night.",
+      "He avoids drive at night."
+     ],
+     "correct_index": 0,
+     "explanation": "Avoid + -ing."
+    }
+   ]
+  },
+  {
+   "id": "b2-to",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Verbi seguiti da TO",
+   "desc": "Want, need, decide, hope, plan, promise, refuse…: i verbi che vogliono l'infinito con to.",
+   "lead": "Altri verbi vogliono l'**infinito con to**: *I want to go. She decided to stay.* Sono verbi di desiderio, decisione, progetto, promessa.",
+   "tip": "Dopo **want, need, decide, hope, plan, promise, refuse, agree, manage, learn, afford, offer, expect, would like** il verbo seguente va con **to**.",
+   "blocks": [
+    {
+     "h": "I verbi più comuni",
+     "table": {
+      "head": [
+       "Verbo",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "want",
+        "I **want to go**."
+       ],
+       [
+        "need",
+        "She **needs to study**."
+       ],
+       [
+        "decide",
+        "We **decided to stay**."
+       ],
+       [
+        "hope",
+        "I **hope to see** you."
+       ],
+       [
+        "plan",
+        "They **plan to move**."
+       ],
+       [
+        "promise",
+        "He **promised to call**."
+       ],
+       [
+        "refuse",
+        "She **refused to help**."
+       ],
+       [
+        "agree",
+        "I **agreed to pay**."
+       ],
+       [
+        "manage",
+        "We **managed to finish**."
+       ],
+       [
+        "learn",
+        "I'm **learning to drive**."
+       ],
+       [
+        "afford",
+        "I **can't afford to buy** it."
+       ],
+       [
+        "would like",
+        "I'**d like to come**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Verbo + oggetto + to",
+     "ex": [
+      "I **want you to come**.",
+      "She **told me to wait**.",
+      "He **asked us to leave**.",
+      "They **expect him to win**."
+     ]
+    },
+    {
+     "h": "Aggettivo e too / enough + to",
+     "ex": [
+      "It's **easy to learn**.",
+      "He is **too tired to drive**.",
+      "She is **old enough to vote**."
+     ]
+    },
+    {
+     "h": "Verbi con -ing o to: il significato cambia",
+     "table": {
+      "head": [
+       "Verbo",
+       "+ -ing",
+       "+ to"
+      ],
+      "rows": [
+       [
+        "stop",
+        "**stop smoking** (smettere)",
+        "**stop to smoke** (fermarsi per fumare)"
+       ],
+       [
+        "remember",
+        "I **remember meeting** him. (ricordo che l'ho fatto)",
+        "**Remember to call** him. (non dimenticare di farlo)"
+       ],
+       [
+        "forget",
+        "I'll never **forget meeting** her.",
+        "Don't **forget to call**."
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "I want go home.",
+     "I want to go home.",
+     "Want + to."
+    ],
+    [
+     "She decided staying.",
+     "She decided to stay.",
+     "Decide + to."
+    ],
+    [
+     "I hope seeing you soon.",
+     "I hope to see you soon.",
+     "Hope + to."
+    ],
+    [
+     "He told me wait.",
+     "He told me to wait.",
+     "Tell + oggetto + to."
+    ],
+    [
+     "I can't afford buying it.",
+     "I can't afford to buy it.",
+     "Afford + to."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I want ___ home.",
+     "options": [
+      "to go",
+      "going",
+      "go"
+     ],
+     "correct_index": 0,
+     "explanation": "Want + to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She decided ___ in Milan. (to + stay)",
+     "accepted_answers": [
+      "to stay"
+     ],
+     "explanation": "Decide + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We managed ___ the report on time.",
+     "options": [
+      "to finish",
+      "finishing",
+      "finish"
+     ],
+     "correct_index": 0,
+     "explanation": "Manage + to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He promised ___ me. (to + call)",
+     "accepted_answers": [
+      "to call"
+     ],
+     "explanation": "Promise + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I hope seeing you soon.",
+      "I hope to see you soon.",
+      "I'd like to see you soon."
+     ],
+     "correct_index": 0,
+     "explanation": "Hope + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She told me ___ for her.",
+     "options": [
+      "to wait",
+      "wait",
+      "waiting"
+     ],
+     "correct_index": 0,
+     "explanation": "Tell + oggetto + to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I can't afford ___ a new car. (to + buy)",
+     "accepted_answers": [
+      "to buy"
+     ],
+     "explanation": "Afford + to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It's too cold ___ outside. (to + play)",
+     "accepted_answers": [
+      "to play"
+     ],
+     "explanation": "Too + aggettivo + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Don't forget ___ the door.",
+     "options": [
+      "to lock",
+      "locking",
+      "lock"
+     ],
+     "correct_index": 0,
+     "explanation": "Forget to = dimenticare di fare."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I remember ___ him last year.",
+     "options": [
+      "meeting",
+      "to meet",
+      "meet"
+     ],
+     "correct_index": 0,
+     "explanation": "Remember + -ing = ricordare di aver fatto."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They plan ___ next year. (to + move)",
+     "accepted_answers": [
+      "to move"
+     ],
+     "explanation": "Plan + to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She refused ___ the money. (to + take)",
+     "accepted_answers": [
+      "to take"
+     ],
+     "explanation": "Refuse + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He stopped ___ because he was tired.",
+     "options": [
+      "to rest",
+      "resting",
+      "rest"
+     ],
+     "correct_index": 0,
+     "explanation": "Si è fermato per riposare: stop to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He stopped ___ last year. He's healthier now.",
+     "options": [
+      "smoking",
+      "to smoke",
+      "smoke"
+     ],
+     "correct_index": 0,
+     "explanation": "Stop + -ing = smettere."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I want you ___ here at six. (to + be)",
+     "accepted_answers": [
+      "to be"
+     ],
+     "explanation": "Want + oggetto + to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm learning ___ the guitar. (to + play)",
+     "accepted_answers": [
+      "to play"
+     ],
+     "explanation": "Learn + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She is old enough ___.",
+     "options": [
+      "to vote",
+      "voting",
+      "vote"
+     ],
+     "correct_index": 0,
+     "explanation": "Enough + to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He agreed to pay.",
+      "He agreed paying.",
+      "He agreed pay."
+     ],
+     "correct_index": 0,
+     "explanation": "Agree + to."
+    }
+   ]
+  },
+  {
    "id": "a1-have-us",
    "level": "A1",
    "tag": "Verbi",
@@ -16827,6 +21488,290 @@
      ],
      "correct_index": 1,
      "explanation": "Where are you from? Con you si usa are."
+    }
+   ]
+  },
+  {
+   "id": "b2-wish",
+   "level": "B2",
+   "tag": "Verbi",
+   "title": "Wish usato al presente",
+   "desc": "I wish + Past Simple: i desideri irreali sul presente, i rimpianti, la forma were e wish + would.",
+   "lead": "**Wish** si usa per dire che **vorresti che qualcosa fosse diverso adesso**. In italiano si usa il congiuntivo («vorrei avere più tempo»), in inglese il **Past Simple**, anche se il significato è presente.",
+   "tip": "**I wish + Past Simple** = vorrei che fosse così (ma non lo è). **Were** per tutte le persone. **Wish + would** = lamentela su un'abitudine altrui.",
+   "blocks": [
+    {
+     "h": "Wish + Past Simple",
+     "table": {
+      "head": [
+       "Realtà",
+       "Desiderio"
+      ],
+      "rows": [
+       [
+        "I don't have enough time.",
+        "I wish I **had** more time."
+       ],
+       [
+        "I live in a small flat.",
+        "I wish I **lived** in a bigger one."
+       ],
+       [
+        "I can't swim.",
+        "I wish I **could** swim."
+       ],
+       [
+        "I'm not tall.",
+        "I wish I **were** taller."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Were per tutte le persone",
+     "ex": [
+      "I wish I **were** rich.",
+      "I wish he **were** here.",
+      "I wish it **were** summer."
+     ]
+    },
+    {
+     "h": "Wish + would",
+     "p": "Si usa per una **lamentela** su qualcosa che fa un'altra persona (o su un evento), e vorresti che cambiasse.",
+     "ex": [
+      "I wish you **would stop** talking.",
+      "I wish it **would stop** raining.",
+      "Non si usa con I: *I wish I would* è sbagliato."
+     ]
+    },
+    {
+     "h": "Wish o hope?",
+     "table": {
+      "head": [
+       "",
+       "Uso",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "wish",
+        "situazione irreale o impossibile",
+        "I wish I **had** a car."
+       ],
+       [
+        "hope",
+        "possibile in futuro",
+        "I hope you **will** like it."
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "I wish I have more time.",
+     "I wish I had more time.",
+     "Wish + Past Simple."
+    ],
+    [
+     "I wish I would have a car.",
+     "I wish I had a car.",
+     "Con lo stesso soggetto non si usa would."
+    ],
+    [
+     "I wish I can swim.",
+     "I wish I could swim.",
+     "Wish + could."
+    ],
+    [
+     "I wish I was taller.",
+     "I wish I were taller.",
+     "Nel formale: were."
+    ],
+    [
+     "I hope I had more time.",
+     "I wish I had more time.",
+     "Per le situazioni irreali: wish."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I wish I ___ more time.",
+     "options": [
+      "had",
+      "have",
+      "would have"
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wish I ___ swim. (can / could)",
+     "accepted_answers": [
+      "could"
+     ],
+     "explanation": "Wish + could."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I wish he ___ here.",
+     "options": [
+      "were",
+      "is",
+      "would be"
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wish it ___ stop raining. (will / would)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "Lamentela: wish + would."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I wish I lived in a bigger flat.",
+      "I wish I live in a bigger flat.",
+      "I wish I would live in a bigger flat."
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I wish I would have a car.",
+      "I wish I had a car.",
+      "I wish I could drive."
+     ],
+     "correct_index": 0,
+     "explanation": "Con lo stesso soggetto: no would."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wish I ___ taller. (be)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "I wish I were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She wishes she ___ more money. (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Wishes + had."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I wish you ___ talking. It's annoying.",
+     "options": [
+      "would stop",
+      "stopped to",
+      "stop"
+     ],
+     "correct_index": 0,
+     "explanation": "Lamentela: wish + would."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which verb is for a possible future?",
+     "options": [
+      "hope",
+      "wish",
+      "would"
+     ],
+     "correct_index": 0,
+     "explanation": "Hope = possibile."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wish we ___ a bigger house. (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Wish + had."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wish I ___ speak Chinese. (can / could)",
+     "accepted_answers": [
+      "could"
+     ],
+     "explanation": "Wish + could."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I don't have a car. → I wish I ___ a car.",
+     "options": [
+      "had",
+      "have",
+      "would"
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I wish it were summer.",
+      "I wish it is summer.",
+      "I wish it will be summer."
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wish they ___ so loud. (not be)",
+     "accepted_answers": [
+      "weren't",
+      "were not"
+     ],
+     "explanation": "Wish + weren't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I hope you ___ the present.",
+     "options": [
+      "will like",
+      "liked",
+      "would like"
+     ],
+     "correct_index": 0,
+     "explanation": "Hope + will: futuro possibile."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I wish I ___ to work today. I'd rather stay in bed.",
+     "options": [
+      "didn't have to",
+      "don't have to",
+      "wouldn't have"
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + didn't have to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is about annoyance?",
+     "options": [
+      "I wish you would be quiet.",
+      "I wish I had a car.",
+      "I wish I were taller."
+     ],
+     "correct_index": 0,
+     "explanation": "Wish + would: lamentela."
     }
    ]
   },
