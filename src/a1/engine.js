@@ -65,10 +65,36 @@ function a1Pools(t){
     var opts = [x[0], x[1]];
     return {type:"mc", kick:"Correggi la frase", prompt:"Quale frase è corretta?", options:opts, correct:1, explain:x[2], rv:"Correggi: "+x[0]};
   });
-  var fixMc = mc.filter(function(q){ return /^Which (sentence |one |question )?(is|are) (NOT )?correct/i.test(q.prompt) && q.prompt.indexOf("___") < 0; }).map(function(q){
+  var fixMc = mc.filter(function(q){ return /^(Which|Quale)\b.*\b(correct|corretta)\b/i.test(q.prompt) && q.prompt.indexOf("___") < 0; }).map(function(q){
     return {type:"mc", kick:"Correggi la frase", prompt:q.prompt, options:q.options, correct:q.correct, explain:q.explain};
   });
-  return {fill:fill, mc:mc, fix:fix.concat(fixMc), all:all.concat(fix)};
+  var fixAll = fix.concat(fixMc);
+  var MIN = 10;
+  var blanks = mc.filter(function(q){ return q.prompt.split("___").length === 2 && q.options.length > 1 && !/^Which /i.test(q.prompt); });
+  function pick(arr, n){ return arr.slice(0, Math.max(0, n)); }
+  // Se un esercizio ha meno di 10 domande, lo completo con domande ricavate dalle altre dello stesso argomento.
+  if(fixAll.length < MIN){
+    var extraFix = blanks.map(function(q){
+      var wrongs = q.options.filter(function(o, i){ return i !== q.correct; });
+      var w = wrongs[Math.floor(Math.random() * wrongs.length)];
+      var good = q.prompt.replace("___", q.options[q.correct]);
+      return {type:"mc", kick:"Correggi la frase", prompt:"Quale frase è corretta?", options:[q.prompt.replace("___", w), good], correct:1, explain:q.explain, rv:"Correggi: "+q.prompt.replace("___", w)};
+    });
+    fixAll = fixAll.concat(pick(extraFix, MIN - fixAll.length));
+  }
+  var fillAll = fill;
+  if(fillAll.length < MIN){
+    var extraFill = blanks.map(function(q){
+      return {type:"text", kick:"Completa la frase", prompt:q.prompt + "  (" + q.options.join(" / ") + ")", answers:[q.options[q.correct]], explain:q.explain};
+    });
+    fillAll = fillAll.concat(pick(extraFill, MIN - fillAll.length));
+  }
+  var mcAll = mc;
+  if(mcAll.length < MIN){
+    var extraMc = fix.map(function(q){ return {type:"mc", kick:"Scelta multipla", prompt:q.prompt, options:q.options, correct:q.correct, explain:q.explain, rv:q.rv}; });
+    mcAll = mcAll.concat(pick(extraMc, MIN - mcAll.length));
+  }
+  return {fill:fillAll, mc:mcAll, fix:fixAll, all:all.concat(fix)};
 }
 var A1_MODES = [
   {id:"fill", title:"Completa la frase", desc:"Scrivi tu la parola o la forma giusta."},

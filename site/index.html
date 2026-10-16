@@ -5257,10 +5257,36 @@ function a1Pools(t){
     var opts = [x[0], x[1]];
     return {type:"mc", kick:"Correggi la frase", prompt:"Quale frase è corretta?", options:opts, correct:1, explain:x[2], rv:"Correggi: "+x[0]};
   });
-  var fixMc = mc.filter(function(q){ return /^Which (sentence |one |question )?(is|are) (NOT )?correct/i.test(q.prompt) && q.prompt.indexOf("___") < 0; }).map(function(q){
+  var fixMc = mc.filter(function(q){ return /^(Which|Quale)\b.*\b(correct|corretta)\b/i.test(q.prompt) && q.prompt.indexOf("___") < 0; }).map(function(q){
     return {type:"mc", kick:"Correggi la frase", prompt:q.prompt, options:q.options, correct:q.correct, explain:q.explain};
   });
-  return {fill:fill, mc:mc, fix:fix.concat(fixMc), all:all.concat(fix)};
+  var fixAll = fix.concat(fixMc);
+  var MIN = 10;
+  var blanks = mc.filter(function(q){ return q.prompt.split("___").length === 2 && q.options.length > 1 && !/^Which /i.test(q.prompt); });
+  function pick(arr, n){ return arr.slice(0, Math.max(0, n)); }
+  // Se un esercizio ha meno di 10 domande, lo completo con domande ricavate dalle altre dello stesso argomento.
+  if(fixAll.length < MIN){
+    var extraFix = blanks.map(function(q){
+      var wrongs = q.options.filter(function(o, i){ return i !== q.correct; });
+      var w = wrongs[Math.floor(Math.random() * wrongs.length)];
+      var good = q.prompt.replace("___", q.options[q.correct]);
+      return {type:"mc", kick:"Correggi la frase", prompt:"Quale frase è corretta?", options:[q.prompt.replace("___", w), good], correct:1, explain:q.explain, rv:"Correggi: "+q.prompt.replace("___", w)};
+    });
+    fixAll = fixAll.concat(pick(extraFix, MIN - fixAll.length));
+  }
+  var fillAll = fill;
+  if(fillAll.length < MIN){
+    var extraFill = blanks.map(function(q){
+      return {type:"text", kick:"Completa la frase", prompt:q.prompt + "  (" + q.options.join(" / ") + ")", answers:[q.options[q.correct]], explain:q.explain};
+    });
+    fillAll = fillAll.concat(pick(extraFill, MIN - fillAll.length));
+  }
+  var mcAll = mc;
+  if(mcAll.length < MIN){
+    var extraMc = fix.map(function(q){ return {type:"mc", kick:"Scelta multipla", prompt:q.prompt, options:q.options, correct:q.correct, explain:q.explain, rv:q.rv}; });
+    mcAll = mcAll.concat(pick(extraMc, MIN - mcAll.length));
+  }
+  return {fill:fillAll, mc:mcAll, fix:fixAll, all:all.concat(fix)};
 }
 var A1_MODES = [
   {id:"fill", title:"Completa la frase", desc:"Scrivi tu la parola o la forma giusta."},
@@ -9045,6 +9071,42 @@ qs:[
  ["mc","Which is the right verb after «I wish I»?",["could","will","would"],0,"I wish I could."],
  ["mc","Which is correct?",["I wish you wouldn't leave your things everywhere.","I wish you won't leave your things everywhere.","I wish you don't leave your things everywhere."],0,"Wish + wouldn't."]
 ]});
+
+/* Domande aggiuntive: ogni esercizio deve avere almeno 10 domande */
+(function(){
+  function T(id){ return A1_TOPICS.filter(function(t){ return t.id === id; })[0]; }
+  function add(id, qs, traps){ var t = T(id); if(!t) return; qs.forEach(function(q){ t.qs.push(q); }); (traps || []).forEach(function(x){ (t.traps = t.traps || []).push(x); }); }
+  add("a2-gen", [
+    ["t","My ___ room is very big. (la stanza di mio fratello)",["brother's"],"Persona singolare: nome + 's."],
+    ["t","The ___ uniforms are blue. (le divise delle infermiere)",["nurses'"],"Plurale regolare in -s: solo apostrofo."]
+  ]);
+  add("a1-imp", [], [["Please to sit down.","Please sit down.","Niente to: l'imperativo è il verbo base."]]);
+  add("b2-mpc", [
+    ["t","I ___ have known. Nobody told me. (couldn't / can't)",["couldn't","could not"],"Impossibilità al passato: couldn't have."],
+    ["t","You should ___ told me earlier. (have / of)",["have"],"Si scrive have: should have / should've."],
+    ["t","They must ___ left already. (have / of)",["have"],"Deduzione al passato: must have + participio."],
+    ["t","It ___ have been a mistake. (might / does)",["might"],"Possibilità al passato: might have + participio."]
+  ]);
+  add("b1-mdi", [
+    ["t","You ___ park here. It's forbidden. (must / mustn't)",["mustn't","must not","can't","cannot"],"Divieto: mustn't."],
+    ["t","___ I open the window? (May / Do)",["May","Can","Could"],"Richiesta educata: May I...?"]
+  ]);
+  add("a1-plural", [
+    ["t","Il plurale di «leaf» è ___ .",["leaves"],"Le parole in -f cambiano in -ves."],
+    ["t","Il plurale di «man» è ___ .",["men"],"Plurale irregolare."]
+  ], [
+    ["two mans","two men","Man è irregolare."],
+    ["three knifes","three knives","Knife → knives."],
+    ["two tomatos","two tomatoes","Dopo -o spesso -es."]
+  ]);
+  add("a2-supra", [
+    ["t","It was the ___ film I have ever seen. (bad)",["worst"],"Bad è irregolare: worst."],
+    ["t","She is the ___ student in the school. (good)",["best"],"Good è irregolare: best."]
+  ], [
+    ["He is the most tall in the class.","He is the tallest in the class.","Aggettivo corto: -est."],
+    ["It is the goodest day.","It is the best day.","Good è irregolare: best."]
+  ]);
+})();
 
 A1_TOPICS.sort(function(a, b){ return a.title.localeCompare(b.title, "it"); });
 

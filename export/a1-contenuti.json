@@ -6711,6 +6711,22 @@
      ],
      "correct_index": 1,
      "explanation": "Il possessore va prima."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My ___ room is very big. (la stanza di mio fratello)",
+     "accepted_answers": [
+      "brother's"
+     ],
+     "explanation": "Persona singolare: nome + 's."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The ___ uniforms are blue. (le divise delle infermiere)",
+     "accepted_answers": [
+      "nurses'"
+     ],
+     "explanation": "Plurale regolare in -s: solo apostrofo."
     }
    ]
   },
@@ -6794,6 +6810,11 @@
      "Let's to go home.",
      "Let's go home.",
      "Dopo let's c'è il verbo base."
+    ],
+    [
+     "Please to sit down.",
+     "Please sit down.",
+     "Niente to: l'imperativo è il verbo base."
     ]
    ],
    "questions": [
@@ -8359,6 +8380,39 @@
      ],
      "correct_index": 0,
      "explanation": "Forma completa."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ have known. Nobody told me. (couldn't / can't)",
+     "accepted_answers": [
+      "couldn't",
+      "could not"
+     ],
+     "explanation": "Impossibilità al passato: couldn't have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You should ___ told me earlier. (have / of)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Si scrive have: should have / should've."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They must ___ left already. (have / of)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Deduzione al passato: must have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It ___ have been a mistake. (might / does)",
+     "accepted_answers": [
+      "might"
+     ],
+     "explanation": "Possibilità al passato: might have + participio."
     }
    ]
   },
@@ -10243,6 +10297,27 @@
      ],
      "correct_index": 0,
      "explanation": "Shouldn't + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You ___ park here. It's forbidden. (must / mustn't)",
+     "accepted_answers": [
+      "mustn't",
+      "must not",
+      "can't",
+      "cannot"
+     ],
+     "explanation": "Divieto: mustn't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ I open the window? (May / Do)",
+     "accepted_answers": [
+      "May",
+      "Can",
+      "Could"
+     ],
+     "explanation": "Richiesta educata: May I...?"
     }
    ]
   },
@@ -13230,6 +13305,21 @@
      "My trousers is new.",
      "My trousers are new.",
      "Trousers è plurale."
+    ],
+    [
+     "two mans",
+     "two men",
+     "Man è irregolare."
+    ],
+    [
+     "three knifes",
+     "three knives",
+     "Knife → knives."
+    ],
+    [
+     "two tomatos",
+     "two tomatoes",
+     "Dopo -o spesso -es."
     ]
    ],
    "questions": [
@@ -13406,6 +13496,22 @@
      ],
      "correct_index": 1,
      "explanation": "Mouse → mice."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «leaf» è ___ .",
+     "accepted_answers": [
+      "leaves"
+     ],
+     "explanation": "Le parole in -f cambiano in -ves."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Il plurale di «man» è ___ .",
+     "accepted_answers": [
+      "men"
+     ],
+     "explanation": "Plurale irregolare."
     }
    ]
   },
@@ -22363,6 +22469,16 @@
      "She is the most tall of the class.",
      "She is the tallest in the class.",
      "Relativo: the -est."
+    ],
+    [
+     "He is the most tall in the class.",
+     "He is the tallest in the class.",
+     "Aggettivo corto: -est."
+    ],
+    [
+     "It is the goodest day.",
+     "It is the best day.",
+     "Good è irregolare: best."
     ]
    ],
    "questions": [
@@ -22547,6 +22663,22 @@
      ],
      "correct_index": 0,
      "explanation": "Of + all."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It was the ___ film I have ever seen. (bad)",
+     "accepted_answers": [
+      "worst"
+     ],
+     "explanation": "Bad è irregolare: worst."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is the ___ student in the school. (good)",
+     "accepted_answers": [
+      "best"
+     ],
+     "explanation": "Good è irregolare: best."
     }
    ]
   },
