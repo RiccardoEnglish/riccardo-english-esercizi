@@ -2341,6 +2341,270 @@
    ]
   },
   {
+   "id": "b1-gt",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Be going to",
+   "desc": "Be going to per i piani, le intenzioni e le previsioni basate su ciò che vediamo adesso.",
+   "lead": "**Be going to** si usa per le **intenzioni** (cosa ho deciso di fare) e per le **previsioni basate su prove** che vedi adesso: *Look at the sky! It's going to rain.*",
+   "tip": "**am / is / are + going to + verbo base.** Il verbo be cambia con la persona: I am, he is, they are.",
+   "blocks": [
+    {
+     "h": "La forma",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "I**'m going to** study."
+       ],
+       [
+        "Negativa",
+        "She **isn't going to** come."
+       ],
+       [
+        "Domanda",
+        "**Are** you **going to** buy it?"
+       ],
+       [
+        "Risposta breve",
+        "Yes, I **am**. / No, I'm **not**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usa",
+     "ex": [
+      "Intenzione già decisa: **I'm going to learn Spanish.**",
+      "Piano: **We're going to move next year.**",
+      "Previsione con prove: **Careful! You're going to fall.**"
+     ]
+    },
+    {
+     "h": "Will o be going to?",
+     "p": "**Will** = decisione al momento. **Be going to** = decisione già presa prima di parlare.",
+     "ex": [
+      "— I've got no milk. — **I'll** buy some.",
+      "— Why are you going to the shop? — **I'm going to** buy some milk."
+     ]
+    },
+    {
+     "h": "Go e come con going to",
+     "p": "Con i verbi go e come si preferisce il Present Continuous.",
+     "ex": [
+      "**I'm going** to Paris tomorrow. (non *I'm going to go to Paris*)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I going to study.",
+     "I'm going to study.",
+     "Serve il verbo be: I'm going to."
+    ],
+    [
+     "She is going to studies.",
+     "She is going to study.",
+     "Dopo going to la base."
+    ],
+    [
+     "Are you go to buy it?",
+     "Are you going to buy it?",
+     "Going, non go."
+    ],
+    [
+     "I'm not going to to tell her.",
+     "I'm not going to tell her.",
+     "To una volta sola."
+    ],
+    [
+     "He isn't going to comes.",
+     "He isn't going to come.",
+     "Dopo to la base."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ going to study medicine.",
+     "options": [
+      "am",
+      "is",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "I → am."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ going to call you later. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "She → is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Look at those clouds! It ___ rain.",
+     "options": [
+      "is going to",
+      "will",
+      "goes to"
+     ],
+     "correct_index": 0,
+     "explanation": "Previsione con prove."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They are ___ to buy a new house. (going / go)",
+     "accepted_answers": [
+      "going"
+     ],
+     "explanation": "Going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you going to invite her?",
+     "options": [
+      "Are",
+      "Do",
+      "Will"
+     ],
+     "correct_index": 0,
+     "explanation": "You → are."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He isn't going to come.",
+      "He doesn't going to come.",
+      "He isn't going to comes."
+     ],
+     "correct_index": 0,
+     "explanation": "Isn't going to + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We're going to ___ a party on Saturday. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Going to + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm not going ___ tell anyone. (to / for)",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation": "Going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Why is she buying flour and eggs?",
+     "options": [
+      "She's going to make a cake.",
+      "She will makes a cake.",
+      "She is going make a cake."
+     ],
+     "correct_index": 0,
+     "explanation": "Intenzione: going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Are you going to come? Yes, I ___.",
+     "options": [
+      "am",
+      "do",
+      "will"
+     ],
+     "correct_index": 0,
+     "explanation": "Yes, I am."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What are you ___ to do tomorrow? (going / go)",
+     "accepted_answers": [
+      "going"
+     ],
+     "explanation": "Going to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My sister ___ going to have a baby. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Sister → is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Careful! You ___ drop the glass!",
+     "options": [
+      "are going to",
+      "will",
+      "go to"
+     ],
+     "correct_index": 0,
+     "explanation": "Previsione con prove."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the negative of «I'm going to leave»?",
+     "options": [
+      "I'm not going to leave.",
+      "I don't going to leave.",
+      "I going not to leave."
+     ],
+     "correct_index": 0,
+     "explanation": "I'm not going to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They aren't ___ to win the match. (going / go)",
+     "accepted_answers": [
+      "going"
+     ],
+     "explanation": "Going to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Is it ___ to snow tonight? (going / go)",
+     "accepted_answers": [
+      "going"
+     ],
+     "explanation": "Is it going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "We're going to visit our grandparents.",
+      "We going to visit our grandparents.",
+      "We are go to visit our grandparents."
+     ],
+     "correct_index": 0,
+     "explanation": "Be + going to + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Is he going to pass? No, he ___.",
+     "options": [
+      "isn't",
+      "doesn't",
+      "won't going"
+     ],
+     "correct_index": 0,
+     "explanation": "No, he isn't."
+    }
+   ]
+  },
+  {
    "id": "a2-cmp1",
    "level": "A2",
    "tag": "Aggettivi",
@@ -4292,6 +4556,1332 @@
    ]
   },
   {
+   "id": "b1-fc",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "First Conditional",
+   "desc": "If + presente, will + base: le situazioni possibili e le loro conseguenze.",
+   "lead": "Il **First Conditional** parla di situazioni **possibili o probabili** nel futuro e delle loro conseguenze: *If it rains, we'll stay home.* In italiano si usa il futuro in tutte e due le parti, in inglese no.",
+   "tip": "**If + presente**, **will + verbo base**. Dopo if mai will (a meno di una richiesta cortese).",
+   "blocks": [
+    {
+     "h": "La struttura",
+     "table": {
+      "head": [
+       "Parte",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "If clause",
+        "presente",
+        "If it **rains**,"
+       ],
+       [
+        "Main clause",
+        "will + base",
+        "we **will stay** home."
+       ]
+      ]
+     },
+     "ex": [
+      "**If** you **study**, you'll **pass**.",
+      "I'll **call** you **if** I **have** time. (se la frase comincia con la conseguenza, niente virgola)"
+     ]
+    },
+    {
+     "h": "L'ordine delle frasi",
+     "p": "Si può invertire: la virgola serve solo se comincia con **if**.",
+     "ex": [
+      "**If** it rains, we'll stay home.",
+      "We'll stay home **if** it rains."
+     ]
+    },
+    {
+     "h": "Altre parole come if",
+     "p": "Anche **unless** (a meno che), **when**, **as soon as**, **before**, **until** vogliono il presente.",
+     "ex": [
+      "**Unless** you hurry, you'll miss the bus. (= If you don't hurry...)",
+      "I'll wait **until** you **come**."
+     ]
+    },
+    {
+     "h": "Altre possibilità",
+     "ex": [
+      "**If** you **see** her, **tell** her. (imperativo)",
+      "**If** you **want**, I **can** help you. (can, may)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "If it will rain, we will stay home.",
+     "If it rains, we will stay home.",
+     "Dopo if il presente, non will."
+    ],
+    [
+     "If I will see her, I'll tell her.",
+     "If I see her, I'll tell her.",
+     "If + presente."
+    ],
+    [
+     "If you study, you pass.",
+     "If you study, you'll pass.",
+     "La conseguenza usa will."
+    ],
+    [
+     "Unless you don't hurry, you'll be late.",
+     "Unless you hurry, you'll be late.",
+     "Unless è già negativo."
+    ],
+    [
+     "I'll call you if I will have time.",
+     "I'll call you if I have time.",
+     "Dopo if il presente."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "If it ___ tomorrow, we'll stay home.",
+     "options": [
+      "rains",
+      "will rain",
+      "rain"
+     ],
+     "correct_index": 0,
+     "explanation": "If + presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If you study, you ___ pass the exam. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Conseguenza: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ you if I have time.",
+     "options": [
+      "'ll call",
+      "call",
+      "called"
+     ],
+     "correct_index": 0,
+     "explanation": "Will + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If she ___ late, we'll start without her. (be)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "If + presente: is."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "If I see him, I'll tell him.",
+      "If I will see him, I'll tell him.",
+      "If I saw him, I tell him."
+     ],
+     "correct_index": 0,
+     "explanation": "If + presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We'll miss the bus ___ we hurry. (unless / if not)",
+     "accepted_answers": [
+      "unless"
+     ],
+     "explanation": "Unless = a meno che."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Unless you hurry, you ___ late.",
+     "options": [
+      "'ll be",
+      "are",
+      "would be"
+     ],
+     "correct_index": 0,
+     "explanation": "Will + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If I ___ the lottery, I'll buy a house. (win)",
+     "accepted_answers": [
+      "win"
+     ],
+     "explanation": "If + presente."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I'll wait until you come.",
+      "I'll wait until you will come.",
+      "I wait until you'll come."
+     ],
+     "correct_index": 0,
+     "explanation": "Until + presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She'll be angry if you ___ her. (not call)",
+     "accepted_answers": [
+      "don't call",
+      "do not call"
+     ],
+     "explanation": "If + presente negativo: don't call."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If you ___ hungry, there's food in the fridge.",
+     "options": [
+      "are",
+      "will be",
+      "would be"
+     ],
+     "correct_index": 0,
+     "explanation": "If + presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If it's sunny, we ___ go to the beach. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the correct negative?",
+     "options": [
+      "If you don't study, you won't pass.",
+      "If you won't study, you don't pass.",
+      "If you don't study, you don't pass."
+     ],
+     "correct_index": 0,
+     "explanation": "If don't ..., won't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'll tell her when she ___. (arrive)",
+     "accepted_answers": [
+      "arrives"
+     ],
+     "explanation": "When + presente: arrives."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "As soon as I ___, I'll call you.",
+     "options": [
+      "arrive",
+      "will arrive",
+      "arrived"
+     ],
+     "correct_index": 0,
+     "explanation": "As soon as + presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If you ___ him, say hello from me. (see)",
+     "accepted_answers": [
+      "see"
+     ],
+     "explanation": "If + presente."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "If it will be cold, I'll wear a coat.",
+      "If it's cold, I'll wear a coat.",
+      "I'll wear a coat if it's cold."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo if il presente."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We'll go for a walk if it ___ raining.",
+     "options": [
+      "stops",
+      "will stop",
+      "stopped"
+     ],
+     "correct_index": 0,
+     "explanation": "If + presente."
+    }
+   ]
+  },
+  {
+   "id": "b1-will",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Future Simple (Will)",
+   "desc": "Will per le decisioni improvvise, le previsioni, le promesse e le offerte. Forma, negativa e domanda.",
+   "lead": "**Will** è il futuro più semplice: **will + verbo base**, uguale per tutte le persone. Si usa per decidere sul momento, per fare previsioni, promesse e offerte.",
+   "tip": "**will + base**, mai *to*. Forma breve: **'ll**. Negativa: **won't** (will not).",
+   "blocks": [
+    {
+     "h": "La forma",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "I **will** go. / I**'ll** go."
+       ],
+       [
+        "Negativa",
+        "She **won't** come."
+       ],
+       [
+        "Domanda",
+        "**Will** you help me?"
+       ],
+       [
+        "Risposta breve",
+        "Yes, I **will**. / No, I **won't**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usa will",
+     "ex": [
+      "Decisione al momento: **I'll have a coffee, please.**",
+      "Previsione: **I think it will be sunny tomorrow.**",
+      "Promessa: **I'll call you tonight.**",
+      "Offerta: **I'll help you with the bags.**",
+      "Rifiuto: **He won't listen.**"
+     ]
+    },
+    {
+     "h": "Parole che accompagnano will",
+     "ex": [
+      "**I think** it will rain. / **I'm sure** he will win.",
+      "**Maybe** she'll come. / **Probably** we'll be late.",
+      "**I hope** you'll like it."
+     ]
+    },
+    {
+     "h": "Will e please",
+     "ex": [
+      "**Will you** open the window, please? (richiesta)",
+      "**Shall I** open it? (offerta, con I e we)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I will to call you.",
+     "I will call you.",
+     "Dopo will il verbo senza to."
+    ],
+    [
+     "She wills come.",
+     "She will come.",
+     "Will non prende la -s."
+    ],
+    [
+     "I don't will go.",
+     "I won't go.",
+     "La negativa è won't."
+    ],
+    [
+     "I will going to the party.",
+     "I will go to the party.",
+     "Dopo will la base, non -ing."
+    ],
+    [
+     "If it will rain, I'll stay home.",
+     "If it rains, I'll stay home.",
+     "Dopo if il presente (vedi First Conditional)."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm thirsty. I ___ a glass of water.",
+     "options": [
+      "'ll have",
+      "'m having",
+      "have"
+     ],
+     "correct_index": 0,
+     "explanation": "Decisione improvvisa: will."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I think she ___ pass the exam. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Previsione: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He will help us.",
+      "He wills help us.",
+      "He will to help us."
+     ],
+     "correct_index": 0,
+     "explanation": "Will + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ not come to the party. (futuro)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "They will not (won't) come."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you help me with this box, please?",
+     "options": [
+      "Will",
+      "Do",
+      "Did"
+     ],
+     "correct_index": 0,
+     "explanation": "Richiesta con will."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ call you tonight. (promessa)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Promessa: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the negative form of will?",
+     "options": [
+      "won't",
+      "willn't",
+      "don't"
+     ],
+     "correct_index": 0,
+     "explanation": "Will not = won't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We'll ___ there at 8. (be / being)",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation": "Will + be."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Will you be at home tonight? Yes, I ___.",
+     "options": [
+      "will",
+      "do",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Yes, I will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "It will be sunny tomorrow.",
+      "It will is sunny tomorrow.",
+      "It will being sunny tomorrow."
+     ],
+     "correct_index": 0,
+     "explanation": "Will + be."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm sure he ___ love it. (will / does)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "I'm sure + will."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The door is stuck. It ___ open. (won't / doesn't)",
+     "accepted_answers": [
+      "won't"
+     ],
+     "explanation": "Rifiuto: won't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Offerta: «Ti aiuto con le borse.»",
+     "options": [
+      "I'll help you with the bags.",
+      "I help you with the bags.",
+      "I'm going help you with the bags."
+     ],
+     "correct_index": 0,
+     "explanation": "Offerta spontanea: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "She will goes tomorrow.",
+      "She'll go tomorrow.",
+      "She will go tomorrow."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo will il verbo non prende -s."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Maybe it ___ rain this afternoon. (will / does)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Maybe + will."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Will they ___ on time? (be / are)",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation": "Will + be."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Will it rain? No, it ___.",
+     "options": [
+      "won't",
+      "doesn't",
+      "isn't"
+     ],
+     "correct_index": 0,
+     "explanation": "No, it won't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ you the answer tomorrow. (promessa)",
+     "options": [
+      "will give",
+      "gave",
+      "am give"
+     ],
+     "correct_index": 0,
+     "explanation": "Promessa: will give."
+    }
+   ]
+  },
+  {
+   "id": "b1-futi",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Futuro: introduzione",
+   "desc": "In inglese non c'è un solo futuro: quattro modi diversi di parlare di quello che succederà.",
+   "lead": "In inglese il futuro si esprime in **quattro modi**, e la scelta dipende da cosa vuoi dire: una **decisione presa adesso**, un **piano**, un **appuntamento fissato**, una **previsione**.",
+   "tip": "Will = decisione al momento o previsione. Be going to = piano o previsione con prove. Present Continuous = appuntamento già fissato. Present Simple = orari.",
+   "blocks": [
+    {
+     "h": "I quattro modi",
+     "table": {
+      "head": [
+       "Forma",
+       "Quando",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "will",
+        "decisioni improvvise, previsioni, promesse",
+        "I'll help you."
+       ],
+       [
+        "be going to",
+        "piani e intenzioni, previsioni con prove",
+        "I'm going to study medicine."
+       ],
+       [
+        "Present Continuous",
+        "appuntamenti già organizzati",
+        "I'm meeting Anna at 6."
+       ],
+       [
+        "Present Simple",
+        "orari e calendari",
+        "The train leaves at 8."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Le parole del futuro",
+     "ex": [
+      "**tomorrow**, **next week**, **next year**",
+      "**in two days**, **in a month**",
+      "**tonight**, **this weekend**",
+      "**soon**, **later**"
+     ]
+    },
+    {
+     "h": "Attenzione all'italiano",
+     "p": "In italiano si usa spesso il presente per il futuro («Domani vado a Roma»). In inglese serve una forma di futuro.",
+     "ex": [
+      "**I'm going** to Rome tomorrow.",
+      "Non: *Tomorrow I go to Rome.*"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "Tomorrow I go to Rome.",
+     "Tomorrow I'm going to Rome.",
+     "Il futuro programmato vuole il Present Continuous o be going to."
+    ],
+    [
+     "I will to help you.",
+     "I will help you.",
+     "Dopo will il verbo senza to."
+    ],
+    [
+     "The train will leave at 8. (da orario)",
+     "The train leaves at 8.",
+     "Gli orari vogliono il Present Simple."
+    ],
+    [
+     "Maybe I go to the party.",
+     "Maybe I'll go to the party.",
+     "Con maybe si usa will."
+    ],
+    [
+     "She going to call you.",
+     "She is going to call you.",
+     "Be going to vuole il verbo be."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Which form do we use for a decision made at the moment of speaking?",
+     "options": [
+      "will",
+      "be going to",
+      "Present Simple"
+     ],
+     "correct_index": 0,
+     "explanation": "Decisione improvvisa: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my cousin tomorrow at 5. (appuntamento fissato)",
+     "options": [
+      "am meeting",
+      "will meet",
+      "meet"
+     ],
+     "correct_index": 0,
+     "explanation": "Appuntamento organizzato: Present Continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The train ___ at 9:15. (leave)",
+     "accepted_answers": [
+      "leaves"
+     ],
+     "explanation": "Orari: Present Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I think it ___ rain tomorrow. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Previsione: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I'm going to buy a new phone.",
+      "I'm going buy a new phone.",
+      "I going to buy a new phone."
+     ],
+     "correct_index": 0,
+     "explanation": "Be going to + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT a way to talk about the future?",
+     "options": [
+      "Past Simple",
+      "will",
+      "be going to"
+     ],
+     "correct_index": 0,
+     "explanation": "Il Past Simple è passato."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The film ___ at 8 pm. (start)",
+     "accepted_answers": [
+      "starts"
+     ],
+     "explanation": "Orario di un film: Present Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ going to visit Paris next year. (am / are)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "We are going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The phone is ringing. — I ___ it!",
+     "options": [
+      "'ll answer",
+      "'m going to answer",
+      "answer"
+     ],
+     "correct_index": 0,
+     "explanation": "Decisione al momento: will."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Look at those clouds! It ___ rain.",
+     "options": [
+      "is going to",
+      "will",
+      "rains"
+     ],
+     "correct_index": 0,
+     "explanation": "Prove nel presente: be going to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm not ___ to tell her. (going / will)",
+     "accepted_answers": [
+      "going"
+     ],
+     "explanation": "Be going to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Next week I ___ working in London. (am / will)",
+     "accepted_answers": [
+      "am"
+     ],
+     "explanation": "Present Continuous: am working."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "She'll call you later.",
+      "She'll to call you later.",
+      "She will calls you later."
+     ],
+     "correct_index": 0,
+     "explanation": "Will + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've decided: I ___ a new job.",
+     "options": [
+      "am going to look for",
+      "'ll to look for",
+      "look for"
+     ],
+     "correct_index": 0,
+     "explanation": "Decisione già presa: be going to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Maybe I ___ go to the party. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Maybe + will."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What time ___ the bus leave? (does / will)",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation": "Present Simple per gli orari."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which time expression is for the future?",
+     "options": [
+      "next month",
+      "last month",
+      "two weeks ago"
+     ],
+     "correct_index": 0,
+     "explanation": "Next month."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Tomorrow I ___ the doctor. (appuntamento già preso)",
+     "options": [
+      "am seeing",
+      "see",
+      "saw"
+     ],
+     "correct_index": 0,
+     "explanation": "Present Continuous."
+    }
+   ]
+  },
+  {
+   "id": "b1-fpc",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Futuro: Present Continuous",
+   "desc": "Il Present Continuous con valore di futuro: appuntamenti e piani già organizzati.",
+   "lead": "Il **Present Continuous** serve anche per il futuro quando l'azione è **già organizzata**: hai un appuntamento, un biglietto, un orario concordato. Ci vuole quasi sempre un'indicazione di tempo futuro.",
+   "tip": "**am / is / are + verbo-ing + parola di tempo futuro** (tomorrow, tonight, next week). È un piano concreto, già fissato.",
+   "blocks": [
+    {
+     "h": "La forma",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "I**'m meeting** Anna at six."
+       ],
+       [
+        "Negativa",
+        "He**'s not working** tomorrow."
+       ],
+       [
+        "Domanda",
+        "**Are** you **doing** anything tonight?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usa",
+     "ex": [
+      "Appuntamento: **I'm seeing the dentist on Friday.**",
+      "Biglietto o prenotazione: **We're flying to Rome next week.**",
+      "Invito accettato: **They're having a party on Saturday.**"
+     ]
+    },
+    {
+     "h": "Present Continuous o be going to?",
+     "p": "Spesso sono interscambiabili. **Present Continuous** = c'è già un accordo o una prenotazione. **Be going to** = intenzione o previsione.",
+     "ex": [
+      "**I'm having** dinner with Marco tonight. (ci siamo accordati)",
+      "**I'm going to** have a quiet night. (ho deciso così)"
+     ]
+    },
+    {
+     "h": "Cosa non si fa",
+     "p": "Per le previsioni e le decisioni improvvise non si usa il Present Continuous.",
+     "ex": [
+      "Non: *It's raining tomorrow.* → **It will rain** tomorrow."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I meet Anna tomorrow at six.",
+     "I'm meeting Anna tomorrow at six.",
+     "Appuntamento fissato: Present Continuous."
+    ],
+    [
+     "It is raining tomorrow.",
+     "It will rain tomorrow.",
+     "Previsione: will, non Present Continuous."
+    ],
+    [
+     "What do you do tonight?",
+     "What are you doing tonight?",
+     "Piano per stasera: are you doing."
+    ],
+    [
+     "We flying to Rome next week.",
+     "We're flying to Rome next week.",
+     "Serve il verbo be: are flying."
+    ],
+    [
+     "I'm seeing the dentist yesterday.",
+     "I saw the dentist yesterday.",
+     "Yesterday è passato: Past Simple."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ Anna at six tonight.",
+     "options": [
+      "am meeting",
+      "meet",
+      "will meet"
+     ],
+     "correct_index": 0,
+     "explanation": "Appuntamento: Present Continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ flying to Rome next week. (am / are)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "We are flying."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What ___ you doing tonight?",
+     "options": [
+      "are",
+      "do",
+      "will"
+     ],
+     "correct_index": 0,
+     "explanation": "Are you doing."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ not working tomorrow. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "He is not working."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct for a fixed appointment?",
+     "options": [
+      "I'm seeing the dentist on Friday.",
+      "I'm see the dentist on Friday.",
+      "I will seeing the dentist on Friday."
+     ],
+     "correct_index": 0,
+     "explanation": "Appuntamento: Present Continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They're ___ a party on Saturday. (have)",
+     "accepted_answers": [
+      "having"
+     ],
+     "explanation": "Have → having."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is NOT a good future with Present Continuous?",
+     "options": [
+      "It's raining tomorrow.",
+      "I'm leaving on Monday.",
+      "She's getting married in June."
+     ],
+     "correct_index": 0,
+     "explanation": "Previsione: will rain."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm not ___ anything this weekend. (do)",
+     "accepted_answers": [
+      "doing"
+     ],
+     "explanation": "Doing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Are you coming to the party tonight?",
+      "Do you come to the party tonight?",
+      "Will you coming to the party tonight?"
+     ],
+     "correct_index": 0,
+     "explanation": "Present Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We have booked a table. We ___ at eight.",
+     "options": [
+      "are eating out",
+      "eat out",
+      "will eating out"
+     ],
+     "correct_index": 0,
+     "explanation": "Prenotazione: Present Continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She is ___ to Paris on Monday. (fly)",
+     "accepted_answers": [
+      "flying"
+     ],
+     "explanation": "Is flying."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What time ___ you meeting him? (are / do)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "Are you meeting."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence has a future meaning?",
+     "options": [
+      "I'm starting my new job on Monday.",
+      "I'm starting now.",
+      "I started last Monday."
+     ],
+     "correct_index": 0,
+     "explanation": "On Monday con Present Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: What are you doing this weekend? I ___ my grandparents.",
+     "options": [
+      "'m visiting",
+      "visit",
+      "visited"
+     ],
+     "correct_index": 0,
+     "explanation": "Piano già fissato."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Mark ___ not coming to the meeting. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "Mark is not coming."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm ___ my parents tomorrow. (see)",
+     "accepted_answers": [
+      "seeing"
+     ],
+     "explanation": "See → seeing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "They're moving house next month.",
+      "They moving house next month.",
+      "They move house next month if they like."
+     ],
+     "correct_index": 0,
+     "explanation": "Present Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What are you doing ___?",
+     "options": [
+      "next Friday",
+      "last Friday",
+      "two years ago"
+     ],
+     "correct_index": 0,
+     "explanation": "Next Friday."
+    }
+   ]
+  },
+  {
+   "id": "b1-fsum",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Futuro: riassunto",
+   "desc": "Will, be going to, Present Continuous e Present Simple a confronto: come scegliere la forma giusta.",
+   "lead": "Ripasso di tutti i modi di parlare del futuro. Per scegliere, chiediti: **è una decisione improvvisa? Un piano? Un appuntamento fissato? Un orario?**",
+   "tip": "Improvvisa o previsione = **will**. Piano o prove = **be going to**. Fissato con altri = **Present Continuous**. Orario = **Present Simple**.",
+   "blocks": [
+    {
+     "h": "Il riassunto",
+     "table": {
+      "head": [
+       "Situazione",
+       "Forma",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Decisione al momento",
+        "will",
+        "I'll take the blue one."
+       ],
+       [
+        "Previsione (opinione)",
+        "will",
+        "I think it'll rain."
+       ],
+       [
+        "Intenzione già decisa",
+        "be going to",
+        "I'm going to learn French."
+       ],
+       [
+        "Previsione con prove",
+        "be going to",
+        "He's going to fall!"
+       ],
+       [
+        "Appuntamento fissato",
+        "Present Continuous",
+        "I'm seeing Tom at six."
+       ],
+       [
+        "Orario o calendario",
+        "Present Simple",
+        "The bus leaves at ten."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Una domanda per scegliere",
+     "ex": [
+      "Ho già deciso prima di parlare? → **be going to**",
+      "Decido adesso? → **will**",
+      "Ho un appuntamento con qualcuno? → **Present Continuous**",
+      "È un orario? → **Present Simple**"
+     ]
+    },
+    {
+     "h": "Dopo when, if, as soon as",
+     "p": "Con queste parole il verbo va al **presente**, non al futuro.",
+     "ex": [
+      "**When** I arrive, I'll call you.",
+      "**As soon as** he comes, we'll start."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "When I will arrive, I'll call you.",
+     "When I arrive, I'll call you.",
+     "Dopo when: presente."
+    ],
+    [
+     "I'll meet Anna tomorrow at six.",
+     "I'm meeting Anna tomorrow at six.",
+     "Accordo già preso: Present Continuous."
+    ],
+    [
+     "The film is going to start at 8.",
+     "The film starts at 8.",
+     "Orario: Present Simple."
+    ],
+    [
+     "I'll to call you.",
+     "I'll call you.",
+     "Will + base."
+    ],
+    [
+     "I think it is going to rains.",
+     "I think it will rain.",
+     "Previsione: will + base."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the best form? The phone is ringing. I ___ it.",
+     "options": [
+      "'ll answer",
+      "'m going to answer",
+      "answer"
+     ],
+     "correct_index": 0,
+     "explanation": "Decisione al momento."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've bought the ticket. I ___ to Madrid on Friday.",
+     "options": [
+      "'m flying",
+      "fly",
+      "'ll flying"
+     ],
+     "correct_index": 0,
+     "explanation": "Biglietto già comprato."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The train ___ at 6:30. (leave)",
+     "accepted_answers": [
+      "leaves"
+     ],
+     "explanation": "Orario: Present Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "When I ___ home, I'll call you. (get)",
+     "accepted_answers": [
+      "get"
+     ],
+     "explanation": "Dopo when: presente."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Look at the sky! It ___ rain.",
+     "options": [
+      "is going to",
+      "will",
+      "rains"
+     ],
+     "correct_index": 0,
+     "explanation": "Prove: be going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I think the team ___ win.",
+     "options": [
+      "will",
+      "is going",
+      "wins"
+     ],
+     "correct_index": 0,
+     "explanation": "Opinione: will."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'll call you as soon as I ___. (arrive)",
+     "accepted_answers": [
+      "arrive"
+     ],
+     "explanation": "Dopo as soon as: presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ not coming to the party tomorrow. (is / are)",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation": "She is not coming."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I'll help you if you need me.",
+      "I'll help you if you will need me.",
+      "I help you if you'll need me."
+     ],
+     "correct_index": 0,
+     "explanation": "If + presente."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've decided: I ___ a new car.",
+     "options": [
+      "'m going to buy",
+      "'ll buy",
+      "'m buy"
+     ],
+     "correct_index": 0,
+     "explanation": "Decisione già presa."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What time ___ the shop open tomorrow? (does / will)",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation": "Orario: does open."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ going to move next year. (is / are)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "We are going to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ Anna at six. We have arranged it.",
+     "options": [
+      "am meeting",
+      "will meet",
+      "meet"
+     ],
+     "correct_index": 0,
+     "explanation": "Accordo fissato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "When he will come, we'll start.",
+      "When he comes, we'll start.",
+      "As soon as he comes, we'll start."
+     ],
+     "correct_index": 0,
+     "explanation": "Dopo when: presente."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm tired. I ___ go to bed early tonight. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Decisione al momento."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ playing tennis on Sunday. (are / do)",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation": "Piano fissato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Are you busy tomorrow? Yes, I ___ a meeting.",
+     "options": [
+      "'m having",
+      "will having",
+      "have going"
+     ],
+     "correct_index": 0,
+     "explanation": "Appuntamento: Present Continuous."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "The shop closes at 8.",
+      "The shop is going closing at 8.",
+      "The shop will closes at 8."
+     ],
+     "correct_index": 0,
+     "explanation": "Orario: Present Simple."
+    }
+   ]
+  },
+  {
    "id": "a2-gen",
    "level": "A2",
    "tag": "Nomi",
@@ -5115,6 +6705,1644 @@
    ]
   },
   {
+   "id": "b1-mds",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Modali: dovere al condizionale (should)",
+   "desc": "Should per i consigli e le opinioni; should have per i rimpianti e i rimproveri.",
+   "lead": "**Should** si usa per dare un **consiglio** o dire che qualcosa è **giusto o raccomandato**. È più morbido di must: non c'è un obbligo, è un parere.",
+   "tip": "**Should + base** = dovresti. **Shouldn't + base** = non dovresti. **Should have + participio** = avresti dovuto (rimprovero o rimpianto).",
+   "blocks": [
+    {
+     "h": "Consigli",
+     "ex": [
+      "You **should** see a doctor.",
+      "You **shouldn't** eat so much sugar.",
+      "**Should** I call her? (cosa mi consigli?)"
+     ]
+    },
+    {
+     "h": "Opinioni",
+     "ex": [
+      "I think you **should** apologise.",
+      "I don't think he **should** go. (non: *I think he shouldn't*)"
+     ]
+    },
+    {
+     "h": "Should have + participio",
+     "p": "Esprime un rimpianto o una critica sul passato.",
+     "ex": [
+      "I **should have** studied more. (non l'ho fatto)",
+      "You **shouldn't have** said that. (l'hai detto, ed era sbagliato)"
+     ]
+    },
+    {
+     "h": "Should, ought to e had better",
+     "ex": [
+      "You **ought to** rest. (= should)",
+      "You **had better** go now. (è più forte: altrimenti c'è un problema)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "You should to see a doctor.",
+     "You should see a doctor.",
+     "Niente to dopo should."
+    ],
+    [
+     "She shoulds go.",
+     "She should go.",
+     "Niente -s."
+    ],
+    [
+     "I should studied more.",
+     "I should have studied more.",
+     "Per il passato: should have + participio."
+    ],
+    [
+     "I think he shouldn't go.",
+     "I don't think he should go.",
+     "In inglese si nega il verbo think."
+    ],
+    [
+     "Do I should call her?",
+     "Should I call her?",
+     "Should non vuole do."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "You look tired. You ___ rest.",
+     "options": [
+      "should",
+      "shoulds",
+      "do should"
+     ],
+     "correct_index": 0,
+     "explanation": "Consiglio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You ___ eat so much sugar. It's bad for you. (should / shouldn't)",
+     "accepted_answers": [
+      "shouldn't"
+     ],
+     "explanation": "Shouldn't + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ I call her?",
+     "options": [
+      "Should",
+      "Do",
+      "Must"
+     ],
+     "correct_index": 0,
+     "explanation": "Should I?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I think you should ___ more water. (drink)",
+     "accepted_answers": [
+      "drink"
+     ],
+     "explanation": "Should + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ studied more. I failed the exam.",
+     "options": [
+      "should have",
+      "should has",
+      "should"
+     ],
+     "correct_index": 0,
+     "explanation": "Rimpianto: should have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You shouldn't ___ said that. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Shouldn't have said."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I don't think she should go.",
+      "I think she shouldn't go.",
+      "I don't think she shouldn't go."
+     ],
+     "correct_index": 0,
+     "explanation": "I don't think + should."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "He should to see a doctor.",
+      "He should see a doctor.",
+      "He shouldn't smoke."
+     ],
+     "correct_index": 0,
+     "explanation": "Niente to dopo should."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ arrive on time. (dovrebbero)",
+     "accepted_answers": [
+      "should"
+     ],
+     "explanation": "Should."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We should ___ left earlier. (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Should have left."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which one means advice?",
+     "options": [
+      "You should try this restaurant.",
+      "You mustn't try this restaurant.",
+      "You have try this restaurant."
+     ],
+     "correct_index": 0,
+     "explanation": "Should = consiglio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Should I go? Yes, you ___.",
+     "options": [
+      "should",
+      "do",
+      "must to"
+     ],
+     "correct_index": 0,
+     "explanation": "Yes, you should."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ not work so hard. (should / does)",
+     "accepted_answers": [
+      "should"
+     ],
+     "explanation": "She should not (shouldn't)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You ___ better take an umbrella. (had / have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Had better."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence expresses a regret?",
+     "options": [
+      "I should have called her.",
+      "I should call her.",
+      "I shouldn't call her."
+     ],
+     "correct_index": 0,
+     "explanation": "Should have + participio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "You ought to rest.",
+      "You ought rest.",
+      "You ought resting."
+     ],
+     "correct_index": 0,
+     "explanation": "Ought to + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He shouldn't have ___ so fast. (drive)",
+     "accepted_answers": [
+      "driven"
+     ],
+     "explanation": "Drive → driven."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What should I do? — You ___ talk to him.",
+     "options": [
+      "should",
+      "does",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "Consiglio."
+    }
+   ]
+  },
+  {
+   "id": "b1-mdm",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Modali: dovere all'indicativo (have to, must)",
+   "desc": "Must e have to per l'obbligo, mustn't e don't have to per il divieto e l'assenza di obbligo.",
+   "lead": "**Must** e **have to** esprimono l'**obbligo**. **Must** è un'obbligazione sentita da chi parla; **have to** è un obbligo che viene da fuori (regole, leggi, orari). Attenzione ai negativi: hanno significati opposti.",
+   "tip": "**Mustn't** = è vietato. **Don't have to** = non è necessario (puoi, ma non sei obbligato).",
+   "blocks": [
+    {
+     "h": "Must e have to",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "must (sento io il dovere)",
+        "I **must** study tonight."
+       ],
+       [
+        "have to (regola o necessità)",
+        "I **have to** wear a uniform."
+       ],
+       [
+        "have to al passato",
+        "I **had to** work yesterday."
+       ],
+       [
+        "have to al futuro",
+        "I **will have to** wait."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "I due negativi",
+     "table": {
+      "head": [
+       "Forma",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "mustn't",
+        "è vietato",
+        "You **mustn't** park here."
+       ],
+       [
+        "don't have to",
+        "non è necessario",
+        "You **don't have to** come."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Domanda con have to",
+     "p": "Have to è un verbo normale: serve **do / does**.",
+     "ex": [
+      "**Do** you **have to** work on Sunday?",
+      "She **doesn't have to** wake up early."
+     ]
+    },
+    {
+     "h": "Must al passato",
+     "p": "**Must** non ha il passato. Si usa **had to**.",
+     "ex": [
+      "Yesterday I **had to** work late. (non *I musted*)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "You don't must go.",
+     "You mustn't go. / You don't have to go.",
+     "Must non vuole do."
+    ],
+    [
+     "I musted work yesterday.",
+     "I had to work yesterday.",
+     "Must non ha il passato."
+    ],
+    [
+     "She has to works.",
+     "She has to work.",
+     "Dopo have to la base."
+    ],
+    [
+     "Must you to go?",
+     "Must you go? / Do you have to go?",
+     "Niente to dopo must."
+    ],
+    [
+     "You mustn't wear a tie.",
+     "You don't have to wear a tie.",
+     "Non è obbligatorio: don't have to."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "You ___ smoke here. It's forbidden.",
+     "options": [
+      "mustn't",
+      "don't have to",
+      "haven't to"
+     ],
+     "correct_index": 0,
+     "explanation": "Divieto: mustn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You ___ come with me. You can stay here if you want.",
+     "options": [
+      "don't have to",
+      "mustn't",
+      "can't must"
+     ],
+     "correct_index": 0,
+     "explanation": "Non obbligatorio: don't have to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Yesterday I ___ to work late. (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Had to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ to wear a uniform at work. (has / have)",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation": "She has to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you have to work on Saturday?",
+     "options": [
+      "Do",
+      "Must",
+      "Are"
+     ],
+     "correct_index": 0,
+     "explanation": "Have to vuole do."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He has to study.",
+      "He has to studies.",
+      "He must to study."
+     ],
+     "correct_index": 0,
+     "explanation": "Has to + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ have to wait. (will / do)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Will have to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I must ___ my mother tonight. (call)",
+     "accepted_answers": [
+      "call"
+     ],
+     "explanation": "Must + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I musted go yesterday.",
+      "I had to go yesterday.",
+      "I must go now."
+     ],
+     "correct_index": 0,
+     "explanation": "Must non ha il passato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You ___ pay to enter. It's free.",
+     "options": [
+      "don't have to",
+      "mustn't",
+      "musn't to"
+     ],
+     "correct_index": 0,
+     "explanation": "Non è necessario."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Does she ___ to get up early? (have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "Does + have to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "You ___ drive on the left in the UK. (must / do)",
+     "accepted_answers": [
+      "must"
+     ],
+     "explanation": "Obbligo: must."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence means «è vietato»?",
+     "options": [
+      "You mustn't touch it.",
+      "You don't have to touch it.",
+      "You haven't touch it."
+     ],
+     "correct_index": 0,
+     "explanation": "Mustn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "They don't have to pay.",
+      "They doesn't have to pay.",
+      "They don't must pay."
+     ],
+     "correct_index": 0,
+     "explanation": "They don't have to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm tired, but I ___ to finish this report. (have / must)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "I have to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ to leave early yesterday. (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Had to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Do I have to go? No, you ___.",
+     "options": [
+      "don't",
+      "mustn't",
+      "haven't"
+     ],
+     "correct_index": 0,
+     "explanation": "No, you don't (have to)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Students ___ wear a uniform at this school. (regola della scuola)",
+     "options": [
+      "have to",
+      "mustn't",
+      "don't"
+     ],
+     "correct_index": 0,
+     "explanation": "Regola esterna: have to."
+    }
+   ]
+  },
+  {
+   "id": "b1-mdi",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Modali: introduzione",
+   "desc": "Che cosa sono i verbi modali e le tre regole che valgono per tutti: niente -s, niente do, verbo base.",
+   "lead": "I **verbi modali** (can, could, may, might, must, should, will, would) aggiungono un significato agli altri verbi: possibilità, permesso, dovere, consiglio. Si comportano in modo diverso dagli altri verbi.",
+   "tip": "Tre regole: **niente -s** alla terza persona, **niente do / does** per negativa e domanda, **verbo base** senza to dopo il modale.",
+   "blocks": [
+    {
+     "h": "Le tre regole",
+     "table": {
+      "head": [
+       "Regola",
+       "Esempio",
+       "Errore"
+      ],
+      "rows": [
+       [
+        "niente -s",
+        "She **can** swim.",
+        "She cans swim."
+       ],
+       [
+        "niente do",
+        "**Can** you help? / I **can't** go.",
+        "Do you can help?"
+       ],
+       [
+        "base senza to",
+        "He **must** go.",
+        "He must to go."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Cosa esprimono",
+     "table": {
+      "head": [
+       "Significato",
+       "Modali"
+      ],
+      "rows": [
+       [
+        "capacità",
+        "can, could"
+       ],
+       [
+        "permesso",
+        "can, could, may"
+       ],
+       [
+        "possibilità",
+        "may, might, could"
+       ],
+       [
+        "obbligo",
+        "must, have to"
+       ],
+       [
+        "consiglio",
+        "should"
+       ],
+       [
+        "richiesta cortese",
+        "could, would"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Il modale fa tutto da solo: per la negativa si aggiunge **not**, per la domanda si inverte il soggetto.",
+     "ex": [
+      "I **can't** swim. / **Can** you swim?",
+      "He **shouldn't** go. / **Should** he go?"
+     ]
+    },
+    {
+     "h": "Forme brevi",
+     "ex": [
+      "can't (cannot) · couldn't · mustn't · shouldn't · wouldn't",
+      "**mightn't** e **mayn't** sono rare: si dice *might not* e *may not*."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "She cans swim.",
+     "She can swim.",
+     "I modali non prendono -s."
+    ],
+    [
+     "Do you can help me?",
+     "Can you help me?",
+     "I modali non vogliono do."
+    ],
+    [
+     "He must to go.",
+     "He must go.",
+     "Dopo il modale niente to."
+    ],
+    [
+     "I can to speak English.",
+     "I can speak English.",
+     "Niente to dopo can."
+    ],
+    [
+     "She doesn't can come.",
+     "She can't come.",
+     "La negativa di can è can't."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ speak three languages.",
+     "options": [
+      "can",
+      "cans",
+      "does can"
+     ],
+     "correct_index": 0,
+     "explanation": "Niente -s."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ swim when I was five. (can / could)",
+     "accepted_answers": [
+      "could"
+     ],
+     "explanation": "Passato di can: could."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He must go home.",
+      "He must to go home.",
+      "He musts go home."
+     ],
+     "correct_index": 0,
+     "explanation": "Modale + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ you help me, please? (Can / Do)",
+     "accepted_answers": [
+      "Can"
+     ],
+     "explanation": "Domanda con can."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "Do you can swim?",
+      "Can you swim?",
+      "Could you swim?"
+     ],
+     "correct_index": 0,
+     "explanation": "I modali non vogliono do."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She shouldn't ___ so late. (stay)",
+     "accepted_answers": [
+      "stay"
+     ],
+     "explanation": "Modale + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which modal expresses advice?",
+     "options": [
+      "should",
+      "can",
+      "may"
+     ],
+     "correct_index": 0,
+     "explanation": "Should = consiglio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which modal expresses obligation?",
+     "options": [
+      "must",
+      "might",
+      "could"
+     ],
+     "correct_index": 0,
+     "explanation": "Must = obbligo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm sorry, I ___ speak Chinese. (can / can't)",
+     "accepted_answers": [
+      "can't",
+      "cannot"
+     ],
+     "explanation": "Non lo so parlare: can't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I might be late.",
+      "I might to be late.",
+      "I mights be late."
+     ],
+     "correct_index": 0,
+     "explanation": "Might + be."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ be at home. (might / does)",
+     "accepted_answers": [
+      "might"
+     ],
+     "explanation": "Possibilità: might."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The negative of must is:",
+     "options": [
+      "mustn't",
+      "don't must",
+      "not must"
+     ],
+     "correct_index": 0,
+     "explanation": "Mustn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which question is correct?",
+     "options": [
+      "Should I call him?",
+      "Do I should call him?",
+      "Should I to call him?"
+     ],
+     "correct_index": 0,
+     "explanation": "Should + soggetto + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ drive a car. She is only 12. (can't / doesn't)",
+     "accepted_answers": [
+      "can't"
+     ],
+     "explanation": "Non può guidare: can't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "He could play the piano when he was young.",
+      "He could played the piano when he was young.",
+      "He could to play the piano when he was young."
+     ],
+     "correct_index": 0,
+     "explanation": "Could + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "May I ___ the window? (open)",
+     "accepted_answers": [
+      "open"
+     ],
+     "explanation": "May + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which modal is for a polite request?",
+     "options": [
+      "could",
+      "must",
+      "might"
+     ],
+     "correct_index": 0,
+     "explanation": "Could you...?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "You shouldn't smoke here.",
+      "You don't should smoke here.",
+      "You shouldn't to smoke here."
+     ],
+     "correct_index": 0,
+     "explanation": "Shouldn't + base."
+    }
+   ]
+  },
+  {
+   "id": "b1-mdcd",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Modali: potere al condizionale (could, might, may)",
+   "desc": "Could, might e may: possibilità, probabilità, permesso e richieste cortesi.",
+   "lead": "**Could**, **might** e **may** esprimono la **possibilità**: qualcosa che forse succede o è vero. **Could** e **may** servono anche per chiedere il permesso in modo cortese.",
+   "tip": "**May / might / could** = forse. **May** è più probabile, **might** e **could** meno. Per una richiesta cortese: **Could you...?** Per un permesso formale: **May I...?**",
+   "blocks": [
+    {
+     "h": "Possibilità",
+     "table": {
+      "head": [
+       "Modale",
+       "Probabilità",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "may",
+        "abbastanza possibile",
+        "It **may** rain."
+       ],
+       [
+        "might",
+        "meno possibile",
+        "She **might** be late."
+       ],
+       [
+        "could",
+        "possibile",
+        "It **could** be true."
+       ]
+      ]
+     },
+     "ex": [
+      "Negativa: **may not** / **might not** (forse non).",
+      "**Couldn't** vuol dire impossibile: **He couldn't be the thief. He was in Paris.**"
+     ]
+    },
+    {
+     "h": "Possibilità nel passato",
+     "p": "Per il passato: modale + **have + participio**.",
+     "ex": [
+      "She **might have** missed the bus.",
+      "He **could have** forgotten.",
+      "They **may have** left already."
+     ]
+    },
+    {
+     "h": "Richieste e permessi cortesi",
+     "ex": [
+      "**Could** you open the window, please?",
+      "**May** I come in?",
+      "**Could** I ask a question?"
+     ]
+    },
+    {
+     "h": "Could come passato di can",
+     "ex": [
+      "When I was a child, I **could** climb trees."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "She might to be late.",
+     "She might be late.",
+     "Niente to dopo might."
+    ],
+    [
+     "It mays rain.",
+     "It may rain.",
+     "May non prende -s."
+    ],
+    [
+     "He might forgot.",
+     "He might have forgotten.",
+     "Possibilità nel passato: might have + participio."
+    ],
+    [
+     "Might you open the window?",
+     "Could you open the window?",
+     "Per le richieste si usa could."
+    ],
+    [
+     "It could rains.",
+     "It could rain.",
+     "Could + base."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "It's cloudy. It ___ rain later.",
+     "options": [
+      "might",
+      "mights",
+      "is might"
+     ],
+     "correct_index": 0,
+     "explanation": "Possibilità."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ be at home. (may / does)",
+     "accepted_answers": [
+      "may"
+     ],
+     "explanation": "May + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you pass me the salt, please?",
+     "options": [
+      "Could",
+      "Might",
+      "Must"
+     ],
+     "correct_index": 0,
+     "explanation": "Richiesta cortese: could."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ I come in? (May / Do)",
+     "accepted_answers": [
+      "May"
+     ],
+     "explanation": "Permesso formale."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He might be late.",
+      "He might to be late.",
+      "He mights be late."
+     ],
+     "correct_index": 0,
+     "explanation": "Might + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She isn't here. She ___ missed the bus.",
+     "options": [
+      "might have",
+      "might has",
+      "might to have"
+     ],
+     "correct_index": 0,
+     "explanation": "Passato: might have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They may ___ left already. (have / has)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "May have + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ be the thief. He was in Paris all week. (couldn't / might)",
+     "accepted_answers": [
+      "couldn't"
+     ],
+     "explanation": "Impossibile: couldn't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which expresses a polite request?",
+     "options": [
+      "Could you help me?",
+      "You help me?",
+      "Do you can help me?"
+     ],
+     "correct_index": 0,
+     "explanation": "Could you...?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'm not sure. I ___ go to the party.",
+     "options": [
+      "may",
+      "do",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "Forse vado: may."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "It ___ snow tomorrow. (might / does)",
+     "accepted_answers": [
+      "might"
+     ],
+     "explanation": "Might + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She might not ___ the answer. (know)",
+     "accepted_answers": [
+      "know"
+     ],
+     "explanation": "Might not + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "It mays rain.",
+      "It may rain.",
+      "It might rain."
+     ],
+     "correct_index": 0,
+     "explanation": "May non prende -s."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We ___ visit Rome next year, but we haven't decided yet.",
+     "options": [
+      "might",
+      "did",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "Possibilità."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ have forgotten the keys. (might / does)",
+     "accepted_answers": [
+      "might"
+     ],
+     "explanation": "Might have forgotten."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Excuse me, ___ I ask you a question? (may / do)",
+     "accepted_answers": [
+      "may"
+     ],
+     "explanation": "May I?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "She could have called.",
+      "She could has called.",
+      "She could called."
+     ],
+     "correct_index": 0,
+     "explanation": "Could have + participio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is the most polite?",
+     "options": [
+      "Could I borrow your pen?",
+      "Give me your pen.",
+      "I borrow your pen."
+     ],
+     "correct_index": 0,
+     "explanation": "Could I...?"
+    }
+   ]
+  },
+  {
+   "id": "b1-mdcan",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Modali: potere all'indicativo (be able to, can)",
+   "desc": "Can per capacità, possibilità e permesso, e be able to quando can non ha la forma che serve.",
+   "lead": "**Can** si usa per dire che **si è capaci** di fare qualcosa, che **è possibile** o che si ha il **permesso**. **Be able to** significa la stessa cosa ma ha tutte le forme: passato, futuro, present perfect.",
+   "tip": "**Can** solo presente (e could al passato). **Be able to** in tutti gli altri tempi: *I'll be able to*, *I have been able to*.",
+   "blocks": [
+    {
+     "h": "Can",
+     "table": {
+      "head": [
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "capacità",
+        "I **can** swim."
+       ],
+       [
+        "possibilità",
+        "We **can** go by train."
+       ],
+       [
+        "permesso",
+        "**Can** I sit here?"
+       ],
+       [
+        "richiesta",
+        "**Can** you help me?"
+       ]
+      ]
+     },
+     "ex": [
+      "Negativa: **can't** (cannot). Domanda: **Can** she come?"
+     ]
+    },
+    {
+     "h": "Be able to",
+     "p": "Ha lo stesso significato di can, ma serve dove can non esiste.",
+     "table": {
+      "head": [
+       "Tempo",
+       "Forma"
+      ],
+      "rows": [
+       [
+        "Present Simple",
+        "I **am able to** swim."
+       ],
+       [
+        "Past Simple",
+        "I **was able to** swim."
+       ],
+       [
+        "Future",
+        "I **will be able to** swim."
+       ],
+       [
+        "Present Perfect",
+        "I **have been able to** swim."
+       ],
+       [
+        "Infinito",
+        "I'd like **to be able to** swim."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Could o was able to?",
+     "p": "Per una capacità generale nel passato: **could**. Per una cosa riuscita in una sola occasione: **was able to**.",
+     "ex": [
+      "When I was ten, I **could** swim. (in generale)",
+      "I **was able to** finish the report yesterday. (una volta, ci sono riuscito)"
+     ]
+    },
+    {
+     "h": "Futuro",
+     "ex": [
+      "Non: *I will can*. → **I will be able to** come.",
+      "Non: *I have could*. → **I have been able to** help."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I will can come.",
+     "I will be able to come.",
+     "Can non ha il futuro."
+    ],
+    [
+     "I have could finish.",
+     "I have been able to finish.",
+     "Can non ha il Present Perfect."
+    ],
+    [
+     "I can to swim.",
+     "I can swim.",
+     "Niente to dopo can."
+    ],
+    [
+     "She cans swim.",
+     "She can swim.",
+     "Niente -s."
+    ],
+    [
+     "I could win the match yesterday. (ci sono riuscito)",
+     "I was able to win the match yesterday.",
+     "Per una cosa riuscita una volta: was able to."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ swim when I was five.",
+     "options": [
+      "could",
+      "can",
+      "will can"
+     ],
+     "correct_index": 0,
+     "explanation": "Capacità nel passato: could."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Next year I ___ be able to drive. (will / can)",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation": "Futuro: will be able to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I would like to ___ to speak French.",
+     "options": [
+      "be able",
+      "can",
+      "could"
+     ],
+     "correct_index": 0,
+     "explanation": "Infinito: to be able to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ not able to come yesterday. (was / were)",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation": "She was not able to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "We will be able to help you.",
+      "We will can help you.",
+      "We will could help you."
+     ],
+     "correct_index": 0,
+     "explanation": "Futuro: will be able to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ I use your phone?",
+     "options": [
+      "Can",
+      "Am able",
+      "Do"
+     ],
+     "correct_index": 0,
+     "explanation": "Permesso: can."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I haven't ___ able to sleep this week. (be)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Have been able to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ swim very well. He is a champion. (can / cans)",
+     "accepted_answers": [
+      "can"
+     ],
+     "explanation": "Can."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I was able to finish the report yesterday.",
+      "I could finished the report yesterday.",
+      "I can finished the report yesterday."
+     ],
+     "correct_index": 0,
+     "explanation": "Riuscita una volta: was able to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "When I was young, I ___ run very fast.",
+     "options": [
+      "could",
+      "was able",
+      "can"
+     ],
+     "correct_index": 0,
+     "explanation": "Capacità generale passata: could."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They won't ___ able to come tomorrow. (be)",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation": "Won't be able to."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "___ you swim when you were a child? (Could / Did)",
+     "accepted_answers": [
+      "Could"
+     ],
+     "explanation": "Could you swim?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "She will can come.",
+      "She can come.",
+      "She will be able to come."
+     ],
+     "correct_index": 0,
+     "explanation": "Can non ha il futuro."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which modal is used for permission?",
+     "options": [
+      "can",
+      "must",
+      "would"
+     ],
+     "correct_index": 0,
+     "explanation": "Can I...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'm sorry, I ___ help you. (can / can't)",
+     "accepted_answers": [
+      "can't",
+      "cannot"
+     ],
+     "explanation": "Non posso aiutarti: can't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We were ___ to see the sea from the hotel. (able / can)",
+     "accepted_answers": [
+      "able"
+     ],
+     "explanation": "Were able to."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Can you play the guitar? No, I ___.",
+     "options": [
+      "can't",
+      "don't",
+      "am not"
+     ],
+     "correct_index": 0,
+     "explanation": "No, I can't."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I haven't ___ to find a job.",
+     "options": [
+      "been able",
+      "could",
+      "can"
+     ],
+     "correct_index": 0,
+     "explanation": "Present Perfect: been able to."
+    }
+   ]
+  },
+  {
+   "id": "b1-pc",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Past Continuous",
+   "desc": "Was / were + -ing: l'azione in corso nel passato, e il contrasto con il Past Simple (when e while).",
+   "lead": "Il **Past Continuous** descrive un'azione **in corso** in un momento del passato: *At 8 I was having breakfast.* Si usa per lo sfondo di una storia e per le azioni interrotte.",
+   "tip": "**was / were + verbo-ing**. Azione lunga = Past Continuous, azione breve che la interrompe = Past Simple.",
+   "blocks": [
+    {
+     "h": "Forma",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "I **was working**. / They **were working**."
+       ],
+       [
+        "Negativa",
+        "He **wasn't working**. / We **weren't working**."
+       ],
+       [
+        "Domanda",
+        "**Was** she **working**? / **Were** you **working**?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Quando si usa",
+     "ex": [
+      "Azione in corso a un'ora precisa: **At 9 pm I was watching TV.**",
+      "Due azioni nello stesso momento: **I was cooking while he was studying.**",
+      "Azione lunga interrotta da una breve: **I was walking home when it started to rain.**"
+     ]
+    },
+    {
+     "h": "When e while",
+     "p": "**While** + azione lunga (Past Continuous). **When** + azione breve (Past Simple).",
+     "ex": [
+      "**While** I was sleeping, the phone rang.",
+      "I was sleeping **when** the phone rang."
+     ]
+    },
+    {
+     "h": "Verbi che di solito non vogliono la forma -ing",
+     "p": "I verbi di stato (know, like, want, love, understand) di solito si usano al Past Simple.",
+     "ex": [
+      "I **knew** the answer. (non *I was knowing*)",
+      "She **wanted** a coffee."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I was watch TV.",
+     "I was watching TV.",
+     "Dopo was / were il verbo vuole -ing."
+    ],
+    [
+     "While I walked, it started to rain.",
+     "While I was walking, it started to rain.",
+     "While + azione lunga: Past Continuous."
+    ],
+    [
+     "I was knowing the answer.",
+     "I knew the answer.",
+     "Know non si usa in forma -ing."
+    ],
+    [
+     "They was playing football.",
+     "They were playing football.",
+     "They → were."
+    ],
+    [
+     "Did you sleeping when I called?",
+     "Were you sleeping when I called?",
+     "Il Past Continuous usa was / were, non did."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "At 8 o'clock last night I ___ dinner.",
+     "options": [
+      "was having",
+      "had",
+      "am having"
+     ],
+     "correct_index": 0,
+     "explanation": "Azione in corso a un'ora precisa."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ football when it started to rain. (play)",
+     "accepted_answers": [
+      "were playing"
+     ],
+     "explanation": "Were + playing."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "While she ___, her phone rang.",
+     "options": [
+      "was driving",
+      "drove",
+      "has driven"
+     ],
+     "correct_index": 0,
+     "explanation": "While + azione lunga."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I was ___ a book when you called. (read)",
+     "accepted_answers": [
+      "reading"
+     ],
+     "explanation": "Was + reading."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I was sleeping ___ the phone rang.",
+     "options": [
+      "when",
+      "while",
+      "during"
+     ],
+     "correct_index": 0,
+     "explanation": "When + azione breve."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you studying at 10 pm yesterday?",
+     "options": [
+      "Were",
+      "Did",
+      "Was"
+     ],
+     "correct_index": 0,
+     "explanation": "You → were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He wasn't ___ attention. (pay)",
+     "accepted_answers": [
+      "paying"
+     ],
+     "explanation": "Wasn't + paying."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "We were walking when we saw an accident.",
+      "We walked when we were seeing an accident.",
+      "We were walk when we saw an accident."
+     ],
+     "correct_index": 0,
+     "explanation": "Azione lunga + azione breve."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What ___ you doing at midnight? (was / were)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "You → were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ the answer, so I stayed quiet.",
+     "options": [
+      "didn't know",
+      "wasn't knowing",
+      "didn't knew"
+     ],
+     "correct_index": 0,
+     "explanation": "Know è un verbo di stato: Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "While I was cooking, he ___ the table. (set)",
+     "accepted_answers": [
+      "was setting"
+     ],
+     "explanation": "Due azioni nello stesso momento."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "It was raining when I left home.",
+      "It rains when I left home.",
+      "It was rain when I left home."
+     ],
+     "correct_index": 0,
+     "explanation": "Sfondo in corso + azione breve."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Anna ___ in the garden when I arrived. (work)",
+     "accepted_answers": [
+      "was working"
+     ],
+     "explanation": "Was working."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The children ___ while their parents were talking.",
+     "options": [
+      "were playing",
+      "played",
+      "was playing"
+     ],
+     "correct_index": 0,
+     "explanation": "Children è plurale: were."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ TV, so I didn't hear the bell. (watch)",
+     "accepted_answers": [
+      "was watching"
+     ],
+     "explanation": "Azione in corso: was watching."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "While he ___ the car, his phone fell.",
+     "options": [
+      "was fixing",
+      "fixed",
+      "fixing"
+     ],
+     "correct_index": 0,
+     "explanation": "While + Past Continuous."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ sleeping when the fire alarm went off. (were / was)",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation": "They → were."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I was reading when he came in.",
+      "I read when he was coming in.",
+      "I was read when he came in."
+     ],
+     "correct_index": 0,
+     "explanation": "Azione lunga interrotta da quella breve."
+    }
+   ]
+  },
+  {
    "id": "a2-pastc",
    "level": "A2",
    "tag": "Verbi",
@@ -5383,6 +8611,305 @@
      ],
      "correct_index": 0,
      "explanation": "Il continuous descrive la scena."
+    }
+   ]
+  },
+  {
+   "id": "b1-ps",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Past Simple",
+   "desc": "Regolari e irregolari, negativa, domande e le parole del passato: tutto il Past Simple in un colpo solo.",
+   "lead": "Il **Past Simple** racconta azioni **concluse** in un momento passato preciso: *Yesterday I went to the gym.* Si usa per i fatti, per le storie e per le abitudini che non esistono più.",
+   "tip": "Affermativa: verbo al passato. Negativa e domanda: **did / didn't + verbo base**. Con did il verbo non prende mai il passato.",
+   "blocks": [
+    {
+     "h": "Affermativa: regolari e irregolari",
+     "p": "I verbi regolari aggiungono **-ed**. Gli irregolari hanno una forma da imparare (seconda colonna della tabella).",
+     "table": {
+      "head": [
+       "Tipo",
+       "Base",
+       "Passato"
+      ],
+      "rows": [
+       [
+        "regolare",
+        "work",
+        "worked"
+       ],
+       [
+        "regolare (-e)",
+        "live",
+        "lived"
+       ],
+       [
+        "regolare (consonante + y)",
+        "study",
+        "studied"
+       ],
+       [
+        "irregolare",
+        "go",
+        "went"
+       ],
+       [
+        "irregolare",
+        "buy",
+        "bought"
+       ],
+       [
+        "irregolare",
+        "see",
+        "saw"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Negativa e domanda",
+     "p": "Si usa **did** (per tutte le persone). Dopo did il verbo torna alla forma base.",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "She **watched** a film."
+       ],
+       [
+        "Negativa",
+        "She **didn't watch** a film."
+       ],
+       [
+        "Domanda",
+        "**Did** she **watch** a film?"
+       ],
+       [
+        "Risposta breve",
+        "Yes, she **did**. / No, she **didn't**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Le parole del passato",
+     "ex": [
+      "**yesterday**, **last week**, **last year**",
+      "**two days ago**, **a month ago**",
+      "**in 2015**, **in June**, **on Monday**",
+      "**when I was young**"
+     ]
+    },
+    {
+     "h": "Domande con parola interrogativa",
+     "ex": [
+      "**Where did** you **go** on holiday?",
+      "**What did** he **say**?",
+      "**Who** called you? (con who soggetto non si usa did)"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I didn't went to school.",
+     "I didn't go to school.",
+     "Dopo didn't il verbo resta alla base."
+    ],
+    [
+     "Did you saw him?",
+     "Did you see him?",
+     "Dopo did la base: see, non saw."
+    ],
+    [
+     "She goed to Rome.",
+     "She went to Rome.",
+     "Go è irregolare: went."
+    ],
+    [
+     "I have seen him yesterday.",
+     "I saw him yesterday.",
+     "Con yesterday serve il Past Simple."
+    ],
+    [
+     "Where you went?",
+     "Where did you go?",
+     "Le domande al passato vogliono did."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Last summer we ___ to Greece.",
+     "options": [
+      "go",
+      "went",
+      "gone"
+     ],
+     "correct_index": 1,
+     "explanation": "Go → went."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ a letter to her friend yesterday. (write)",
+     "accepted_answers": [
+      "wrote"
+     ],
+     "explanation": "Write → wrote."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my homework last night.",
+     "options": [
+      "didn't finish",
+      "didn't finished",
+      "not finished"
+     ],
+     "correct_index": 0,
+     "explanation": "Didn't + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ in Milan for ten years. (live)",
+     "accepted_answers": [
+      "lived"
+     ],
+     "explanation": "Live → lived."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you watch the match on Sunday?",
+     "options": [
+      "Did",
+      "Do",
+      "Were"
+     ],
+     "correct_index": 0,
+     "explanation": "Domanda al passato: did."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He didn't ___ the answer. (know)",
+     "accepted_answers": [
+      "know"
+     ],
+     "explanation": "Dopo didn't il verbo è alla base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She studied all night.",
+      "She studyed all night.",
+      "She studies all night yesterday."
+     ],
+     "correct_index": 0,
+     "explanation": "Study → studied."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ a great film last week. (see)",
+     "accepted_answers": [
+      "saw"
+     ],
+     "explanation": "See → saw."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "What time ___ you get up this morning?",
+     "options": [
+      "did",
+      "do",
+      "were"
+     ],
+     "correct_index": 0,
+     "explanation": "What time did you...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Did he ___ you the money? (give)",
+     "accepted_answers": [
+      "give"
+     ],
+     "explanation": "Dopo did la base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I bought a new phone two days ago.",
+      "I have bought a new phone two days ago.",
+      "I buy a new phone two days ago."
+     ],
+     "correct_index": 0,
+     "explanation": "Two days ago vuole il Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ my keys yesterday and I couldn't open the door. (lose)",
+     "accepted_answers": [
+      "lost"
+     ],
+     "explanation": "Lose → lost."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Who ___ the window?",
+     "options": [
+      "broke",
+      "did break",
+      "did broke"
+     ],
+     "correct_index": 0,
+     "explanation": "Con who soggetto non si usa did."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ not like the food, so she left. (do + not)",
+     "accepted_answers": [
+      "did"
+     ],
+     "explanation": "Did not (didn't) like."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where ___ you born?",
+     "options": [
+      "did",
+      "was",
+      "were"
+     ],
+     "correct_index": 2,
+     "explanation": "Nato = were born con you."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My parents ___ married in 1995. (get)",
+     "accepted_answers": [
+      "got"
+     ],
+     "explanation": "Get → got."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Rispondi: Did you call her? No, I ___.",
+     "options": [
+      "didn't",
+      "wasn't",
+      "don't"
+     ],
+     "correct_index": 0,
+     "explanation": "No, I didn't."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ to school by bus when he was young. (go)",
+     "accepted_answers": [
+      "went"
+     ],
+     "explanation": "Go → went."
     }
    ]
   },
@@ -7496,6 +11023,1622 @@
      ],
      "correct_index": 1,
      "explanation": "Sto + gerundio = am + -ing."
+    }
+   ]
+  },
+  {
+   "id": "b1-ppps",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Present Perfect Simple vs Past Simple",
+   "desc": "Quando usare il Present Perfect e quando il Past Simple: il momento preciso fa la differenza.",
+   "lead": "La regola d'oro: se dici **quando** è successo (momento finito e preciso) usi il **Past Simple**. Se il momento non c'è, o il periodo non è ancora finito, usi il **Present Perfect**.",
+   "tip": "**Momento preciso o periodo finito** (yesterday, last year, in 2019, ago) = Past Simple. **Periodo non finito o senza tempo** (ever, never, today, since, for) = Present Perfect.",
+   "blocks": [
+    {
+     "h": "Il confronto",
+     "table": {
+      "head": [
+       "",
+       "Past Simple",
+       "Present Perfect"
+      ],
+      "rows": [
+       [
+        "Tempo",
+        "finito, preciso",
+        "non finito, o non detto"
+       ],
+       [
+        "Parole tipiche",
+        "yesterday, last week, in 2019, ago",
+        "ever, never, just, already, yet, since, for, so far"
+       ],
+       [
+        "Esempio",
+        "I **saw** him **yesterday**.",
+        "I **have seen** him **today**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Il legame con il presente",
+     "p": "Il Present Perfect ha un collegamento con **adesso**; il Past Simple parla solo del passato.",
+     "ex": [
+      "I **lost** my keys **yesterday**. (e poi?)",
+      "I **have lost** my keys. (e non li trovo adesso)"
+     ]
+    },
+    {
+     "h": "Vivere e lavorare",
+     "p": "Se la persona vive ancora lì, Present Perfect. Se non vive più lì, Past Simple.",
+     "ex": [
+      "I **have lived** in Rome for ten years. (e ci vivo ancora)",
+      "I **lived** in Rome for ten years. (adesso non più)"
+     ]
+    },
+    {
+     "h": "Una storia",
+     "p": "Si comincia con il Present Perfect (nuova informazione) e poi si passa al Past Simple (dettagli).",
+     "ex": [
+      "**I've seen** a great film. It **was** about a dog. I **loved** it."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I have seen him yesterday.",
+     "I saw him yesterday.",
+     "Yesterday è un momento preciso."
+    ],
+    [
+     "Did you ever see a bear?",
+     "Have you ever seen a bear?",
+     "Ever nella domanda sulle esperienze: Present Perfect."
+    ],
+    [
+     "I lived here since 2018.",
+     "I have lived here since 2018.",
+     "Since e for vogliono il Present Perfect."
+    ],
+    [
+     "She has gone to Rome in 2019.",
+     "She went to Rome in 2019.",
+     "In 2019 è un momento preciso."
+    ],
+    [
+     "I have finished it two minutes ago.",
+     "I finished it two minutes ago.",
+     "Ago vuole il Past Simple."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ him yesterday.",
+     "options": [
+      "saw",
+      "have seen",
+      "have saw"
+     ],
+     "correct_index": 0,
+     "explanation": "Yesterday: Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ him today. (la giornata non è finita)",
+     "options": [
+      "have seen",
+      "saw",
+      "did see"
+     ],
+     "correct_index": 0,
+     "explanation": "Today non è finito: Present Perfect."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ to Spain in 2019. (go)",
+     "accepted_answers": [
+      "went"
+     ],
+     "explanation": "In 2019: Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She has ___ here for ten years. (live)",
+     "accepted_answers": [
+      "lived"
+     ],
+     "explanation": "Ten years con for: Present Perfect."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I have never been to Japan.",
+      "I never went to Japan yet.",
+      "I haven't never been to Japan."
+     ],
+     "correct_index": 0,
+     "explanation": "Esperienze: Present Perfect."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "When ___ you buy that car?",
+     "options": [
+      "did",
+      "have",
+      "do"
+     ],
+     "correct_index": 0,
+     "explanation": "When + Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ my phone two days ago. (lose)",
+     "accepted_answers": [
+      "lost"
+     ],
+     "explanation": "Two days ago: Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Have you ___ lunch yet? (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Yet: Present Perfect."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "He worked here for five years. Now he works somewhere else.",
+      "He has worked here for five years. Now he works somewhere else.",
+      "He worked here since 2015."
+     ],
+     "correct_index": 0,
+     "explanation": "Ora non lavora più qui: Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence means he still lives in Milan?",
+     "options": [
+      "He has lived in Milan for six years.",
+      "He lived in Milan for six years.",
+      "He was living in Milan for six years."
+     ],
+     "correct_index": 0,
+     "explanation": "Vive ancora: Present Perfect."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How long have you ___ him? (know)",
+     "accepted_answers": [
+      "known"
+     ],
+     "explanation": "How long + Present Perfect."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ read this book. (mai)",
+     "accepted_answers": [
+      "never"
+     ],
+     "explanation": "Never."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my homework last night.",
+     "options": [
+      "did",
+      "have done",
+      "do"
+     ],
+     "correct_index": 0,
+     "explanation": "Last night: Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ already finished the report.",
+     "options": [
+      "has",
+      "have",
+      "did"
+     ],
+     "correct_index": 0,
+     "explanation": "She → has + already."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ a fantastic film last week. (see)",
+     "accepted_answers": [
+      "saw"
+     ],
+     "explanation": "Last week: Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ not arrived yet. (has / have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "They have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Have you ever been to London?",
+      "Did you ever been to London?",
+      "Have you ever went to London?"
+     ],
+     "correct_index": 0,
+     "explanation": "Have you ever been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I've visited London three times this year.",
+      "I visited London three times this year.",
+      "I've visited London three times last year."
+     ],
+     "correct_index": 0,
+     "explanation": "This year non è finito."
+    }
+   ]
+  },
+  {
+   "id": "b1-ppi",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Present Perfect Simple: introduzione",
+   "desc": "Che cos'è il Present Perfect, come si forma (have / has + participio) e perché non si traduce sempre con il passato prossimo.",
+   "lead": "Il **Present Perfect** collega il passato al presente: parla di qualcosa che è successo **senza dire quando**, oppure di qualcosa che continua fino a oggi. In italiano ha spesso la forma del passato prossimo, ma **non è lo stesso tempo**.",
+   "tip": "**have / has + participio passato.** Il momento preciso non c'è: se c'è *yesterday* o *in 2019* si usa il Past Simple.",
+   "blocks": [
+    {
+     "h": "La forma",
+     "table": {
+      "head": [
+       "",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "Affermativa",
+        "I **have** seen it. / She **has** seen it."
+       ],
+       [
+        "Negativa",
+        "I **haven't** seen it. / She **hasn't** seen it."
+       ],
+       [
+        "Domanda",
+        "**Have** you seen it? / **Has** she seen it?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Il participio passato",
+     "p": "I regolari sono uguali al Past Simple (-ed). Gli irregolari hanno una terza forma da imparare.",
+     "table": {
+      "head": [
+       "Base",
+       "Past Simple",
+       "Participio"
+      ],
+      "rows": [
+       [
+        "work",
+        "worked",
+        "worked"
+       ],
+       [
+        "go",
+        "went",
+        "gone"
+       ],
+       [
+        "see",
+        "saw",
+        "seen"
+       ],
+       [
+        "eat",
+        "ate",
+        "eaten"
+       ],
+       [
+        "write",
+        "wrote",
+        "written"
+       ],
+       [
+        "buy",
+        "bought",
+        "bought"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Che cosa esprime",
+     "ex": [
+      "Un'esperienza: **I have been to London.** (nella mia vita)",
+      "Un risultato di adesso: **I have lost my keys.** (e non li ho)",
+      "Un'azione cominciata nel passato e ancora vera: **I have lived here for five years.**"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I have went to Paris.",
+     "I have been to Paris.",
+     "Dopo have serve il participio: gone o been."
+    ],
+    [
+     "She have finished.",
+     "She has finished.",
+     "Con she / he / it si usa has."
+    ],
+    [
+     "Did you ever seen a whale?",
+     "Have you ever seen a whale?",
+     "Per le esperienze si usa il Present Perfect."
+    ],
+    [
+     "I have seen him yesterday.",
+     "I saw him yesterday.",
+     "Il momento preciso vuole il Past Simple."
+    ],
+    [
+     "I have saw this film.",
+     "I have seen this film.",
+     "Dopo have il participio: seen."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ her homework.",
+     "options": [
+      "has finished",
+      "have finished",
+      "has finish"
+     ],
+     "correct_index": 0,
+     "explanation": "She → has + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ this film three times. (see)",
+     "accepted_answers": [
+      "seen"
+     ],
+     "explanation": "See → seen."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "They have eaten.",
+      "They has eaten.",
+      "They have ate."
+     ],
+     "correct_index": 0,
+     "explanation": "Eat → eaten."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ not finished yet. (has / have)",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation": "He → has."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you ever been to Spain?",
+     "options": [
+      "Have",
+      "Has",
+      "Did"
+     ],
+     "correct_index": 0,
+     "explanation": "Domanda con you: have."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ the tickets. (buy)",
+     "accepted_answers": [
+      "bought"
+     ],
+     "explanation": "Buy → bought (stessa forma del passato)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "I have lost my phone.",
+      "I have lose my phone.",
+      "I has lost my phone."
+     ],
+     "correct_index": 0,
+     "explanation": "Lose → lost."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She hasn't ___ the email yet. (write)",
+     "accepted_answers": [
+      "written"
+     ],
+     "explanation": "Write → written."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence uses the Present Perfect correctly?",
+     "options": [
+      "I have lived here for ten years.",
+      "I have lived here in 2015.",
+      "I have lived here yesterday."
+     ],
+     "correct_index": 0,
+     "explanation": "For + durata va bene; i momenti precisi no."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Have they ___ their dinner? (finish)",
+     "accepted_answers": [
+      "finished"
+     ],
+     "explanation": "Finish → finished."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "He hasn't arrived.",
+      "He haven't arrived.",
+      "He hasn't arrive."
+     ],
+     "correct_index": 0,
+     "explanation": "Negativa: hasn't + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My brother has ___ the door. (open)",
+     "accepted_answers": [
+      "opened"
+     ],
+     "explanation": "Open → opened."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my wallet! Can you help me?",
+     "options": [
+      "have lost",
+      "lost yesterday",
+      "was losing"
+     ],
+     "correct_index": 0,
+     "explanation": "Risultato che conta adesso."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Has she ever ___ a horse? (ride)",
+     "accepted_answers": [
+      "ridden"
+     ],
+     "explanation": "Ride → ridden."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which question is correct?",
+     "options": [
+      "Have you done your homework?",
+      "Did you have done your homework?",
+      "Has you done your homework?"
+     ],
+     "correct_index": 0,
+     "explanation": "Have you + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ never been to the USA. (has / have)",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation": "I → have."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a Past Simple sentence?",
+     "options": [
+      "I saw him last week.",
+      "I have seen him.",
+      "I have been seeing him."
+     ],
+     "correct_index": 0,
+     "explanation": "Last week è un momento preciso."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We haven't ___ the news today. (hear)",
+     "accepted_answers": [
+      "heard"
+     ],
+     "explanation": "Hear → heard."
+    }
+   ]
+  },
+  {
+   "id": "b1-ppu",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Present Perfect Simple: struttura, usi, for e since",
+   "desc": "Gli usi principali del Present Perfect e la differenza tra for (durata) e since (punto di partenza).",
+   "lead": "Il **Present Perfect** si usa per **esperienze**, **risultati presenti** e **situazioni che durano ancora oggi**. Con le durate servono **for** e **since**.",
+   "tip": "**For** + quanto tempo (for two years). **Since** + da quando (since 2022). Dopo for e since: Present Perfect, non il presente come in italiano.",
+   "blocks": [
+    {
+     "h": "Gli usi principali",
+     "ex": [
+      "Esperienza: **I have been to Rome twice.**",
+      "Risultato presente: **She has broken her arm.**",
+      "Situazione che continua: **We have known each other for years.**"
+     ]
+    },
+    {
+     "h": "For e since",
+     "table": {
+      "head": [
+       "",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "for",
+        "per (durata)",
+        "for two hours, for a week, for ten years"
+       ],
+       [
+        "since",
+        "da (punto di partenza)",
+        "since Monday, since 2020, since I was a child"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Attenzione all'italiano",
+     "p": "In italiano si dice «Abito qui da 5 anni» (presente). In inglese serve il **Present Perfect**.",
+     "ex": [
+      "**I have lived** here for five years. (non *I live here since five years*)",
+      "**He has worked** here since 2019."
+     ]
+    },
+    {
+     "h": "How long...?",
+     "ex": [
+      "**How long have** you **known** her?",
+      "**How long has** he **lived** in Milan?"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I live here since 2018.",
+     "I have lived here since 2018.",
+     "Since vuole il Present Perfect."
+    ],
+    [
+     "I have worked here since five years.",
+     "I have worked here for five years.",
+     "Una durata vuole for."
+    ],
+    [
+     "She has been ill since three days.",
+     "She has been ill for three days.",
+     "Three days è una durata: for."
+    ],
+    [
+     "How long do you know him?",
+     "How long have you known him?",
+     "How long + Present Perfect."
+    ],
+    [
+     "We have met since 2015.",
+     "We have known each other since 2015.",
+     "Meet è un'azione puntuale: qui serve know."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I have lived here ___ 2015.",
+     "options": [
+      "for",
+      "since",
+      "from"
+     ],
+     "correct_index": 1,
+     "explanation": "2015 è un punto di partenza: since."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has worked here ___ three years.",
+     "options": [
+      "for",
+      "since",
+      "ago"
+     ],
+     "correct_index": 0,
+     "explanation": "Three years è una durata: for."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have known each other ___ we were children. (for / since)",
+     "accepted_answers": [
+      "since"
+     ],
+     "explanation": "Since + frase."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He has been ill ___ a week. (for / since)",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation": "A week è una durata: for."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How long ___ you studied English?",
+     "options": [
+      "have",
+      "did",
+      "do"
+     ],
+     "correct_index": 0,
+     "explanation": "How long + have you."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I have had this car since 2019.",
+      "I have this car since 2019.",
+      "I had this car since 2019."
+     ],
+     "correct_index": 0,
+     "explanation": "Have had + since."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have been married ___ ten years. (for / since)",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation": "Ten years: for."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I haven't seen her ___ Monday. (for / since)",
+     "accepted_answers": [
+      "since"
+     ],
+     "explanation": "Monday: since."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "She has been in Italy for two months.",
+      "She is in Italy since two months.",
+      "She has been in Italy since two months."
+     ],
+     "correct_index": 0,
+     "explanation": "Durata: for + Present Perfect."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "How long has she ___ here? (live)",
+     "accepted_answers": [
+      "lived"
+     ],
+     "explanation": "Has lived."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've known him ___ I was a child.",
+     "options": [
+      "for",
+      "since",
+      "from"
+     ],
+     "correct_index": 1,
+     "explanation": "Since + frase."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We've been waiting ___ an hour. (for / since)",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation": "An hour: for."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I live here for ten years.",
+      "I've lived here for ten years.",
+      "I've lived here since 2016."
+     ],
+     "correct_index": 0,
+     "explanation": "Con for e since serve il Present Perfect."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My brother has played the guitar ___ 2010. (for / since)",
+     "accepted_answers": [
+      "since"
+     ],
+     "explanation": "2010: since."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They've been friends ___ a long time.",
+     "options": [
+      "for",
+      "since",
+      "ago"
+     ],
+     "correct_index": 0,
+     "explanation": "A long time: for."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ in this company since January. (work)",
+     "accepted_answers": [
+      "worked"
+     ],
+     "explanation": "Have worked."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which question is correct?",
+     "options": [
+      "How long have they been here?",
+      "How long are they here?",
+      "How long did they been here?"
+     ],
+     "correct_index": 0,
+     "explanation": "How long have they been here?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She has ___ her car for two years. (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "Have → had."
+    }
+   ]
+  },
+  {
+   "id": "b1-ppt",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Present Perfect: avverbi ed espressioni di tempo",
+   "desc": "Ever, never, recently, so far, this week, today: le parole di tempo che si usano con il Present Perfect.",
+   "lead": "Con il **Present Perfect** si usano espressioni che indicano un periodo **non ancora finito** o un tempo indefinito: *ever, never, recently, so far, this week, today*.",
+   "tip": "Periodo ancora in corso (today, this week, this year) = Present Perfect. Periodo finito (yesterday, last week, in 2019) = Past Simple.",
+   "blocks": [
+    {
+     "h": "Tempo indefinito",
+     "table": {
+      "head": [
+       "Parola",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "ever (mai, nelle domande)",
+        "Have you **ever** been to London?"
+       ],
+       [
+        "never (mai, nelle risposte)",
+        "I have **never** been there."
+       ],
+       [
+        "recently / lately",
+        "I've been busy **recently**."
+       ],
+       [
+        "so far",
+        "We've done ten exercises **so far**."
+       ],
+       [
+        "before",
+        "I've seen it **before**."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Periodo non finito",
+     "ex": [
+      "I've called him **three times today**.",
+      "She hasn't been well **this week**.",
+      "**This year** I've read ten books."
+     ]
+    },
+    {
+     "h": "Periodo finito: Past Simple",
+     "ex": [
+      "I called him **yesterday**.",
+      "She was ill **last week**.",
+      "**In 2020** I read ten books."
+     ]
+    },
+    {
+     "h": "Dove vanno ever e never",
+     "p": "Stanno tra **have / has** e il **participio**.",
+     "ex": [
+      "Have you **ever** eaten sushi?",
+      "I've **never** seen a bear."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I have never went to Spain.",
+     "I have never been to Spain.",
+     "Dopo have il participio: been."
+    ],
+    [
+     "Did you ever try sushi?",
+     "Have you ever tried sushi?",
+     "Per le esperienze serve il Present Perfect."
+    ],
+    [
+     "I have seen him last week.",
+     "I saw him last week.",
+     "Last week è finito: Past Simple."
+    ],
+    [
+     "I've never not seen it.",
+     "I've never seen it.",
+     "Never è già negativo: niente not."
+    ],
+    [
+     "She has been ill yesterday.",
+     "She was ill yesterday.",
+     "Yesterday vuole il Past Simple."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "Have you ___ been to Paris?",
+     "options": [
+      "ever",
+      "never",
+      "yet"
+     ],
+     "correct_index": 0,
+     "explanation": "Nelle domande: ever."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ seen a ghost. (mai)",
+     "accepted_answers": [
+      "never"
+     ],
+     "explanation": "Never."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I've called him three times ___.",
+     "options": [
+      "today",
+      "yesterday",
+      "last night"
+     ],
+     "correct_index": 0,
+     "explanation": "Today è un periodo non finito."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She was ill last week.",
+      "She has been ill last week.",
+      "She is ill last week."
+     ],
+     "correct_index": 0,
+     "explanation": "Last week è finito: Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have done a lot of work ___ far. (finora)",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation": "So far = finora."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "This is the best film I have ___ seen.",
+     "options": [
+      "ever",
+      "yet",
+      "already"
+     ],
+     "correct_index": 0,
+     "explanation": "Ever dopo un superlativo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've been very busy ___ weeks. (di recente: lately / recently)",
+     "accepted_answers": [
+      "recently",
+      "lately"
+     ],
+     "explanation": "Recently o lately."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I have read three books this month.",
+      "I have read three books last month.",
+      "I read three books this month ago."
+     ],
+     "correct_index": 0,
+     "explanation": "This month non è finito."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Have you ___ eaten Japanese food? (mai)",
+     "accepted_answers": [
+      "ever"
+     ],
+     "explanation": "Ever."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where does never go?",
+     "options": [
+      "Tra have e il participio",
+      "In fondo alla frase",
+      "Prima di have"
+     ],
+     "correct_index": 0,
+     "explanation": "I have never been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ him yesterday. (see)",
+     "accepted_answers": [
+      "saw"
+     ],
+     "explanation": "Yesterday: Past Simple."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I've never been to Rome.",
+      "I've never not been to Rome.",
+      "I never have been to Rome."
+     ],
+     "correct_index": 0,
+     "explanation": "Never + participio."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've ___ this song before. (hear)",
+     "accepted_answers": [
+      "heard"
+     ],
+     "explanation": "Hear → heard."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which time word needs the Past Simple?",
+     "options": [
+      "in 2019",
+      "this week",
+      "so far"
+     ],
+     "correct_index": 0,
+     "explanation": "In 2019 è un periodo finito."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She has ___ been to London. (mai)",
+     "accepted_answers": [
+      "never"
+     ],
+     "explanation": "Never."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How many pages have you read ___?",
+     "options": [
+      "so far",
+      "last night",
+      "yesterday"
+     ],
+     "correct_index": 0,
+     "explanation": "So far = finora."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I haven't taken a holiday ___ year. (this / last)",
+     "accepted_answers": [
+      "this"
+     ],
+     "explanation": "This year: periodo ancora in corso."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "Have you ever tried snowboarding?",
+      "Did you ever tried snowboarding?",
+      "Have you ever try snowboarding?"
+     ],
+     "correct_index": 0,
+     "explanation": "Have you ever + participio."
+    }
+   ]
+  },
+  {
+   "id": "b1-ppb",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Present Perfect: Been e Gone",
+   "desc": "Been o gone? Essere stato in un posto e essere andato in un posto: la differenza che cambia il significato.",
+   "lead": "**Been** e **gone** sono due participi di **go**, ma dicono cose diverse: **has been** = è andato e **è tornato**; **has gone** = è andato e **non è ancora tornato**.",
+   "tip": "**Been** = andato e tornato (esperienza). **Gone** = andato e ancora lì.",
+   "blocks": [
+    {
+     "h": "La differenza",
+     "table": {
+      "head": [
+       "",
+       "Significato",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "been",
+        "è stato (ed è tornato)",
+        "She **has been** to Paris. (ora è qui)"
+       ],
+       [
+        "gone",
+        "è andato (ed è ancora via)",
+        "She **has gone** to Paris. (ora è là)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Been to e gone to",
+     "ex": [
+      "**I've been to** Spain three times.",
+      "**Have you ever been to** the USA?",
+      "**He's gone to** the shop. He'll be back soon."
+     ]
+    },
+    {
+     "h": "Con la persona che parla",
+     "p": "Con **I** e **you** di solito si usa **been**, perché la persona è qui davanti a noi.",
+     "ex": [
+      "I've **been** to the bank. (e adesso sono qui)",
+      "Have you **been** to the dentist? (e adesso sei qui)"
+     ]
+    },
+    {
+     "h": "Been con altri usi",
+     "ex": [
+      "Where **have** you **been**? (dove sei stato?)",
+      "I've **been** ill. (to be)",
+      "She hasn't **been** here for days."
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I have gone to Paris three times.",
+     "I have been to Paris three times.",
+     "Per un viaggio concluso: been."
+    ],
+    [
+     "Where have you gone?",
+     "Where have you been?",
+     "Se la persona è davanti a te: been."
+    ],
+    [
+     "She's been to the shop. She'll be back soon.",
+     "She's gone to the shop. She'll be back soon.",
+     "Non è ancora tornata: gone."
+    ],
+    [
+     "I've never gone to Japan.",
+     "I've never been to Japan.",
+     "Esperienza: been."
+    ],
+    [
+     "Have you ever gone to London?",
+     "Have you ever been to London?",
+     "Esperienza: been."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I have ___ to Spain twice.",
+     "options": [
+      "been",
+      "gone",
+      "went"
+     ],
+     "correct_index": 0,
+     "explanation": "Esperienza passata: been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where's Anna? She has ___ to the supermarket.",
+     "options": [
+      "gone",
+      "been",
+      "go"
+     ],
+     "correct_index": 0,
+     "explanation": "Non è ancora tornata."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Have you ever ___ to Japan? (been / gone)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Esperienza: been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He isn't here. He has ___ out. (been / gone)",
+     "accepted_answers": [
+      "gone"
+     ],
+     "explanation": "È uscito e non è tornato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where have you ___? I was worried.",
+     "options": [
+      "been",
+      "gone",
+      "went"
+     ],
+     "correct_index": 0,
+     "explanation": "La persona è tornata: been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They have ___ to the beach. They'll be back at six.",
+     "options": [
+      "gone",
+      "been",
+      "go"
+     ],
+     "correct_index": 0,
+     "explanation": "Ancora via."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've never ___ to Australia. (been / gone)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Esperienza: been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Mark isn't in his office. He's ___ home. (been / gone)",
+     "accepted_answers": [
+      "gone"
+     ],
+     "explanation": "Se n'è andato."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "She has been to Rome.",
+      "She has be to Rome.",
+      "She has went to Rome."
+     ],
+     "correct_index": 0,
+     "explanation": "Participio: been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Have you ___ to the dentist today?",
+     "options": [
+      "been",
+      "gone",
+      "going"
+     ],
+     "correct_index": 0,
+     "explanation": "Sei qui davanti a me: been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "My parents are on holiday. They've ___ to Greece. (been / gone)",
+     "accepted_answers": [
+      "gone"
+     ],
+     "explanation": "Sono ancora là."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've ___ to the gym this morning, and now I'm tired. (been / gone)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Sono tornato: been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "He has gone to Paris, so he isn't here.",
+      "He has been to Paris, so he isn't here.",
+      "He has went to Paris, so he isn't here."
+     ],
+     "correct_index": 0,
+     "explanation": "Non è qui: gone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "How many times have you ___ to London?",
+     "options": [
+      "been",
+      "gone",
+      "went"
+     ],
+     "correct_index": 0,
+     "explanation": "Quante volte: been."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Where is he? He has ___ to the bank. (been / gone)",
+     "accepted_answers": [
+      "gone"
+     ],
+     "explanation": "Non è ancora tornato."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have never ___ to a concert. (been / gone)",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation": "Esperienza: been."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "Has she gone to work?",
+      "Has she been going to work?",
+      "Has she went to work?"
+     ],
+     "correct_index": 0,
+     "explanation": "Gone."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Sono stato in Francia. →",
+     "options": [
+      "I've been to France.",
+      "I've gone to France.",
+      "I was gone to France."
+     ],
+     "correct_index": 0,
+     "explanation": "Esperienza: been."
+    }
+   ]
+  },
+  {
+   "id": "b1-ppj",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Present Perfect: British e American English, just, already e yet",
+   "desc": "Just, already e yet con il Present Perfect, e come cambia l'uso tra inglese britannico e americano.",
+   "lead": "**Just**, **already** e **yet** sono tre piccole parole che accompagnano il Present Perfect: *I've just arrived. She's already left. Have you finished yet?* In americano si usa spesso anche il Past Simple.",
+   "tip": "**Just** = appena. **Already** = già (frase affermativa). **Yet** = ancora / già (negativa e domanda, in fondo alla frase).",
+   "blocks": [
+    {
+     "h": "Just, already, yet",
+     "table": {
+      "head": [
+       "Parola",
+       "Significato",
+       "Posizione",
+       "Esempio"
+      ],
+      "rows": [
+       [
+        "just",
+        "appena",
+        "tra have e participio",
+        "I've **just** finished."
+       ],
+       [
+        "already",
+        "già",
+        "tra have e participio (o in fondo)",
+        "She's **already** left."
+       ],
+       [
+        "yet",
+        "ancora / già",
+        "in fondo alla frase",
+        "I haven't finished **yet**. Have you called **yet**?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Yet e still",
+     "p": "In italiano «non ancora» si dice in due modi, ma in inglese **yet** va in fondo alla frase negativa.",
+     "ex": [
+      "I **haven't** eaten **yet**.",
+      "**Has** he arrived **yet**?"
+     ]
+    },
+    {
+     "h": "British e American English",
+     "p": "In inglese britannico queste parole vogliono il **Present Perfect**. In americano si può usare anche il **Past Simple**.",
+     "table": {
+      "head": [
+       "British",
+       "American"
+      ],
+      "rows": [
+       [
+        "I've just seen her.",
+        "I just saw her."
+       ],
+       [
+        "She's already left.",
+        "She already left."
+       ],
+       [
+        "Have you finished yet?",
+        "Did you finish yet?"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Cosa studiare",
+     "p": "Per i test e gli esami di solito si usa la forma britannica. Per parlare è utile riconoscere entrambe."
+    }
+   ],
+   "traps": [
+    [
+     "I've yet finished.",
+     "I haven't finished yet.",
+     "Yet va in fondo e con la negativa."
+    ],
+    [
+     "Have you already eaten yet?",
+     "Have you eaten yet?",
+     "Non si usano insieme already e yet."
+    ],
+    [
+     "She just has arrived.",
+     "She has just arrived.",
+     "Just va tra have e participio."
+    ],
+    [
+     "I haven't already finished.",
+     "I haven't finished yet.",
+     "Already non si usa nella negativa."
+    ],
+    [
+     "He yet hasn't called.",
+     "He hasn't called yet.",
+     "Yet va in fondo alla frase."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "I've ___ finished my homework.",
+     "options": [
+      "just",
+      "yet",
+      "ever"
+     ],
+     "correct_index": 0,
+     "explanation": "Just = appena."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Have you eaten ___?",
+     "options": [
+      "already",
+      "yet",
+      "just"
+     ],
+     "correct_index": 1,
+     "explanation": "Nella domanda: yet."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She has ___ left. (già)",
+     "accepted_answers": [
+      "already"
+     ],
+     "explanation": "Already = già."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I haven't seen the film ___. (ancora)",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation": "Nella negativa: yet."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "They've already arrived.",
+      "They've arrived already yet.",
+      "They've yet arrived."
+     ],
+     "correct_index": 0,
+     "explanation": "Already tra have e participio."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Where does yet go?",
+     "options": [
+      "In fondo alla frase",
+      "Prima del soggetto",
+      "Tra have e participio"
+     ],
+     "correct_index": 0,
+     "explanation": "Yet va in fondo."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He has ___ called me. (appena)",
+     "accepted_answers": [
+      "just"
+     ],
+     "explanation": "Just = appena."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Have you finished your book ___? (ancora)",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation": "Nella domanda: yet."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct in British English?",
+     "options": [
+      "I've just seen him.",
+      "I just saw him.",
+      "I just seen him."
+     ],
+     "correct_index": 0,
+     "explanation": "Britannico: Present Perfect."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "In American English you can say:",
+     "options": [
+      "I already ate.",
+      "I already have ate.",
+      "I have already ate."
+     ],
+     "correct_index": 0,
+     "explanation": "Americano: Past Simple con already."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We haven't decided ___. (ancora)",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation": "Yet."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The train has ___ gone. (già)",
+     "accepted_answers": [
+      "already"
+     ],
+     "explanation": "Already."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I haven't called her yet.",
+      "I haven't yet called she.",
+      "I yet haven't called her."
+     ],
+     "correct_index": 0,
+     "explanation": "Yet in fondo."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She's ___ here. (è appena arrivata)",
+     "options": [
+      "just",
+      "yet",
+      "still"
+     ],
+     "correct_index": 0,
+     "explanation": "Just."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Has the post come ___? (già)",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation": "Nella domanda: yet."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I've already seen it.",
+      "I've seen it already.",
+      "I haven't already seen it."
+     ],
+     "correct_index": 2,
+     "explanation": "Already non si usa nella negativa."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I've ___ eaten, thank you. (già)",
+     "accepted_answers": [
+      "already"
+     ],
+     "explanation": "Already."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "They ___ bought a new house.",
+     "options": [
+      "have just",
+      "just have",
+      "yet have"
+     ],
+     "correct_index": 0,
+     "explanation": "Have + just + participio."
     }
    ]
   },
@@ -11684,6 +16827,257 @@
      ],
      "correct_index": 1,
      "explanation": "Where are you from? Con you si usa are."
+    }
+   ]
+  },
+  {
+   "id": "b1-wd",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Would",
+   "desc": "Would per le richieste cortesi, i desideri, le abitudini passate e i condizionali.",
+   "lead": "**Would** è il verbo della **cortesia** e dell'**ipotesi**: serve per richieste e offerte garbate (*Would you like a coffee?*), per i desideri (*I'd like...*), per le abitudini passate (*We would play every day*) e per le ipotesi (*If I were rich, I would...*).",
+   "tip": "**would + base.** Forma breve **'d**. Negativa: **wouldn't**. Come tutti i modali, niente -s, niente do, niente to.",
+   "blocks": [
+    {
+     "h": "Richieste e offerte cortesi",
+     "ex": [
+      "**Would you** help me, please?",
+      "**Would you like** some tea?",
+      "**I'd like** a table for two, please. (= I would like)"
+     ]
+    },
+    {
+     "h": "Preferenze",
+     "ex": [
+      "**I'd rather** stay home. (preferirei)",
+      "**I'd prefer** tea to coffee."
+     ]
+    },
+    {
+     "h": "Abitudini passate",
+     "p": "Per azioni ripetute nel passato (non per gli stati).",
+     "ex": [
+      "Every summer we **would** go to the sea.",
+      "When I was a child, I **would** play in the garden."
+     ]
+    },
+    {
+     "h": "Ipotesi (Second Conditional)",
+     "p": "**If + Past Simple, would + base**: per situazioni immaginarie o improbabili.",
+     "ex": [
+      "If I **were** rich, I **would** travel the world.",
+      "If I **had** more time, I **would** learn Chinese."
+     ]
+    },
+    {
+     "h": "Discorso indiretto",
+     "ex": [
+      "He said he **would** call me. (= \"I will call you\")"
+     ]
+    }
+   ],
+   "traps": [
+    [
+     "I would to like a coffee.",
+     "I would like a coffee.",
+     "Niente to dopo would."
+    ],
+    [
+     "Do you would like some tea?",
+     "Would you like some tea?",
+     "Would non vuole do."
+    ],
+    [
+     "If I would be rich, I would travel.",
+     "If I were rich, I would travel.",
+     "Dopo if il Past Simple, non would."
+    ],
+    [
+     "I would living in Rome when I was young.",
+     "I lived in Rome when I was young.",
+     "Would non si usa per gli stati."
+    ],
+    [
+     "She wouldn't to go.",
+     "She wouldn't go.",
+     "Wouldn't + base."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "multiple_choice",
+     "prompt": "___ you like a cup of tea?",
+     "options": [
+      "Would",
+      "Do",
+      "Are"
+     ],
+     "correct_index": 0,
+     "explanation": "Offerta cortese: would you like."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ like a table for two, please. (would / do)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "I would like."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If I ___ rich, I would travel the world.",
+     "options": [
+      "were",
+      "would be",
+      "am"
+     ],
+     "correct_index": 0,
+     "explanation": "If + Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "If I had more time, I ___ learn Chinese. (would / will)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "If + Past Simple, would + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "I'd rather stay home.",
+      "I'd rather to stay home.",
+      "I'd rather staying home."
+     ],
+     "correct_index": 0,
+     "explanation": "I'd rather + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "When I was a child, we ___ play in the garden every day. (would / did)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "Abitudine passata."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is NOT correct?",
+     "options": [
+      "I would to go.",
+      "I would go.",
+      "I wouldn't go."
+     ],
+     "correct_index": 0,
+     "explanation": "Niente to dopo would."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He said he ___ call me later. (will / would)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "Discorso indiretto: would."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is a polite request?",
+     "options": [
+      "Would you help me, please?",
+      "You help me please?",
+      "Do you would help me?"
+     ],
+     "correct_index": 0,
+     "explanation": "Would you...?"
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "If she ___ more, she would pass the exam.",
+     "options": [
+      "studied",
+      "would study",
+      "studies"
+     ],
+     "correct_index": 0,
+     "explanation": "If + Past Simple."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I wouldn't ___ that if I were you. (do)",
+     "accepted_answers": [
+      "do"
+     ],
+     "explanation": "Wouldn't + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I'd ___ tea to coffee. (prefer / rather)",
+     "accepted_answers": [
+      "prefer"
+     ],
+     "explanation": "Prefer ... to ..."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which is correct?",
+     "options": [
+      "If I were you, I would apologise.",
+      "If I would be you, I would apologise.",
+      "If I was you, I'd apologising."
+     ],
+     "correct_index": 0,
+     "explanation": "If I were you, I would."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Which sentence is correct?",
+     "options": [
+      "Would you like to come with us?",
+      "Would you to like come with us?",
+      "Do you would like to come?"
+     ],
+     "correct_index": 0,
+     "explanation": "Would you like to + base."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "What ___ you do if you won the lottery? (would / did)",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation": "What would you do if...?"
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She said she wouldn't ___ late. (be)",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation": "Wouldn't + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I'd like to ___ an appointment.",
+     "options": [
+      "make",
+      "making",
+      "made"
+     ],
+     "correct_index": 0,
+     "explanation": "Would like to + base."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "When we were young, we ___ go fishing every Sunday.",
+     "options": [
+      "would",
+      "did",
+      "are"
+     ],
+     "correct_index": 0,
+     "explanation": "Abitudine passata."
     }
    ]
   }
