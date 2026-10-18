@@ -24060,6 +24060,2750 @@
    ]
   },
   {
+   "id": "b1-irrpp",
+   "level": "B1",
+   "tag": "Verbi",
+   "title": "Verbi irregolari: il Past Participle",
+   "desc": "Gone, seen, bought: i participi passati degli 80 irregolari, per il Present Perfect.",
+   "lead": "Il **Past Participle** serve per il Present Perfect (*have gone*) e per il passivo. Nei verbi regolari è uguale al passato (*worked*); negli irregolari va imparato. Qui trovi gli 80 più usati in una sola tabella, in ordine alfabetico.",
+   "tip": "Con **have / has** non si usa il passato: *I have gone*, non *I have went*.",
+   "blocks": [
+    {
+     "h": "Gli 80 verbi irregolari",
+     "p": "Verbo base, Past Simple, participio passato (Past Participle) e traduzione. La colonna da imparare in questa tappa è l'ultima forma, il participio.",
+     "table": {
+      "head": [
+       "Verbo base",
+       "Past Simple",
+       "Past Participle",
+       "Traduzione"
+      ],
+      "rows": [
+       [
+        "become",
+        "became",
+        "become",
+        "diventare"
+       ],
+       [
+        "begin",
+        "began",
+        "begun",
+        "cominciare"
+       ],
+       [
+        "bite",
+        "bit",
+        "bitten",
+        "mordere"
+       ],
+       [
+        "blow",
+        "blew",
+        "blown",
+        "soffiare"
+       ],
+       [
+        "break",
+        "broke",
+        "broken",
+        "rompere"
+       ],
+       [
+        "bring",
+        "brought",
+        "brought",
+        "portare"
+       ],
+       [
+        "build",
+        "built",
+        "built",
+        "costruire"
+       ],
+       [
+        "buy",
+        "bought",
+        "bought",
+        "comprare"
+       ],
+       [
+        "catch",
+        "caught",
+        "caught",
+        "prendere (un mezzo, al volo)"
+       ],
+       [
+        "choose",
+        "chose",
+        "chosen",
+        "scegliere"
+       ],
+       [
+        "come",
+        "came",
+        "come",
+        "venire"
+       ],
+       [
+        "cost",
+        "cost",
+        "cost",
+        "costare"
+       ],
+       [
+        "cut",
+        "cut",
+        "cut",
+        "tagliare"
+       ],
+       [
+        "do",
+        "did",
+        "done",
+        "fare"
+       ],
+       [
+        "draw",
+        "drew",
+        "drawn",
+        "disegnare"
+       ],
+       [
+        "drink",
+        "drank",
+        "drunk",
+        "bere"
+       ],
+       [
+        "drive",
+        "drove",
+        "driven",
+        "guidare"
+       ],
+       [
+        "eat",
+        "ate",
+        "eaten",
+        "mangiare"
+       ],
+       [
+        "fall",
+        "fell",
+        "fallen",
+        "cadere"
+       ],
+       [
+        "feel",
+        "felt",
+        "felt",
+        "sentirsi"
+       ],
+       [
+        "fight",
+        "fought",
+        "fought",
+        "combattere, litigare"
+       ],
+       [
+        "find",
+        "found",
+        "found",
+        "trovare"
+       ],
+       [
+        "fly",
+        "flew",
+        "flown",
+        "volare"
+       ],
+       [
+        "forget",
+        "forgot",
+        "forgotten",
+        "dimenticare"
+       ],
+       [
+        "freeze",
+        "froze",
+        "frozen",
+        "gelare"
+       ],
+       [
+        "get",
+        "got",
+        "got / gotten",
+        "ottenere, ricevere"
+       ],
+       [
+        "give",
+        "gave",
+        "given",
+        "dare"
+       ],
+       [
+        "go",
+        "went",
+        "gone",
+        "andare"
+       ],
+       [
+        "grow",
+        "grew",
+        "grown",
+        "crescere"
+       ],
+       [
+        "hang",
+        "hung",
+        "hung",
+        "appendere"
+       ],
+       [
+        "have",
+        "had",
+        "had",
+        "avere, fare (colazione...)"
+       ],
+       [
+        "hear",
+        "heard",
+        "heard",
+        "sentire (con le orecchie)"
+       ],
+       [
+        "hide",
+        "hid",
+        "hidden",
+        "nascondersi, nascondere"
+       ],
+       [
+        "hit",
+        "hit",
+        "hit",
+        "colpire"
+       ],
+       [
+        "hold",
+        "held",
+        "held",
+        "tenere in mano, tenere"
+       ],
+       [
+        "hurt",
+        "hurt",
+        "hurt",
+        "far male, farsi male"
+       ],
+       [
+        "keep",
+        "kept",
+        "kept",
+        "tenere"
+       ],
+       [
+        "know",
+        "knew",
+        "known",
+        "sapere, conoscere"
+       ],
+       [
+        "leave",
+        "left",
+        "left",
+        "partire, lasciare"
+       ],
+       [
+        "lend",
+        "lent",
+        "lent",
+        "prestare"
+       ],
+       [
+        "let",
+        "let",
+        "let",
+        "lasciare, permettere"
+       ],
+       [
+        "lose",
+        "lost",
+        "lost",
+        "perdere"
+       ],
+       [
+        "make",
+        "made",
+        "made",
+        "fare, creare"
+       ],
+       [
+        "mean",
+        "meant",
+        "meant",
+        "voler dire, avere intenzione"
+       ],
+       [
+        "meet",
+        "met",
+        "met",
+        "incontrare"
+       ],
+       [
+        "pay",
+        "paid",
+        "paid",
+        "pagare"
+       ],
+       [
+        "put",
+        "put",
+        "put",
+        "mettere"
+       ],
+       [
+        "quit",
+        "quit",
+        "quit",
+        "smettere, lasciare"
+       ],
+       [
+        "read",
+        "read",
+        "read",
+        "leggere (si pronuncia /red/)"
+       ],
+       [
+        "ride",
+        "rode",
+        "ridden",
+        "andare (in bici, a cavallo)"
+       ],
+       [
+        "ring",
+        "rang",
+        "rung",
+        "suonare (campanello, telefono)"
+       ],
+       [
+        "run",
+        "ran",
+        "run",
+        "correre"
+       ],
+       [
+        "say",
+        "said",
+        "said",
+        "dire"
+       ],
+       [
+        "see",
+        "saw",
+        "seen",
+        "vedere"
+       ],
+       [
+        "sell",
+        "sold",
+        "sold",
+        "vendere"
+       ],
+       [
+        "send",
+        "sent",
+        "sent",
+        "mandare"
+       ],
+       [
+        "set",
+        "set",
+        "set",
+        "impostare, apparecchiare"
+       ],
+       [
+        "shake",
+        "shook",
+        "shaken",
+        "scuotere, stringere (la mano)"
+       ],
+       [
+        "shut",
+        "shut",
+        "shut",
+        "chiudere"
+       ],
+       [
+        "sing",
+        "sang",
+        "sung",
+        "cantare"
+       ],
+       [
+        "sink",
+        "sank",
+        "sunk",
+        "affondare"
+       ],
+       [
+        "sit",
+        "sat",
+        "sat",
+        "sedersi"
+       ],
+       [
+        "sleep",
+        "slept",
+        "slept",
+        "dormire"
+       ],
+       [
+        "speak",
+        "spoke",
+        "spoken",
+        "parlare"
+       ],
+       [
+        "spend",
+        "spent",
+        "spent",
+        "spendere, passare (tempo)"
+       ],
+       [
+        "spread",
+        "spread",
+        "spread",
+        "diffondersi, spalmare"
+       ],
+       [
+        "stand",
+        "stood",
+        "stood",
+        "stare in piedi"
+       ],
+       [
+        "steal",
+        "stole",
+        "stolen",
+        "rubare"
+       ],
+       [
+        "swim",
+        "swam",
+        "swum",
+        "nuotare"
+       ],
+       [
+        "take",
+        "took",
+        "taken",
+        "prendere, portare"
+       ],
+       [
+        "teach",
+        "taught",
+        "taught",
+        "insegnare"
+       ],
+       [
+        "tear",
+        "tore",
+        "torn",
+        "strappare"
+       ],
+       [
+        "tell",
+        "told",
+        "told",
+        "dire, raccontare"
+       ],
+       [
+        "think",
+        "thought",
+        "thought",
+        "pensare"
+       ],
+       [
+        "throw",
+        "threw",
+        "thrown",
+        "lanciare"
+       ],
+       [
+        "understand",
+        "understood",
+        "understood",
+        "capire"
+       ],
+       [
+        "wake",
+        "woke",
+        "woken",
+        "svegliarsi"
+       ],
+       [
+        "wear",
+        "wore",
+        "worn",
+        "indossare"
+       ],
+       [
+        "win",
+        "won",
+        "won",
+        "vincere"
+       ],
+       [
+        "write",
+        "wrote",
+        "written",
+        "scrivere"
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "We have already became.",
+     "We have already become.",
+     "Dopo have / has serve il participio: become, non became."
+    ],
+    [
+     "He has already began.",
+     "He has already begun.",
+     "Dopo have / has serve il participio: begun, non began."
+    ],
+    [
+     "They have already bit.",
+     "They have already bitten.",
+     "Dopo have / has serve il participio: bitten, non bit."
+    ],
+    [
+     "You have already blew.",
+     "You have already blown.",
+     "Dopo have / has serve il participio: blown, non blew."
+    ],
+    [
+     "I have already broke.",
+     "I have already broken.",
+     "Dopo have / has serve il participio: broken, non broke."
+    ],
+    [
+     "She has already chose.",
+     "She has already chosen.",
+     "Dopo have / has serve il participio: chosen, non chose."
+    ],
+    [
+     "We have already came.",
+     "We have already come.",
+     "Dopo have / has serve il participio: come, non came."
+    ],
+    [
+     "He has already did.",
+     "He has already done.",
+     "Dopo have / has serve il participio: done, non did."
+    ],
+    [
+     "They have already drew.",
+     "They have already drawn.",
+     "Dopo have / has serve il participio: drawn, non drew."
+    ],
+    [
+     "You have already drank.",
+     "You have already drunk.",
+     "Dopo have / has serve il participio: drunk, non drank."
+    ],
+    [
+     "I have already drove.",
+     "I have already driven.",
+     "Dopo have / has serve il participio: driven, non drove."
+    ],
+    [
+     "She has already ate.",
+     "She has already eaten.",
+     "Dopo have / has serve il participio: eaten, non ate."
+    ],
+    [
+     "We have already fell.",
+     "We have already fallen.",
+     "Dopo have / has serve il participio: fallen, non fell."
+    ],
+    [
+     "He has already flew.",
+     "He has already flown.",
+     "Dopo have / has serve il participio: flown, non flew."
+    ],
+    [
+     "They have already forgot.",
+     "They have already forgotten.",
+     "Dopo have / has serve il participio: forgotten, non forgot."
+    ],
+    [
+     "You have already froze.",
+     "You have already frozen.",
+     "Dopo have / has serve il participio: frozen, non froze."
+    ],
+    [
+     "I have already gave.",
+     "I have already given.",
+     "Dopo have / has serve il participio: given, non gave."
+    ],
+    [
+     "She has already went.",
+     "She has already gone.",
+     "Dopo have / has serve il participio: gone, non went."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (become · diventare)",
+     "accepted_answers": [
+      "become"
+     ],
+     "explanation": "\"become\" → \"became\" → \"become\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (begin · cominciare)",
+     "options": [
+      "begun",
+      "began",
+      "begin"
+     ],
+     "correct_index": 0,
+     "explanation": "\"begin\" → \"began\" → \"begun\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (bite · mordere)",
+     "accepted_answers": [
+      "bitten"
+     ],
+     "explanation": "\"bite\" → \"bit\" → \"bitten\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (blow · soffiare)",
+     "options": [
+      "blown",
+      "blew",
+      "blow"
+     ],
+     "correct_index": 0,
+     "explanation": "\"blow\" → \"blew\" → \"blown\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (break · rompere)",
+     "accepted_answers": [
+      "broken"
+     ],
+     "explanation": "\"break\" → \"broke\" → \"broken\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (bring · portare)",
+     "options": [
+      "brought",
+      "bring",
+      "bringed"
+     ],
+     "correct_index": 0,
+     "explanation": "\"bring\" → \"brought\" → \"brought\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (build · costruire)",
+     "accepted_answers": [
+      "built"
+     ],
+     "explanation": "\"build\" → \"built\" → \"built\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (buy · comprare)",
+     "options": [
+      "bought",
+      "buy",
+      "buyed"
+     ],
+     "correct_index": 0,
+     "explanation": "\"buy\" → \"bought\" → \"bought\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (catch · prendere (un mezzo)",
+     "accepted_answers": [
+      "caught"
+     ],
+     "explanation": "\"catch\" → \"caught\" → \"caught\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (choose · scegliere)",
+     "options": [
+      "chosen",
+      "chose",
+      "choose"
+     ],
+     "correct_index": 0,
+     "explanation": "\"choose\" → \"chose\" → \"chosen\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (come · venire)",
+     "accepted_answers": [
+      "come"
+     ],
+     "explanation": "\"come\" → \"came\" → \"come\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (cost · costare)",
+     "options": [
+      "cost",
+      "costed"
+     ],
+     "correct_index": 0,
+     "explanation": "\"cost\" → \"cost\" → \"cost\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (cut · tagliare)",
+     "accepted_answers": [
+      "cut"
+     ],
+     "explanation": "\"cut\" → \"cut\" → \"cut\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (do · fare)",
+     "options": [
+      "done",
+      "did",
+      "do"
+     ],
+     "correct_index": 0,
+     "explanation": "\"do\" → \"did\" → \"done\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (draw · disegnare)",
+     "accepted_answers": [
+      "drawn"
+     ],
+     "explanation": "\"draw\" → \"drew\" → \"drawn\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (drink · bere)",
+     "options": [
+      "drunk",
+      "drank",
+      "drink"
+     ],
+     "correct_index": 0,
+     "explanation": "\"drink\" → \"drank\" → \"drunk\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (drive · guidare)",
+     "accepted_answers": [
+      "driven"
+     ],
+     "explanation": "\"drive\" → \"drove\" → \"driven\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (eat · mangiare)",
+     "options": [
+      "eaten",
+      "ate",
+      "eat"
+     ],
+     "correct_index": 0,
+     "explanation": "\"eat\" → \"ate\" → \"eaten\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (fall · cadere)",
+     "accepted_answers": [
+      "fallen"
+     ],
+     "explanation": "\"fall\" → \"fell\" → \"fallen\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (feel · sentirsi)",
+     "options": [
+      "felt",
+      "feel",
+      "feeled"
+     ],
+     "correct_index": 0,
+     "explanation": "\"feel\" → \"felt\" → \"felt\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (fight · combattere)",
+     "accepted_answers": [
+      "fought"
+     ],
+     "explanation": "\"fight\" → \"fought\" → \"fought\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (find · trovare)",
+     "options": [
+      "found",
+      "find",
+      "finded"
+     ],
+     "correct_index": 0,
+     "explanation": "\"find\" → \"found\" → \"found\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (fly · volare)",
+     "accepted_answers": [
+      "flown"
+     ],
+     "explanation": "\"fly\" → \"flew\" → \"flown\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (forget · dimenticare)",
+     "options": [
+      "forgotten",
+      "forgot",
+      "forget"
+     ],
+     "correct_index": 0,
+     "explanation": "\"forget\" → \"forgot\" → \"forgotten\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (freeze · gelare)",
+     "accepted_answers": [
+      "frozen"
+     ],
+     "explanation": "\"freeze\" → \"froze\" → \"frozen\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (get · ottenere)",
+     "options": [
+      "got",
+      "get",
+      "geted"
+     ],
+     "correct_index": 0,
+     "explanation": "\"get\" → \"got\" → \"got / gotten\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (give · dare)",
+     "accepted_answers": [
+      "given"
+     ],
+     "explanation": "\"give\" → \"gave\" → \"given\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (go · andare)",
+     "options": [
+      "gone",
+      "went",
+      "go"
+     ],
+     "correct_index": 0,
+     "explanation": "\"go\" → \"went\" → \"gone\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (grow · crescere)",
+     "accepted_answers": [
+      "grown"
+     ],
+     "explanation": "\"grow\" → \"grew\" → \"grown\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (hang · appendere)",
+     "options": [
+      "hung",
+      "hang",
+      "hanged"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hang\" → \"hung\" → \"hung\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (have · avere)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "\"have\" → \"had\" → \"had\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (hear · sentire (con le orecchie))",
+     "options": [
+      "heard",
+      "hear",
+      "heared"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hear\" → \"heard\" → \"heard\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (hide · nascondersi)",
+     "accepted_answers": [
+      "hidden"
+     ],
+     "explanation": "\"hide\" → \"hid\" → \"hidden\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (hit · colpire)",
+     "options": [
+      "hit",
+      "hited"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hit\" → \"hit\" → \"hit\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (hold · tenere in mano)",
+     "accepted_answers": [
+      "held"
+     ],
+     "explanation": "\"hold\" → \"held\" → \"held\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (hurt · far male)",
+     "options": [
+      "hurt",
+      "hurted"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hurt\" → \"hurt\" → \"hurt\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (keep · tenere)",
+     "accepted_answers": [
+      "kept"
+     ],
+     "explanation": "\"keep\" → \"kept\" → \"kept\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (know · sapere)",
+     "options": [
+      "known",
+      "knew",
+      "know"
+     ],
+     "correct_index": 0,
+     "explanation": "\"know\" → \"knew\" → \"known\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (leave · partire)",
+     "accepted_answers": [
+      "left"
+     ],
+     "explanation": "\"leave\" → \"left\" → \"left\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (lend · prestare)",
+     "options": [
+      "lent",
+      "lend",
+      "lended"
+     ],
+     "correct_index": 0,
+     "explanation": "\"lend\" → \"lent\" → \"lent\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (let · lasciare)",
+     "accepted_answers": [
+      "let"
+     ],
+     "explanation": "\"let\" → \"let\" → \"let\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (lose · perdere)",
+     "options": [
+      "lost",
+      "lose",
+      "losed"
+     ],
+     "correct_index": 0,
+     "explanation": "\"lose\" → \"lost\" → \"lost\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (make · fare)",
+     "accepted_answers": [
+      "made"
+     ],
+     "explanation": "\"make\" → \"made\" → \"made\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (mean · voler dire)",
+     "options": [
+      "meant",
+      "mean",
+      "meaned"
+     ],
+     "correct_index": 0,
+     "explanation": "\"mean\" → \"meant\" → \"meant\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (meet · incontrare)",
+     "accepted_answers": [
+      "met"
+     ],
+     "explanation": "\"meet\" → \"met\" → \"met\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (pay · pagare)",
+     "options": [
+      "paid",
+      "pay",
+      "payed"
+     ],
+     "correct_index": 0,
+     "explanation": "\"pay\" → \"paid\" → \"paid\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (put · mettere)",
+     "accepted_answers": [
+      "put"
+     ],
+     "explanation": "\"put\" → \"put\" → \"put\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (quit · smettere)",
+     "options": [
+      "quit",
+      "quited"
+     ],
+     "correct_index": 0,
+     "explanation": "\"quit\" → \"quit\" → \"quit\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (read · leggere (si pronuncia /red/))",
+     "accepted_answers": [
+      "read"
+     ],
+     "explanation": "\"read\" → \"read\" → \"read\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (ride · andare (in bici)",
+     "options": [
+      "ridden",
+      "rode",
+      "ride"
+     ],
+     "correct_index": 0,
+     "explanation": "\"ride\" → \"rode\" → \"ridden\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (ring · suonare (campanello)",
+     "accepted_answers": [
+      "rung"
+     ],
+     "explanation": "\"ring\" → \"rang\" → \"rung\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (run · correre)",
+     "options": [
+      "run",
+      "ran",
+      "runed"
+     ],
+     "correct_index": 0,
+     "explanation": "\"run\" → \"ran\" → \"run\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (say · dire)",
+     "accepted_answers": [
+      "said"
+     ],
+     "explanation": "\"say\" → \"said\" → \"said\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (see · vedere)",
+     "options": [
+      "seen",
+      "saw",
+      "see"
+     ],
+     "correct_index": 0,
+     "explanation": "\"see\" → \"saw\" → \"seen\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (sell · vendere)",
+     "accepted_answers": [
+      "sold"
+     ],
+     "explanation": "\"sell\" → \"sold\" → \"sold\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (send · mandare)",
+     "options": [
+      "sent",
+      "send",
+      "sended"
+     ],
+     "correct_index": 0,
+     "explanation": "\"send\" → \"sent\" → \"sent\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (set · impostare)",
+     "accepted_answers": [
+      "set"
+     ],
+     "explanation": "\"set\" → \"set\" → \"set\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (shake · scuotere)",
+     "options": [
+      "shaken",
+      "shook",
+      "shake"
+     ],
+     "correct_index": 0,
+     "explanation": "\"shake\" → \"shook\" → \"shaken\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (shut · chiudere)",
+     "accepted_answers": [
+      "shut"
+     ],
+     "explanation": "\"shut\" → \"shut\" → \"shut\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (sing · cantare)",
+     "options": [
+      "sung",
+      "sang",
+      "sing"
+     ],
+     "correct_index": 0,
+     "explanation": "\"sing\" → \"sang\" → \"sung\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (sink · affondare)",
+     "accepted_answers": [
+      "sunk"
+     ],
+     "explanation": "\"sink\" → \"sank\" → \"sunk\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (sit · sedersi)",
+     "options": [
+      "sat",
+      "sit",
+      "sited"
+     ],
+     "correct_index": 0,
+     "explanation": "\"sit\" → \"sat\" → \"sat\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (sleep · dormire)",
+     "accepted_answers": [
+      "slept"
+     ],
+     "explanation": "\"sleep\" → \"slept\" → \"slept\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (speak · parlare)",
+     "options": [
+      "spoken",
+      "spoke",
+      "speak"
+     ],
+     "correct_index": 0,
+     "explanation": "\"speak\" → \"spoke\" → \"spoken\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (spend · spendere)",
+     "accepted_answers": [
+      "spent"
+     ],
+     "explanation": "\"spend\" → \"spent\" → \"spent\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (spread · diffondersi)",
+     "options": [
+      "spread",
+      "spreaded"
+     ],
+     "correct_index": 0,
+     "explanation": "\"spread\" → \"spread\" → \"spread\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (stand · stare in piedi)",
+     "accepted_answers": [
+      "stood"
+     ],
+     "explanation": "\"stand\" → \"stood\" → \"stood\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (steal · rubare)",
+     "options": [
+      "stolen",
+      "stole",
+      "steal"
+     ],
+     "correct_index": 0,
+     "explanation": "\"steal\" → \"stole\" → \"stolen\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (swim · nuotare)",
+     "accepted_answers": [
+      "swum"
+     ],
+     "explanation": "\"swim\" → \"swam\" → \"swum\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (take · prendere)",
+     "options": [
+      "taken",
+      "took",
+      "take"
+     ],
+     "correct_index": 0,
+     "explanation": "\"take\" → \"took\" → \"taken\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (teach · insegnare)",
+     "accepted_answers": [
+      "taught"
+     ],
+     "explanation": "\"teach\" → \"taught\" → \"taught\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (tear · strappare)",
+     "options": [
+      "torn",
+      "tore",
+      "tear"
+     ],
+     "correct_index": 0,
+     "explanation": "\"tear\" → \"tore\" → \"torn\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (tell · dire)",
+     "accepted_answers": [
+      "told"
+     ],
+     "explanation": "\"tell\" → \"told\" → \"told\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (think · pensare)",
+     "options": [
+      "thought",
+      "think",
+      "thinked"
+     ],
+     "correct_index": 0,
+     "explanation": "\"think\" → \"thought\" → \"thought\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We have ___ (throw · lanciare)",
+     "accepted_answers": [
+      "thrown"
+     ],
+     "explanation": "\"throw\" → \"threw\" → \"thrown\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He has ___ (understand · capire)",
+     "options": [
+      "understood",
+      "understand",
+      "understanded"
+     ],
+     "correct_index": 0,
+     "explanation": "\"understand\" → \"understood\" → \"understood\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They have ___ (wake · svegliarsi)",
+     "accepted_answers": [
+      "woken"
+     ],
+     "explanation": "\"wake\" → \"woke\" → \"woken\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "You have ___ (wear · indossare)",
+     "options": [
+      "worn",
+      "wore",
+      "wear"
+     ],
+     "correct_index": 0,
+     "explanation": "\"wear\" → \"wore\" → \"worn\"."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I have ___ (win · vincere)",
+     "accepted_answers": [
+      "won"
+     ],
+     "explanation": "\"win\" → \"won\" → \"won\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She has ___ (write · scrivere)",
+     "options": [
+      "written",
+      "wrote",
+      "write"
+     ],
+     "correct_index": 0,
+     "explanation": "\"write\" → \"wrote\" → \"written\"."
+    }
+   ]
+  },
+  {
+   "id": "a2-irrps",
+   "level": "A2",
+   "tag": "Verbi",
+   "title": "Verbi irregolari: il Past Simple",
+   "desc": "Went, saw, bought: gli 80 irregolari più usati, con il passato e la traduzione.",
+   "lead": "Nel **Past Simple** i verbi regolari prendono **-ed**, quelli irregolari cambiano forma e vanno imparati. Qui trovi gli 80 più usati in una sola tabella, in ordine alfabetico.",
+   "tip": "Il passato è una sola forma per tutte le persone: *I went, she went, they went*. Non esiste *goed*.",
+   "blocks": [
+    {
+     "h": "Gli 80 verbi irregolari",
+     "p": "Verbo base, passato (Past Simple) e traduzione.",
+     "table": {
+      "head": [
+       "Verbo base",
+       "Past Simple",
+       "Traduzione"
+      ],
+      "rows": [
+       [
+        "become",
+        "became",
+        "diventare"
+       ],
+       [
+        "begin",
+        "began",
+        "cominciare"
+       ],
+       [
+        "bite",
+        "bit",
+        "mordere"
+       ],
+       [
+        "blow",
+        "blew",
+        "soffiare"
+       ],
+       [
+        "break",
+        "broke",
+        "rompere"
+       ],
+       [
+        "bring",
+        "brought",
+        "portare"
+       ],
+       [
+        "build",
+        "built",
+        "costruire"
+       ],
+       [
+        "buy",
+        "bought",
+        "comprare"
+       ],
+       [
+        "catch",
+        "caught",
+        "prendere (un mezzo, al volo)"
+       ],
+       [
+        "choose",
+        "chose",
+        "scegliere"
+       ],
+       [
+        "come",
+        "came",
+        "venire"
+       ],
+       [
+        "cost",
+        "cost",
+        "costare"
+       ],
+       [
+        "cut",
+        "cut",
+        "tagliare"
+       ],
+       [
+        "do",
+        "did",
+        "fare"
+       ],
+       [
+        "draw",
+        "drew",
+        "disegnare"
+       ],
+       [
+        "drink",
+        "drank",
+        "bere"
+       ],
+       [
+        "drive",
+        "drove",
+        "guidare"
+       ],
+       [
+        "eat",
+        "ate",
+        "mangiare"
+       ],
+       [
+        "fall",
+        "fell",
+        "cadere"
+       ],
+       [
+        "feel",
+        "felt",
+        "sentirsi"
+       ],
+       [
+        "fight",
+        "fought",
+        "combattere, litigare"
+       ],
+       [
+        "find",
+        "found",
+        "trovare"
+       ],
+       [
+        "fly",
+        "flew",
+        "volare"
+       ],
+       [
+        "forget",
+        "forgot",
+        "dimenticare"
+       ],
+       [
+        "freeze",
+        "froze",
+        "gelare"
+       ],
+       [
+        "get",
+        "got",
+        "ottenere, ricevere"
+       ],
+       [
+        "give",
+        "gave",
+        "dare"
+       ],
+       [
+        "go",
+        "went",
+        "andare"
+       ],
+       [
+        "grow",
+        "grew",
+        "crescere"
+       ],
+       [
+        "hang",
+        "hung",
+        "appendere"
+       ],
+       [
+        "have",
+        "had",
+        "avere, fare (colazione...)"
+       ],
+       [
+        "hear",
+        "heard",
+        "sentire (con le orecchie)"
+       ],
+       [
+        "hide",
+        "hid",
+        "nascondersi, nascondere"
+       ],
+       [
+        "hit",
+        "hit",
+        "colpire"
+       ],
+       [
+        "hold",
+        "held",
+        "tenere in mano, tenere"
+       ],
+       [
+        "hurt",
+        "hurt",
+        "far male, farsi male"
+       ],
+       [
+        "keep",
+        "kept",
+        "tenere"
+       ],
+       [
+        "know",
+        "knew",
+        "sapere, conoscere"
+       ],
+       [
+        "leave",
+        "left",
+        "partire, lasciare"
+       ],
+       [
+        "lend",
+        "lent",
+        "prestare"
+       ],
+       [
+        "let",
+        "let",
+        "lasciare, permettere"
+       ],
+       [
+        "lose",
+        "lost",
+        "perdere"
+       ],
+       [
+        "make",
+        "made",
+        "fare, creare"
+       ],
+       [
+        "mean",
+        "meant",
+        "voler dire, avere intenzione"
+       ],
+       [
+        "meet",
+        "met",
+        "incontrare"
+       ],
+       [
+        "pay",
+        "paid",
+        "pagare"
+       ],
+       [
+        "put",
+        "put",
+        "mettere"
+       ],
+       [
+        "quit",
+        "quit",
+        "smettere, lasciare"
+       ],
+       [
+        "read",
+        "read",
+        "leggere (si pronuncia /red/)"
+       ],
+       [
+        "ride",
+        "rode",
+        "andare (in bici, a cavallo)"
+       ],
+       [
+        "ring",
+        "rang",
+        "suonare (campanello, telefono)"
+       ],
+       [
+        "run",
+        "ran",
+        "correre"
+       ],
+       [
+        "say",
+        "said",
+        "dire"
+       ],
+       [
+        "see",
+        "saw",
+        "vedere"
+       ],
+       [
+        "sell",
+        "sold",
+        "vendere"
+       ],
+       [
+        "send",
+        "sent",
+        "mandare"
+       ],
+       [
+        "set",
+        "set",
+        "impostare, apparecchiare"
+       ],
+       [
+        "shake",
+        "shook",
+        "scuotere, stringere (la mano)"
+       ],
+       [
+        "shut",
+        "shut",
+        "chiudere"
+       ],
+       [
+        "sing",
+        "sang",
+        "cantare"
+       ],
+       [
+        "sink",
+        "sank",
+        "affondare"
+       ],
+       [
+        "sit",
+        "sat",
+        "sedersi"
+       ],
+       [
+        "sleep",
+        "slept",
+        "dormire"
+       ],
+       [
+        "speak",
+        "spoke",
+        "parlare"
+       ],
+       [
+        "spend",
+        "spent",
+        "spendere, passare (tempo)"
+       ],
+       [
+        "spread",
+        "spread",
+        "diffondersi, spalmare"
+       ],
+       [
+        "stand",
+        "stood",
+        "stare in piedi"
+       ],
+       [
+        "steal",
+        "stole",
+        "rubare"
+       ],
+       [
+        "swim",
+        "swam",
+        "nuotare"
+       ],
+       [
+        "take",
+        "took",
+        "prendere, portare"
+       ],
+       [
+        "teach",
+        "taught",
+        "insegnare"
+       ],
+       [
+        "tear",
+        "tore",
+        "strappare"
+       ],
+       [
+        "tell",
+        "told",
+        "dire, raccontare"
+       ],
+       [
+        "think",
+        "thought",
+        "pensare"
+       ],
+       [
+        "throw",
+        "threw",
+        "lanciare"
+       ],
+       [
+        "understand",
+        "understood",
+        "capire"
+       ],
+       [
+        "wake",
+        "woke",
+        "svegliarsi"
+       ],
+       [
+        "wear",
+        "wore",
+        "indossare"
+       ],
+       [
+        "win",
+        "won",
+        "vincere"
+       ],
+       [
+        "write",
+        "wrote",
+        "scrivere"
+       ]
+      ]
+     }
+    }
+   ],
+   "traps": [
+    [
+     "The film begined at eight.",
+     "The film began at eight.",
+     "\"begin\" è irregolare: began."
+    ],
+    [
+     "She bringed some wine to the party.",
+     "She brought some wine to the party.",
+     "\"bring\" è irregolare: brought."
+    ],
+    [
+     "She choosed the blue dress.",
+     "She chose the blue dress.",
+     "\"choose\" è irregolare: chose."
+    ],
+    [
+     "She doed her homework after dinner.",
+     "She did her homework after dinner.",
+     "\"do\" è irregolare: did."
+    ],
+    [
+     "We eated pizza last night.",
+     "We ate pizza last night.",
+     "\"eat\" è irregolare: ate."
+    ],
+    [
+     "I finded my keys under the sofa.",
+     "I found my keys under the sofa.",
+     "\"find\" è irregolare: found."
+    ],
+    [
+     "I geted your message this morning.",
+     "I got your message this morning.",
+     "\"get\" è irregolare: got."
+    ],
+    [
+     "She hanged her coat on the chair.",
+     "She hung her coat on the chair.",
+     "\"hang\" è irregolare: hung."
+    ],
+    [
+     "The ball hited the window yesterday.",
+     "The ball hit the window yesterday.",
+     "\"hit\" è irregolare: hit."
+    ],
+    [
+     "I knowed the answer.",
+     "I knew the answer.",
+     "\"know\" è irregolare: knew."
+    ],
+    [
+     "He losed his keys on the bus.",
+     "He lost his keys on the bus.",
+     "\"lose\" è irregolare: lost."
+    ],
+    [
+     "I payed by card.",
+     "I paid by card.",
+     "\"pay\" è irregolare: paid."
+    ],
+    [
+     "She rided her bike to school.",
+     "She rode her bike to school.",
+     "\"ride\" è irregolare: rode."
+    ],
+    [
+     "We seed a great film last night.",
+     "We saw a great film last night.",
+     "\"see\" è irregolare: saw."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "fill_in",
+     "prompt": "She ___ a doctor in 2015. (become)",
+     "accepted_answers": [
+      "became"
+     ],
+     "explanation": "\"become\" → \"became\" (diventare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The film ___ at eight.",
+     "options": [
+      "began",
+      "begined",
+      "begun"
+     ],
+     "correct_index": 0,
+     "explanation": "\"begin\" → \"began\" (cominciare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The dog ___ him on the leg. (bite)",
+     "accepted_answers": [
+      "bit"
+     ],
+     "explanation": "\"bite\" → \"bit\" (mordere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The wind ___ all night.",
+     "options": [
+      "blew",
+      "blowed",
+      "blown"
+     ],
+     "correct_index": 0,
+     "explanation": "\"blow\" → \"blew\" (soffiare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ his arm last year. (break)",
+     "accepted_answers": [
+      "broke"
+     ],
+     "explanation": "\"break\" → \"broke\" (rompere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ some wine to the party.",
+     "options": [
+      "brought",
+      "bringed",
+      "bring"
+     ],
+     "correct_index": 0,
+     "explanation": "\"bring\" → \"brought\" (portare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ the house in 1990. (build)",
+     "accepted_answers": [
+      "built"
+     ],
+     "explanation": "\"build\" → \"built\" (costruire)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ a new phone yesterday.",
+     "options": [
+      "bought",
+      "buyed",
+      "buy"
+     ],
+     "correct_index": 0,
+     "explanation": "\"buy\" → \"bought\" (comprare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ the last train. (catch)",
+     "accepted_answers": [
+      "caught"
+     ],
+     "explanation": "\"catch\" → \"caught\" (prendere (un mezzo, al volo))."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ the blue dress.",
+     "options": [
+      "chose",
+      "choosed",
+      "chosen"
+     ],
+     "correct_index": 0,
+     "explanation": "\"choose\" → \"chose\" (scegliere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ home late yesterday. (come)",
+     "accepted_answers": [
+      "came"
+     ],
+     "explanation": "\"come\" → \"came\" (venire)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The ticket ___ fifty euros last week.",
+     "options": [
+      "cost",
+      "costed",
+      "costs"
+     ],
+     "correct_index": 0,
+     "explanation": "\"cost\" → \"cost\" (costare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ my finger yesterday. (cut)",
+     "accepted_answers": [
+      "cut"
+     ],
+     "explanation": "\"cut\" → \"cut\" (tagliare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ her homework after dinner.",
+     "options": [
+      "did",
+      "doed",
+      "done"
+     ],
+     "correct_index": 0,
+     "explanation": "\"do\" → \"did\" (fare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The kids ___ a picture. (draw)",
+     "accepted_answers": [
+      "drew"
+     ],
+     "explanation": "\"draw\" → \"drew\" (disegnare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ two coffees this morning.",
+     "options": [
+      "drank",
+      "drinked",
+      "drunk"
+     ],
+     "correct_index": 0,
+     "explanation": "\"drink\" → \"drank\" (bere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ to Florence on Saturday. (drive)",
+     "accepted_answers": [
+      "drove"
+     ],
+     "explanation": "\"drive\" → \"drove\" (guidare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We ___ pizza last night.",
+     "options": [
+      "ate",
+      "eated",
+      "eaten"
+     ],
+     "correct_index": 0,
+     "explanation": "\"eat\" → \"ate\" (mangiare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ off his bike yesterday. (fall)",
+     "accepted_answers": [
+      "fell"
+     ],
+     "explanation": "\"fall\" → \"fell\" (cadere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ tired after the flight.",
+     "options": [
+      "felt",
+      "feeled",
+      "feel"
+     ],
+     "correct_index": 0,
+     "explanation": "\"feel\" → \"felt\" (sentirsi)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ about money. (fight)",
+     "accepted_answers": [
+      "fought"
+     ],
+     "explanation": "\"fight\" → \"fought\" (combattere, litigare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my keys under the sofa.",
+     "options": [
+      "found",
+      "finded",
+      "find"
+     ],
+     "correct_index": 0,
+     "explanation": "\"find\" → \"found\" (trovare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ to Madrid last week. (fly)",
+     "accepted_answers": [
+      "flew"
+     ],
+     "explanation": "\"fly\" → \"flew\" (volare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my umbrella at home.",
+     "options": [
+      "forgot",
+      "forgeted",
+      "forgotten"
+     ],
+     "correct_index": 0,
+     "explanation": "\"forget\" → \"forgot\" (dimenticare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The lake ___ last winter. (freeze)",
+     "accepted_answers": [
+      "froze"
+     ],
+     "explanation": "\"freeze\" → \"froze\" (gelare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ your message this morning.",
+     "options": [
+      "got",
+      "geted",
+      "gotten"
+     ],
+     "correct_index": 0,
+     "explanation": "\"get\" → \"got\" (ottenere, ricevere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ me a present. (give)",
+     "accepted_answers": [
+      "gave"
+     ],
+     "explanation": "\"give\" → \"gave\" (dare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ to the gym yesterday.",
+     "options": [
+      "went",
+      "goed",
+      "gone"
+     ],
+     "correct_index": 0,
+     "explanation": "\"go\" → \"went\" (andare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ up in a small town. (grow)",
+     "accepted_answers": [
+      "grew"
+     ],
+     "explanation": "\"grow\" → \"grew\" (crescere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ her coat on the chair.",
+     "options": [
+      "hung",
+      "hanged",
+      "hang"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hang\" → \"hung\" (appendere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ a big breakfast this morning. (have)",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation": "\"have\" → \"had\" (avere, fare (colazione...))."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We ___ a strange noise last night.",
+     "options": [
+      "heard",
+      "heared",
+      "hear"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hear\" → \"heard\" (sentire (con le orecchie))."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The children ___ behind the sofa. (hide)",
+     "accepted_answers": [
+      "hid"
+     ],
+     "explanation": "\"hide\" → \"hid\" (nascondersi, nascondere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The ball ___ the window yesterday.",
+     "options": [
+      "hit",
+      "hited",
+      "hits"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hit\" → \"hit\" (colpire)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ my hand. (hold)",
+     "accepted_answers": [
+      "held"
+     ],
+     "explanation": "\"hold\" → \"held\" (tenere in mano, tenere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ my back yesterday.",
+     "options": [
+      "hurt",
+      "hurted",
+      "hurts"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hurt\" → \"hurt\" (far male, farsi male)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ the receipt. (keep)",
+     "accepted_answers": [
+      "kept"
+     ],
+     "explanation": "\"keep\" → \"kept\" (tenere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ the answer.",
+     "options": [
+      "knew",
+      "knowed",
+      "known"
+     ],
+     "correct_index": 0,
+     "explanation": "\"know\" → \"knew\" (sapere, conoscere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ the office at six. (leave)",
+     "accepted_answers": [
+      "left"
+     ],
+     "explanation": "\"leave\" → \"left\" (partire, lasciare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ me her umbrella.",
+     "options": [
+      "lent",
+      "lended",
+      "lend"
+     ],
+     "correct_index": 0,
+     "explanation": "\"lend\" → \"lent\" (prestare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ me use his phone yesterday. (let)",
+     "accepted_answers": [
+      "let"
+     ],
+     "explanation": "\"let\" → \"let\" (lasciare, permettere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ his keys on the bus.",
+     "options": [
+      "lost",
+      "losed",
+      "lose"
+     ],
+     "correct_index": 0,
+     "explanation": "\"lose\" → \"lost\" (perdere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ a cake for her birthday. (make)",
+     "accepted_answers": [
+      "made"
+     ],
+     "explanation": "\"make\" → \"made\" (fare, creare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ to call you yesterday.",
+     "options": [
+      "meant",
+      "meaned",
+      "mean"
+     ],
+     "correct_index": 0,
+     "explanation": "\"mean\" → \"meant\" (voler dire, avere intenzione)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ at university. (meet)",
+     "accepted_answers": [
+      "met"
+     ],
+     "explanation": "\"meet\" → \"met\" (incontrare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ by card.",
+     "options": [
+      "paid",
+      "payed",
+      "pay"
+     ],
+     "correct_index": 0,
+     "explanation": "\"pay\" → \"paid\" (pagare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ the keys on the table last night. (put)",
+     "accepted_answers": [
+      "put"
+     ],
+     "explanation": "\"put\" → \"put\" (mettere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ his job last month.",
+     "options": [
+      "quit",
+      "quited",
+      "quits"
+     ],
+     "correct_index": 0,
+     "explanation": "\"quit\" → \"quit\" (smettere, lasciare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ that book last summer. (read)",
+     "accepted_answers": [
+      "read"
+     ],
+     "explanation": "\"read\" → \"read\" (leggere (si pronuncia /red/))."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ her bike to school.",
+     "options": [
+      "rode",
+      "rided",
+      "ridden"
+     ],
+     "correct_index": 0,
+     "explanation": "\"ride\" → \"rode\" (andare (in bici, a cavallo))."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The phone ___ at midnight. (ring)",
+     "accepted_answers": [
+      "rang"
+     ],
+     "explanation": "\"ring\" → \"rang\" (suonare (campanello, telefono))."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ five kilometres on Sunday.",
+     "options": [
+      "ran",
+      "runed",
+      "run"
+     ],
+     "correct_index": 0,
+     "explanation": "\"run\" → \"ran\" (correre)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ hello and left. (say)",
+     "accepted_answers": [
+      "said"
+     ],
+     "explanation": "\"say\" → \"said\" (dire)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "We ___ a great film last night.",
+     "options": [
+      "saw",
+      "seed",
+      "seen"
+     ],
+     "correct_index": 0,
+     "explanation": "\"see\" → \"saw\" (vedere)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "They ___ their house in 2020. (sell)",
+     "accepted_answers": [
+      "sold"
+     ],
+     "explanation": "\"sell\" → \"sold\" (vendere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ you an email yesterday.",
+     "options": [
+      "sent",
+      "sended",
+      "send"
+     ],
+     "correct_index": 0,
+     "explanation": "\"send\" → \"sent\" (mandare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ my alarm for six last night. (set)",
+     "accepted_answers": [
+      "set"
+     ],
+     "explanation": "\"set\" → \"set\" (impostare, apparecchiare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ my hand and smiled.",
+     "options": [
+      "shook",
+      "shaked",
+      "shaken"
+     ],
+     "correct_index": 0,
+     "explanation": "\"shake\" → \"shook\" (scuotere, stringere (la mano))."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ the door and left. (shut)",
+     "accepted_answers": [
+      "shut"
+     ],
+     "explanation": "\"shut\" → \"shut\" (chiudere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ at the party last night.",
+     "options": [
+      "sang",
+      "singed",
+      "sung"
+     ],
+     "correct_index": 0,
+     "explanation": "\"sing\" → \"sang\" (cantare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "The boat ___ in the storm. (sink)",
+     "accepted_answers": [
+      "sank"
+     ],
+     "explanation": "\"sink\" → \"sank\" (affondare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ next to me.",
+     "options": [
+      "sat",
+      "sited",
+      "sit"
+     ],
+     "correct_index": 0,
+     "explanation": "\"sit\" → \"sat\" (sedersi)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ for ten hours last night. (sleep)",
+     "accepted_answers": [
+      "slept"
+     ],
+     "explanation": "\"sleep\" → \"slept\" (dormire)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ to my boss this morning.",
+     "options": [
+      "spoke",
+      "speaked",
+      "spoken"
+     ],
+     "correct_index": 0,
+     "explanation": "\"speak\" → \"spoke\" (parlare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ a week in Spain. (spend)",
+     "accepted_answers": [
+      "spent"
+     ],
+     "explanation": "\"spend\" → \"spent\" (spendere, passare (tempo))."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "The news ___ quickly yesterday.",
+     "options": [
+      "spread",
+      "spreaded",
+      "spreads"
+     ],
+     "correct_index": 0,
+     "explanation": "\"spread\" → \"spread\" (diffondersi, spalmare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ by the door. (stand)",
+     "accepted_answers": [
+      "stood"
+     ],
+     "explanation": "\"stand\" → \"stood\" (stare in piedi)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Someone ___ my bike.",
+     "options": [
+      "stole",
+      "stealed",
+      "stolen"
+     ],
+     "correct_index": 0,
+     "explanation": "\"steal\" → \"stole\" (rubare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "We ___ in the sea yesterday. (swim)",
+     "accepted_answers": [
+      "swam"
+     ],
+     "explanation": "\"swim\" → \"swam\" (nuotare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ a taxi to the airport.",
+     "options": [
+      "took",
+      "taked",
+      "taken"
+     ],
+     "correct_index": 0,
+     "explanation": "\"take\" → \"took\" (prendere, portare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ English for ten years. (teach)",
+     "accepted_answers": [
+      "taught"
+     ],
+     "explanation": "\"teach\" → \"taught\" (insegnare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "He ___ the letter in half.",
+     "options": [
+      "tore",
+      "teared",
+      "torn"
+     ],
+     "correct_index": 0,
+     "explanation": "\"tear\" → \"tore\" (strappare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "He ___ me the truth. (tell)",
+     "accepted_answers": [
+      "told"
+     ],
+     "explanation": "\"tell\" → \"told\" (dire, raccontare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ about you yesterday.",
+     "options": [
+      "thought",
+      "thinked",
+      "think"
+     ],
+     "correct_index": 0,
+     "explanation": "\"think\" → \"thought\" (pensare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "She ___ the ball to me. (throw)",
+     "accepted_answers": [
+      "threw"
+     ],
+     "explanation": "\"throw\" → \"threw\" (lanciare)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ everything he said.",
+     "options": [
+      "understood",
+      "understanded",
+      "understand"
+     ],
+     "correct_index": 0,
+     "explanation": "\"understand\" → \"understood\" (capire)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "I ___ up at six. (wake)",
+     "accepted_answers": [
+      "woke"
+     ],
+     "explanation": "\"wake\" → \"woke\" (svegliarsi)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "She ___ a red dress at the party.",
+     "options": [
+      "wore",
+      "weared",
+      "worn"
+     ],
+     "correct_index": 0,
+     "explanation": "\"wear\" → \"wore\" (indossare)."
+    },
+    {
+     "type": "fill_in",
+     "prompt": "Our team ___ the match. (win)",
+     "accepted_answers": [
+      "won"
+     ],
+     "explanation": "\"win\" → \"won\" (vincere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "I ___ a long email yesterday.",
+     "options": [
+      "wrote",
+      "writed",
+      "written"
+     ],
+     "correct_index": 0,
+     "explanation": "\"write\" → \"wrote\" (scrivere)."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «bite» (mordere):",
+     "options": [
+      "bit",
+      "bited",
+      "bites"
+     ],
+     "correct_index": 0,
+     "explanation": "\"bite\" → \"bit\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «buy» (comprare):",
+     "options": [
+      "bought",
+      "buyed",
+      "buys"
+     ],
+     "correct_index": 0,
+     "explanation": "\"buy\" → \"bought\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «cut» (tagliare):",
+     "options": [
+      "cut",
+      "cuted",
+      "cuts"
+     ],
+     "correct_index": 0,
+     "explanation": "\"cut\" → \"cut\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «eat» (mangiare):",
+     "options": [
+      "ate",
+      "eated",
+      "eats"
+     ],
+     "correct_index": 0,
+     "explanation": "\"eat\" → \"ate\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «fly» (volare):",
+     "options": [
+      "flew",
+      "flied",
+      "flys"
+     ],
+     "correct_index": 0,
+     "explanation": "\"fly\" → \"flew\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «go» (andare):",
+     "options": [
+      "went",
+      "goed",
+      "gos"
+     ],
+     "correct_index": 0,
+     "explanation": "\"go\" → \"went\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «hide» (nascondersi, nascondere):",
+     "options": [
+      "hid",
+      "hided",
+      "hides"
+     ],
+     "correct_index": 0,
+     "explanation": "\"hide\" → \"hid\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «know» (sapere, conoscere):",
+     "options": [
+      "knew",
+      "knowed",
+      "knows"
+     ],
+     "correct_index": 0,
+     "explanation": "\"know\" → \"knew\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «make» (fare, creare):",
+     "options": [
+      "made",
+      "maked",
+      "makes"
+     ],
+     "correct_index": 0,
+     "explanation": "\"make\" → \"made\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «quit» (smettere, lasciare):",
+     "options": [
+      "quit",
+      "quited",
+      "quits"
+     ],
+     "correct_index": 0,
+     "explanation": "\"quit\" → \"quit\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «say» (dire):",
+     "options": [
+      "said",
+      "sayed",
+      "says"
+     ],
+     "correct_index": 0,
+     "explanation": "\"say\" → \"said\"."
+    },
+    {
+     "type": "multiple_choice",
+     "prompt": "Passato di «shake» (scuotere, stringere (la mano)):",
+     "options": [
+      "shook",
+      "shaked",
+      "shakes"
+     ],
+     "correct_index": 0,
+     "explanation": "\"shake\" → \"shook\"."
+    }
+   ]
+  },
+  {
    "id": "b2-ing",
    "level": "B2",
    "tag": "Verbi",
