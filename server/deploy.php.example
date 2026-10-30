@@ -1,0 +1,52 @@
+<?php
+// Aggiorna il sito scaricando l'ultima versione da GitHub: pagina (index.html), file PHP dell'area account (api/), icone.
+// Copia questo file sul server come deploy.php e cambia la chiave. Non pubblicare la chiave vera.
+header('Content-Type: text/plain; charset=utf-8');
+$key = 'METTI-QUI-UNA-CHIAVE-LUNGA-E-CASUALE';
+if (!isset($_GET['k']) || !hash_equals($key, (string)$_GET['k'])) { http_response_code(403); exit('Chiave non valida.'); }
+$base = isset($GLOBALS['PF_BASE']) ? $GLOBALS['PF_BASE'] : 'https://raw.githubusercontent.com/RiccardoEnglish/riccardo-english-esercizi/main/';
+// file da aggiornare: percorso su GitHub => [percorso sul sito, dimensione minima, testo che deve contenere]
+$files = array(
+  'site/index.html'   => array('index.html',   100000, '</html>'),
+  'site/api/lib.php'  => array('api/lib.php',  3000,   'function start_session'),
+  'site/api/index.php'=> array('api/index.php',3000,   "case 'login'"),
+  'site/favicon.ico'  => array('favicon.ico',  500,    "\x00\x00\x01\x00"),
+  'site/favicon-32.png'=> array('favicon-32.png',200,  "PNG"),
+  'site/icon-192.png' => array('icon-192.png', 500,    "PNG"),
+  'site/icon-512.png' => array('icon-512.png', 1000,   "PNG"),
+  'site/apple-touch-icon.png'=> array('apple-touch-icon.png',500,"PNG"),
+  'site/manifest.webmanifest'=> array('manifest.webmanifest',200,'"icons"'),
+  'site/icon2.php'    => array('icon2.php',    50,     'readfile')
+);
+function pf_get($url) {
+  $data = false;
+  if (function_exists('curl_init')) {
+    $ch = curl_init($url); curl_setopt_array($ch, array(CURLOPT_RETURNTRANSFER=>true, CURLOPT_FOLLOWLOCATION=>true, CURLOPT_TIMEOUT=>60));
+    $data = curl_exec($ch); $code = curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
+    if ($code != 200) $data = false;
+  }
+  if ($data === false && ini_get('allow_url_fopen')) { $data = @file_get_contents($url); }
+  return $data;
+}
+$dir = __DIR__;
+$got = array();
+foreach ($files as $src => $info) {
+  $d = pf_get($base . $src . '?t=' . time());
+  if ($d === false || strlen($d) < $info[1] || strpos($d, $info[2]) === false) {
+    http_response_code(500); exit('Download non riuscito o file non valido (' . $src . '). Il sito non e stato modificato.');
+  }
+  if (substr($src, -4) === '.php' && strpos($d, '<?php') !== 0) { http_response_code(500); exit('File PHP non valido (' . $src . '). Il sito non e stato modificato.'); }
+  $got[$src] = $d;
+}
+foreach ($files as $src => $info) {
+  $dest = $dir . '/' . $info[0];
+  if (is_file($dest)) {
+    $bak = ($src === 'site/index.html') ? $dir . '/index.prev.html' : $dir . '/api/.htbak-' . basename($dest);
+    @copy($dest, $bak);
+  }
+  if (file_put_contents($dest . '.new', $got[$src]) === false) { http_response_code(500); exit('Scrittura non riuscita (' . $info[0] . ').'); }
+  rename($dest . '.new', $dest);
+  echo "Aggiornato " . $info[0] . " (" . strlen($got[$src]) . " byte)\n";
+}
+if (function_exists('opcache_reset')) { @opcache_reset(); }
+echo "Fatto. Copie precedenti salvate (index.prev.html e api/.htbak-*).";

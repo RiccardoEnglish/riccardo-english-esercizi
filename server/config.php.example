@@ -5,5 +5,6 @@ return array(
   'db_name' => 'NOME_DATABASE',
   'db_user' => 'UTENTE_DATABASE',
   'db_pass' => 'PASSWORD_DATABASE',
+  'site_url' => 'https://tuodominio.it',
   // In alternativa a MySQL (per prove in locale): 'driver' => 'sqlite', 'sqlite_path' => '/percorso/pf.sqlite',
 );
