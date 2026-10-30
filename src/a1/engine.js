@@ -126,28 +126,41 @@ function a1Pools(t){
   var all = a1Expand(t);
   var fill = all.filter(function(q){ return q.type === "text"; });
   var mc = all.filter(function(q){ return q.type === "mc"; });
-  function noHint(s){ return String(s).replace(/\s*\([^)]*\)\s*$/, "").trim(); }
-  function fixItem(wrong, right, why){
-    return {type:"text", fix:true, kick:"Correggi la frase", prompt:wrong, answers:[right], explain:why, rv:"Correggi: "+wrong};
+  function clean(s){ return String(s).replace(/\s*\([^)]*\)\s*$/, "").replace(/\s+([.,!?;:])/g, "$1").replace(/\s+/g, " ").trim(); }
+  function strip(w){ return w.replace(/^[^\w']+|[^\w']+$/g, ""); }
+  // Una frase da correggere ha UNA sola parola sbagliata: evidenziata, e si scrive quella giusta.
+  function fixItem(wrong, right, why, hint){
+    var tw = clean(wrong).split(" "), tr = clean(right).split(" ");
+    if(tw.length !== tr.length) return null;
+    var d = [];
+    tw.forEach(function(w, i){ if(strip(w).toLowerCase() !== strip(tr[i]).toLowerCase()) d.push(i); });
+    if(d.length !== 1 || !strip(tr[d[0]])) return null;
+    var i = d[0];
+    return {type:"text", fix:true, kick:"Correggi la frase", toks:tw, idx:i, hint:hint || "", wrongFull:clean(wrong), rightFull:clean(right),
+      answers:[strip(tr[i]), clean(right)], explain:"Frase corretta: "+clean(right)+(why ? " · "+why : ""), rv:"Correggi: "+clean(wrong)};
   }
-  var fix = (t.traps || []).map(function(x){ return fixItem(x[0], x[1], x[2]); });
-  var fixMc = mc.filter(function(q){ return /^(Which|Quale)\b.*\b(correct|corretta)\b/i.test(q.prompt) && q.prompt.indexOf("___") < 0 && !/\bNOT\b/.test(q.prompt) && q.options.length > 1; }).map(function(q){
-    var wrongs = q.options.filter(function(o, i){ return i !== q.correct; });
-    return fixItem(wrongs[0], q.options[q.correct], q.explain);
+  function valid(x){ return !!x; }
+  var seen = {};
+  function uniq(x){ if(seen[x.wrongFull]) return false; seen[x.wrongFull] = 1; return true; }
+  var trapFix = (t.traps || []).map(function(x){ return fixItem(x[0], x[1], x[2]); }).filter(valid).filter(uniq);
+  var mcFix = [];
+  mc.filter(function(q){ return /^(Which|Quale)\b.*\b(correct|corretta)\b/i.test(q.prompt) && q.prompt.indexOf("___") < 0 && !/\bNOT\b/.test(q.prompt) && q.options.length > 1; }).forEach(function(q){
+    q.options.forEach(function(o, i){ if(i === q.correct) return; var it = fixItem(o, q.options[q.correct], q.explain); if(it && uniq(it)) mcFix.push(it); });
   });
-  var fixAll = fix.concat(fixMc);
+  var blanks = mc.filter(function(q){ return q.prompt.split("___").length === 2 && q.options.length > 1 && !/^(Which|Quale)\b/i.test(q.prompt); });
+  var blankFix = [];
+  blanks.forEach(function(q){
+    var hm = q.prompt.match(/\(([^)]*)\)\s*$/), hint = hm ? hm[1] : "";
+    q.options.forEach(function(o, i){
+      if(i === q.correct) return;
+      var it = fixItem(q.prompt.replace("___", o), q.prompt.replace("___", q.options[q.correct]), q.explain, hint);
+      if(it && uniq(it)) blankFix.push(it);
+    });
+  });
+  var fixAll = trapFix.concat(mcFix, blankFix);
   var MIN = 10;
-  var blanks = mc.filter(function(q){ return q.prompt.split("___").length === 2 && q.options.length > 1 && !/^Which /i.test(q.prompt); });
   function pick(arr, n){ return arr.slice(0, Math.max(0, n)); }
   // Se un esercizio ha meno di 10 domande, lo completo con domande ricavate dalle altre dello stesso argomento.
-  if(fixAll.length < MIN){
-    var extraFix = blanks.map(function(q){
-      var wrongs = q.options.filter(function(o, i){ return i !== q.correct; });
-      var w = wrongs[Math.floor(Math.random() * wrongs.length)];
-      return fixItem(noHint(q.prompt.replace("___", w)), noHint(q.prompt.replace("___", q.options[q.correct])), q.explain);
-    }).filter(function(x){ return x.prompt !== x.answers[0]; });
-    fixAll = fixAll.concat(pick(extraFix, MIN - fixAll.length));
-  }
   var fillAll = fill;
   if(fillAll.length < MIN){
     var extraFill = blanks.map(function(q){
@@ -157,15 +170,15 @@ function a1Pools(t){
   }
   var mcAll = mc;
   if(mcAll.length < MIN){
-    var extraMc = fix.map(function(q){ return {type:"mc", kick:"Scelta multipla", prompt:"Quale frase è corretta?", options:[q.prompt, q.answers[0]], correct:1, explain:q.explain, rv:q.rv}; });
+    var extraMc = trapFix.concat(mcFix).map(function(q){ return {type:"mc", kick:"Scelta multipla", prompt:"Quale frase è corretta?", options:[q.wrongFull, q.rightFull], correct:1, explain:q.explain, rv:q.rv}; });
     mcAll = mcAll.concat(pick(extraMc, MIN - mcAll.length));
   }
-  return {fill:fillAll, mc:mcAll, fix:fixAll, all:all.concat(fix), table:(t.fillTable ? a1TableRows(t) : [])};
+  return {fill:fillAll, mc:mcAll, fix:fixAll, all:all.concat(trapFix), table:(t.fillTable ? a1TableRows(t) : [])};
 }
 var A1_MODES = [
   {id:"fill", title:"Completa la frase", desc:"Scrivi tu la parola o la forma giusta."},
   {id:"mc", title:"Scelta multipla", desc:"Scegli la risposta giusta tra le opzioni."},
-  {id:"fix", title:"Correggi la frase", desc:"Riscrivi corretta una frase con un errore tipico da italiano."},
+  {id:"fix", title:"Correggi la frase", desc:"Una parola è sbagliata: scrivi quella giusta."},
   {id:"table", title:"Completa la tabella", desc:"Hai solo il verbo base: scrivi tutte le altre forme."},
   {id:"all", title:"Tutto insieme", desc:"Tutte le domande dell'argomento, mescolate."}
 ];
@@ -219,10 +232,10 @@ function a1Question(){
   var q = a1Order[a1I]; a1Top();
   var kicker = q.kick || (q.type === "mc" ? "Scelta multipla" : "Completa la frase");
   var body = '<div class="qkicker">'+kicker+'</div>';
-  if(q.fix) body += '<div class="qprompt">Questa frase contiene un errore. Riscrivila corretta:</div><div class="wrong-sent">'+esc(q.prompt)+'</div>';
+  if(q.fix) body += '<div class="qprompt">Una parola è sbagliata (è evidenziata). Scrivi quella giusta:</div><div class="wrong-sent">'+q.toks.map(function(w, i){ return i === q.idx ? '<mark class="wrong-w">'+esc(w)+'</mark>' : esc(w); }).join(" ")+'</div>'+(q.hint ? '<div class="fix-hint">Indizio: '+esc(q.hint)+'</div>' : '');
   else body += '<div class="qprompt">'+esc(q.prompt).replace("___", '<span class="blank">?</span>')+'</div>';
   if(q.type === "text"){
-    body += '<form class="qform" id="a1-qform" autocomplete="off"><div class="text-row"><input id="a1-qinput" type="text" placeholder="'+(q.fix ? "scrivi la frase corretta" : "scrivi la risposta")+'" aria-label="Risposta" autocapitalize="off" autocorrect="off" spellcheck="false"><button type="submit" class="btn" id="a1-qsubmit">Controlla</button></div></form>';
+    body += '<form class="qform" id="a1-qform" autocomplete="off"><div class="text-row"><input id="a1-qinput" type="text" placeholder="'+(q.fix ? "scrivi la parola giusta" : "scrivi la risposta")+'" aria-label="Risposta" autocapitalize="off" autocorrect="off" spellcheck="false"><button type="submit" class="btn" id="a1-qsubmit">Controlla</button></div></form>';
   } else {
     body += '<div class="qform mc-grid">'+q.options.map(function(o, i){ return '<button type="button" class="opt" data-i="'+i+'">'+esc(o)+'</button>'; }).join("")+'</div>';
   }
